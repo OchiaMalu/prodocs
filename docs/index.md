@@ -16,7 +16,7 @@ hero:
   actions: 
     - theme: brand
       text: 开始阅读
-      link: /components/
+      link: /guide
     - theme: alt
       text: Github仓库
       link: https://github.com/OchiaMalu/prodocs
