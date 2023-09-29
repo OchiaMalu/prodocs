@@ -4,7 +4,7 @@ export default {
     description: "一站式编程学习网站",
     lastUpdated: true,
     cleanUrls: true,
-    appearance: 'dark',
+    outDir: '../dist',
     head: [
         [
             'link', {rel: 'icon', href: '/favicon.ico'}
@@ -13,31 +13,211 @@ export default {
     themeConfig: {
         logo: {light: '/favicon.ico', dark: '/favicon_dark.ico'},
         outline: 'deep',
+        outlineTitle: '导航栏',
         returnToTopLabel: '回到顶部',
         nav: [
             {text: '首页', link: '/'},
-            {text: '开始阅读', link: '/components/index.md'},
+            {text: '开始阅读', link: '/guide'},
+            {
+                text: '🧱开发必备',
+                items: [
+                    {
+                        text: '在线ASCII码表',
+                        link: 'https://www.fly63.com/tool/ascii/'
+                    },
+                    {
+                        text: '在线corn表达式生成',
+                        link: 'https://cron.qqe2.com/'
+                    },
+                    {
+                        text: '正则表达式调试工具',
+                        link: 'https://regexr.com/'
+                    },
+                    {
+                        text: '可视化正则表达式',
+                        link: 'https://jex.im/regulex/'
+                    },
+                    {
+                        text: '在线Nginx配置',
+                        link: 'https://www.digitalocean.com/community/tools/nginx'
+                    },
+                    {
+                        text: 'base64加解密',
+                        link: 'https://base64.supfree.net/'
+                    },
+                    {
+                        text: 'md5编码工具',
+                        link: 'https://www.zxgj.cn/g/md5'
+                    },
+                    {
+                        text: 'AES/DES加解密工具',
+                        link: 'https://www.fly63.com/tool/cipher/'
+                    },
+                    {
+                        text: 'JWT解码工具',
+                        link: 'http://jwt.calebb.net/'
+                    },
+                    {
+                        text: '在线ASCII编码解码',
+                        link: 'https://www.matools.com/code-convert-ascii'
+                    },
+                    {
+                        text: 'unicode编码转换',
+                        link: 'https://www.zxgj.cn/g/unicode'
+                    },
+                    {
+                        text: 'UTF-8编码转换',
+                        link: 'https://www.zxgj.cn/g/utf8'
+                    },
+                    {
+                        text: '字符串编码解码',
+                        link: 'https://www.zxgj.cn/g/enstring'
+                    },
+                    {
+                        text: '进制转换',
+                        link: 'https://www.zxgj.cn/g/jinzhi'
+                    },
+                    {
+                        text: 'Unix时间戳转换',
+                        link: 'https://www.zxgj.cn/g/unix'
+                    },
+                    {
+                        text: 'RGB颜色转换',
+                        link: 'https://www.zxgj.cn/g/yansezhi'
+                    },
+                    {
+                        text: 'JSON解析',
+                        link: 'http://www.json.cn/'
+                    },
+                    {
+                        text: 'CSS可视化',
+                        link: 'https://enjoycss.com/'
+                    },
+                    {
+                        text: 'XML压缩/格式化',
+                        link: 'https://www.zxgj.cn/g/xmlformat'
+                    },
+                    {
+                        text: 'SQL压缩/格式化',
+                        link: 'https://www.zxgj.cn/g/sqlformat'
+                    },
+                    {
+                        text: 'JSON和XML在线转换',
+                        link: 'https://www.zxgj.cn/g/jsonxml'
+                    },
+                    {
+                        text: 'JSON/YAML在线转换',
+                        link: 'https://www.fly63.com/tool/jsonyaml/'
+                    },
+                    {
+                        text: 'IP查询',
+                        link: 'https://www.ipip.net/ip.html'
+                    },
+                    {
+                        text: 'HTTP在线接口测试',
+                        link: 'https://www.fly63.com/php/http/'
+                    },
+                    {
+                        text: 'UUID在线生成器',
+                        link: 'https://www.zxgj.cn/g/uuid'
+                    },
+                    {
+                        text: '随机数生成器',
+                        link: 'https://www.zxgj.cn/g/suijishu'
+                    },
+                    {
+                        text: '在线编译工具',
+                        link: 'https://c.runoob.com/'
+                    },
+                    {
+                        text: '在线文本比对',
+                        link: 'https://www.fly63.com/tool/textdiff/'
+                    },
+                    {
+                        text: '在线文本替换',
+                        link: 'https://www.fly63.com/tool/textreplace/'
+                    },
+                    {
+                        text: '字数统计',
+                        link: 'https://www.eteste.com/'
+                    },
+                    {
+                        text: 'CSV转JSON',
+                        link: 'https://www.convertcsv.com/csv-to-json.htm'
+                    }
+                ]
+            },
+            {
+                text: '🏤创作必备',
+                items: [
+                    {
+                        text: '在线流程图设计',
+                        link: 'https://app.diagrams.net/'
+                    },
+                    {
+                        text: '在线思维导图',
+                        link: 'https://www.processon.com/'
+                    },
+                    {
+                        text: '在线PS',
+                        link: 'https://www.uupoop.com/#/'
+                    },
+                    {
+                        text: 'logo设计',
+                        link: 'https://www.uugai.com/'
+                    },
+                    {
+                        text: '头像生成',
+                        link: 'https://pfpmaker.com/'
+                    },
+                    {
+                        text: '海报设计',
+                        link: 'https://www.designcap.com/'
+                    },
+                    {
+                        text: '表情包',
+                        link: 'https://fabiaoqing.com/'
+                    },
+                    {
+                        text: 'AI图片放大',
+                        link: 'https://bigjpg.com/'
+                    },
+                    {
+                        text: '在线抠图',
+                        link: 'https://www.remove.bg/zh'
+                    },
+                    {
+                        text: 'pixabay图片素材',
+                        link: 'https://pixabay.com/zh/'
+                    },
+                    {
+                        text: 'unsplash图片素材',
+                        link: 'https://unsplash.com/'
+                    },
+                    {
+                        text: 'pexels图片素材',
+                        link: 'ttps://www.pexels.com/zh-cn/'
+                    }
+                ]
+            }
         ],
         sidebar: [
             {
-                '/components': [
-                    {
-                        text: '开始阅读',
-                        link: '/'
-                    },
-                    {
-                        text: '学习动态',
-                        items: [
-                            {
-                                text: '2023',
-                                collapsed: true,
-                                items: [
-                                    {text: '1', link: '/'}
-                                ]
-                            }
-                        ]
-                    }
-                ]
+                text: '🌰阅读须知',
+                link: '/guide'
+            },
+            {
+                text: '🛤️资源导航',
+                link: '/guide/resource-navigation'
+            },
+            {
+                text: '开始阅读',
+                collapsed: true,
+                items: []
+            },
+            {
+                text: '😄Emoji',
+                link: '/memo/emoji'
             }
         ],
         footer: {
@@ -52,7 +232,7 @@ export default {
                 link: 'https://gitee.com/ochiamaluo/prodocs',
             },
             {
-            icon: 'github',
+                icon: 'github',
                 link: 'https://github.com/OchiaMalu/prodocs'
             }
         ],
