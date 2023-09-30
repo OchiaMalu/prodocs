@@ -148,55 +148,43 @@ export default {
                 ]
             },
             {
-                text: '🏤创作必备',
+                text: '🖋️设计导航',
                 items: [
                     {
-                        text: '在线流程图设计',
-                        link: 'https://app.diagrams.net/'
+                        text: '设计教程',
+                        link: '/guide/resource-navigation#设计教程',
                     },
                     {
-                        text: '在线思维导图',
-                        link: 'https://www.processon.com/'
+                        text: '界面灵感',
+                        link: '/guide/resource-navigation#界面灵感',
                     },
                     {
-                        text: '在线PS',
-                        link: 'https://www.uupoop.com/#/'
+                        text: '字体相关',
+                        link: '/guide/resource-navigation#字体相关',
                     },
                     {
-                        text: 'logo设计',
-                        link: 'https://www.uugai.com/'
+                        text: '配色方案',
+                        link: '/guide/resource-navigation#配色方案',
                     },
                     {
-                        text: '头像生成',
-                        link: 'https://pfpmaker.com/'
+                        text: '设计神器',
+                        link: '/guide/resource-navigation#设计神器',
                     },
                     {
-                        text: '海报设计',
-                        link: 'https://www.designcap.com/'
+                        text: '尺寸规范',
+                        link: '/guide/resource-navigation#尺寸规范',
                     },
                     {
-                        text: '表情包',
-                        link: 'https://fabiaoqing.com/'
+                        text: '设计素材',
+                        link: '/guide/resource-navigation#设计素材',
                     },
                     {
-                        text: 'AI图片放大',
-                        link: 'https://bigjpg.com/'
+                        text: '摄影美图',
+                        link: '/guide/resource-navigation#摄影美图',
                     },
                     {
-                        text: '在线抠图',
-                        link: 'https://www.remove.bg/zh'
-                    },
-                    {
-                        text: 'pixabay图片素材',
-                        link: 'https://pixabay.com/zh/'
-                    },
-                    {
-                        text: 'unsplash图片素材',
-                        link: 'https://unsplash.com/'
-                    },
-                    {
-                        text: 'pexels图片素材',
-                        link: 'ttps://www.pexels.com/zh-cn/'
+                        text: 'PPT相关',
+                        link: '/guide/resource-navigation#ppt相关',
                     }
                 ]
             }
@@ -213,7 +201,16 @@ export default {
             {
                 text: '开始阅读',
                 collapsed: true,
-                items: []
+                items: [
+                    {
+                        text: '写在前面',
+                        link: '/guide/start'
+                    },
+                    {
+                        text: '经典问题Q&A',
+                        link: '/guide/q_a'
+                    }
+                ]
             },
             {
                 text: '😄Emoji',
