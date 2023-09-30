@@ -1551,7 +1551,7 @@ const security=[
 
 <grid :nav-data="book"/>
 
-## 软件资源
+## :trophy: 软件资源
 
 ### 在线工具
 
@@ -1573,7 +1573,7 @@ const security=[
 
 <grid :nav-data="system"/>
 
-## 前端开发
+## :books: 前端开发
 
 ### 前端手册
 
@@ -1591,7 +1591,7 @@ const security=[
 
 <grid :nav-data="plugin_library"/>
 
-## 设计导航
+## :fountain_pen: 设计导航
 
 ### 设计教程
 
@@ -1629,7 +1629,7 @@ const security=[
 
 <grid :nav-data="ppt"/>
 
-## SEO网站运营
+## :spiral_calendar: SEO网站运营
 
 ### SEO优化
 
