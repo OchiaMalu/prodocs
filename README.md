@@ -1,4 +1,4 @@
-<img src="F:\Projects\blog\docs\public\prodocs.png" alt="prodocs" style="zoom:80%;margin:0 auto" />
+<img src="/docs/public/prodocs.png" alt="prodocs" style="zoom:80%;margin:0 auto" />
 
 <h2 align='center'>ProDocs 一站式编程学习网站</h2>
 
