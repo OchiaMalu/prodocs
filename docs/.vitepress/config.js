@@ -8,7 +8,8 @@ export default {
     head: [
         [
             'link', {rel: 'icon', href: '/favicon.ico'}
-        ]
+        ],
+        ['meta', {name: 'baidu-site-verification', content: 'codeva-UJHMQmYe6P'}],
     ],
     themeConfig: {
         logo: {light: '/favicon.ico', dark: '/favicon_dark.ico'},
