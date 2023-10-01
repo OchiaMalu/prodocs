@@ -4,7 +4,7 @@
 
 <p align='center'>Programming learning documents</p>
 
-## :rainbow:写在前面
+## 🌈写在前面
 
 本网站内容**100%免费**，无任何收费行为，无星球，不带货，只为初学者少走弯路。
 
