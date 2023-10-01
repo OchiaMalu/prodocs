@@ -13,6 +13,8 @@ const {href, title} = defineProps<ILink>()
 const hrefSource = computed(() => {
   if (/bilibili\.com/.test(href))
     return 'bilibili'
+  if (/b23\.tv/.test(href))
+    return 'bilibili'
   if (/youtube\.com/.test(href))
     return 'youtube'
   if (/github\.com/.test(href))
