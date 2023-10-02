@@ -222,6 +222,15 @@ export default {
                 ]
             },
             {
+                text: '面试专栏',
+                items: [
+                    {
+                        text: '2024年秋招岗位',
+                        link: '/interview/jobs'
+                    }
+                ]
+            },
+            {
                 text: '😄Emoji',
                 link: '/memo/emoji'
             }
