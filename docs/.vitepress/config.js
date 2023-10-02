@@ -222,8 +222,12 @@ export default {
                 ]
             },
             {
-                text: '面试专栏',
+                text: '💾面试专栏',
                 items: [
+                    {
+                        text: '简历指南',
+                        link: '/interview/resume_guide'
+                    },
                     {
                         text: '2024年秋招岗位',
                         link: '/interview/jobs'
