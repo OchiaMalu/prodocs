@@ -3,7 +3,6 @@ export default {
     title: "ProDocs",
     description: "一站式编程学习网站",
     lastUpdated: true,
-    cleanUrls: true,
     outDir: '../dist',
     head: [
         [
