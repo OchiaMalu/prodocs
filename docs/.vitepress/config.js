@@ -227,6 +227,20 @@ export default {
                 ]
             },
             {
+                text: '计算机科学入门',
+                collapsed: true,
+                items: [
+                    {
+                        text: '写在前面',
+                        link: '/computer_science/start'
+                    },
+                    {
+                        text: '计算机的早期历史',
+                        link: '/computer_science/history'
+                    }
+                ]
+            },
+            {
                 text: '💾面试专栏',
                 items: [
                     {
