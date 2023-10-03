@@ -13,7 +13,7 @@
 等技术的发明，贫富差距逐渐拉大，促进了世界范围内社会生产关系的变化；<u>而现在，正是处于第四次工业革命</u>
 ，是利用信息化技术促进产业变革的时代，也就是**智能化时代**。
 
-<img src="http://niu.ochiamalu.xyz/image-20231003170811362.png" alt="image-20231003170811362" style="zoom:80%;margin:o auto" />
+<img src="http://niu.ochiamalu.xyz/image-20231003170811362.png" alt="image-20231003170811362" style="zoom:80%;margin:0 auto" />
 
 
 

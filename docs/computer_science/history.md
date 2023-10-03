@@ -37,7 +37,7 @@
 
 在接下来的4000年，人类发明了各种各样的计算设备，如：<u>星盘、计算尺、时钟</u>。
 
-<img src="http://niu.ochiamalu.xyz/image-20231003175405450.png" alt="image-20231003175405450" style="zoom:50%;" /><img src="http://niu.ochiamalu.xyz/image-20231003175431557.png" alt="image-20231003175431557" style="zoom: 67%;" />、
+<img src="http://niu.ochiamalu.xyz/image-20231003175405450.png" alt="image-20231003175405450" style="zoom:50%;float:left" /><img src="http://niu.ochiamalu.xyz/image-20231003175431557.png" alt="image-20231003175431557" style="zoom: 67%;" />、
 
 这些设备让原先很费力的事变得更快、更简单、更精确，降低了门槛，加强了我们的能力。
 
