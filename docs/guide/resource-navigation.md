@@ -1509,11 +1509,48 @@ const security=[
         "link": "https://www.xp.cn/",
         "desc": "Windows与Linux系统操作面板"
     }
+];
+const ai=[
+    {
+        text:'forefront',
+        desc:'有四种AI模型可使用，GPT3.5和Claude免费使用。',
+        link:'https://www.forefront.ai/'
+    },
+    {
+        text: 'Character AI',
+        desc: '跟经过AI训练的模型对话。',
+        link: 'https://beta.character.ai/'
+    },
+    {
+        text: 'Flow GPT',
+        desc: 'GPT提示词分享网站,内置3种模型，GPT3.5免费使用。',
+        link: 'https://flowgpt.com/'
+    },
+    {
+        text: 'Claude',
+        desc: '可上传文档分析，支持100k上下文，免费',
+        link: 'https://claude.ai/'
+    },
+    {
+        text: '灵犀百通',
+        desc: '国内团队开发的GPT镜像网站,GPT3.5免费使用，GPT4限制使用，集成AI绘图',
+        link: 'https://www.1888ai.com/'
+    },
+    {
+        text: '新必应',
+        desc: '内置GPT4，联网',
+        link: 'https://www.bing.com/new'
+    }
 ]
+
 
 </script>
 
 # :railway_track: 资源导航
+
+## :frowning_man: AI助手
+
+<grid :nav-data="ai"/>
 
 ## :stadium: 实用工具
 
