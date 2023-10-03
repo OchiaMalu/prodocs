@@ -221,12 +221,8 @@ export default {
                         link: '/guide/q_a'
                     },
                     {
-                        text: '推荐视频(国外)',
-                        link: '/guide/recommend_video_oldout'
-                    },
-                    {
-                        text: '推荐视频(国内)',
-                        link: '/guide/recommend_video_china'
+                        text: '推荐视频',
+                        link: '/guide/recommend_video'
                     }
                 ]
             },
