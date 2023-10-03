@@ -242,6 +242,10 @@ export default {
             {
                 text: '😄Emoji',
                 link: '/memo/emoji'
+            },
+            {
+                text: '🏢联系我们',
+                link: '/contact_us'
             }
         ],
         footer: {
