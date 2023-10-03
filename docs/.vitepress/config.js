@@ -11,6 +11,16 @@ export default {
         ['meta', {name: 'baidu-site-verification', content: 'codeva-UJHMQmYe6P'}],
     ],
     themeConfig: {
+        search: {
+            provider: 'algolia',
+            options: {
+                "appId": "OTYX2F0T7M",
+                "apiKey": "ff5ce4ae1288f2701b75c8ef53a27a0d", // 需要替换
+                "indexName": "pro",
+                "placeholder": "请输入关键词",
+                "buttonText": "搜索"
+            }
+        },
         logo: {light: '/favicon.ico', dark: '/favicon_dark.ico'},
         outline: 'deep',
         outlineTitle: '导航栏',
