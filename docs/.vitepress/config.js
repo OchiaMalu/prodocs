@@ -343,6 +343,10 @@ export default {
                     {
                         text: '计算机的早期历史',
                         link: '/computer_science/history'
+                    },
+                    {
+                        text: '电子计算机',
+                        link: '/computer_science/electronic_computing'
                     }
                 ]
             },
