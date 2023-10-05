@@ -347,6 +347,14 @@ export default {
                     {
                         text: '电子计算机',
                         link: '/computer_science/electronic_computing'
+                    },
+                    {
+                        text: '二进制与编码',
+                        link: '/computer_science/binary'
+                    },
+                    {
+                        text: '布尔代数与逻辑门',
+                        link: '/computer_science/logic_gates'
                     }
                 ]
             },
