@@ -355,6 +355,10 @@ export default {
                     {
                         text: '布尔代数与逻辑门',
                         link: '/computer_science/logic_gates'
+                    },
+                    {
+                        text: '算术逻辑单元',
+                        link: '/computer_science/alu'
                     }
                 ]
             },
