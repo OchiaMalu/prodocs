@@ -134,7 +134,7 @@ CMOS 电路：
 
 如果仅打开 A ，电流可以通过。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20231005174838075.png" alt="image-20231005174838075" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.xyz/image-20231005174838075.png" alt="image-20231005174838075" style="zoom:50%;margin:0 auto" />
 
 如果仅打开 B ，电流也可以通过。
 
