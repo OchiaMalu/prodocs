@@ -359,6 +359,10 @@ export default {
                     {
                         text: '算术逻辑单元',
                         link: '/computer_science/alu'
+                    },
+                    {
+                        text: '随机存取存储器',
+                        link: '/computer_science/ram'
                     }
                 ]
             },
