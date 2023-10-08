@@ -363,6 +363,10 @@ export default {
                     {
                         text: '随机存取存储器',
                         link: '/computer_science/ram'
+                    },
+                    {
+                        text: '中央处理器（CPU）',
+                        link: '/computer_science/processor'
                     }
                 ]
             },
