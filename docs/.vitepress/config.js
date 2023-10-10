@@ -367,6 +367,10 @@ export default {
                     {
                         text: '中央处理器（CPU）',
                         link: '/computer_science/processor'
+                    },
+                    {
+                        text: '程序和指令',
+                        link: '/computer_science/instructions'
                     }
                 ]
             },
