@@ -369,8 +369,12 @@ export default {
                         link: '/computer_science/processor'
                     },
                     {
-                        text: '程序和指令',
+                        text: '指令和程序',
                         link: '/computer_science/instructions'
+                    },
+                    {
+                        text: '高级 CPU 设计',
+                        link: '/computer_science/advanced_cpu'
                     }
                 ]
             },
