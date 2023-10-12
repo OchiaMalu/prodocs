@@ -375,6 +375,10 @@ export default {
                     {
                         text: '高级 CPU 设计',
                         link: '/computer_science/advanced_cpu'
+                    },
+                    {
+                        text: '早期的编程方式',
+                        link: '/computer_science/early_programming'
                     }
                 ]
             },
