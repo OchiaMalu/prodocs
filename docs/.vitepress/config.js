@@ -379,6 +379,10 @@ export default {
                     {
                         text: '早期的编程方式',
                         link: '/computer_science/early_programming'
+                    },
+                    {
+                        text: '编程语言发展史',
+                        link: '/computer_science/programming_languages'
                     }
                 ]
             },
