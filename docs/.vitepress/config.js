@@ -383,6 +383,11 @@ export default {
                     {
                         text: '编程语言发展史',
                         link: '/computer_science/programming_languages'
+                    },
+                    {
+                        text: '语句和函数',
+                        link: '/computer_science/statements_functions'
+
                     }
                 ]
             },
