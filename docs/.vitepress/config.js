@@ -387,7 +387,10 @@ export default {
                     {
                         text: '语句和函数',
                         link: '/computer_science/statements_functions'
-
+                    },
+                    {
+                        text: '算法入门',
+                        link: '/computer_science/algorithms'
                     }
                 ]
             },
