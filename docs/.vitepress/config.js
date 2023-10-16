@@ -391,6 +391,10 @@ export default {
                     {
                         text: '算法入门',
                         link: '/computer_science/algorithms'
+                    },
+                    {
+                        text: '数据结构入门',
+                        link: '/computer_science/data_structures'
                     }
                 ]
             },
