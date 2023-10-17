@@ -395,6 +395,10 @@ export default {
                     {
                         text: '数据结构入门',
                         link: '/computer_science/data_structures'
+                    },
+                    {
+                        text: '艾伦·图灵',
+                        link: '/computer_science/alan_turing'
                     }
                 ]
             },
