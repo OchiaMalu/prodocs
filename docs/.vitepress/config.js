@@ -399,6 +399,10 @@ export default {
                     {
                         text: '艾伦·图灵',
                         link: '/computer_science/alan_turing'
+                    },
+                    {
+                        text: '软件工程',
+                        link: '/computer_science/software'
                     }
                 ]
             },
