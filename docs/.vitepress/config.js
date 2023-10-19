@@ -403,6 +403,10 @@ export default {
                     {
                         text: '软件工程',
                         link: '/computer_science/software'
+                    },
+                    {
+                        text: '集成电路&摩尔定律',
+                        link: '/computer_science/integrated_circuits'
                     }
                 ]
             },
