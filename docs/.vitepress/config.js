@@ -407,6 +407,10 @@ export default {
                     {
                         text: '集成电路&摩尔定律',
                         link: '/computer_science/integrated_circuits'
+                    },
+                    {
+                        text: '操作系统',
+                        link: '/computer_science/operating_system'
                     }
                 ]
             },
