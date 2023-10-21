@@ -411,6 +411,10 @@ export default {
                     {
                         text: '操作系统',
                         link: '/computer_science/operating_system'
+                    },
+                    {
+                        text: '内存&储存介质',
+                        link: '/computer_science/memory'
                     }
                 ]
             },
