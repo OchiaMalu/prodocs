@@ -415,6 +415,10 @@ export default {
                     {
                         text: '内存&储存介质',
                         link: '/computer_science/memory'
+                    },
+                    {
+                        text: '文件系统',
+                        link: '/computer_science/file_system'
                     }
                 ]
             },
