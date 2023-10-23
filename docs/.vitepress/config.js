@@ -419,6 +419,10 @@ export default {
                     {
                         text: '文件系统',
                         link: '/computer_science/file_system'
+                    },
+                    {
+                        text: '压缩',
+                        link: '/computer_science/compression'
                     }
                 ]
             },
