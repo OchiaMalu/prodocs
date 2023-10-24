@@ -423,6 +423,10 @@ export default {
                     {
                         text: '压缩',
                         link: '/computer_science/compression'
+                    },
+                    {
+                        text: '命令行界面',
+                        link: '/computer_science/command_line_interface'
                     }
                 ]
             },
