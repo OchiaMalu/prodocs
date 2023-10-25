@@ -427,6 +427,10 @@ export default {
                     {
                         text: '命令行界面',
                         link: '/computer_science/command_line_interface'
+                    },
+                    {
+                        text: '屏幕&2D图形显示',
+                        link: '/computer_science/2d_graphics'
                     }
                 ]
             },
