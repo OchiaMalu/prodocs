@@ -431,6 +431,10 @@ export default {
                     {
                         text: '屏幕&2D图形显示',
                         link: '/computer_science/2d_graphics'
+                    },
+                    {
+                        text: '冷战和消费主义',
+                        link: '/computer_science/cold_war'
                     }
                 ]
             },
