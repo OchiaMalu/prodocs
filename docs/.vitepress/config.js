@@ -435,6 +435,10 @@ export default {
                     {
                         text: '冷战和消费主义',
                         link: '/computer_science/cold_war'
+                    },
+                    {
+                        text: '个人计算机革命',
+                        link: '/computer_science/personal_computer'
                     }
                 ]
             },
