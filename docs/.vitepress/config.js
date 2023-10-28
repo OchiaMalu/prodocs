@@ -439,6 +439,10 @@ export default {
                     {
                         text: '个人计算机革命',
                         link: '/computer_science/personal_computer'
+                    },
+                    {
+                        text: '图形用户界面',
+                        link: '/computer_science/graphical_interface'
                     }
                 ]
             },
