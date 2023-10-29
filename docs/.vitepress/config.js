@@ -443,6 +443,10 @@ export default {
                     {
                         text: '图形用户界面',
                         link: '/computer_science/graphical_interface'
+                    },
+                    {
+                        text: '3D 图形',
+                        link: '/computer_science/3d_graphics'
                     }
                 ]
             },
