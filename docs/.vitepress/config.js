@@ -447,6 +447,10 @@ export default {
                     {
                         text: '3D 图形',
                         link: '/computer_science/3d_graphics'
+                    },
+                    {
+                        text: '计算机网络',
+                        link: '/computer_science/computer_networks'
                     }
                 ]
             },
