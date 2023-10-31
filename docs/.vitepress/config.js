@@ -451,6 +451,10 @@ export default {
                     {
                         text: '计算机网络',
                         link: '/computer_science/computer_networks'
+                    },
+                    {
+                        text: '互联网',
+                        link: '/computer_science/internet'
                     }
                 ]
             },
