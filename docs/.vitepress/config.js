@@ -455,6 +455,10 @@ export default {
                     {
                         text: '互联网',
                         link: '/computer_science/internet'
+                    },
+                    {
+                        text: '万维网',
+                        link: '/computer_science/world_wide_web'
                     }
                 ]
             },
