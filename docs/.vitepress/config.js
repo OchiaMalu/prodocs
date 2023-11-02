@@ -461,7 +461,7 @@ export default {
                         link: '/computer_science/world_wide_web'
                     },
                     {
-                        text: '网络安全',
+                        text: '计算机安全',
                         link: '/computer_science/cybersecurity'
                     }
                 ]
