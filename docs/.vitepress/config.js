@@ -459,6 +459,10 @@ export default {
                     {
                         text: '万维网',
                         link: '/computer_science/world_wide_web'
+                    },
+                    {
+                        text: '网络安全',
+                        link: '/computer_science/cybersecurity'
                     }
                 ]
             },
