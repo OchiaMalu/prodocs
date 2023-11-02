@@ -38,3 +38,10 @@ ProDocs是开源的免费编程资源网站，不管你是零基础的小白，�
 ## :clipboard: 关于版权
 
 本网站基于VitePress实现，内容大多数为原创内容，少部分搬运内容，如果无意之中侵犯了您的版权，请告知，本站将在第一时间删除。
+:::danger 开源协议
+本博客 **所有** 文章均使用 <u>CC BY-NC-SA 4.0</u> 开源协议。
+
+详情请见: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+转载请注明作者 `OchiaMalu` 。
+:::
