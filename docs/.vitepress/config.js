@@ -463,6 +463,10 @@ export default {
                     {
                         text: '计算机安全',
                         link: '/computer_science/cybersecurity'
+                    },
+                    {
+                        text: '黑客&攻击',
+                        link: '/computer_science/hackers'
                     }
                 ]
             },
