@@ -467,6 +467,10 @@ export default {
                     {
                         text: '黑客&攻击',
                         link: '/computer_science/hackers'
+                    },
+                    {
+                        text: '加密',
+                        link: '/computer_science/cryptography'
                     }
                 ]
             },
