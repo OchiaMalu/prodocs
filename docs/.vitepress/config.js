@@ -471,6 +471,10 @@ export default {
                     {
                         text: '加密',
                         link: '/computer_science/cryptography'
+                    },
+                    {
+                        text: '机器学习&人工智能',
+                        link: '/computer_science/machine_learning'
                     }
                 ]
             },
