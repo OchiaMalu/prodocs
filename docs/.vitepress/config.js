@@ -475,6 +475,10 @@ export default {
                     {
                         text: '机器学习&人工智能',
                         link: '/computer_science/machine_learning'
+                    },
+                    {
+                        text: '计算机视觉',
+                        link: '/computer_science/computer_vision'
                     }
                 ]
             },
