@@ -479,6 +479,10 @@ export default {
                     {
                         text: '计算机视觉',
                         link: '/computer_science/computer_vision'
+                    },
+                    {
+                        text: '自然语言处理',
+                        link: '/computer_science/natural_language_processing'
                     }
                 ]
             },
