@@ -483,6 +483,10 @@ export default {
                     {
                         text: '自然语言处理',
                         link: '/computer_science/natural_language_processing'
+                    },
+                    {
+                        text: '机器人',
+                        link: '/computer_science/robots'
                     }
                 ]
             },
