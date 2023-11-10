@@ -497,6 +497,10 @@ export default {
                     {
                         text: '写在前面',
                         link: '/combined_language/start'
+                    },
+                    {
+                        text: '概述',
+                        link: '/combined_language/overview'
                     }
                 ]
             },
