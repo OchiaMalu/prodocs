@@ -491,6 +491,16 @@ export default {
                 ]
             },
             {
+                text: 'C 语言',
+                collapsed: true,
+                items: [
+                    {
+                        text: '写在前面',
+                        link: '/combined_language/start'
+                    }
+                ]
+            },
+            {
                 text: '💾面试专栏',
                 items: [
                     {
