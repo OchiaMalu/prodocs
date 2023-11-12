@@ -37,8 +37,8 @@ const jump = () => {
           class="title">
       {{ title }}
     </span>
-    <div style="justify-content: space-between;display: flex;">
-      <div style="margin-top: 20px">
+    <div style="justify-content: space-between;display: flex;overflow: hidden">
+      <div style="margin-top: 20px;overflow: hidden">
         <Icon icon="tabler:brand-bilibili" color="#47A7D9" class="icon" v-if="hrefSource == 'bilibili'"/>
         <Icon icon="mdi:youtube" color="#FF0000" class="icon" v-else-if="hrefSource == 'youtube'"/>
         <Icon icon="devicon:github" class="icon" v-else-if="hrefSource == 'github'"/>
