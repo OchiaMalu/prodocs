@@ -501,6 +501,10 @@ export default {
                     {
                         text: '概述',
                         link: '/combined_language/overview'
+                    },
+                    {
+                        text: '环境安装',
+                        link: '/combined_language/environment'
                     }
                 ]
             },
