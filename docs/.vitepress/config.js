@@ -1,5 +1,4 @@
-import markdownItKatex from 'markdown-it-katex'
-
+import mathjax3 from 'markdown-it-mathjax3';
 const customElements = [
     'math',
     'maction',
@@ -85,12 +84,15 @@ const customElements = [
     'maction',
     'semantics',
     'annotation',
-    'annotation-xml'
+    'annotation-xml',
+    'mjx-container',
+    'mjx-assistive-mml',
 ];
+
 export default {
     markdown: {
         config: (md) => {
-            md.use(markdownItKatex)
+            md.use(mathjax3)
         }
     },
     vue: {
@@ -108,13 +110,7 @@ export default {
     head: [
         [
             'link', {rel: 'icon', href: '/favicon.ico'}
-        ],
-        ['meta', {name: 'baidu-site-verification', content: 'codeva-UJHMQmYe6P'}],
-        ['link', {
-            rel: 'stylesheet',
-            href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css',
-            crossorigin: ''
-        }]
+        ]
     ],
     themeConfig: {
         search: {
