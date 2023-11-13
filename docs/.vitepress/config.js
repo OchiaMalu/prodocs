@@ -509,6 +509,16 @@ export default {
                 ]
             },
             {
+                text: '高等数学',
+                collapsed: true,
+                items: [
+                    {
+                        text: '极限',
+                        link: '/higher_mathematics/limit'
+                    }
+                ]
+            },
+            {
                 text: '💾面试专栏',
                 items: [
                     {
