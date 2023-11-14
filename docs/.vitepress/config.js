@@ -511,6 +511,10 @@ export default {
                     {
                         text: '极限',
                         link: '/higher_mathematics/limit'
+                    },
+                    {
+                        text: '连续',
+                        link: '/higher_mathematics/continuous'
                     }
                 ]
             },
