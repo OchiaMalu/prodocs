@@ -515,6 +515,10 @@ export default {
                     {
                         text: '连续',
                         link: '/higher_mathematics/continuous'
+                    },
+                    {
+                        text: '导数与微分',
+                        link: '/higher_mathematics/derivative'
                     }
                 ]
             },
