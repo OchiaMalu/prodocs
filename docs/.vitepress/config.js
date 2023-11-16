@@ -519,6 +519,10 @@ export default {
                     {
                         text: '导数与微分',
                         link: '/higher_mathematics/derivative'
+                    },
+                    {
+                        text: '中值定理及导数的应用',
+                        link: '/higher_mathematics/theorem'
                     }
                 ]
             },
