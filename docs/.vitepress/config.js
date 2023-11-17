@@ -523,6 +523,10 @@ export default {
                     {
                         text: '中值定理及导数的应用',
                         link: '/higher_mathematics/theorem'
+                    },
+                    {
+                        text: '不定积分',
+                        link: '/higher_mathematics/indefinite_integral'
                     }
                 ]
             },
