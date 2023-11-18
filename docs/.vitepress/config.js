@@ -527,6 +527,10 @@ export default {
                     {
                         text: '不定积分',
                         link: '/higher_mathematics/indefinite_integral'
+                    },
+                    {
+                        text: '不定积分',
+                        link: '/higher_mathematics/definite_integral'
                     }
                 ]
             },
