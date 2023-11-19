@@ -529,8 +529,12 @@ export default {
                         link: '/higher_mathematics/indefinite_integral'
                     },
                     {
-                        text: '不定积分',
+                        text: '定积分',
                         link: '/higher_mathematics/definite_integral'
+                    },
+                    {
+                        text: '常数项级数',
+                        link: '/higher_mathematics/constant_series'
                     }
                 ]
             },
