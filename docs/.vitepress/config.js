@@ -535,6 +535,10 @@ export default {
                     {
                         text: '常数项级数',
                         link: '/higher_mathematics/constant_series'
+                    },
+                    {
+                        text: '幂级数',
+                        link: '/higher_mathematics/power_series'
                     }
                 ]
             },
