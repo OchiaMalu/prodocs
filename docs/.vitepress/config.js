@@ -539,6 +539,10 @@ export default {
                     {
                         text: '幂级数',
                         link: '/higher_mathematics/power_series'
+                    },
+                    {
+                        text: '一阶微分方程',
+                        link: '/higher_mathematics/first_order_differential_equation'
                     }
                 ]
             },
