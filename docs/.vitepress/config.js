@@ -543,6 +543,10 @@ export default {
                     {
                         text: '一阶微分方程',
                         link: '/higher_mathematics/first_order_differential_equation'
+                    },
+                    {
+                        text: '二阶线性常系数微分方程',
+                        link: '/higher_mathematics/linear_differential_equation'
                     }
                 ]
             },
