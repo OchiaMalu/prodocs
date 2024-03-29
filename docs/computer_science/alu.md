@@ -10,14 +10,14 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 ALU 是计算机的数学大脑，计算机里负责运算的组件基本其他所有部件都用到了它。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005194945570.png" alt="image-20231005194945570" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005194945570.png" alt="image-20231005194945570" style="zoom: 80%;margin:0 auto" />
 
 上图为第一个封装在单个芯片内的完整 ALU —— 英特尔 74181。
 
 ALU 有 2 个单元，1 个算术单元和 1 个逻辑单元，为了实现它用了大约 70 个逻辑门，但不能进行乘除，但它向 **小型化**
 迈出了一大步，让计算机可以更强大更便宜。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005204640192.png" alt="image-20231005204640192" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005204640192.png" alt="image-20231005204640192" style="zoom:50%;margin:0 auto" />
 
 ## 算术单元
 
@@ -38,15 +38,15 @@ ALU 有 2 个单元，1 个算术单元和 1 个逻辑单元，为了实现它�
 
 没错就是 **异或门** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005180746567.png" alt="image-20231005180746567" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005180746567.png" alt="image-20231005180746567" style="zoom:80%;margin:0 auto" />
 
 但是当 1+1 时我们需要 **进位** ，因此我们还需要另一个输出。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005195835962.png" alt="image-20231005195835962" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005195835962.png" alt="image-20231005195835962" style="zoom:80%;margin:0 auto" />
 
 很好，这样就能表示 1+1=10 了，一个异或门+与门这样的结构我们称之为 **半加器** （half adder），是实现两个一位二进制数的加法运算电路。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005200045053.png" alt="image-20231005200045053" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005200045053.png" alt="image-20231005200045053" style="zoom: 80%;margin:0 auto" />
 
 ### 全加器
 
@@ -56,31 +56,31 @@ ALU 有 2 个单元，1 个算术单元和 1 个逻辑单元，为了实现它�
 
 我们只需要将第一个半加器的结果作为第二个半加器的其中一个输入即可。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005200449567.png" alt="image-20231005200449567" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005200449567.png" alt="image-20231005200449567" style="zoom:50%;margin:0 auto" />
 
 这时候我们需要一个或门来判断是剩下的余数是 1 还是 0 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005200645543.png" alt="image-20231005200645543" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005200645543.png" alt="image-20231005200645543" style="zoom:50%;margin:0 auto" />
 
 像这样的结构，我们称之为 **全加器** （full adder）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005200815694.png" alt="image-20231005200815694" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005200815694.png" alt="image-20231005200815694" style="zoom:50%;margin:0 auto" />
 
 ### 八位行波进位加法器
 
 当我们将两个 8 位二进制数相加时，前两位只需要用 **半加器** 就可以做到，后面的我们需要使用 **全加器** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005201401260.png" alt="image-20231005201401260" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005201401260.png" alt="image-20231005201401260" style="zoom:50%;margin:0 auto" />
 
 横向的图不是很好看，我们将它翻转 90° 。
 
-<img src="http://niu.ochiamalu.xyz/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-05%20201521.jpg" alt="屏幕截图 2023-10-05 201521" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-10-05%20201521.jpg" alt="屏幕截图 2023-10-05 201521" style="zoom:50%;margin:0 auto" />
 
 你想到了什么？
 
 这不就是小学老师教的 **竖式** 吗？
 
-<img src="http://niu.ochiamalu.xyz/image-20231005202006019.png" alt="image-20231005202006019" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005202006019.png" alt="image-20231005202006019" style="zoom:50%;margin:0 auto" />
 
 只不过将逢十进一的规则改成了 **逢二进一** 。
 
@@ -96,7 +96,7 @@ ALU 有 2 个单元，1 个算术单元和 1 个逻辑单元，为了实现它�
 
 可以用它来搭一个 **八位行波进位加法器** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005204351446.png" alt="image-20231005204351446" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005204351446.png" alt="image-20231005204351446" style="zoom:80%;margin:0 auto" />
 
 ### 溢出
 
@@ -128,7 +128,7 @@ ALU的算术单元一般支持 8 种操作。
 
 ALU 还可以做一些逻辑操作，比如测试一些数字中有没有 1 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005203542545.png" alt="image-20231005203542545" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005203542545.png" alt="image-20231005203542545" style="zoom:50%;margin:0 auto" />
 
 在这个系统中，只有当所有的输入全为 0 ，最后的输出才是 0 。
 
@@ -137,7 +137,7 @@ ALU 还可以做一些逻辑操作，比如测试一些数字中有没有 1 。
 英特尔 74181 需要大约 70 个逻辑门，它仅支持 4 位运算，而 8 位运算则需要数百个逻辑门，这太复杂了，因此人们用一个符号代表
 ALU 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231005205330702.png" alt="image-20231005205330702" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231005205330702.png" alt="image-20231005205330702" style="zoom:50%;margin:0 auto" />
 
 它分为四个部分： <u>输入、输出、操作码、标志</u> 。
 

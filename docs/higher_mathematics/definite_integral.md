@@ -202,7 +202,7 @@ $s=\int_c^d[\varphi_右(x)-\varphi_左(x)]dy$
 
 ​ Ⅰ. 绕 $x$ 轴旋转一周而成的立方体体积为： $V_x=\int_a^b \pi[f(x)]^2dx$
 
-<img src="http://niu.ochiamalu.xyz/3904606ad2a0ee05f6a85656606f40f.jpg" alt="3904606ad2a0ee05f6a85656606f40f" style="zoom:25%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/3904606ad2a0ee05f6a85656606f40f.jpg" alt="3904606ad2a0ee05f6a85656606f40f" style="zoom:25%;margin:0 auto" />
 
 ​ Ⅱ. 绕 $y$ 轴旋转一周而成的立体体积为： （柱壳法）
 $$
@@ -216,4 +216,4 @@ V_x=\int_c^d 2\pi yg(y)dy（假设 g(y)\ge 0,0\le a\le y\le b）
 $$
 ​ Ⅱ. 绕 $y$ 轴旋转一周而成的立方体体积为： $V_y=\int_c^d \pi[g(y)]^2dy$
 
-<img src="http://niu.ochiamalu.xyz/5626dbafb6b8a31c649200d76109a61.jpg" alt="5626dbafb6b8a31c649200d76109a61" style="zoom:25%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/5626dbafb6b8a31c649200d76109a61.jpg" alt="5626dbafb6b8a31c649200d76109a61" style="zoom:25%;margin:0 auto" />

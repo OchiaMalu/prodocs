@@ -4,7 +4,7 @@
 
 `算法`  一词来自波斯博识者 **阿尔·花拉子密** ，1000 多年前的代数之父之一。
 
-<img src="http://niu.ochiamalu.xyz/image-20231011174847919.png" alt="image-20231011174847919" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231011174847919.png" alt="image-20231011174847919" style="zoom:80%;margin:0 auto" />
 
 ## 算法入门
 
@@ -53,17 +53,17 @@ $$
 
 > 一般情况下，称某个排序算法稳定，指的是当待排序序列中有相同的元素时，它们的相对位置在排序前后不会发生改变。
 
-<img src="http://niu.ochiamalu.xyz/image-20231011181034392.png" alt="image-20231011181034392" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231011181034392.png" alt="image-20231011181034392" style="zoom:80%;margin:0 auto" />
 
 从图中可以看到，经过 **两两比较** ，从待排序序列中找出了 **最大数** 8，并将其放到了待排序序列的尾部，并入已排序序列中。
 
 冒泡排序的特点就是：<u>每一次排序将 **待排序列** 中最大的数上浮至第一位</u>。
 
-<img src="http://niu.ochiamalu.xyz/image-20231011181233182.png" alt="image-20231011181233182" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231011181233182.png" alt="image-20231011181233182" style="zoom:80%;margin:0 auto" />
 
 第二次循环找出了 **待排序列** 中的最大数，也就是整体序列中第二大的数 5 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231011181438947.png" alt="image-20231011181438947" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231011181438947.png" alt="image-20231011181438947" style="zoom:80%;margin:0 auto" />
 
 以此类推，到只剩最后一个元素的时候，也就不再需要比较了，因为它就是最小的数字。
 

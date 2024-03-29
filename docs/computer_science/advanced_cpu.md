@@ -21,7 +21,7 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 指令不断增加，人们一旦习惯了它的便利就很难删掉，所以为了 **兼容** 旧指令集，指令数量越来越多。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007152600011.png" alt="image-20231007152600011" style="zoom:100%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007152600011.png" alt="image-20231007152600011" style="zoom:100%;margin:0 auto" />
 
 ## 缓存
 
@@ -29,19 +29,19 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 RAM 成了瓶颈，RAM 是 CPU 之外的独立组件，意味着数据要用线来传递，叫 `总线` （bus）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007170207265.png" alt="image-20231007170207265" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007170207265.png" alt="image-20231007170207265" style="zoom:80%;margin:0 auto" />
 
 总线可能只有几厘米，但 CPU 每秒可以处理上亿条指令，很小的延迟也会造成问题。RAM 还需要时间找地址取数据，配置，输出数据，一条 "
 从内存读数据" 的指令可能要多个时钟周期。
 
 解决延迟的方法之一是给 CPU **内部** 加一点 RAM ，也就是 **缓存** （cache）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007170414734.png" alt="image-20231007170414734" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007170414734.png" alt="image-20231007170414734" style="zoom:80%;margin:0 auto" />
 
 RAM 不再每次只传 1 条数据，而是 **一批** 数据。当 CPU 需要取下一条数据时，缓存中已经有了，因此不需要再从 RAM 中取。因为缓存离
 CPU 近，一个时钟周期就能给数据 —— CPU 不用空等！这比反复去 RAM 拿数据快得多。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007170519728.png" alt="image-20231007170519728" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007170519728.png" alt="image-20231007170519728" style="zoom:80%;margin:0 auto" />
 
 如果想要的数据已经在缓存，叫 `缓存命中`（hit），如果想要的数据不在缓存，叫 `缓存未命中` （miss）。缓存也可以当临时空间，存一些中间值，适合长/复杂的运算。
 
@@ -51,7 +51,7 @@ CPU 近，一个时钟周期就能给数据 —— CPU 不用空等！这比反�
 
 但这样带来了一个有趣的问题，<u>缓存和 RAM 不一致了</u>。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007170935823.png" alt="image-20231007170935823" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007170935823.png" alt="image-20231007170935823" style="zoom:80%;margin:0 auto" />
 
 这种不一致必须记录下来，之后要 **同步** 。
 
@@ -73,12 +73,12 @@ CPU 也是如此。
 
 之前我们的 CPU 按序处理，`取值` → `解码` → `执行` ，不断重复，这种设计，**三个时钟周期** 执行 1 条指令。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007172204407.png" alt="image-20231007172204407" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007172204407.png" alt="image-20231007172204407" style="zoom:80%;margin:0 auto" />
 
 但因为每个阶段用的是 CPU 的不同部分，意味着可以并行处理！ `执行` 一个指令时，同时 `解码` 下一个指令，`读取`
 下下个指令，不同任务重叠进行，同时用上 CPU 里所有部分，这样的流水线 **每个时钟周期执行 1 个指令** 。效率 x3 ！
 
-<img src="http://niu.ochiamalu.xyz/image-20231007172235321.png" alt="image-20231007172235321" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007172235321.png" alt="image-20231007172235321" style="zoom:80%;margin:0 auto" />
 
 ### 动态排序
 
@@ -96,7 +96,7 @@ CPU 也是如此。
 
 在支持乱序执行的 CPU 中，后面的指令可能在前面指令执行结束前就开始执行了。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007172720756.png" alt="image-20231007172720756" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007172720756.png" alt="image-20231007172720756" style="zoom: 67%;margin:0 auto" />
 
 ### 推测执行
 
@@ -108,7 +108,7 @@ CPU 也是如此。
 
 可以把 JUMP 想成是 **岔路口** ，高端 CPU 会猜哪条路的可能性大一些，然后提前把指令放进流水线，这叫 **推测执行** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007173226318.png" alt="image-20231007173226318" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007173226318.png" alt="image-20231007173226318" style="zoom:80%;margin:0 auto" />
 
 当 JUMP 的结果出了，如果 CPU 猜对了，流水线已经塞满正确指令，可以马上运行，如果 CPU 猜错了，就要 **清空** 流水线（pipeline
 flush），<u>处理器会将状态恢复到预测执行前的状态</u>，再重新跳转到正确执行的分支或指令中运行。
@@ -137,7 +137,7 @@ Spectre 。
 
 微软在 2018 年 3 月 13 日 发布包含修复CPU漏洞功能的 3 月安全补丁 KB4088878 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007175303137.png" alt="image-20231007175303137" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007175303137.png" alt="image-20231007175303137" style="zoom: 67%;margin:0 auto" />
 
 ## 超标量处理器
 
@@ -151,7 +151,7 @@ Spectre 。
 
 我们可以再进一步，加多几个相同的电路执行出现频次很高的指令，很多 CPU 有四个、八个甚至更多完全相同的 ALU ，可以同时执行多个数学运算。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007180644150.png" alt="image-20231007180644150" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007180644150.png" alt="image-20231007180644150" style="zoom: 50%;margin:0 auto" />
 
 ## 多核处理器
 
@@ -159,18 +159,18 @@ Spectre 。
 
 另一个提升性能的方法是 **同时** 运行多个指令流，用 `多核处理器` （multi-core processors）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007180940942.png" alt="image-20231007180940942" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007180940942.png" alt="image-20231007180940942" style="zoom: 67%;margin:0 auto" />
 
 意思是一个 CPU 芯片里，有 **多个** 独立处理单元，很像是有多个独立 CPU ，但因为它们整合紧密，可以共享一些资源，比如缓存，使得多核可以合作运算。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007181004414.png" alt="image-20231007181004414" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007181004414.png" alt="image-20231007181004414" style="zoom: 67%;margin:0 auto" />
 
 ## 多个 CPU
 
 多核不够时，可以用多个 CPU ，一般来说，只有服务器主板上才有多个 CPU 插槽，这使得一张主板上可以插 2 个、 4 个，甚至 8 个
 CPU。但是更多的 CPU 会带来更高的 **故障率** ，而且就性能来说 1 + 1 并不等于 2 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007181242962.png" alt="image-20231007181242962" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007181242962.png" alt="image-20231007181242962" style="zoom:67%;margin:0 auto" />
 
 ## 超级计算机
 
@@ -180,4 +180,4 @@ CPU。但是更多的 CPU 会带来更高的 **故障率** ，而且就性能来
 
 截止到目前，世界上最快的超级计算机是 *美国橡树岭国家实验室* 的 **Frontier** ，也是是地球上唯一的百亿亿级超算。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007193005290.png" alt="image-20231007193005290" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231007193005290.png" alt="image-20231007193005290" style="zoom:80%;margin:0 auto" />

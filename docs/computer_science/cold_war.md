@@ -12,7 +12,7 @@
 投入大量资金，计算机在战时已经证明了自身的价值 ， 比如 **曼哈顿计划** 和 **破解纳粹通讯加密** ，所以政府大量投入资源 ，
 各种雄心勃勃的项目得以进行。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192358355.png" alt="image-20231024192358355" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192358355.png" alt="image-20231024192358355" style="zoom:80%;margin:0 auto" />
 
 比如之前提过的 ENIAC, EDVAC, Atlas, Whirlwind，这种高速发展，如果仅靠商业运作是根本无法做到的，要依靠销售收回开发成本。
 
@@ -21,7 +21,7 @@
 1950 年代，事情开始发生变化，特别是 `Univac 1` ，它是第一台取得商业成功的电脑，不像 ENIAC 或 Atlas ， `Univanc 1`
 不是一台机器，而是一个型号，一共造了 40 多台。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192436946.png" alt="image-20231024192436946" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192436946.png" alt="image-20231024192436946" style="zoom:80%;margin:0 auto" />
 
 大部分 `Univac` 去了政府或大公司，成为美国日益增长的军事工业综合体的一部分，因为政府有钱承担这些尖端科技。
 
@@ -29,11 +29,11 @@
 1952 年 **美国总统大选** 的结果，仅用 1％ 的选票，`Univac 1` 正确预测了结果，**艾森豪威尔** 获得压倒性胜利，而专家预测 **史蒂文森
 ** 会赢，这次事件把计算机推到了公众面前。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192527716.png" alt="image-20231024192527716" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192527716.png" alt="image-20231024192527716" style="zoom:80%;margin:0 auto" />
 
 计算机和以前的机器不一样，以前的机器增强人类的物理能力，比如 **卡车** 能带更多东西， **自动织布机** 更快，机床更精确等等，这些东西代表了工业革命。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192550930.png" alt="image-20231024192550930" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192550930.png" alt="image-20231024192550930" style="zoom:80%;margin:0 auto" />
 
 ### Memex
 
@@ -43,7 +43,7 @@
 
 `Memex` 启发了之后几个重要里程碑，比如 **伊万·萨瑟兰** 的 `Sketchpad` ，以及 **Dough Engelbart** 的 `oN-LINE` 系统。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192633913.png" alt="image-20231024192633913" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192633913.png" alt="image-20231024192633913" style="zoom:80%;margin:0 auto" />
 
 **范内瓦·布什** ， 做过 `美国科学研究与开发办公室` ，这个部门负责在二战期间，资助和安排科学研究。
 
@@ -51,21 +51,21 @@
 
 至今， `国家科学基金会` 依然负责给科学研究提供 **政府资金** ，美国的科技领先全球，主要原因之一就是这个机构。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192725124.png" alt="image-20231024192725124" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192725124.png" alt="image-20231024192725124" style="zoom:80%;margin:0 auto" />
 
 ### 日本半导体崛起
 
 1950年代，消费者开始买 **晶体管** 设备，其中值得注意的是 `收音机` ，它又小又耐用，用电池就够了，而且便携，不像 1940
 年代之前的收音机，用的是真空管。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192753255.png" alt="image-20231024192753255" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192753255.png" alt="image-20231024192753255" style="zoom:80%;margin:0 auto" />
 
 收音机非常成功，卖的像 `菲比精灵` 和 `iPhone`
 一样畅销，日本政府也在寻求工业机会，想振兴战后经济，他们很快动手从 `贝尔实验室`  取得 **晶体管** 的授权，帮助振兴日本的半导体和电子行业。
 
 1955年，索尼的第一款产品面世， `TR-55 晶体管收音机` ，他们把重心放在质量和价格，因此日本公司在短短5年内，就占有了美国便携式收音机市场的一半，这为日本成为美国的强大工业对手，埋下伏笔。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024192912448.png" alt="image-20231024192912448" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024192912448.png" alt="image-20231024192912448" style="zoom: 67%;margin:0 auto" />
 
 ### 太空竞赛
 
@@ -74,14 +74,14 @@
 
 苏联在1957年 ， 把第一个卫星送上轨道， `史波尼克 1 号` 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193015113.png" alt="image-20231024193015113" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193015113.png" alt="image-20231024193015113" style="zoom: 50%;margin:0 auto" />
 
 不久，在1961年苏联宇航员 `尤里·加加林` 第一个进入太空，美国民众对此不满，使得肯尼迪总统，在加加林太空任务一个月后提出要 *
 *登陆月球** 。
 
 NASA 的预算增长了几乎十倍，在 1966 年达到顶峰，占了政府预算的 4.5% ，如今, NASA 的预算只占 0.5%。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193040952.png" alt="image-20231024193040952" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193040952.png" alt="image-20231024193040952" style="zoom:80%;margin:0 auto" />
 
 NASA 用这笔钱资助各种科学研究，阿波罗计划花的钱最多，雇了40万人左右，而且有 2 万多家大学和公司参与。
 
@@ -96,7 +96,7 @@ guidance computer），有3个重要要求。
 
 那时的主流科技，真空管和晶体管无法胜任这些要求，所以 NASA 用全新科技：`集成电路` 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193719372.png" alt="image-20231024193719372" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193719372.png" alt="image-20231024193719372" style="zoom: 67%;margin:0 auto" />
 
 `阿波罗导航计算机` 首先使用了集成电路，NASA 是唯一负担得起集成电路的组织，最初，一个芯片差不多 50
 美金，导航计算机需要上千个芯片，但美国也因此成功登月，打败苏联。
@@ -104,7 +104,7 @@ guidance computer），有3个重要要求。
 虽然人们经常把集成电路的发展，归功于阿波罗导航计算机，但它们的产量很低，一共只有 17 次阿波罗任务，实际上是 **军事**
 大大推进了集成电路发展，特别是洲际导弹和核弹，使集成电路大规模生产。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193123128.png" alt="image-20231024193123128" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193123128.png" alt="image-20231024193123128" style="zoom:80%;margin:0 auto" />
 
 美国建造强大计算机时，也进一步推进了集成电路，一般叫 `超级计算机` ，因为它们经常比全球最快电脑还快 10 倍以上，但
 CDC，Cray，IBM
@@ -113,7 +113,7 @@ CDC，Cray，IBM
 最初，美国的半导体行业 ， 靠高利润政府合同起步，因此忽略了消费者市场，因为利润小，因此日本半导体行业在 1950 和 1960 年代 ，
 靠低利润率占领了消费者市场，日本人投入大量资金，大量制造以达到规模经济，同时研究技术，提高质量和产量，以及用自动化来降低成本。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193142754.png" alt="image-20231024193142754" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193142754.png" alt="image-20231024193142754" style="zoom:80%;margin:0 auto" />
 
 ### 战后
 
@@ -132,12 +132,12 @@ DRAM 就是 DRAM ，能从日立买便宜的，干嘛要从英特尔买贵的？
 
 手持计算器因为集成电路，计算机又小又便宜，取代了办公室里昂贵的桌面计算器。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193231889.png" alt="image-20231024193231889" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193231889.png" alt="image-20231024193231889" style="zoom:80%;margin:0 auto" />
 
 对大多数人，这是他们第一次不必用纸笔和计算尺来做计算，手持计算机因此大卖，进一步降低了集成电路的成本，使得微处理器被广泛使用，比如之前讨论过的 `Intel 4004`
 ，Intel 在1971年 ， 应日本计算器公司 **Busicom** 的要求做了这个芯片。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193259939.png" alt="image-20231024193259939" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193259939.png" alt="image-20231024193259939" style="zoom:80%;margin:0 auto" />
 
 ## 消费主义
 
@@ -149,11 +149,11 @@ DRAM 就是 DRAM ，能从日立买便宜的，干嘛要从英特尔买贵的？
 
 这段期间，第一批家用电脑开始出现，比如1975年的 `Altair 8800` 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193339290.png" alt="image-20231024193339290" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193339290.png" alt="image-20231024193339290" style="zoom: 67%;margin:0 auto" />
 
 以及第一款家用游戏机，比如 1977 年的 `Atari 2600` 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231024193355443.png" alt="image-20231024193355443" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231024193355443.png" alt="image-20231024193355443" style="zoom:67%;margin:0 auto" />
 
 在短短三十年内，计算机从大到人类可以在 CPU 里走来走去，发展到小到小孩都能拿住的手持玩具，而且微处理器还快得多。
 

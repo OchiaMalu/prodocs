@@ -14,17 +14,17 @@
 
 我们继续用 `吃豆人` 例子，图像是 4 像素 x 4 像素。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021211919501.png" alt="image-20231021211919501" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021211919501.png" alt="image-20231021211919501" style="zoom:80%;margin:0 auto" />
 
 之前说过，图像一般存成一长串像素值。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021211957891.png" alt="image-20231021211957891" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021211957891.png" alt="image-20231021211957891" style="zoom:80%;margin:0 auto" />
 
 为了知道一行在哪里结束，图像要有元数据，写明 `尺寸` 等属性，忽略这些细节。
 
 每个像素的颜色，是三种 **原色** 的组合：<u>红、黄、蓝</u> ，每个颜色用 1 个字节存，数字范围是 0 到 255 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212211063.png" alt="image-20231021212211063" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212211063.png" alt="image-20231021212211063" style="zoom:80%;margin:0 auto" />
 
 如果红绿蓝都是 255 会得到白色，如果混合 255 红色和 255 绿色，会得到黄色，这个图像有16个像素(4x4),
 每个像素3个字节，总共占48个字节（16x3=48），但我们可以压缩到少于 48 个字节，一种方法是 **减少重复信息**
@@ -32,15 +32,15 @@
 
 比如吃豆人有 7 个 **连续** 黄色像素，与其全存下来：黄色，黄色，黄色……
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212342291.png" alt="image-20231021212342291" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212342291.png" alt="image-20231021212342291" style="zoom:80%;margin:0 auto" />
 
 可以插入一个额外字节，代表有 7 个连续黄色像素，然后删掉后面的重复数据。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212404892.png" alt="image-20231021212404892" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212404892.png" alt="image-20231021212404892" style="zoom:80%;margin:0 auto" />
 
 为了让计算机能分辨哪些字节是 `长度`  哪些字节是 `颜色`  ，格式需要 **一致** ，所以我们要给所有像素前面标上长度。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212429098.png" alt="image-20231021212429098" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212429098.png" alt="image-20231021212429098" style="zoom:80%;margin:0 auto" />
 
 <u>有时候数据反而会变多</u> ，但就这个例子而言，我们大大减少了字节数，之前是 48， 现在是 24 ，小了 50％ ！省了很多空间！
 
@@ -55,11 +55,11 @@
 我们可以把图像看成一块块，而不是一个个像素，为了简单，我们把 2 个像素当成 1 块（红黄蓝 x2 ，占 6
 个字节）。但你也可以定成其他大小，我们只有四对： <u>白黄 黑黄 黄黄 白白</u>。我们会为这四对生成 `紧凑代码` (compact codes)。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212616269.png" alt="image-20231021212616269" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212616269.png" alt="image-20231021212616269" style="zoom:80%;margin:0 auto" />
 
 有趣的是，这些块的出现频率不同，4 个黄黄，2 个黄白，1 个黑黄，1 个白白。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212721059.png" alt="image-20231021212721059" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212721059.png" alt="image-20231021212721059" style="zoom:80%;margin:0 auto" />
 
 因为黄黄最常见，因此要用最紧凑的方式（最少的 0 和 1 ）代表它，而黑黄和白白出现的次数最少，因此可以用稍长的方式。
 
@@ -71,55 +71,55 @@
 
 可以把它们组成一个树，总频率 2 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212913218.png" alt="image-20231021212913218" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212913218.png" alt="image-20231021212913218" style="zoom:80%;margin:0 auto" />
 
 现在完成了一轮算法，现在我们重复这样做。
 
 这次有 3 个可选，就像上次一样，选频率最低的两个。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212945682.png" alt="image-20231021212945682" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212945682.png" alt="image-20231021212945682" style="zoom:80%;margin:0 auto" />
 
 放在一起，并记录总频率。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021212957180.png" alt="image-20231021212957180" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021212957180.png" alt="image-20231021212957180" style="zoom:80%;margin:0 auto" />
 
 这次很简单，因为只有 2 个选择，把它们组合成一棵树就完成了！
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213013564.png" alt="image-20231021213013564" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213013564.png" alt="image-20231021213013564" style="zoom:80%;margin:0 auto" />
 
 现在看起来像这样，它有一个很酷的属性：<u>按频率排列</u> ，频率低的在下面。
 
 现在有了一棵树，我们可以把 **每个分支** 用 0 和 1 标注，就像这样。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213043617.png" alt="image-20231021213043617" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213043617.png" alt="image-20231021213043617" style="zoom:80%;margin:0 auto" />
 
 现在可以生成字典，黄黄 编码成 0 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213140206.png" alt="image-20231021213140206" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213140206.png" alt="image-20231021213140206" style="zoom:80%;margin:0 auto" />
 
 白黄 编码成 10 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213158349.png" alt="image-20231021213158349" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213158349.png" alt="image-20231021213158349" style="zoom:80%;margin:0 auto" />
 
 黑黄 编码成 110 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213217364.png" alt="image-20231021213217364" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213217364.png" alt="image-20231021213217364" style="zoom:80%;margin:0 auto" />
 
 白白 编码成 111 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213242942.png" alt="image-20231021213242942" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213242942.png" alt="image-20231021213242942" style="zoom:80%;margin:0 auto" />
 
 酷的地方是，它们绝对不会冲突，因为树的每条路径是唯一的，意味着代码是 **无前缀** 的，没有代码是以另一个代码开头的。
 
 现在我们来压缩！将所有的像素对根据上述规则表示后如下。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213431796.png" alt="image-20231021213431796" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213431796.png" alt="image-20231021213431796" style="zoom:80%;margin:0 auto" />
 
 这仅用了 14 位，注意是位(bit)！ 不是字节(byte)！ 14 位(bit) 还不到 2 个字节(byte)！
 
 字典也要保存下来，否则 14 bit 毫无意义，所以我们把字典 加到 14 bit 前面，就像这样。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213525755.png" alt="image-20231021213525755" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213525755.png" alt="image-20231021213525755" style="zoom:80%;margin:0 auto" />
 
 现在加上字典，图像是 30 个字节(bytes)  ，比 48 字节好很多。
 
@@ -141,19 +141,19 @@ JPEG 利用了这一点，把图像分解成 8x8 像素块，然后删掉大量�
 
 举个例子，这是一只狗。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021214115474.png" alt="image-20231021214115474" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021214115474.png" alt="image-20231021214115474" style="zoom:80%;margin:0 auto" />
 
 我们来看其中一个 8x8 像素，几乎每个像素都和相邻像素不同，用无损技术很难压缩，因为太多不同点了，很多小细节，但人眼看不出这些细节。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021214041441.png" alt="image-20231021214041441" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021214041441.png" alt="image-20231021214041441" style="zoom: 50%;margin:0 auto" />
 
 因此可以删掉很多，用这样一个简单的块来代替，这看起来一样，但可能只占 10％ 的原始数据。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021214203345.png" alt="image-20231021214203345" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021214203345.png" alt="image-20231021214203345" style="zoom:50%;margin:0 auto" />
 
 我们可以对所有 8x8 块做一样的操作，图片依然可以认出是一只狗，只是更粗糙一些。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021214226978.png" alt="image-20231021214226978" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021214226978.png" alt="image-20231021214226978" style="zoom:80%;margin:0 auto" />
 
 以上例子比较极端，进行了高度压缩，只有原始大小的八分之一，通常你可以取得 **平衡** ，图片看起来差不多，但文件小不少。
 
@@ -165,11 +165,11 @@ JPEG 利用了这一点，把图像分解成 8x8 像素块，然后删掉大量�
 
 另一方面，人类对人声很敏感，所以应该尽可能保持原样。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213840084.png" alt="image-20231021213840084" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213840084.png" alt="image-20231021213840084" style="zoom:80%;margin:0 auto" />
 
 低音介于两者之间，人类听得到，但不怎么敏感，一般是感觉到 **震动** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021213802973.png" alt="image-20231021213802973" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021213802973.png" alt="image-20231021213802973" style="zoom:80%;margin:0 auto" />
 
 有损音频压缩利用这一点，用不同精度编码不同频段，听不出什么区别，不会明显影响体验。
 
@@ -195,7 +195,7 @@ MPEG-4 是常见标准，可以比原文件小 20 倍到 200 倍。
 
 但是，用补丁的移动和旋转来更新画面时，当压缩太严重时会出错，没有足够空间更新补丁内的像素，即使补丁是错的，视频播放器也会照样播放，导致一些怪异又搞笑的结果，你肯定见过这些。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021214619695.png" alt="image-20231021214619695" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021214619695.png" alt="image-20231021214619695" style="zoom:80%;margin:0 auto" />
 
 总的来说，压缩对大部分文件类型都有用，从这个角度来讲，人类 **不完美** 的视觉和听觉也算有用。
 

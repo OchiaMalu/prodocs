@@ -8,7 +8,7 @@
 
 他们经常被公司和政府雇来做安全评估，这些黑客叫 `白帽子` （White Hats），也叫 **白客** ，他们是从事正当行业的黑客，被称为网络守护神。
 
-<img src="http://niu.ochiamalu.xyz/image-20231103152152862.png" alt="image-20231103152152862" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231103152152862.png" alt="image-20231103152152862" style="zoom:67%;margin:0 auto" />
 
 另一方面，也有 `黑帽` 黑客，他们窃取，利用和销售计算机漏洞和数据。
 
@@ -27,7 +27,7 @@
 
 最常见的攻击是网络钓鱼，你可能见过，银行发邮件叫你点邮件里的链接，登陆账号，然后你会进入一个像官网的网站，但实际上是个假网站，当你输入用户名和密码时，信息会发给黑客，然后黑客就可以假扮你登陆网站。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102163204725.png" alt="image-20231102163204725" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102163204725.png" alt="image-20231102163204725" style="zoom:80%;margin:0 auto" />
 
 即使成功率只有 1/1000 ，发一百万封钓鱼邮件，也有一千个帐户中招。
 
@@ -36,7 +36,7 @@
 另一种方法叫 `假托` (Pretexting)，攻击者给某个公司打电话， **假装** 是 IT 部门的人，攻击者的第一通电话一般会叫人 **转接**
 ，这样另一个人接的时候，电话看起来像内部的，然后让别人把电脑配置得容易入侵，或让他们泄露机密信息，比如密码或网络配置。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102163259902.png" alt="image-20231102163259902" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102163259902.png" alt="image-20231102163259902" style="zoom:80%;margin:0 auto" />
 
 只要预先做一点研究，攻击者可以装得很像真的，比如关键员工的名字，也许要 10 通电话才能找到一个受害者，但只要一个人上当就够了。
 
@@ -48,7 +48,7 @@
 
 恶意软件有很多种，有的会偷数据，比如银行凭证，有的会加密文件，交 **赎金** 才解密，也就是 `勒索软件` （ransomware）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102163348621.png" alt="image-20231102163348621" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102163348621.png" alt="image-20231102163348621" style="zoom:80%;margin:0 auto" />
 
 如果攻击者无法用木马或电话欺骗，攻击者只能被迫用其他手段，方法之一是 `暴力尝试` ，我们上次讨论过，尝试所有可能的密码，直到进入系统。
 
@@ -73,17 +73,17 @@
 
 假设缓冲区大小是 10，两个文本缓冲区看起来会像这样：
 
-<img src="http://niu.ochiamalu.xyz/image-20231102163521903.png" alt="image-20231102163521903" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102163521903.png" alt="image-20231102163521903" style="zoom:80%;margin:0 auto" />
 
 当然，操作系统记录的远不止用户名和密码，所以缓冲区前后肯定有 **其他数据** ，当用户输入用户名和密码时，这些值会复制到缓冲区，然后验证是否正确。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102163537997.png" alt="image-20231102163537997" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102163537997.png" alt="image-20231102163537997" style="zoom:80%;margin:0 auto" />
 
 `缓冲区溢出` 正如名字所暗示的：它会溢出缓冲区。
 
 在这个例子中，超过十个字符的密码，会 **覆盖** 掉相邻的数据，有时只会让程序或系统崩溃，因为重要值被垃圾数据覆盖了。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102163620677.png" alt="image-20231102163620677" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102163620677.png" alt="image-20231102163620677" style="zoom:80%;margin:0 auto" />
 
 系统崩溃是坏事，但也许恶作剧黑客就只是想系统崩溃，当个讨厌鬼，但攻击者可以更巧妙地利用这个 `漏洞` (bug)
 ，注入有意义的新值到程序的内存中，比如把 `is_admin` 的值改成 `true` 。
@@ -114,7 +114,7 @@
 时，值会发到服务器，服务器会运行代码，检查用户名是否存在，如果存在，看密码是否匹配，为了做检查，服务器会执行一段叫 `SQL查询`
 的代码。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102164412688.png" alt="image-20231102164412688" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102164412688.png" alt="image-20231102164412688" style="zoom:80%;margin:0 auto" />
 
 看起来像这样，我们提交 `username` 和 `password` 后，服务器会去数据库里查数据，如果有匹配到的数据，那么就说明账号密码相匹配，也就可以登录。
 
@@ -147,7 +147,7 @@ SELECT * FROM user WHERE username = 'phibin' AND password = 'socks123' OR ’1�
 当软件制造者不知道软件有新漏洞被发现了，那么这个漏洞叫 `零日漏洞` （zero day
 vulnerability），黑帽黑客经常赶时间，抢在白帽程序员做出补丁之前，尽可能利用漏洞，所以保持系统更新非常重要，很多更新都是安全性补丁。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102165209591.png" alt="image-20231102165209591" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102165209591.png" alt="image-20231102165209591" style="zoom:80%;margin:0 auto" />
 
 ### 蠕虫和僵尸网络
 
@@ -157,7 +157,7 @@ vulnerability），黑帽黑客经常赶时间，抢在白帽程序员做出补�
 
 可以用于很多目的，比如发大量垃圾邮件，用别人电脑的计算能力和电费挖比特币，或发起 `拒绝服务攻击` 简称 **DDoS** ，攻击服务器。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102165249565.png" alt="image-20231102165249565" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102165249565.png" alt="image-20231102165249565" style="zoom:80%;margin:0 auto" />
 
 DDoS 就是僵尸网络里的所有电脑发一大堆 **垃圾信息** ，堵塞服务器，要么迫使别人交钱消灾，或纯粹为了作恶。
 
@@ -167,7 +167,7 @@ DDoS 就是僵尸网络里的所有电脑发一大堆 **垃圾信息** ，堵塞
 这使得政府非常担心，因为基础设施越来越电脑化，比如电力厂，电网，交通灯，水处理厂，炼油厂，空管，还有很多其他关键系统，很多专家预测下一次大战会主要是
 **网络战争** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231102165325977.png" alt="image-20231102165325977" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231102165325977.png" alt="image-20231102165325977" style="zoom:80%;margin:0 auto" />
 
 国家不是被物理攻击打败，而是因为网络战争导致经济和基础设施崩溃，也许不会发射一颗子弹，但是人员伤亡的可能性依然很高，甚至可能高于传统战争。
 

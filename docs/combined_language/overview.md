@@ -129,4 +129,4 @@ IBM PC 兼容机，这两种情况所使用的硬件相同，所以目标代码�
 
 对于库代码，链接器只会把程序中要用到的库函数代码提取出来。
 
-<img src="http://niu.ochiamalu.xyz/image-20231110183418721.png" alt="image-20231110183418721" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231110183418721.png" alt="image-20231110183418721" style="zoom:80%;margin:0 auto" />

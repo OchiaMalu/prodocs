@@ -12,7 +12,7 @@
 
 忽然间 ， 把整台计算机做到一张电路板上成为可能，大大地降低了制造成本。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025154941336.png" alt="image-20231025154941336" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025154941336.png" alt="image-20231025154941336" style="zoom:80%;margin:0 auto" />
 
 而且，那时有便宜可靠的储存介质 ， 比如 **磁带** 和 **软盘** ，最后是 低成本的 **显示器**  ， 通常是电视机稍作改装而成。
 
@@ -35,16 +35,16 @@
 
 不过第一台取得商业成功的个人计算机 ， 争议较小： `Altair 8800` ，首次亮相在 1975 年 **《Popular Electronics》** 封面。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155133745.png" alt="image-20231025155133745" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155133745.png" alt="image-20231025155133745" style="zoom:80%;margin:0 auto" />
 
 售价 $439 美元，需要自己组装，计算通货膨胀后，相当如今的 2000 美元左右，不算小钱，但比起 1975 年的其它计算机，算是非常便宜了。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155212667.png" alt="image-20231025155212667" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155212667.png" alt="image-20231025155212667" style="zoom:80%;margin:0 auto" />
 
 各种需要自己组装的组件包 ，卖给了计算机爱好者，因为买的人多，很快相关产品出现了，比如 **内存** ， **纸带读取器** ，甚至 **电传接口
 ** ，让你可以从纸带上读取更长更复杂的程序，然后用电传终端交互，但程序还是要用 **机器码** 写。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155255515.png" alt="image-20231025155255515" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155255515.png" alt="image-20231025155255515" style="zoom:80%;margin:0 auto" />
 
 ## Altair BASIC 和微软起源
 
@@ -82,7 +82,7 @@ interpreter)。
 就像 `Altair 8800` 一样，`Apple-I` 也是作为套件出售，`Apple-I` 吸引了业余爱好者 ，
 不介意机器买回来自己组装，但个人消费者和公司对 `Apple-I`  不感兴趣。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155524401.png" alt="image-20231025155524401" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155524401.png" alt="image-20231025155524401" style="zoom:80%;margin:0 auto" />
 
 ### Apple - II
 
@@ -91,16 +91,16 @@ interpreter)。
 
 `Apple-II` 卖了上百万套，把苹果公司推到了个人计算机行业的前沿。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155559777.png" alt="image-20231025155559777" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155559777.png" alt="image-20231025155559777" style="zoom:80%;margin:0 auto" />
 
 第二款是 `TRS-80 1型` ，由 **Tandy** 公司生产，由 **Radioshack** 销售，所以叫 **TRS** ，虽然不如 `Apple-II` 先进 ，
 但因为价格只有一半，所以卖得很火爆。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155620370.png" alt="image-20231025155620370" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155620370.png" alt="image-20231025155620370" style="zoom:80%;margin:0 auto" />
 
 最后一款是 `Commodore PET 2001` ，有一体化设计，集成了计算机，显示器，键盘和磁带驱动器，目标是吸引普通消费者。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155647026.png" alt="image-20231025155647026" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155647026.png" alt="image-20231025155647026" style="zoom:80%;margin:0 auto" />
 
 计算机和家用电器之间的界限开始变得模糊，这 3 台计算机被称为1977年的 **三位一体** ，它们都自带了 `BASIC 解释器`
 ，让不那么精通计算机的人也能用 BASIC 写程序。
@@ -111,7 +111,7 @@ interpreter)。
 
 最火的是 1979 年的 `VisiCalc` ，第一个电子表格程序，比纸好无数倍，是微软 `Excel` 和 `Google Sheets` 的老祖先。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155708577.png" alt="image-20231025155708577" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155708577.png" alt="image-20231025155708577" style="zoom:80%;margin:0 auto" />
 
 但这些计算机带来的最大影响，也许是他们的营销策略，它们针对普通消费者，而不是企业和爱好者，这是第一次大规模的计算机出现在家庭，小公司，以及学校中。
 
@@ -124,7 +124,7 @@ interpreter)。
 
 1980 年 IBM 最便宜的计算机 ， `5120` 的价格大概是一万美元，永远也没法和 `Apple-II` 这样的计算机竞争，意味着要从头开始。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155750050.png" alt="image-20231025155750050" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155750050.png" alt="image-20231025155750050" style="zoom:80%;margin:0 auto" />
 
 一个由十二名工程师组成的精干团队（后来叫"肮脏十二人"），被派往佛罗里达州的 ，  **博卡拉顿** （Boca Raton）办公室，让他们独立工作，不受
 IBM 内部的政治斗争干扰 ， 他们想怎么设计怎么设计。
@@ -139,11 +139,11 @@ IBM 内部的政治斗争干扰 ， 他们想怎么设计怎么设计。
 
 长期信任 IBM 品牌的企业买了很多，但最有影响力的是 ， 它使用 `开放式架构` （open architecture）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155839459.png" alt="image-20231025155839459" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155839459.png" alt="image-20231025155839459" style="zoom:80%;margin:0 auto" />
 
 有良好的文档和扩展槽，使得第三方可以做硬件/外设，包括显卡，声卡，外置硬盘，游戏控制杆 ， 以及无数其它组件。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155911836.png" alt="image-20231025155911836" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155911836.png" alt="image-20231025155911836" style="zoom:80%;margin:0 auto" />
 
 ### IBM 兼容
 
@@ -152,7 +152,7 @@ IBM 内部的政治斗争干扰 ， 他们想怎么设计怎么设计。
 意味着如果买了 **IBM兼容** 的计算机，你可以用庞大生态系统中的其它软硬件，开放架构也意味着竞争对手公司可以遵循这个标准，做出自己的
 **IBM 兼容** 计算机。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025155950811.png" alt="image-20231025155950811" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025155950811.png" alt="image-20231025155950811" style="zoom:80%;margin:0 auto" />
 
 很快，康柏和戴尔也开始卖 PC ，微软很乐意把 MS-DOS 授权给他们，使 DOS 迅速成为最受欢迎的 PC 操作系统。
 
@@ -169,7 +169,7 @@ IBM 内部的政治斗争干扰 ， 他们想怎么设计怎么设计。
 
 即自己设计一切，用户一般无法加新硬件到计算机中，意味着苹果公司要做自己的计算机，自己的操作系统，还有自己的外围设备，如显示器，键盘和打印机。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025160035356.png" alt="image-20231025160035356" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025160035356.png" alt="image-20231025160035356" style="zoom:80%;margin:0 auto" />
 
 通过控制整个范围，从硬件到软件，苹果能控制用户体验并提高可靠性，不同的商业策略是 **Mac vs PC 谁更好**
 这种争论的起源，这些争论如今还存在 。
@@ -180,4 +180,4 @@ IBM 内部的政治斗争干扰 ， 他们想怎么设计怎么设计。
 更好的用户体验，他们的答案是  `Macintosh` ，于 1984 年发布，一台突破性，价格适中的一体式计算机 ， 用的不是命令行界面，而是 *
 *图形界面** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231025160116529.png" alt="image-20231025160116529" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231025160116529.png" alt="image-20231025160116529" style="zoom:80%;margin:0 auto" />

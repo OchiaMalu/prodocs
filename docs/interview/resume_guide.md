@@ -8,7 +8,7 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 简历是一个人的**门面**，是面试官了解你的第一步，酒香也怕巷子深，如果你只有技术但是不知道怎么展现那也是白搭。如果简历都不过关，哪来的面试？
 
-<img src="http://niu.ochiamalu.xyz/image-20231002194406559.png" alt="image-20231002194406559" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231002194406559.png" alt="image-20231002194406559" style="zoom:80%;margin:0 auto" />
 
 ## 什么时候准备简历？
 
@@ -36,11 +36,11 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 错误示范：
 
-<img src="http://niu.ochiamalu.xyz/image-20231002195442601.png" alt="image-20231002195442601" style="zoom:50%;" />
+<img src="http://niu.ochiamalu.top/image-20231002195442601.png" alt="image-20231002195442601" style="zoom:50%;" />
 
 正确示范：
 
-<img src="http://niu.ochiamalu.xyz/image-20231002195537762.png" alt="image-20231002195537762" style="zoom:50%;" />
+<img src="http://niu.ochiamalu.top/image-20231002195537762.png" alt="image-20231002195537762" style="zoom:50%;" />
 
 那花里胡哨的东西自己都看不清，面试官一天看几千份简历换你你会看下去吗？
 
@@ -113,7 +113,7 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 3. 将熟练掌握的东西写在前面。
 4. 参考招聘网站中"岗位要求"
 
-<img src="http://niu.ochiamalu.xyz/image-20231002201748588.png" alt="image-20231002201748588" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231002201748588.png" alt="image-20231002201748588" style="zoom:80%;margin:0 auto" />
 
 ### 个人奖项
 

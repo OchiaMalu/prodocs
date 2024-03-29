@@ -3,7 +3,7 @@
 这台 1960 年的 `PDP-1`  ，是一个早期 **图形计算机** 的好例子，你可以看到左边是柜子大小的 `电脑` ，中间是 `电传打字机`
 ，右边是一个圆形的 `屏幕` ，注意它们是分开的，因为当时文本任务和图形任务是分开的。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130128097.png" alt="image-20231023130128097" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130128097.png" alt="image-20231023130128097" style="zoom:80%;margin:0 auto" />
 
 事实上，早期的屏幕无法显示清晰的文字，而打印到纸上有更高的对比度和分辨率。
 
@@ -13,14 +13,14 @@
 
 但屏幕超有用，到1960年代，人们开始用屏幕做很多酷炫的事情。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130336709.png" alt="image-20231023130336709" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130336709.png" alt="image-20231023130336709" style="zoom:80%;margin:0 auto" />
 
 ## 阴极射线管
 
 几十年间出现了很多显示技术，但最早最有影响力的是 `阴极射线管`（CRT），原理是把电子发射到
 有磷光体涂层的屏幕上，当电子撞击涂层时会发光几分之一秒，由于电子是带电粒子，路径可以用磁场控制。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130422045.png" alt="image-20231023130422045" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130422045.png" alt="image-20231023130422045" style="zoom:80%;margin:0 auto" />
 
 屏幕内用板子或线圈把电子引导到想要的位置，上下左右都行。
 
@@ -28,18 +28,18 @@
 
 1. 引导 **电子束** 描绘出形状，这叫 `矢量扫描` （Vector Scanning），因为发光只持续一小会儿，如果重复得 **足够快** ，可以得到清晰的图像。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130454293.png" alt="image-20231023130454293" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130454293.png" alt="image-20231023130454293" style="zoom:80%;margin:0 auto" />
 
 2. 按固定路径，一行行来，从上向下，从左到右，不断重复，只在特定的点打开电子束，以此绘制图形，这叫 `光栅扫描` （Raster
    Scanning），用这种方法，可以用很多小线段绘制形状，甚至文字。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130529516.png" alt="image-20231023130529516" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130529516.png" alt="image-20231023130529516" style="zoom:80%;margin:0 auto" />
 
 ## 液晶显示屏
 
 最后，因为显示技术的发展，我们终于可以在屏幕上显示清晰的点，叫 `像素` （pixels）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130556460.png" alt="image-20231023130556460" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130556460.png" alt="image-20231023130556460" style="zoom:80%;margin:0 auto" />
 
 `液晶显示器` ，简称 **LCD** ，和以前的技术相当不同，但 LCD 也用 `光栅扫描` ，每秒更新多次像素里红绿蓝的颜色。
 
@@ -52,7 +52,7 @@
 
 早期计算机不存大量像素值而是存 **符号** ，80 x 25 个符号最典型，总共 2000 个字符。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130640262.png" alt="image-20231023130640262" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130640262.png" alt="image-20231023130640262" style="zoom:80%;margin:0 auto" />
 
 如果每个字符用 8 位表示，比如用 ASCII ，总共才 16000 位，这种大小更合理。
 
@@ -75,11 +75,11 @@ buffer），程序想显示文字时，修改这块区域里的值就行。
 
 但字符集实在太小，做不了什么复杂的事，因此对 ASCII 进行了各种扩展，加新字符，比如下图的 `IBM CP437` 字符集，用于 DOS。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130843175.png" alt="image-20231023130843175" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130843175.png" alt="image-20231023130843175" style="zoom:80%;margin:0 auto" />
 
 某些系统上，可以用额外的 bit 定义字体颜色和背景颜色做出这样的 DOS 界面，这界面只用了刚刚提到的字符集。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023130917070.png" alt="image-20231023130917070" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023130917070.png" alt="image-20231023130917070" style="zoom:80%;margin:0 auto" />
 
 `字符生成器` 是一种省内存的技巧，但没办法绘制任意形状，绘制任意形状很重要，因为电路设计，建筑平面图，地图，好多东西都不是文字！
 
@@ -119,7 +119,7 @@ INTENSITY 100 ，把强度设为 100 。
 最早的电子游戏之一，`Spacewar` 是 1962 年在 PDP-1 上用矢量图形制作的。它启发了许多后来的游戏，比如 `爆破彗星` (Asteroids)
 ，甚至第一个商业街机游戏：`太空大战` （Computer Space）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023131159001.png" alt="image-20231023131159001" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023131159001.png" alt="image-20231023131159001" style="zoom:80%;margin:0 auto" />
 
 ## Sketchpad
 
@@ -129,17 +129,17 @@ INTENSITY 100 ，把强度设为 100 。
 
 为了与图形界面交互， `Sketchpad` 用了当时发明不久的输入设备 `光笔` （light pen），就是一个有线连着电脑的触控笔。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023131256365.png" alt="image-20231023131256365" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023131256365.png" alt="image-20231023131256365" style="zoom:80%;margin:0 auto" />
 
 笔尖用光线传感器，可以检测到显示器刷新，通过判断刷新时间，电脑可以知道笔的位置，有了光笔和各种按钮，用户可以画线和其他简单形状。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023131318798.png" alt="image-20231023131318798" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023131318798.png" alt="image-20231023131318798" style="zoom:80%;margin:0 auto" />
 
 `Sketchpad` 可以让线条完美平行，长度相同，完美垂直90度，甚至动态缩放，这些在纸上很费力，在计算机上非常简单！
 
 用户还可以保存设计结果，方便以后再次使用，甚至和其他人分享。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023131454140.png" alt="image-20231023131454140" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023131454140.png" alt="image-20231023131454140" style="zoom:80%;margin:0 auto" />
 
 你可以有一整个库，里面有电子元件和家具之类的，可以直接拖进来用。
 
@@ -162,7 +162,7 @@ VRAM 在显卡上，这样访问更快，如今就是这样做的。
 
 在 8 位灰度屏幕上，我们可用的颜色范围是 0 强度（黑色），到 255 强度（白色），其实更像绿色或橙色，因为许多早期显示器不能显示白色。
 
-<img src="http://niu.ochiamalu.xyz/image-20231023131556220.png" alt="image-20231023131556220" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231023131556220.png" alt="image-20231023131556220" style="zoom:80%;margin:0 auto" />
 
 我们假设，这个视频在低分辨率的位图屏幕上，分辨率 60 x 35 像素。
 

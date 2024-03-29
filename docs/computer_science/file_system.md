@@ -13,11 +13,11 @@
 
 来看一些简单文件格式，最简单的是文本文件，也叫 TXT 文件, 里面包含的是 **文字** ，就像所有其它文件，文本文件只是一长串二进制数，原始值看起来会像这样：
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175153566.png" alt="image-20231021175153566" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175153566.png" alt="image-20231021175153566" style="zoom:80%;margin:0 auto" />
 
 可以转成十进制看，但帮助不大，解码数据的关键是 **ASCII** 编码，一种字符编码标准。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175204039.png" alt="image-20231021175204039" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175204039.png" alt="image-20231021175204039" style="zoom:80%;margin:0 auto" />
 
 第一个值 72 在 ASCII 中是大写字母 H ，以此类推解码其他数字。
 
@@ -28,27 +28,27 @@
 
 元数据存在文件开头，在实际数据前面，因此也叫 `文件头` (Header)，WAV 文件的前 44 个字节长这样。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175256039.png" alt="image-20231021175256039" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175256039.png" alt="image-20231021175256039" style="zoom:80%;margin:0 auto" />
 
 有的部分总是一样的，比如写着 WAVE 的部分，其他部分的内容，会根据数据变化， **音频数据** 紧跟在 **元数据**
 后面，是一长串数字，数字代表 <u>每秒捕获多次的声音幅度</u> 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175325720.png" alt="image-20231021175325720" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175325720.png" alt="image-20231021175325720" style="zoom:80%;margin:0 auto" />
 
 > 扬声器通过震动发出声音。
 
 举个例子，看一下 `你好` 的波形。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175359544.png" alt="image-20231021175359544" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175359544.png" alt="image-20231021175359544" style="zoom:80%;margin:0 auto" />
 
 现在捕获到了一些声音，我们放大看一下，电脑和手机麦克风，每秒可以对声音进行上千次采样，每次采样可以用一个数字表示，声压越高数字越大，也叫 `振幅`
 （amplitude）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175432484.png" alt="image-20231021175432484" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175432484.png" alt="image-20231021175432484" style="zoom:80%;margin:0 auto" />
 
 WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175521850.png" alt="image-20231021175521850" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175521850.png" alt="image-20231021175521850" style="zoom:80%;margin:0 auto" />
 
 播放声音文件时，扬声器会产生相同的波形。
 
@@ -60,22 +60,22 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 就像 WAV 文件一样，BMP 文件开头也是元数据，有 `图片宽度` ，`图片高度` ，`颜色深度` 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175543063.png" alt="image-20231021175543063" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175543063.png" alt="image-20231021175543063" style="zoom: 80%;margin:0 auto" />
 
 举例，假设元数据说图是 4像素宽 x 4像素高，颜色深度 24 位， 8 位红色，8 位绿色，8 位蓝色，8位 (bit) 和 1字节(byte)
 是一回事，一个字节能表示的最小数是 0，最大 255。
 
 图像数据看起来会类似这样。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175655407.png" alt="image-20231021175655407" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175655407.png" alt="image-20231021175655407" style="zoom:80%;margin:0 auto" />
 
 来看看第一个像素的颜色，红色是 255 ，绿色是 255 ，蓝色也是 255 ，这等同于全强度红色，全强度绿色和全强度蓝色。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175732134.png" alt="image-20231021175732134" style="zoom:150%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175732134.png" alt="image-20231021175732134" style="zoom:150%;margin:0 auto" />
 
 混合在一起变成白色，所以第一个像素是白色！
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175744981.png" alt="image-20231021175744981" style="zoom:150%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175744981.png" alt="image-20231021175744981" style="zoom:150%;margin:0 auto" />
 
 下一个像素的红绿蓝值，或 **RGB** 值 255,255,0 是黄色！
 
@@ -83,7 +83,7 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 下一个是黄色。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175808240.png" alt="image-20231021175808240" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175808240.png" alt="image-20231021175808240" style="zoom:80%;margin:0 auto" />
 
 因为元数据说图片是 4x4 我们知道现在到了第一行结尾，所以换一行。
 
@@ -91,7 +91,7 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 好，我们读完剩下的像素，一个低像素的吃豆人。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175828549.png" alt="image-20231021175828549" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175828549.png" alt="image-20231021175828549" style="zoom:80%;margin:0 auto" />
 
 ## 文件系统
 
@@ -103,33 +103,33 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 虽然硬件可能是磁带，磁鼓，磁盘或集成电路，通过软硬件抽象后，可以看成一排能存数据的桶。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175951225.png" alt="image-20231021175951225" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175951225.png" alt="image-20231021175951225" style="zoom:80%;margin:0 auto" />
 
 在很早期时，计算机只做一件事，比如算火炮射程表，整个储存器就像一整个文件，数据从头存到尾，直到占满。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021175937206.png" alt="image-20231021175937206" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021175937206.png" alt="image-20231021175937206" style="zoom:80%;margin:0 auto" />
 
 但随着计算能力和存储容量的提高，存多个文件变得非常有用，最简单的方法是把文件 **连续存储** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180015569.png" alt="image-20231021180015569" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180015569.png" alt="image-20231021180015569" style="zoom:80%;margin:0 auto" />
 
 这样能用，但怎么知道文件开头和结尾在哪里？储存器没有文件的概念，只是存储大量 **位** ，所以为了存多个文件，需要一个 **特殊文件
 ** ，记录其他文件的位置，这个特殊文件有很多名字，这里泛称 `目录文件` （Directory File）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180037718.png" alt="image-20231021180037718" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180037718.png" alt="image-20231021180037718" style="zoom:80%;margin:0 auto" />
 
 这个文件经常存在最开头，方便找，位置 0！
 
 目录文件里，存所有其他文件的名字，格式是 `文件名 + 一个句号 + 扩展名` ，比如 **BMP** 或 **WAV** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180056096.png" alt="image-20231021180056096" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180056096.png" alt="image-20231021180056096" style="zoom:80%;margin:0 auto" />
 
 扩展名帮助得知文件类型，目录文件还存文件的 **元数据** ，比如`创建时间`，`最后修改时间`，`文件所有者是谁`，是否能 `读/写`
 或 `读写都行` 。
 
 最重要的是，目录文件有文件 **起始位置** 和 **长度** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180123064.png" alt="image-20231021180123064" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180123064.png" alt="image-20231021180123064" style="zoom:80%;margin:0 auto" />
 
 如果要添加文件，删除文件，更改文件名等，必须 **更新** 目录文件。
 
@@ -140,22 +140,22 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 当然，把文件前后排在一起有个 **问题** ，如果给 todo.txt 加一点数据会 **覆盖** 掉后面 carrie.bmp 的一部分，所以现代文件系统会做两件事。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180213329.png" alt="image-20231021180213329" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180213329.png" alt="image-20231021180213329" style="zoom:80%;margin:0 auto" />
 
 1. 把空间划分成一块块，导致有一些 `预留空间` 可以方便改动，同时也方便管理。用这样的方案，目录文件要记录文件在哪些块里。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180228983.png" alt="image-20231021180228983" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180228983.png" alt="image-20231021180228983" style="zoom:80%;margin:0 auto" />
 
 1. 拆分文件，存在多个块里。假设打开 todo.txt 加了些内容，文件太大存不进一块里，我们不想覆盖掉隔壁的块，所以文件系统会分配 一个
    **没使用的块** ，容纳额外的数据。
 
 目录文件会记录不止一个块，而是多个块，只要分配块，文件可以轻松增大缩小，这听起来很像 `虚拟内存` （Virtual Memory）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180337080.png" alt="image-20231021180337080" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180337080.png" alt="image-20231021180337080" style="zoom:80%;margin:0 auto" />
 
 假设想删掉 carrie.bmp ，只需要在目录文件删掉那条记录，让一块空间变成了可用。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180403730.png" alt="image-20231021180403730" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180403730.png" alt="image-20231021180403730" style="zoom:80%;margin:0 auto" />
 
 注意这里没有 **擦除数据** ，只是把记录删了，之后某个时候，那些块会被新数据 **覆盖** ，但在此之前，数据还在原处。
 
@@ -177,11 +177,11 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 这个词听起来好像很复杂，但实际过程很简单，计算机会把数据来回移动，排列成正确的顺序，整理后 todo.txt 在 1 2 3，方便读取。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180612986.png" alt="image-20231021180612986" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180612986.png" alt="image-20231021180612986" style="zoom:80%;margin:0 auto" />
 
 <br/>
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180632616.png" alt="image-20231021180632616" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180632616.png" alt="image-20231021180632616" style="zoom:80%;margin:0 auto" />
 
 ### 分层文件系统
 
@@ -189,12 +189,12 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 但内存容量爆炸式增长，文件数量也飞速增长，很快，所有文件都存在同一层变得不切实际，就像现实世界相关文件放在同一个文件夹会方便很多，然后文件夹套文件夹。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180744151.png" alt="image-20231021180744151" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180744151.png" alt="image-20231021180744151" style="zoom:80%;margin:0 auto" />
 
 这叫 `分层文件系统` （Hierarchical File System），实现方法有很多种，最大的变化是 <u>目录文件不仅要指向文件,
 还要区分目录</u> 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180807666.png" alt="image-20231021180807666" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180807666.png" alt="image-20231021180807666" style="zoom:80%;margin:0 auto" />
 
 我们需要额外 **元数据**  来区分开 `文件` 和 `目录` 。
 
@@ -203,11 +203,11 @@ WAVE 文件里存的就是这些数据，每秒上千次的振幅！
 
 如果想知道 `音乐` 文件夹里有什么，必须去那边读取目录文件（格式和根目录文件一样）。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180854696.png" alt="image-20231021180854696" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180854696.png" alt="image-20231021180854696" style="zoom:80%;margin:0 auto" />
 
 除了能做无限深度的文件夹，这个方法也让我们可以轻松移动文件，如果想把 theme.wav 从根目录移到音乐目录，不用移动任何数据块，只需要改两个目录文件，一个文件里
 **删一条记录** ，另一个文件里 **加一条记录** ，theme.wav **依然** 在块 5 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231021180922681.png" alt="image-20231021180922681" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231021180922681.png" alt="image-20231021180922681" style="zoom:80%;margin:0 auto" />
 
 文件系统使我们不必关心文件在磁带或磁盘的 **具体位置** ，整理和访问文件更加方便。

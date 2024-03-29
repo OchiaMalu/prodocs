@@ -3,7 +3,7 @@
 上次我们写入不同指令，让 CPU 执行不同任务，但我们还没讲的是：程序如何 **进入** 计算机。当时为了简单，我们假设程序已经魔法般在内存里了，但事实是，程序需要
 **加载** 进内存。
 
-<img src="http://niu.ochiamalu.xyz/image-20231007140654539.png" alt="image-20231007140654539" style="zoom: 67%;" />
+<img src="http://niu.ochiamalu.top/image-20231007140654539.png" alt="image-20231007140654539" style="zoom: 67%;" />
 
 ## 雅卡尔织布机
 
@@ -11,13 +11,13 @@
 
 最著名的例子来自纺织业，如果你只想织一块红色大桌布，可以直接放红线进织布机，但如果想要图案怎么办? 比如条纹或者方格。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010140315114.png" alt="image-20231010140315114" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010140315114.png" alt="image-20231010140315114" style="zoom: 67%;margin:0 auto" />
 
 工人要每隔一会儿 调整一次织布机，因为非常消耗劳动力，所以图案纺织品很贵。
 
 因此法国发明家 **约瑟夫·玛丽·雅卡尔** 发明了可编程纺织机，每一行的图案由可穿孔纸卡决定，特定位置有没有穿孔，决定了线是高是低。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010140401596.png" alt="image-20231010140401596" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010140401596.png" alt="image-20231010140401596" style="zoom: 67%;margin:0 auto" />
 
 为了让每行图案不同，纸卡连成长条，很多人认为雅卡尔织布机是最早的编程。
 
@@ -27,7 +27,7 @@
 
 近一个世纪后，穿孔纸卡用于 **1890 年美国人口普查** ，一张卡存一个人的信息，比如种族、婚姻状况、子女数量、出生国家等等。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010140503575.png" alt="image-20231010140503575" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010140503575.png" alt="image-20231010140503575" style="zoom:50%;margin:0 auto" />
 
 针对每个问题，人口普查工作者会在对应位置打孔，当卡片插入汇总机孔会让对应总和值 +1 。
 
@@ -39,7 +39,7 @@
 
 为了正确执行不同计算，程序员需要某种控制面板。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010140641890.png" alt="image-20231010140641890" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010140641890.png" alt="image-20231010140641890" style="zoom:50%;margin:0 auto" />
 
 面板有很多小插孔，程序员可以插电线面板有很多小插孔，程序员可以插电线，让机器的不同部分 互相传数据和信号，因此也叫 **插线板
 ** 。
@@ -48,19 +48,19 @@
 
 但给插线板编程很复杂，图中乱成一团的线 负责算盈亏总额，用于 IBM 402 核算机。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010140708968.png" alt="image-20231010140708968" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010140708968.png" alt="image-20231010140708968" style="zoom:50%;margin:0 auto" />
 
 在 1940 年代这样做很流行，用插线板编程不只在机电计算机流行，世上第一台通用电子计算机， **ENIAC** ，完成于 1946
 年，用了一大堆插线板，程序在纸上设计好之后，给 ENIAC 连线，最多可能花三个星期。
 
-<img src="http://niu.ochiamalu.xyz/image-20231003221708478.png" alt="image-20231003221708478" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231003221708478.png" alt="image-20231003221708478" style="zoom:50%;margin:0 auto" />
 
 ## 存储程序计算机
 
 人们急需更快、更灵活的新方式来编程，幸运的是，到 1940 年代晚期 1950 年代初，内存变得可行，价格下降, 容量上升.
 与其把程序存在插线板，存在内存变得可行，这样程序易于修改、方便 CPU 快速读取，这类机器叫 `存储程序计算机` 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010141238240.png" alt="image-20231010141238240" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010141238240.png" alt="image-20231010141238240" style="zoom:50%;margin:0 auto" />
 
 ## 冯诺依曼计算机
 
@@ -75,19 +75,19 @@
 
 第一台冯诺依曼架构的 **储存程序计算机** ，由曼彻斯特大学于 1948 年建造完成，绰号 `宝宝` （Baby），甚至现在的计算机也同样使用了这种架构。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010141717369.png" alt="image-20231010141717369" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010141717369.png" alt="image-20231010141717369" style="zoom:50%;margin:0 auto" />
 
 ## SAGE 防空系统
 
 到1980年代，几乎所有的计算机都有 **穿孔纸卡读取器** （punch card
 reader），可以吸入一张卡片，把卡片内容写进内存，如果放了一叠卡片，读取器会一个个写进内存，一旦程序和数据写入完毕，电脑会开始执行。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010142148284.png" alt="image-20231010142148284" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010142148284.png" alt="image-20231010142148284" style="zoom: 67%;margin:0 auto" />
 
 即便简单程序也有几百条指令，要用一叠纸卡来存，如果不小心摔倒弄撒了，要花上几小时、几天、甚至几周来整理，有个小技巧是
 在卡片侧面画对角线，如果弄散了，整理起来会方便很多。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010142309021.png" alt="image-20231010142309021" style="zoom:200%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010142309021.png" alt="image-20231010142309021" style="zoom:200%;margin:0 auto" />
 
 用纸卡的最大型程序是美国空军的 **SAGE 防空系统** ，于 1955 年完成，据称顶峰时期 雇佣了世上 20% 程序员。主控制程序用了 62500
 张穿孔纸卡，等同于大约 **5MB** 的数据。
@@ -99,7 +99,7 @@ reader），可以吸入一张卡片，把卡片内容写进内存，如果放�
 
 穿孔纸卡的亲戚是 **纸带** （punched paper tape），基本是一回事，只不过更连续，不是一张张卡。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010142520694.png" alt="image-20231010142520694" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010142520694.png" alt="image-20231010142520694" style="zoom:67%;margin:0 auto" />
 
 ## 面板编程
 
@@ -107,7 +107,7 @@ reader），可以吸入一张卡片，把卡片内容写进内存，如果放�
 
 与其插一堆线到插线板，可以用一大堆开关和按钮，做到一样的效果。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010143143859.png" alt="image-20231010143143859" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010143143859.png" alt="image-20231010143143859" style="zoom:50%;margin:0 auto" />
 
 面板上有指示灯，代表各种函数的状态和内存中的值，50 和 60 年代的计算机，一般都有这样巨大的控制台。
 
@@ -121,7 +121,7 @@ reader），可以吸入一张卡片，把卡片内容写进内存，如果放�
 
 计算机爱好者喜欢买 **组件版** ，售价极低，在 1975 年卖 400 美元左右，相当于现在的 2000 美元。
 
-<img src="http://niu.ochiamalu.xyz/image-20231010143225954.png" alt="image-20231010143225954" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231010143225954.png" alt="image-20231010143225954" style="zoom:50%;margin:0 auto" />
 
 为了给 8800 编程，你要拨动面板上的开关，输入二进制操作码，然后按 `存储键` 把值存入内存，然后会到下一个内存位置，你可以再次拨开关，写下一个指令。
 

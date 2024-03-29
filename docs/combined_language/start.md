@@ -1,6 +1,6 @@
 # C 语言
 
-<img src="http://niu.ochiamalu.xyz/image-20231110125047346.png" alt="image-20231110125047346" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231110125047346.png" alt="image-20231110125047346" style="zoom:80%;margin:0 auto" />
 
 相信很多人都听说过 `C 语言` ，也有很多人将 C 语言 作为自己的第一个编程语言，特别是高校的科班学生，这无疑是非常正确的，C
 语言是少数可以直接操纵 **指针** 的高级语言，这使得 C 语言比起其他高级语言更加难学，但相对的，也将打下更牢固的基础。

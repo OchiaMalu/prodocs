@@ -4,7 +4,7 @@
 
 > 这个词由工程师 Margaret Hamilton 创造
 
-<img src="http://niu.ochiamalu.xyz/image-20231018153806117.png" alt="image-20231018153806117" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231018153806117.png" alt="image-20231018153806117" style="zoom:80%;margin:0 auto" />
 
 她帮助 NASA 在阿波罗计划中避免了严重问题。
 
@@ -14,11 +14,11 @@
 
 然而把代码打包成函数 **依然不够** ，如果只是这样，微软 Office 会有几十万个函数。
 
-<img src="http://niu.ochiamalu.xyz/image-20231018154502125.png" alt="image-20231018154502125" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231018154502125.png" alt="image-20231018154502125" style="zoom:80%;margin:0 auto" />
 
 解决办法是：<u>把函数打包成层级，把相关代码都放在一起，打包成对象（objects）</u>。
 
-<img src="http://niu.ochiamalu.xyz/image-20231018154514147.png" alt="image-20231018154514147" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231018154514147.png" alt="image-20231018154514147" style="zoom:80%;margin:0 auto" />
 
 例如，汽车软件中可能有几个和定速巡航有关的函数，比如  `设定速度` ， `逐渐加速减速` ， `停止定速巡航`
 ，因为这些函数都相关，可以包装成一个 `定速巡航对象` 。
@@ -27,7 +27,7 @@
 来包括所有 `子` 对象，除了子对象， `引擎对象` 可能有自己的函数，比如  `开关引擎`
 ，它也会有自己的变量，比如汽车行驶了多少英里，总的来说，对象可以包其它对象，函数和变量。
 
-<img src="http://niu.ochiamalu.xyz/image-20231018154429127.png" alt="image-20231018154429127" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231018154429127.png" alt="image-20231018154429127" style="zoom: 80%;margin:0 auto" />
 
 当然，`引擎对象` 只是"汽车对象"的一部分，还有传动装置，车轮，门，窗等。
 
@@ -50,7 +50,7 @@ API 控制哪些函数和数据让 **外部访问** 哪些 **仅供内部** 。
 
 `面向对象` 的编程语言 可以指定函数是 **public** 或 **private** ，来设置权限。
 
-<img src="http://niu.ochiamalu.xyz/image-20231018162237822.png" alt="image-20231018162237822" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231018162237822.png" alt="image-20231018162237822" style="zoom:80%;margin:0 auto" />
 
 如果函数标记成 **private** ，意味着 只有 **同一个对象** 内的其他函数能调用它。
 
@@ -69,7 +69,7 @@ API 控制哪些函数和数据让 **外部访问** 哪些 **仅供内部** 。
 
 工具里集成了很多有用功能帮助写代码，整理，编译和测试代码，因为集成了所有东西，因此叫 `集成开发环境` ，简称 **IDE** 。
 
-<img src="http://niu.ochiamalu.xyz/image-20231018162145987.png" alt="image-20231018162145987" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231018162145987.png" alt="image-20231018162145987" style="zoom:80%;margin:0 auto" />
 
 所有 IDE 都有写代码的界面，还带一些有用功能，比如 `代码高亮` ，来提高可读性，许多 IDE 提供实时检查，比如拼写，检查语法。
 
@@ -97,7 +97,7 @@ API 控制哪些函数和数据让 **外部访问** 哪些 **仅供内部** 。
 
 在代码托管平台中， README 文件会被展示在首页，让其他程序员 **初步** 了解你的代码。
 
-<img src="http://niu.ochiamalu.xyz/image-20231018160752389.png" alt="image-20231018160752389" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20231018160752389.png" alt="image-20231018160752389" style="zoom: 50%;margin:0 auto" />
 
 ## 注释
 
