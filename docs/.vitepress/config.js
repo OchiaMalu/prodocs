@@ -1,4 +1,5 @@
 import mathjax3 from 'markdown-it-mathjax3';
+
 const customElements = [
     'math',
     'maction',
@@ -297,6 +298,61 @@ export default {
                     {
                         text: 'PPT相关',
                         link: '/guide/resource-navigation#ppt相关',
+                    }
+                ]
+            },
+            {
+                text: '🏢官网导航',
+                items: [
+                    {
+                        text: '前端',
+                        items: [
+                            {
+                                text: 'Node.js',
+                                link: 'https://nodejs.org/zh-cn'
+                            },
+                            {
+                                text: 'Vue.js',
+                                link: 'https://cn.vuejs.org/'
+                            },
+                            {
+                                text: 'Vite3',
+                                link: 'https://cn.vitejs.dev/'
+                            },
+                            {
+                                text: 'VitePress',
+                                link: 'https://vitepress.dev/'
+                            },
+                            {
+                                text: 'Element',
+                                link: 'https://element.eleme.cn/#/zh-CN'
+                            },
+                            {
+                                text: 'Ant Design',
+                                link: 'https://ant-design.antgroup.com/index-cn'
+                            },
+                            {
+                                text: 'Vant4',
+                                link: 'https://vant-ui.github.io/vant/#/zh-CN'
+                            }
+                        ]
+                    },
+                    {
+                        text: '后端',
+                        items: [
+                            {
+                                text: 'Maven 仓库',
+                                link: 'https://mvnrepository.com/'
+                            },
+                            {
+                                text: 'Mybatis',
+                                link: 'https://mybatis.net.cn/index.html'
+                            },
+                            {
+                                text: 'Knife4j',
+                                link: 'https://doc.xiaominfo.com/'
+                            }
+                        ]
                     }
                 ]
             }
