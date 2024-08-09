@@ -6,7 +6,7 @@ import CustomLink from '/.vitepress/components/CustomLink.vue';
 
 :::tip
 
-文档内容还在不断更新以及建设中！本文档中关于升学（高考、专升本），考公等有地域性限制的指南均**以浙江为准**，在这类指南中会明确注明，请注意分辨。
+文档内容还在不断更新以及建设中！
 
 :::
 
