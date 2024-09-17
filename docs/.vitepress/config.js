@@ -561,6 +561,28 @@ export default {
                 ]
             },
             {
+                text: 'Java',
+                collapsed: true,
+                items: [
+                    {
+                        text: '写在前面',
+                        link: '/java/start'
+                    },
+                    {
+                        text: '概述',
+                        link: '/java/overview'
+                    },
+                    {
+                        text: '环境安装',
+                        link: '/java/environment'
+                    },
+                    {
+                        text: '第一个 Java 程序',
+                        link: '/java/first_program'
+                    }
+                ]
+            },
+            {
                 text: '高等数学',
                 collapsed: true,
                 items: [
