@@ -51,7 +51,7 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 然后选择对应的版本（X64代表32位系统的，X86代表64位系统）
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240917151550195.png" alt="image-20240917151550195" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.top/image-20240917151550195.png" alt="image-20240917151550195" style="zoom:67%;margin:0 auto" />
 
 ## 安装 JDK
 
