@@ -579,6 +579,10 @@ export default {
                     {
                         text: '第一个 Java 程序',
                         link: '/java/first_program'
+                    },
+                    {
+                        text: '数据类型',
+                        link: '/java/data_type'
                     }
                 ]
             },
