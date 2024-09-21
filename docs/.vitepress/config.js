@@ -595,6 +595,10 @@ export default {
                     {
                         text: '方法的定义及使用',
                         link: '/java/function'
+                    },
+                    {
+                        text: '面向对象简介',
+                        link: '/java/object_oriented_introduction'
                     }
                 ]
             },
