@@ -587,6 +587,10 @@ export default {
                     {
                         text: '运算符',
                         link: '/java/operator'
+                    },
+                    {
+                        text: '程序逻辑控制',
+                        link: '/java/logic_control'
                     }
                 ]
             },
