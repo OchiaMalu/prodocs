@@ -599,6 +599,10 @@ export default {
                     {
                         text: '面向对象简介',
                         link: '/java/object_oriented_introduction'
+                    },
+                    {
+                        text: '类与对象',
+                        link: '/java/class_object'
                     }
                 ]
             },
