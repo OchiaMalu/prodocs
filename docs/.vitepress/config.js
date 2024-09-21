@@ -591,6 +591,10 @@ export default {
                     {
                         text: '程序逻辑控制',
                         link: '/java/logic_control'
+                    },
+                    {
+                        text: '方法的定义及使用',
+                        link: '/java/function'
                     }
                 ]
             },
