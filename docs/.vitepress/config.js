@@ -603,6 +603,10 @@ export default {
                     {
                         text: '类与对象',
                         link: '/java/class_object'
+                    },
+                    {
+                        text: '封装性初步分析',
+                        link: '/java/encapsulation'
                     }
                 ]
             },
