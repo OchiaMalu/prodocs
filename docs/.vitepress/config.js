@@ -607,6 +607,10 @@ export default {
                     {
                         text: '封装性初步分析',
                         link: '/java/encapsulation'
+                    },
+                    {
+                        text: '构造方法',
+                        link: '/java/constructor'
                     }
                 ]
             },
