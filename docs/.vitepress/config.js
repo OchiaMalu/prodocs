@@ -611,6 +611,10 @@ export default {
                     {
                         text: '构造方法',
                         link: '/java/constructor'
+                    },
+                    {
+                        text: '匿名对象',
+                        link: '/java/anonymous_object'
                     }
                 ]
             },
