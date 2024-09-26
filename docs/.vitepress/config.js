@@ -767,6 +767,10 @@ export default {
                     {
                         text: '可变参数',
                         link: '/java/variable_parameters'
+                    },
+                    {
+                        text: 'foreach 循环',
+                        link: '/java/foreach'
                     }
                 ]
             },
