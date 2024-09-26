@@ -779,6 +779,10 @@ export default {
                     {
                         text: '泛型',
                         link: '/java/genericity'
+                    },
+                    {
+                        text: '枚举',
+                        link: '/java/enum'
                     }
                 ]
             },
