@@ -723,6 +723,10 @@ export default {
                     {
                         text: '单例设计模式',
                         link: '/java/singleton'
+                    },
+                    {
+                        text: '多例设计模式',
+                        link: '/java/multition'
                     }
                 ]
             },
