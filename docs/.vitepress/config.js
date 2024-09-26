@@ -711,6 +711,10 @@ export default {
                     {
                         text: 'jar 命令',
                         link: '/java/jar'
+                    },
+                    {
+                        text: '访问控制权限',
+                        link: '/java/access_permissions'
                     }
                 ]
             },
