@@ -731,6 +731,10 @@ export default {
                     {
                         text: '认识异常',
                         link: '/java/exception_overview'
+                    },
+                    {
+                        text: '处理异常',
+                        link: '/java/exception_handling'
                     }
                 ]
             },
