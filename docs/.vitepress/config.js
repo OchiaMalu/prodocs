@@ -743,6 +743,10 @@ export default {
                     {
                         text: 'throws 关键字',
                         link: '/java/throws'
+                    },
+                    {
+                        text: 'throw 关键字',
+                        link: '/java/throw'
                     }
                 ]
             },
