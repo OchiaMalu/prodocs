@@ -703,6 +703,10 @@ export default {
                     {
                         text: '包的导入',
                         link: '/java/package_import'
+                    },
+                    {
+                        text: '系统常见包',
+                        link: '/java/system_package'
                     }
                 ]
             },
