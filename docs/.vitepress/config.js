@@ -615,6 +615,50 @@ export default {
                     {
                         text: '匿名对象',
                         link: '/java/anonymous_object'
+                    },
+                    {
+                        text: '简单 Java 类',
+                        link: '/java/simple_class'
+                    },
+                    {
+                        text: '数组',
+                        link: 'java/array'
+                    },
+                    {
+                        text: 'String 类的基本概念',
+                        link: '/java/string'
+                    },
+                    {
+                        text: 'String 类的常用方法',
+                        link: '/java/string_method'
+                    },
+                    {
+                        text: 'this 关键字',
+                        link: '/java/this'
+                    },
+                    {
+                        text: '引用传递',
+                        link: '/java/reference_passing'
+                    },
+                    {
+                        text: '对象比较',
+                        link: '/java/object_compare'
+                    },
+                    {
+                        text: 'static 关键字',
+                        link: '/java/static'
+                    },
+                    {
+                        text: '代码块',
+                        link: '/java/block'
+                    },
+                    {
+                        text: '内部类',
+                        link: '/java/inner'
+                    },
+                    {
+                        text: '链表',
+                        link: '/java/list'
                     }
                 ]
             },
