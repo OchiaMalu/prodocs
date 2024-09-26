@@ -771,6 +771,10 @@ export default {
                     {
                         text: 'foreach 循环',
                         link: '/java/foreach'
+                    },
+                    {
+                        text: '静态导入',
+                        link: '/java/import_static'
                     }
                 ]
             },
