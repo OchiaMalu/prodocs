@@ -691,6 +691,10 @@ export default {
                     {
                         text: '匿名内部类',
                         link: '/java/anonymous_classes'
+                    },
+                    {
+                        text: '基本数据类型的包装类',
+                        link: '/java/packaging_category'
                     }
                 ]
             },
