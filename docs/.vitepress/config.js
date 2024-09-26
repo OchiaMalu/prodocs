@@ -675,6 +675,10 @@ export default {
                     {
                         text: '多态性',
                         link: 'java/polymorphism'
+                    },
+                    {
+                        text: '抽象类',
+                        link: '/java/abstract'
                     }
                 ]
             },
