@@ -663,6 +663,10 @@ export default {
                     {
                         text: '继承性',
                         link: '/java/extends'
+                    },
+                    {
+                        text: '覆写',
+                        link: '/java/override'
                     }
                 ]
             },
