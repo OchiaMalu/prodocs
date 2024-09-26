@@ -727,6 +727,10 @@ export default {
                     {
                         text: '多例设计模式',
                         link: '/java/multition'
+                    },
+                    {
+                        text: '认识异常',
+                        link: '/java/exception_overview'
                     }
                 ]
             },
