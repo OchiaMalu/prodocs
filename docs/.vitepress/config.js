@@ -803,6 +803,10 @@ export default {
                     {
                         text: '内建函数式接口',
                         link: '/java/built_in_functional_interfaces'
+                    },
+                    {
+                        text: '线程与进程',
+                        link: '/java/thread_process'
                     }
                 ]
             },
