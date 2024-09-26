@@ -759,6 +759,10 @@ export default {
                     {
                         text: 'assert 关键字',
                         link: '/java/assert'
+                    },
+                    {
+                        text: '自定义异常',
+                        link: '/java/custom_exception'
                     }
                 ]
             },
