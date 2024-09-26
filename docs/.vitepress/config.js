@@ -798,7 +798,7 @@ export default {
                     },
                     {
                         text: '方法引用',
-
+                        link: '/java/method_reference'
                     }
                 ]
             },
