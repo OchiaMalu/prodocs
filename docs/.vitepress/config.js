@@ -751,6 +751,10 @@ export default {
                     {
                         text: '异常处理的标准格式',
                         link: '/java/exception_handling_format'
+                    },
+                    {
+                        text: 'RuntimeException 类',
+                        link: '/java/runtime_exception'
                     }
                 ]
             },
