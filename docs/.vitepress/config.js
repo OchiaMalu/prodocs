@@ -687,6 +687,10 @@ export default {
                     {
                         text: 'Object 类',
                         link: '/java/object'
+                    },
+                    {
+                        text: '匿名内部类',
+                        link: '/java/anonymous_classes'
                     }
                 ]
             },
