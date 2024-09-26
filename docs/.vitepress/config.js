@@ -707,6 +707,10 @@ export default {
                     {
                         text: '系统常见包',
                         link: '/java/system_package'
+                    },
+                    {
+                        text: 'jar 命令',
+                        link: '/java/jar'
                     }
                 ]
             },
