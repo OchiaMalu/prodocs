@@ -31,10 +31,10 @@ public class TestDemo {
 
 本程序在 `Book` 类中直接定义了一个构造方法，其目的是希望通过构造方法为 `title` 和 `price` 两个属性进行赋值，但最终的结果发现并没有成功赋值，这是因为在
 Java 中的变量使用具备 **就近取用** 的原则，在构造方法中已经存在 `title` 或 `price` 变量名称，所以如果直接调用 `title`
-或 `price` 变量将不会使用类中的属性，只会使用方法中的参数，如图所示，所以此时 `Book` 类的构造方法是无法为 `title`
-或 `price` 属性赋值的。
+或 `price` 变量将不会使用类中的属性，只会使用方法中的参数，如图所示，所以此时 `Book` 类的构造方法是无法为 `title`或 `price`
+属性赋值的。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240924130739922.png" alt="image-20240924130739922" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240924130739922.png" alt="image-20240924130739922" style="zoom:80%;margin:0 auto" />
 
 在这种情况下为了可以明确地找到要访问的变量属于类中的属性，需要在变量前加上 `this` ，这样就可以准确地进行属性的标记。
 
