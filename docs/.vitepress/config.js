@@ -735,6 +735,10 @@ export default {
                     {
                         text: '处理异常',
                         link: '/java/exception_handling'
+                    },
+                    {
+                        text: '异常的处理流程',
+                        link: '/java/exception_handling_process'
                     }
                 ]
             },
