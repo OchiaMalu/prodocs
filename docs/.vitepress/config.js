@@ -787,6 +787,10 @@ export default {
                     {
                         text: '注解',
                         link: '/java/annotation'
+                    },
+                    {
+                        text: '接口定义加强',
+                        link: '/java/interface_enhance'
                     }
                 ]
             },
