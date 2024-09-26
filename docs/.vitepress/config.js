@@ -791,6 +791,14 @@ export default {
                     {
                         text: '接口定义加强',
                         link: '/java/interface_enhance'
+                    },
+                    {
+                        text: 'Lambda 表达式',
+                        link: '/java/lambda'
+                    },
+                    {
+                        text: '方法引用',
+
                     }
                 ]
             },
