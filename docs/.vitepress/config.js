@@ -763,6 +763,10 @@ export default {
                     {
                         text: '自定义异常',
                         link: '/java/custom_exception'
+                    },
+                    {
+                        text: '可变参数',
+                        link: '/java/variable_parameters'
                     }
                 ]
             },
