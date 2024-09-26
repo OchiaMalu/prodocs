@@ -755,6 +755,10 @@ export default {
                     {
                         text: 'RuntimeException 类',
                         link: '/java/runtime_exception'
+                    },
+                    {
+                        text: 'assert 关键字',
+                        link: '/java/assert'
                     }
                 ]
             },
