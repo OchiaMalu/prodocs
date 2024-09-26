@@ -719,6 +719,10 @@ export default {
                     {
                         text: '命名规范',
                         link: '/java/naming_convention'
+                    },
+                    {
+                        text: '单例设计模式',
+                        link: '/java/singleton'
                     }
                 ]
             },
