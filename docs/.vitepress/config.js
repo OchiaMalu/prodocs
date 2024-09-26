@@ -747,6 +747,10 @@ export default {
                     {
                         text: 'throw 关键字',
                         link: '/java/throw'
+                    },
+                    {
+                        text: '异常处理的标准格式',
+                        link: '/java/exception_handling_format'
                     }
                 ]
             },
