@@ -671,6 +671,10 @@ export default {
                     {
                         text: 'final 关键字',
                         link: '/java/final'
+                    },
+                    {
+                        text: '多态性',
+                        link: 'java/polymorphism'
                     }
                 ]
             },
