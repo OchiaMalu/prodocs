@@ -807,6 +807,10 @@ export default {
                     {
                         text: '线程与进程',
                         link: '/java/thread_process'
+                    },
+                    {
+                        text: '多线程',
+                        link: '/java/multi_thread'
                     }
                 ]
             },
