@@ -775,6 +775,10 @@ export default {
                     {
                         text: '静态导入',
                         link: '/java/import_static'
+                    },
+                    {
+                        text: '泛型',
+                        link: '/java/genericity'
                     }
                 ]
             },
