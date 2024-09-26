@@ -783,6 +783,10 @@ export default {
                     {
                         text: '枚举',
                         link: '/java/enum'
+                    },
+                    {
+                        text: '注解',
+                        link: '/java/annotation'
                     }
                 ]
             },
