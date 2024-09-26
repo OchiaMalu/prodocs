@@ -695,6 +695,10 @@ export default {
                     {
                         text: '基本数据类型的包装类',
                         link: '/java/packaging_category'
+                    },
+                    {
+                        text: '包的定义',
+                        link: '/java/package'
                     }
                 ]
             },
