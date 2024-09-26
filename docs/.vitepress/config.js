@@ -667,6 +667,10 @@ export default {
                     {
                         text: '覆写',
                         link: '/java/override'
+                    },
+                    {
+                        text: 'final 关键字',
+                        link: '/java/final'
                     }
                 ]
             },
