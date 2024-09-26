@@ -715,6 +715,10 @@ export default {
                     {
                         text: '访问控制权限',
                         link: '/java/access_permissions'
+                    },
+                    {
+                        text: '命名规范',
+                        link: '/java/naming_convention'
                     }
                 ]
             },
