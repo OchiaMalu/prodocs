@@ -683,6 +683,10 @@ export default {
                     {
                         text: '接口',
                         link: '/java/interface'
+                    },
+                    {
+                        text: 'Object 类',
+                        link: '/java/object'
                     }
                 ]
             },
