@@ -799,6 +799,10 @@ export default {
                     {
                         text: '方法引用',
                         link: '/java/method_reference'
+                    },
+                    {
+                        text: '内建函数式接口',
+                        link: '/java/built_in_functional_interfaces'
                     }
                 ]
             },
