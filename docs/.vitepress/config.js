@@ -679,6 +679,10 @@ export default {
                     {
                         text: '抽象类',
                         link: '/java/abstract'
+                    },
+                    {
+                        text: '接口',
+                        link: '/java/interface'
                     }
                 ]
             },
