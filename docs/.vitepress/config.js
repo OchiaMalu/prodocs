@@ -699,6 +699,10 @@ export default {
                     {
                         text: '包的定义',
                         link: '/java/package'
+                    },
+                    {
+                        text: '包的导入',
+                        link: '/java/package_import'
                     }
                 ]
             },
