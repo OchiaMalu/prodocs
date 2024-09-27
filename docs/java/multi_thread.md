@@ -21,15 +21,15 @@ JDK 从最早开始定义多线程支持时，只有两种实现要求：要么�
 
 > class 类名称 extends Thread { //继承 Thread 类
 >
-> ​ 属性...;
+>  属性...;
 >
-> ​ 方法...;
+>  方法...;
 >
-> ​ public void run() {
+>  public void run() {
 >
-> ​ 线程主体方法;
+>  线程主体方法;
 >
-> ​ }
+>  }
 >
 > }
 
@@ -105,15 +105,15 @@ JVM 负责根据不同的操作系统而实现的。即使用 `Thread` 类的 `s
 
 > java.lang.Object
 >
-> ​ |—java.lang.Throwable
+>  |—java.lang.Throwable
 >
-> ​ |—java.lang.Exception
+>  |—java.lang.Exception
 >
-> ​ |—java.lang.RuntimeException
+>  |—java.lang.RuntimeException
 >
-> ​ |—java.lang.IllegalArgumentException
+>  |—java.lang.IllegalArgumentException
 >
-> ​ |—java.lang.IllegalThreadStateException
+>  |—java.lang.IllegalThreadStateException
 
 通过继承结构可以发现此异常属于 `RuntimeException`
 的子类，这样就可以由用户选择性进行处理。如果某一个线程对象重复进行了启动（同一个线程对象调用多次 `stat()` 方法)，就会抛出此异常。
@@ -129,7 +129,7 @@ JVM 负责根据不同的操作系统而实现的。即使用 `Thread` 类的 `s
 >
 > public interface Runnable {
 >
-> ​ public void run();
+>  public void run();
 >
 > }
 
@@ -210,7 +210,7 @@ public class TestDemo {
 ，但是它并不是严格意义上的代理设计模式，因为严格来讲代理设计模式中，代理主题能够使用的方法依然是接口中定义的 `run()`
 方法，而此处代理主题调用的是 `start()` 方法，所以只能说形式上 **类似** 于代理设计模式，但本质上还是有差别的。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926104435828.png" alt="image-20240926104435828" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926104435828.png" alt="image-20240926104435828" style="zoom:80%;margin:0 auto" />
 
 除了以上联系外，对于 `Runnable` 接口和 `Thread` 类还有一个不太好区分的特点：使用 `Runnable`
 接口可以更加方便地表示出数据共享的概念（但不是说 `Thread` 类不能实现数据共享）。
@@ -243,7 +243,7 @@ public class TestDemo {
 本程序定义了 3 个线程对象，希望 3 个线程对象同时卖 5 张车票，而最终的结果是一共买出了 15 张票，等于每一个线程对象各自卖各自的
 5 张票，这时的内存关系如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926104544071.png" alt="image-20240926104544071" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926104544071.png" alt="image-20240926104544071" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -271,7 +271,7 @@ public class TestDemo {
 本程序使用 `Runnable` 实现了多线程，同时启动了 3 个线程对象，但是与使用 `Thread` 操作的卖票范例不同的是，这 3
 个线程对象都占着同一个 `Runnable` 接口对象的引用，所以实现了数据共享的操作。本程序的内存关系如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926104631009.png" alt="image-20240926104631009" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926104631009.png" alt="image-20240926104631009" style="zoom:80%;margin:0 auto" />
 
 :::tip 使用 `Thread` 类同样可以实现此功能
 
@@ -315,7 +315,7 @@ A 对 B 说，把你的水给我喝，我的不喝了，明显是不合适的。
 
 程序实现结构如下。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926104959361.png" alt="image-20240926104959361" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926104959361.png" alt="image-20240926104959361" style="zoom:80%;margin:0 auto" />
 
 :::
 
@@ -327,9 +327,9 @@ A 对 B 说，把你的水给我喝，我的不喝了，明显是不合适的。
 
 > @FunctionalInterface
 >
-> public interface Callable<V> {
+> public interface Callable\<V> {
 >
-> ​ public V call() throws Exception;
+>  public V call() throws Exception;
 >
 > }
 
@@ -358,16 +358,16 @@ class MyThread implements Callable<String> { 		// 多线程主体类
 类中并没有定义任何构造方法可以直接接收 `Callable` 接口对象实例，并且由于需要接收 `call()` 方法返回值的问题，从 JDK 1.5
 开始，Java 提供了一个 `java.util.concurrent.FutureTask<V>` 类，此类定义如下。
 
-> public class FutureTask<V>
+> public class FutureTask\<V>
 >
 > extends Object
 >
-> implements RunnableFuture<V>
+> implements RunnableFuture\<V>
 
 通过定义可以发现此类实现了 `RunnableFuture` 接口，而 `RunnableFuture` 接口又同时实现了 `Future` 与 `Runnable`
 接口。`FutureTask` 类继承结构如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926105454388.png" alt="image-20240926105454388" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926105454388.png" alt="image-20240926105454388" style="zoom:80%;margin:0 auto" />
 
 清楚了 `FutureTask` 类的继承结构之后，下面再来研究 `FutureTask` 类的常用方法，如表所示。
 
@@ -417,7 +417,7 @@ Java 最早提供的，也是使用最广泛的接口，所以在进行多线程
 在程序中用构造方法创建一个线程对象后，新的线程对象便处于新建状态，此时，它已经有相应的内存空间和其他资源，但还处于不可运行状态。新建一个线程对象可采用 `Thread`
 类的构造方法来实现，例如：`Thread thread = new Thread()` 。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926105923788.png" alt="image-20240926105923788" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926105923788.png" alt="image-20240926105923788" style="zoom:80%;margin:0 auto" />
 
 ### 就绪状态
 

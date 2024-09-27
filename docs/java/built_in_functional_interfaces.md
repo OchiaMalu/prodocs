@@ -10,9 +10,9 @@
 
 > @FunctionalInterface
 >
-> public interface Function<T,R> {
+> public interface Function\<T,R> {
 >
-> ​ public R apply(T t);
+>  public R apply(T t);
 >
 > }
 
@@ -24,9 +24,9 @@
 
 > @FunctionalInterface
 >
-> public interface Consumer<T> {
+> public interface Consumer\<T> {
 >
-> ​ public void accept(T t);
+>  public void accept(T t);
 >
 > }
 
@@ -38,9 +38,9 @@
 
 > @FunctionalInterface
 >
-> public interface Supplier<T> {
+> public interface Supplier\<T> {
 >
-> ​ public T get();
+>  public T get();
 >
 > }
 
@@ -52,9 +52,9 @@
 
 > @FunctionalInterface
 >
-> public interface Predicate<T> {
+> public interface Predicate\<T> {
 >
-> ​ public boolean test(T t);
+>  public boolean test(T t);
 >
 > }
 

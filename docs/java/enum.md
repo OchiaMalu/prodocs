@@ -80,11 +80,11 @@ Java 开发中，有许多不习惯使用枚举的开发者，也不会去选择
 枚举只需要使用 `enum` 关键字就可以定义，但是严格来讲，枚举只是类结构的加强而已。因为在 Java 中使用 `enum`
 定义的枚举类就相当于默认继承 `java.lang.Enum` 类，此类定义如下。
 
-> public abstract class Enum<E extends Enum<E>>
+> public abstract class Enum\<E extends Enum\<E>>
 >
 > extends Object
 >
-> implements Comparable<E>,Serializable
+> implements Comparable\<E>,Serializable
 
 从定义中可以发现，`Enum` 类本身是一个抽象类，而抽象类在使用时必须被子类继承，同时在这个抽象类里面提供了表所示的方法。
 
