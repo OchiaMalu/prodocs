@@ -54,7 +54,7 @@ public class TestDemo {
 
 对于范例的代码 `()->System.outprintln("更多课程请访问：www.yootk.com")` 实际上就可以根据如图所对应的关系来进行描述。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240925230552385.png" alt="image-20240925230552385" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240925230552385.png" alt="image-20240925230552385" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于 `@Functionallnterface` 注解的使用
 
