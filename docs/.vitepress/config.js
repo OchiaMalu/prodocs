@@ -855,6 +855,10 @@ export default {
                     {
                         text: '比较器',
                         link: '/java/comparator'
+                    },
+                    {
+                        text: '正则表达式',
+                        link: '/java/regex'
                     }
                 ]
             },
