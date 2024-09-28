@@ -835,6 +835,10 @@ export default {
                     {
                         text: 'Runtime 类',
                         link: '/java/runtime'
+                    },
+                    {
+                        text: 'System 类',
+                        link: '/java/system'
                     }
                 ]
             },
