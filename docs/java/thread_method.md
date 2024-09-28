@@ -13,11 +13,7 @@ Java 除了支持多线程的定义外，也提供了许多多线程操作方法
 由于线程的状态不确定，所以每次可以操作的都是正在执行 `run()`
 方法的线程，那么取得当前线程对象的方法为：`public static Thread currentThread()` 。
 
-| No. | 方法                                          | 类型 | 描述                                 |
-|-----|---------------------------------------------|----|------------------------------------|
-| 1   | public Thread(Runnable target, String name) | 构造 | 实例化线程对象，接收Runnable接口 子类对象，同时设置线程名称 |
-| 2   | public final void setName(String name)      | 普通 | 设置线程名字                             |
-| 3   | public final String getName()               | 普通 | 取得线程名字                             |
+<img src="http://niu.ochiamalu.top/image-20240928120124257.png" alt="image-20240928120124257" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -113,15 +109,11 @@ public class TestDemo {
 
 如果要想进行线程优先级的设置，在 `Thread` 类中提供了支持的方法及常量，如表所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926111322738.png" alt="image-20240926111322738" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926111322738.png" alt="image-20240926111322738" style="zoom:80%;margin:0 auto" />
 
-| No. | 方法或常量                                          | 类型 | 描述          |
-|-----|------------------------------------------------|----|-------------|
-| 1   | public static final int MAX_PRIORITY           | 常量 | 最高优先级，数值为10 |
-| 2   | public static final int NORM_PRIORITY          | 常量 | 中等优先级，数值为5  |
-| 3   | public static final int MIN_PRIORITY           | 常量 | 最低优先级，数值为1  |
-| 4   | public final void setPriority(int newPriority) | 普通 | 设置线程优先级     |
-| 5   | public final int getPriority();                | 普通 | 取得线程优先级     |
+<img src="http://niu.ochiamalu.top/image-20240928120153502.png" alt="image-20240928120153502" style="zoom:80%;margin:0 auto" />
+
+<img src="http://niu.ochiamalu.top/image-20240928120200971.png" alt="image-20240928120200971" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

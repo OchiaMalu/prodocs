@@ -1,4 +1,4 @@
-# 多线程
+# 多线程实现
 
 在 Java 中，如果要想实现多线程的程序，就必须依靠一个线程的主体类（就好比主类的概念一样，表示的是一个线程的主类)
 。但是这个线程的主体类在定义时也需要有一些特殊的要求，即此**类需要继承 `Thread` 类或实现 `Runnable` (Callable)接口**
@@ -371,11 +371,7 @@ class MyThread implements Callable<String> { 		// 多线程主体类
 
 清楚了 `FutureTask` 类的继承结构之后，下面再来研究 `FutureTask` 类的常用方法，如表所示。
 
-| No. | 方法                                                             | 类型 | 描述                         |
-|-----|----------------------------------------------------------------|----|----------------------------|
-| 1   | public FutureTask(Callable callable)                           | 构造 | 接收Callable接口实例             |
-| 2   | public FutureTask(Runnable runnable, V result)                 | 构造 | 接收Runnable 接口实例，并指定返回 结果类型 |
-| 3   | public V get() throws Interrupted Exception,ExecutionException | 普通 | 取得线程操作结果，此方法为Future 接口定义   |
+<img src="http://niu.ochiamalu.top/image-20240928120046157.png" alt="image-20240928120046157" style="zoom:80%;margin:0 auto" />
 
 通过 `FutureTask` 类继承结构可以发现它是 `Runnable` 接口的子类，并且 `FutureTask` 类可以接收 `Callable`
 接口实例，这样依然可以利用 `Thread` 类来实现多线程的启动，而如果要想接收返回结果，利用 `Future` 接口中的 `get()` 方法即可。

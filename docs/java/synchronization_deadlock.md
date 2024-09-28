@@ -2,7 +2,7 @@
 
 程序利用线程可以进行更为高效的程序处理，如果在没有多线程的程序中，一个程序在处理某些资源时会有主方法（主线程全部进行处理），但是这样的处理速度一定会比较慢，如图所示。如果采用了多线程的处理机制，利用主线程创建出许多子线程（相当于多了许多帮手），一起进行资源的操作，那么执行效率一定会比只使用一个主线程更高。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926111836594.png" alt="image-20240926111836594" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926111836594.png" alt="image-20240926111836594" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于子线程
 
@@ -60,14 +60,14 @@ public class TestDemo {
 但是，在范例的操作代码中，在第 1 步和第 2 步之间加入了 **延迟操作** ，那么一个线程就有可能在还没有对票数进行减操作之前，其他线程就已经将票数减少了，这样一来就会出现
 **票数为负** 的情况，如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926112115493.png" alt="image-20240926112115493" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926112115493.png" alt="image-20240926112115493" style="zoom:80%;margin:0 auto" />
 
 ## 同步操作
 
 如果想解决范例程序的问题，就必须使用 **同步操作** 。所谓同步操作就是一个代码块中的多个操作在同一个时间段内只能有一个线程进行，其他线程要
 **等待** 此线程完成后才可以继续执行，如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926112202302.png" alt="image-20240926112202302" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926112202302.png" alt="image-20240926112202302" style="zoom:80%;margin:0 auto" />
 
 在 Java 里面如果要想实现线程的同步，操作可以使用 `synchronized` 关键字。`synchronized` 关键字可以通过以下两种方式进行使用。
 
@@ -187,7 +187,7 @@ static、native、synchronized 都不能和 `abstract` 同时声明方法。
 
 同步就是指一个线程要等待另外一个线程执行完毕才会继续执行的一种操作形式，虽然在一个程序中，使用同步可以保证资源共享操作的正确性，但是过多同步也会产生问题。例如：张三想要李四的画，李死想要张三的书，那么张三对李四说了：“把你的画给我，我就给你书”，李四也对张三说了：“把你的书给我，我就给你画”，此时，张三在等着李四的答复，而李四也在等着张三的答复，这样下去最终结果可想而知，张三得不到李四的画，李四也得不到张三的书，这实际上就是死锁的概念，如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926113019430.png" alt="image-20240926113019430" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926113019430.png" alt="image-20240926113019430" style="zoom:80%;margin:0 auto" />
 
 所谓死锁就是指两个线程都在等待彼此先完成，造成了程序的停滞状态，一般程序的死锁都是在程序运行时出现的，下面通过一个简单的范例来观察一下出现死锁的情况。
 

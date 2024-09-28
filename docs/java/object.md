@@ -49,11 +49,7 @@ public class TestDemo {
 
 除此之外，对于任意一个简单的 Java 类而言，理论上应该覆写 `Object` 类中的 3 个方法，如表所示。
 
-| No. | 方法                                | 类型 | 描述               |
-|-----|-----------------------------------|----|------------------|
-| 1   | public String toString()          | 普通 | 取得对象信息           |
-| 2   | public boolean equals(Object obi) | 普通 | 对象比较             |
-| 4   | public int hashCode()             | 普通 | 取得对象哈希码，在后续会有所讲解 |
+<img src="http://niu.ochiamalu.top/image-20240928130215057.png" alt="image-20240928130215057" style="zoom:80%;margin:0 auto" />
 
 表中所定义的方法都将默认在 `Object` 的子类继承（所有类都继承），但是要根据具体的情祝来选择覆写哪个方法。
 
