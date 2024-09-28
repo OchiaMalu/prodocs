@@ -811,6 +811,10 @@ export default {
                     {
                         text: '多线程实现',
                         link: '/java/multi_thread'
+                    },
+                    {
+                        text: '多线程常用操作方法',
+                        link: '/java/thread_method'
                     }
                 ]
             },
