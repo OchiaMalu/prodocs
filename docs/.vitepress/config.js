@@ -831,6 +831,10 @@ export default {
                     {
                         text: 'StringBuffer 类',
                         link: '/java/string_buffer'
+                    },
+                    {
+                        text: 'Runtime 类',
+                        link: '/java/runtime'
                     }
                 ]
             },
