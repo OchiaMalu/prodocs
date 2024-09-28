@@ -843,6 +843,14 @@ export default {
                     {
                         text: '对象克隆',
                         link: '/java/object_clone'
+                    },
+                    {
+                        text: '数字操作类',
+                        link: '/java/number_operate'
+                    },
+                    {
+                        text: '日期处理类',
+                        link: '/java/date'
                     }
                 ]
             },
