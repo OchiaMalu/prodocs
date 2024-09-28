@@ -164,13 +164,7 @@ public class TestDemo {
 类操作正则，大部分情况下都会考虑使用 `java.lang.String` 类中提供的方法来直接简化正则的操作。下表定义了 `String` 类与正则有关的
 5 个操作方法。
 
-| No. | 方法名称                                                         | 类型 | 描述                             |
-|-----|--------------------------------------------------------------|----|--------------------------------|
-| 1   | public boolean matches(String regex)                         | 普通 | 正则验证，使用指定的字符串判断其是否符合给出的正则表达式结构 |
-| 2   | public String replaceAll(String regex, String replacement)   | 普通 | 将满足正则标记的内容全部替换为新的内容            |
-| 3   | public String replaceFirst(String regex, String replacement) | 普通 | 将满足正则标记的首个内容替换为新的内容            |
-| 4   | public String split(String regex)                            | 普通 | 按照指定的正则标记进行字符串的全拆分             |
-| 5   | public String split(String regex, int limit)                 | 普通 | 按照指定的正则标记进行字符串的部分拆分            |
+<img src="http://niu.ochiamalu.top/image-20240928114450482.png" alt="image-20240928114450482" style="zoom:80%;margin:0 auto" />
 
 以上列出的 5 个方法包含字符串替换、拆分、验证操作，其中验证操作较为复杂，也是读者需要重点掌握的部分。
 
@@ -208,7 +202,7 @@ public class TestDemo {
 
 提示：要转换的数字可能是整数(10)也可能是小数(10.2)，但是绝对不允许出现非数字，并且小数点出现时应该有对应的小数位，正则规则分析如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926165858748.png" alt="image-20240926165858748" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926165858748.png" alt="image-20240926165858748" style="zoom:80%;margin:0 auto" />
 
 :::tip 为什么使用 `“\\d”` ?
 
@@ -297,12 +291,7 @@ public class TestDemo {
 
 `java.util.regex.Pattern` 类的主要功能是进行数据的拆分以及为 `Matcher` 类对象实例化，该类的常用方法如表所示。
 
-| No. | 方法                                                 | 类型 | 描述           |
-|-----|----------------------------------------------------|----|--------------|
-| 1   | public static Pattern compile(String regex)        | 普通 | 编译正则表达式      |
-| 2   | public String split(CharSequence input)            | 普通 | 数据全拆分操作      |
-| 3   | public String split(CharSequence input, int limit) | 普通 | 数据部分拆分操作     |
-| 4   | public Matcher matcher(CharSequence input)         | 普通 | 取得Matcher类对象 |
+<img src="http://niu.ochiamalu.top/image-20240928114527170.png" alt="image-20240928114527170" style="zoom:80%;margin:0 auto" />
 
 在 `Pattern` 类中没有定义构造方法，所以如果要想取得 `Pattern` 类对象，必须利用 `compile()`
 方法进行指定正则表达式的编译操作。同时在 `Pattern` 类中定义的方法，在进行参数接收时接收的都是 `CharSequence`
@@ -328,11 +317,7 @@ public class TestDemo {
 
 如果要想实现数据的验证与替换操作，就需要通过 `Matcher` 类实现操作，此类的常用方法如表所示。
 
-| No. | 方法                                             | 类型 | 描述   |
-|-----|------------------------------------------------|----|------|
-| 1   | publicbooleanmatches()                         | 普通 | 正则匹配 |
-| 2   | publicStringreplaceAll(Stringreplacement)      | 普通 | 全部替换 |
-| 3   | public String replaceFirst(String replacement) | 普通 | 替换首个 |
+<img src="http://niu.ochiamalu.top/image-20240928114557105.png" alt="image-20240928114557105" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
