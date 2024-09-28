@@ -823,6 +823,10 @@ export default {
                     {
                         text: '生产者与消费者案例',
                         link: '/java/producer_consumer'
+                    },
+                    {
+                        text: '线程的生命周期',
+                        link: '/java/thread_life'
                     }
                 ]
             },
