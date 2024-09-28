@@ -7,17 +7,11 @@
 本书讲解数组时为读者讲解过一个数组排序的操作：`java.util.Arrays.sort(数组名称)` ，而在 Java 中，Arrays
 是一个定义在 `java.util` 包中专门进行数组的操作类，在这个类中定义了所有与数组有关的基本操作：二分查找、相等判断、数组填充等，如表所示。
 
-| No | 方法                                             | 类型 | 描述                                   |
-|----|------------------------------------------------|----|--------------------------------------|
-| 1  | public static boolean equals(int a,int a2)     | 普通 | 判断两个数组是否相等，此方法被重载多 次，可以判断各种数据类型的数组   |
-| 2  | public static void fill(int a,int val)         | 普通 | 将指定内容填充到数组中，此方法被重载 多次，可以填充各种数据类型的数组  |
-| 3  | public static void sort(int[ a)                | 普通 | 数组排序，此方法被重载多次，可以对各 种类型的数组进行排序        |
-| 4  | public static int binarySearch(int a, int key) | 普通 | 对排序后的数组进行检索，此方法被重载 多次，可以对各种类型的数组进行搜索 |
-| 5  | public static String toString(int a)           | 普通 | 输出数组信息，此方法被重载多次，可以 输出各种数据类型的数组       |
+<img src="http://niu.ochiamalu.top/image-20240928114747646.png" alt="image-20240928114747646" style="zoom:80%;margin:0 auto" />
 
 二分查找又被称为折半查找法，在进行数据查找时速度较快，而要使用二分查找法，则要求数组中的数据必须为有序的。二分查找法的基本原理如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926161642764.png" alt="image-20240926161642764" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926161642764.png" alt="image-20240926161642764" style="zoom:80%;margin:0 auto" />
 
 二分查找的基本思想是将 n 个元素的数组分成大致相等的两部分。假设要查找的数据内容为 x ，则取 `数组长度/2` 与 X
 进行比较，如果 `x=数组[长度/2]` ，则表示存在 x ，算法中止；如果 `x<数组[长度/2]` ，则只要在数组的左半部分继续搜索 x
@@ -78,9 +72,9 @@ public class TestDemo {
 方法进行排序，就必须有一个前提：对象所在的类一定要实现 `Comparable` 接口，否则代码执行时会出现 `ClassCastException`
 异常。而 `Comparable` 接口就属于比较器的一种，此接口定义如下。
 
-> public interface Comparable<T>{
+> public interface Comparable\<T>{
 >
-> ​ public int conpareTo(T o)
+>  public int conpareTo(T o)
 >
 > }
 
@@ -142,7 +136,7 @@ public class TestDemo {
 树是一种比链表更为复杂的概念应用，其本质也属于动态对象数组，但是与链表不同的是，树的最大特征是可以针对数据进行排序。树的操作原理：选择第一个数据作为根节点，而后比根节点小的放在根节点的左子树（左节点），比根节点大的数据放在右子树（右节点），取得数据时按照中序遍历的方式取出（左一中一右）。但是如果要想实现这样的排列，则需要有一个数据的包装类 `Node`
 ，而且在此类中除了要保存数据外，还需要保存对应的左子树以及右子树节点对象，如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926162348891.png" alt="image-20240926162348891" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926162348891.png" alt="image-20240926162348891" style="zoom:80%;" />
 
 :::tip 根据自己的实际情况选择性学习
 
@@ -204,11 +198,11 @@ class Book implements Comparable<Book> {
 
 > @FunctionalInterface
 >
-> public interface Comparator<T> {
+> public interface Comparator\<T> {
 >
-> ​ public int compare(T o1,T o2);
+>  public int compare(T o1,T o2);
 >
-> ​ public boolean equals(Object obj);
+>  public boolean equals(Object obj);
 >
 > }
 
