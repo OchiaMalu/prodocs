@@ -827,6 +827,10 @@ export default {
                     {
                         text: '线程的生命周期',
                         link: '/java/thread_life'
+                    },
+                    {
+                        text: 'StringBuffer 类',
+                        link: '/java/string_buffer'
                     }
                 ]
             },
