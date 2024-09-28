@@ -839,6 +839,10 @@ export default {
                     {
                         text: 'System 类',
                         link: '/java/system'
+                    },
+                    {
+                        text: '对象克隆',
+                        link: '/java/object_clone'
                     }
                 ]
             },
