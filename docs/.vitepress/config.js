@@ -809,7 +809,7 @@ export default {
                         link: '/java/thread_process'
                     },
                     {
-                        text: '多线程',
+                        text: '多线程实现',
                         link: '/java/multi_thread'
                     }
                 ]
