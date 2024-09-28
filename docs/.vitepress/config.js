@@ -658,7 +658,7 @@ export default {
                     },
                     {
                         text: '链表',
-                        link: '/java/list'
+                        link: '/java/link'
                     },
                     {
                         text: '继承性',
