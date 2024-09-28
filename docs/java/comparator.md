@@ -150,30 +150,24 @@ Java 完整地实现好了，在类集框架中会为读者讲解，所以此处
 (1)定义出要使用的数据类型，并且类中一定要实现 `Comparable` 接口。
 
 ```java
-class Book implements Comparable<Book> {
-    private String title;
-    private double price;
-
-    public Book(String title, double price) {
-        this.title = title;
-        this.price = price;
+import java.util.Arrays;
+class Book implements Comparable<Book> {		// 实现比较器
+    private String title ;
+    private double price ;
+    public Book(String title,double price) {
+        this.title = title ;
+        this.price = price ;
     }
-
     @Override
     public String toString() {
-        return "Book{" +
-                "title='" + title + '\'' +
-                ", price=" + price +
-                '}';
+        return "书名：" + this.title + "，价格：" + this.price + "\n" ;
     }
-
-
     @Override
-    public int compareTo(Book o) {
+    public int compareTo(Book o) {				// Arrays.sort()会自动调用此方法比较
         if (this.price > o.price) {
-            return 1;
+            return 1 ;
         } else if (this.price < o.price) {
-            return -1;
+            return -1 ;
         } else {
             return 0;
         }
@@ -183,79 +177,6 @@ class Book implements Comparable<Book> {
 
 (2)定义二叉树，所有的数据结构都需要通过 `Node` 类的对象包装，同时为了排序需要，保存的数据可以直接使用 `Comparable`
 接口类型，即所有的类对象都必须强制转换为 `Comparable` 接口。在本结构中只定义数据的保存和取出的操作方法。
-
-(3)测试程序，保存多个 `Book` 类对象。
-
-本程序实现了一个最基础的二叉树数据结构，整个程序的实现关键在于 `Node` 节点大小关系的判断，所以为了实现这一要求，在 `Node`
-中保存的类型为 `Comparable` 接口类型。
-
-## 挽救的比较器：Comparator
-
-利用 `Comparable` 接口实现的比较器属于常见的用法，但是从另外一个角度来讲，如果要使用 `Comparable`
-比较器，就意味着在类定义时必须考虑好排序的需求。但是如果某一个类定义时并没有实现 `Comparable`
-接口，可是在不能修改类定义时又需要进行对象数组排序该怎么办呢？为此，Java 又提供了另外一种比较器： `Comparator`
-接口（挽救的比较器），此接口定义如下。
-
-> @FunctionalInterface
->
-> public interface Comparator\<T> {
->
->  public int compare(T o1,T o2);
->
->  public boolean equals(Object obj);
->
-> }
-
-通过定义可以发现在 `Comparator` 接口上使用了 `@Functionallnterface`
-注解声明，所以此接口为一个函数式接口。该接口提供了一个`compare()` 方法，此方法的返回 3 种结果为：**1（>0)、-1（<0)、0(=0)**。
-
-:::tip 函数式接口不是应该只有一个方法吗？
-
-**回答：Object 类中的方法不属于限定范围。**
-
-读者需要注意，虽然 `Comparator` 接口中定义了两个抽象方法，但是子类真正在覆写时只需要覆写 `compare()`
-方法即可，而 `equals()` 这样的方法在 `Object` 类中已经有默认实现(地址比较)。
-
-另外从 `Comparator` 接口定义之初只定义了 `compare()` 与 `equals()` 两个抽象方法，而在 JDK1.8 之后，`Comparator`
-接口中除了抽象方法外也定义了 `default` 和 `static` 的普通方法，有兴趣的读者可以自行观察JavaDoc 。
-
-:::
-
-如果要利用 `Comparator` 接口实现对象数组的排序操作，还需要更换 `java.util.Arrays`
-类中的排序方法。对象数组排序方法为：`public static <T> void sort(T[] a,Comparator<? super T> c)` 。
-
-```java
-package com.yootk.demo;
-class Book { 
-    private String title ;
-    private double price ;
-    public Book() {}
-    public Book(String title,double price) {
-        this.title = title ;
-        this.price = price ;
-    }
-    @Override
-    public String toString() {
-        return "书名：" + this.title + "，价格：" + this.price + "\n" ;
-    }
-    public void setPrice(double price) {
-        this.price = price;
-    }
-    public void setTitle(String title) {
-        this.title = title;
-    }
-    public double getPrice() {
-        return price;
-    }
-    public String getTitle() {
-        return title;
-    }
-}
-```
-
-(2)假设在 `Book`
-类的初期设计中并没有排序的设计要求，并且不能够修改。但是随着开发的深入，有了对象数组排序的要求，所以此时就可以利用 `Comparator`
-接口单独为 `Book` 类设计一个排序的规则类：`BookComparator` 。
 
 ```java
 @SuppressWarnings("rowtypes")
@@ -326,9 +247,7 @@ class BinaryTree {
 }
 ```
 
-本程序定义了一个 `BookComparator` 比较器程序类，这样在使用 `Arrays.sort()` 排序时就需要传递此类的实例化对象。
-
-(3)测试代码，使用指定的比较器，实现对象数组的排序操作。
+(3)测试程序，保存多个 `Book` 类对象。
 
 ```java
 public class TestDemo {
@@ -340,6 +259,113 @@ public class TestDemo {
         bt.add(new Book("python", 79.8));
         Object[] obj = bt.toArray();
         System.out.println(Arrays.toString(obj));
+    }
+}
+```
+
+本程序实现了一个最基础的二叉树数据结构，整个程序的实现关键在于 `Node` 节点大小关系的判断，所以为了实现这一要求，在 `Node`
+中保存的类型为 `Comparable` 接口类型。
+
+## 挽救的比较器：Comparator
+
+利用 `Comparable` 接口实现的比较器属于常见的用法，但是从另外一个角度来讲，如果要使用 `Comparable`
+比较器，就意味着在类定义时必须考虑好排序的需求。但是如果某一个类定义时并没有实现 `Comparable`
+接口，可是在不能修改类定义时又需要进行对象数组排序该怎么办呢？为此，Java 又提供了另外一种比较器： `Comparator`
+接口（挽救的比较器），此接口定义如下。
+
+> @FunctionalInterface
+>
+> public interface Comparator\<T> {
+>
+>  public int compare(T o1,T o2);
+>
+>  public boolean equals(Object obj);
+>
+> }
+
+通过定义可以发现在 `Comparator` 接口上使用了 `@Functionallnterface`
+注解声明，所以此接口为一个函数式接口。该接口提供了一个`compare()` 方法，此方法的返回 3 种结果为：**1（>0)、-1（<0)、0(=0)**。
+
+:::tip 函数式接口不是应该只有一个方法吗？
+
+**回答：Object 类中的方法不属于限定范围。**
+
+读者需要注意，虽然 `Comparator` 接口中定义了两个抽象方法，但是子类真正在覆写时只需要覆写 `compare()`
+方法即可，而 `equals()` 这样的方法在 `Object` 类中已经有默认实现(地址比较)。
+
+另外从 `Comparator` 接口定义之初只定义了 `compare()` 与 `equals()` 两个抽象方法，而在 JDK1.8 之后，`Comparator`
+接口中除了抽象方法外也定义了 `default` 和 `static` 的普通方法，有兴趣的读者可以自行观察JavaDoc 。
+
+:::
+
+如果要利用 `Comparator` 接口实现对象数组的排序操作，还需要更换 `java.util.Arrays`
+类中的排序方法。对象数组排序方法为：`public static <T> void sort(T[] a,Comparator<? super T> c)` 。
+
+（1）定义一个类，此类不实现比较器接口。
+
+```java
+package com.yootk.demo;
+class Book { 
+    private String title ;
+    private double price ;
+    public Book() {}
+    public Book(String title,double price) {
+        this.title = title ;
+        this.price = price ;
+    }
+    @Override
+    public String toString() {
+        return "书名：" + this.title + "，价格：" + this.price + "\n" ;
+    }
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    public void setTitle(String title) {
+        this.title = title;
+    }
+    public double getPrice() {
+        return price;
+    }
+    public String getTitle() {
+        return title;
+    }
+}
+```
+
+(2)假设在 `Book`
+类的初期设计中并没有排序的设计要求，并且不能够修改。但是随着开发的深入，有了对象数组排序的要求，所以此时就可以利用 `Comparator`
+接口单独为 `Book` 类设计一个排序的规则类：`BookComparator` 。
+
+```java
+class BookComparator implements Comparator<Book> {
+    @Override
+    public int compare(Book o1, Book o2) {
+        if (o1.getPrice() > o2.getPrice()) {
+            return 1;
+        } else if (o1.getPrice() < o2.getPrice()) {
+            return -1;
+        } else {
+            return 0;
+        }
+    }
+}
+```
+
+本程序定义了一个 `BookComparator` 比较器程序类，这样在使用 `Arrays.sort()` 排序时就需要传递此类的实例化对象。
+
+(3)测试代码，使用指定的比较器，实现对象数组的排序操作。
+
+```java
+public class TestDemo {
+    public static void main(String[] args) throws Exception {
+        Book books [] = new Book [] {
+                 new Book("Java开发实战经典",79.8) ,
+                 new Book("JavaWEB开发实战经典",69.8) ,
+                 new Book("Oracle开发实战经典",99.8) ,
+                 new Book("Android开发实战经典",89.8) 
+        } ;
+        java.util.Arrays.sort(books,new BookComparator());
+    	System.out.println(java.util.Arrays.toString(books));
     }
 }
 ```
