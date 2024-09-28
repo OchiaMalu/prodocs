@@ -15,14 +15,7 @@
 
 :::
 
-| No. | 方法                                                     | 类型 | 描述              |
-|-----|--------------------------------------------------------|----|-----------------|
-| 1   | public static Runtime getRuntime()                     | 普通 | 取得Runtime类实例化对象 |
-| 2   | public long maxMemory()                                | 普通 | 返回最大可用内存大小      |
-| 3   | public long totalMemory()                              | 普通 | 返回所有可用内存大小      |
-| 4   | public long freeMemory()                               | 普通 | 返回所有空余内存大小      |
-| 5   | public void gc()                                       | 普通 | 执行垃圾回收操作        |
-| 6   | public Process exec(String command) throws IOException | 普通 | 创建新的进程          |
+<img src="http://niu.ochiamalu.top/image-20240928115142326.png" alt="image-20240928115142326" style="zoom:80%;margin:0 auto" />
 
 在 `Runtime` 类有一个非常重要的方法：`public void gc()` ，用于运行垃圾收集器，释放垃圾空间，即调用此方法后所产生的垃圾空间将被释放。
 
@@ -53,7 +46,7 @@ public class TestDemo {
 
 首先，需要明确地告诉读者，Java 中可用内存空间是可以调整的，但是在调整之前，需要介绍 Java 中的内存划分，如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926151103814.png" alt="image-20240926151103814" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926151103814.png" alt="image-20240926151103814" style="zoom:80%;margin:0 auto" />
 
 每一块内存空间都会存在一个内存伸缩区，当内存空间不足时就会动态开辟。所以为了提高性能，在实际应用中可能会开辟尽量大一些的内存空间，可以使用如下参数。
 
@@ -102,7 +95,7 @@ Collection），旧生代空间不足时要进行主回收（Major Collection）
 
 清楚了 JVM 的内存空间分配，读者就可以进一步理解对象创建流程，如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926151559885.png" alt="image-20240926151559885" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926151559885.png" alt="image-20240926151559885" style="zoom:80%;margin:0 auto" />
 
 (1）当使用关键字 `new` 创建一个新对象时，JVM 会将新对象保存在 `Eden` 区，但是此时需要判断 `Eden`
 区是否有空余空间，如果有，则直接将新对象保存在 `Eden` 区内，如果没有，则会执行 `Minor GC` （年轻代 GC ）。

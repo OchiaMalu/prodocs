@@ -2,11 +2,7 @@
 
 `System` 类是本书一直使用的一个操作类，这个操作类提供一些系统的支持操作，常用方法如表所示。
 
-| No. | 方法                                                                                         | 类型 | 描述                    |
-|-----|--------------------------------------------------------------------------------------------|----|-----------------------|
-| 1   | public static void arraycopy(Object src, int srcPos, Object dest, int destPos, int length) | 普通 | 数组复制操作                |
-| 2   | public static long currentTimeMillis()                                                     | 普通 | 取得当前的日期时间，以long型数据 返回 |
-| 3   | public static void gc()                                                                    | 普通 | 垃圾收集                  |
+<img src="http://niu.ochiamalu.top/image-20240928115344396.png" alt="image-20240928115344396" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于数组复制
 

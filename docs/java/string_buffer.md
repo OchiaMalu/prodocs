@@ -107,12 +107,7 @@ public class TestDemo {
 `String` 类中定义了许多便于用户开发的方法，而在 `StringBuffer` 类里面也定义了许多的常用操作方法（如表所示)
 ，而且部分方法与`String` 类正好互补。
 
-| No. | 方法                                             | 类型 | 描述          |
-|-----|------------------------------------------------|----|-------------|
-| 1   | public StringBuffer append(数据类型变量)             | 普通 | 数据追加操作      |
-| 2   | public StringBuffer reverse()                  | 普通 | 字符串反转操作     |
-| 3   | public StringBuffer insert(int offset，数据 类型变量) | 普通 | 在指定位置追加内容   |
-| 4   | public StringBuffer delete(int start,int end)  | 普通 | 删除指定索引范围的内容 |
+<img src="http://niu.ochiamalu.top/image-20240928115041817.png" alt="image-20240928115041817" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

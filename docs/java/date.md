@@ -7,11 +7,7 @@
 本书在之前一直强调简单 Java 类的概念，也重点阐述了简单 Java 类和数据表之间的映射关系，但是对于数据表的日期型字段却一直没有映射。而在
 Java 中，如果要表示日期型，需要使用 `java.util.Date` 类完成，`java.util.Date` 类的主要操作方法如表所示。
 
-| No. | 方法                     | 类型 | 描述                       |
-|-----|------------------------|----|--------------------------|
-| 1   | public Date()          | 构造 | 实例化Date类对象               |
-| 2   | public Date(long date) | 构造 | 将数字变为Date类对象，long为日期时间数据 |
-| 3   | public long getTime()  | 普通 | 将当前的日期时间变为long型          |
+<img src="http://niu.ochiamalu.top/image-20240928115629134.png" alt="image-20240928115629134" style="zoom:80%;margin:0 auto" />
 
 如果要想取得当前的日期时间，只需要直接实例化 Date 类对象即可。
 
@@ -61,11 +57,7 @@ public class TestDemo {
 类可以明确取得当前的日期时间，但是最终数据的显示格式并不方便用户阅读。如果要对显示的日期时间进行格式转换，则可以通过 `java.text.SimpleDateFormat`
 类完成，此类的常用方法如表所示。
 
-| No. | 品 方法                                                   | 类型 | 描述            |
-|-----|--------------------------------------------------------|----|---------------|
-| 1   | public SimpleDateFormat(String pattern)                | 构造 | 传入日期时间标记实例化对象 |
-| 2   | public final String format(Date date)                  | 普通 | 将日期格式化为字符串数据  |
-| 3   | public Date parse(String source) throws ParseException | 普通 | 将字符串格式化为日期数据  |
+<img src="http://niu.ochiamalu.top/image-20240928115716482.png" alt="image-20240928115716482" style="zoom:80%;margin:0 auto" />
 
 除了表列出的 3 个核心操作方法外，要想正常地完成格式化的操作，还需要准备出一些常用的日期时间标记（在 Java Doc 中可以查找到）：
 **年（yyyy）、月（MM）、日（dd）、时（HH）、分（mm）、秒（ss）、毫秒（SSS）**。
@@ -145,19 +137,7 @@ Byte、boolean(Boolean)</u>。这 6 种数据类型的转换可以依靠以下 3
 类可以将取得的时间精确到毫秒，并且由于其可以分别取得日期时间数字，这样可以直接进行各种日期时间的计算操作。`Calendar`
 类中定义的常量与方法如表所示。
 
-| No. | 常量及方法                                | 类型 | 描述                |
-|-----|--------------------------------------|----|-------------------|
-| 1   | public static final int YEAR         | 常量 | 取得年、int类型         |
-| 2   | public static final int MONTH        | 常量 | 取得月、int类型         |
-| 3   | public static final int DAY_OF_MONTH | 常量 | 取得日、int类型         |
-| 4   | public static final int HOUR_OF_DAY  | 常量 | 取得小时（24小时制）、int类型 |
-| 5   | public static final int MINUTE       | 常量 | 取得分、int类型         |
-| 6   | public static final int SECOND       | 常量 | 取得秒、int类型         |
-| 7   | public static final int MILLISECOND  | 常量 | 取得毫秒、int类型        |
-| 8   | public static Calendar getInstance() | 普通 | 根据默认的时区实例化对象      |
-| 9   | public boolean after(Object when)    | 普通 | 判断一个日期是否在指定日期之后   |
-| 10  | public boolean before(Object when)   | 普通 | 判断一个日期是否在指定日期之前   |
-| 11  | public int get(int field)            | 普通 | 返回给定日历字段的值        |
+<img src="http://niu.ochiamalu.top/image-20240928115741034.png" alt="image-20240928115741034" style="zoom:80%;margin:0 auto" />
 
 `Calendar` 类本身是一个抽象类，可以使用 `GregorianCalendar` 子类进行实例化。除了这种方式外，更多的是利用 `getInstance()`
 方法取得本类的实例化对象。

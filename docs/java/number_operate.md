@@ -50,11 +50,7 @@ public class TestDemo {
 
 `java.util.Random` 是一个专门负责产生 **随机数** 的操作类，此类的常用方法如表所示。
 
-| No. | 方法                            | 类型 | 描述                     |
-|-----|-------------------------------|----|------------------------|
-| 1   | public Random()               | 构造 | 创建一个新的Random实例         |
-| 2   | public Random(long seed)      | 构造 | 创建一个新的Random实例并设置一个种子数 |
-| 3   | public int nextInt(int bound) | 普通 | 产生一个不大于指定边界的随机整数       |
+<img src="http://niu.ochiamalu.top/image-20240928115447582.png" alt="image-20240928115447582" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -147,14 +143,7 @@ public class TestDemo {
 
 大整数可以操作无限大的整型数据，其基本操作方法如表所示。
 
-| No. | 方法                                                  | 类型 | 描述                             |
-|-----|-----------------------------------------------------|----|--------------------------------|
-| 1   | public Biglnteger(String val)                       | 构造 | 实例化 Biglnteger 对象              |
-| 2   | public BigInteger add(Biglnteger val)               | 普通 | 加法操作                           |
-| 3   | public Biglnteger subtract(Biglnteger val)          | 普通 | 减法操作                           |
-| 4   | public Biglnteger multiply(Biglnteger val)          | 普通 | 乘法操作                           |
-| 5   | public Biglnteger divide(BigInteger val)            | 普通 | 除法操作（不保留余数）                    |
-| 6   | public BigInteger divideAndRemainder(BigIntegerval) | 普通 | 除法操作（保留余数），数组第一 个元素是商，第二个元素是余数 |
+<img src="http://niu.ochiamalu.top/image-20240928115527083.png" alt="image-20240928115527083" style="zoom:80%;margin:0 auto" />
 
 通过上表可以发现，在实例化 `BigInteger` 类对象时接收的数据类型为 `String` 型。下面来观察如何使用 `BigInteger` 完成基本的四则运算。
 
@@ -184,11 +173,7 @@ public class TestDemo {
 同样的基本计算方式。而在实际的工作中，使用 `BigDecimal`
 类最方便的操作就是进行准确位数的四舍五入计算，如果要完成这一操作需要了解 `BigDecimal` 类中的定义，如表所示。
 
-| No. | 方法及常量                                                                   | 类型 | 描述                                               |
-|-----|-------------------------------------------------------------------------|----|--------------------------------------------------|
-| 1   | public static final int ROUND_HALF_UP                                   | 常量 | 向上进位                                             |
-| 2   | public BigDecimal(double val)                                           | 构造 | 传递一个double型数据 除法操作，参数意义如下：                       |
-| 3   | public BigDecimal divide(BigDecimal divisor,int scale,int roundingMode) | 普通 | 出发操作，divisor：被除数；scale：保留的小数长度；roundingMode：进位模式 |
+<img src="http://niu.ochiamalu.top/image-20240928115552804.png" alt="image-20240928115552804" style="zoom:80%;margin:0 auto" />
 
 ```java
 package cn.mldn.demo;
