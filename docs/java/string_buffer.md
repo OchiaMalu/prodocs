@@ -34,7 +34,7 @@ public class TestDemo {
 
 `String` 与 `StringBuffer` 两个类都是进行字符串操作的，为了进一步理解这两个类的关系，下面来介绍这两个类的定义结构。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240926115049136.png" alt="image-20240926115049136" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240926115049136.png" alt="image-20240926115049136" style="zoom:80%;margin:0 auto" />
 
 通过两个类的定义结构可以发现，`String` 类与 `StringBuffer` 类都是 `CharSequence` 接口的子类，也就证明 `String`
 或 `StringBuffer` 类的对象都可以利用自动向上转型的操作为 `CharSequence` 接口实例化。
