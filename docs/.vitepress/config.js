@@ -565,304 +565,372 @@ export default {
                 collapsed: true,
                 items: [
                     {
-                        text: '写在前面',
-                        link: '/java/start'
-                    },
-                    {
-                        text: '概述',
-                        link: '/java/overview'
-                    },
-                    {
-                        text: '环境安装',
-                        link: '/java/environment'
-                    },
-                    {
-                        text: '第一个 Java 程序',
-                        link: '/java/first_program'
-                    },
-                    {
-                        text: '数据类型',
-                        link: '/java/data_type'
-                    },
-                    {
-                        text: '运算符',
-                        link: '/java/operator'
-                    },
-                    {
-                        text: '程序逻辑控制',
-                        link: '/java/logic_control'
-                    },
-                    {
-                        text: '方法的定义及使用',
-                        link: '/java/function'
-                    },
-                    {
-                        text: '面向对象简介',
-                        link: '/java/object_oriented_introduction'
-                    },
-                    {
-                        text: '类与对象',
-                        link: '/java/class_object'
-                    },
-                    {
-                        text: '封装性初步分析',
-                        link: '/java/encapsulation'
-                    },
-                    {
-                        text: '构造方法',
-                        link: '/java/constructor'
-                    },
-                    {
-                        text: '匿名对象',
-                        link: '/java/anonymous_object'
-                    },
-                    {
-                        text: '简单 Java 类',
-                        link: '/java/simple_class'
-                    },
-                    {
-                        text: '数组',
-                        link: 'java/array'
-                    },
-                    {
-                        text: 'String 类的基本概念',
-                        link: '/java/string'
-                    },
-                    {
-                        text: 'String 类的常用方法',
-                        link: '/java/string_method'
-                    },
-                    {
-                        text: 'this 关键字',
-                        link: '/java/this'
-                    },
-                    {
-                        text: '引用传递',
-                        link: '/java/reference_passing'
-                    },
-                    {
-                        text: '对象比较',
-                        link: '/java/object_compare'
-                    },
-                    {
-                        text: 'static 关键字',
-                        link: '/java/static'
-                    },
-                    {
-                        text: '代码块',
-                        link: '/java/block'
-                    },
-                    {
-                        text: '内部类',
-                        link: '/java/inner'
-                    },
-                    {
-                        text: '链表',
-                        link: '/java/link'
-                    },
-                    {
-                        text: '继承性',
-                        link: '/java/extends'
-                    },
-                    {
-                        text: '覆写',
-                        link: '/java/override'
-                    },
-                    {
-                        text: 'final 关键字',
-                        link: '/java/final'
-                    },
-                    {
-                        text: '多态性',
-                        link: 'java/polymorphism'
-                    },
-                    {
-                        text: '抽象类',
-                        link: '/java/abstract'
-                    },
-                    {
-                        text: '接口',
-                        link: '/java/interface'
-                    },
-                    {
-                        text: 'Object 类',
-                        link: '/java/object'
-                    },
-                    {
-                        text: '匿名内部类',
-                        link: '/java/anonymous_classes'
-                    },
-                    {
-                        text: '基本数据类型的包装类',
-                        link: '/java/packaging_category'
-                    },
-                    {
-                        text: '包的定义',
-                        link: '/java/package'
-                    },
-                    {
-                        text: '包的导入',
-                        link: '/java/package_import'
-                    },
-                    {
-                        text: '系统常见包',
-                        link: '/java/system_package'
-                    },
-                    {
-                        text: 'jar 命令',
-                        link: '/java/jar'
-                    },
-                    {
-                        text: '访问控制权限',
-                        link: '/java/access_permissions'
-                    },
-                    {
-                        text: '命名规范',
-                        link: '/java/naming_convention'
-                    },
-                    {
-                        text: '单例设计模式',
-                        link: '/java/singleton'
-                    },
-                    {
-                        text: '多例设计模式',
-                        link: '/java/multition'
-                    },
-                    {
-                        text: '认识异常',
-                        link: '/java/exception_overview'
-                    },
-                    {
-                        text: '处理异常',
-                        link: '/java/exception_handling'
-                    },
-                    {
-                        text: '异常的处理流程',
-                        link: '/java/exception_handling_process'
-                    },
-                    {
-                        text: 'throws 关键字',
-                        link: '/java/throws'
-                    },
-                    {
-                        text: 'throw 关键字',
-                        link: '/java/throw'
-                    },
-                    {
-                        text: '异常处理的标准格式',
-                        link: '/java/exception_handling_format'
-                    },
-                    {
-                        text: 'RuntimeException 类',
-                        link: '/java/runtime_exception'
-                    },
-                    {
-                        text: 'assert 关键字',
-                        link: '/java/assert'
-                    },
-                    {
-                        text: '自定义异常',
-                        link: '/java/custom_exception'
-                    },
-                    {
-                        text: '可变参数',
-                        link: '/java/variable_parameters'
-                    },
-                    {
-                        text: 'foreach 循环',
-                        link: '/java/foreach'
-                    },
-                    {
-                        text: '静态导入',
-                        link: '/java/import_static'
-                    },
-                    {
-                        text: '泛型',
-                        link: '/java/genericity'
-                    },
-                    {
-                        text: '枚举',
-                        link: '/java/enum'
-                    },
-                    {
-                        text: '注解',
-                        link: '/java/annotation'
-                    },
-                    {
-                        text: '接口定义加强',
-                        link: '/java/interface_enhance'
-                    },
-                    {
-                        text: 'Lambda 表达式',
-                        link: '/java/lambda'
-                    },
-                    {
-                        text: '方法引用',
-                        link: '/java/method_reference'
-                    },
-                    {
-                        text: '内建函数式接口',
-                        link: '/java/built_in_functional_interfaces'
-                    },
-                    {
-                        text: '线程与进程',
-                        link: '/java/thread_process'
-                    },
-                    {
-                        text: '多线程实现',
-                        link: '/java/multi_thread'
-                    },
-                    {
-                        text: '多线程常用操作方法',
-                        link: '/java/thread_method'
-                    },
-                    {
-                        text: '线程的同步与死锁',
-                        link: '/java/synchronization_deadlock'
-                    },
-                    {
-                        text: '生产者与消费者案例',
-                        link: '/java/producer_consumer'
-                    },
-                    {
-                        text: '线程的生命周期',
-                        link: '/java/thread_life'
-                    },
-                    {
-                        text: 'StringBuffer 类',
-                        link: '/java/string_buffer'
-                    },
-                    {
-                        text: 'Runtime 类',
-                        link: '/java/runtime'
-                    },
-                    {
-                        text: 'System 类',
-                        link: '/java/system'
-                    },
-                    {
-                        text: '对象克隆',
-                        link: '/java/object_clone'
-                    },
-                    {
-                        text: '数字操作类',
-                        link: '/java/number_operate'
-                    },
-                    {
-                        text: '日期处理类',
-                        link: '/java/date'
-                    },
-                    {
-                        text: '比较器',
-                        link: '/java/comparator'
-                    },
-                    {
-                        text: '正则表达式',
-                        link: '/java/regex'
-                    },
-                    {
-                        text: '反射机制',
-                        link: '/java/reflex'
+                        text: 'Java 基础知识',
+                        items: [
+                            {
+                                text: 'Java 简介',
+                                items: [
+                                    {
+                                        text: '写在前面',
+                                        link: '/java/start'
+                                    },
+                                    {
+                                        text: '概述',
+                                        link: '/java/overview'
+                                    },
+                                    {
+                                        text: '环境安装',
+                                        link: '/java/environment'
+                                    },
+                                    {
+                                        text: '第一个 Java 程序',
+                                        link: '/java/first_program'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '程序基本概念',
+                                items: [
+                                    {
+                                        text: 'Java 的注释',
+                                        link: '/java/explanatory_note'
+                                    },
+                                    {
+                                        text: '关键字与标识符',
+                                        link: '/java/key_word'
+                                    },
+                                    {
+                                        text: '数据类型',
+                                        link: '/java/data_type'
+                                    },
+                                    {
+                                        text: '运算符',
+                                        link: '/java/operator'
+                                    },
+                                    {
+                                        text: '程序逻辑控制',
+                                        link: '/java/logic_control'
+                                    },
+                                    {
+                                        text: '方法的定义及使用',
+                                        link: '/java/function'
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        text: '面向对象',
+                        items: [
+                            {
+                                text: '面向对象基本概念',
+                                items: [
+                                    {
+                                        text: '面向对象简介',
+                                        link: '/java/object_oriented_introduction'
+                                    },
+                                    {
+                                        text: '类与对象',
+                                        link: '/java/class_object'
+                                    },
+                                    {
+                                        text: '封装性初步分析',
+                                        link: '/java/encapsulation'
+                                    },
+                                    {
+                                        text: '构造方法',
+                                        link: '/java/constructor'
+                                    },
+                                    {
+                                        text: '匿名对象',
+                                        link: '/java/anonymous_object'
+                                    },
+                                    {
+                                        text: '简单 Java 类',
+                                        link: '/java/simple_class'
+                                    },
+                                    {
+                                        text: '数组',
+                                        link: 'java/array'
+                                    },
+                                    {
+                                        text: 'String 类的基本概念',
+                                        link: '/java/string'
+                                    },
+                                    {
+                                        text: 'String 类的常用方法',
+                                        link: '/java/string_method'
+                                    },
+                                    {
+                                        text: 'this 关键字',
+                                        link: '/java/this'
+                                    },
+                                    {
+                                        text: '引用传递',
+                                        link: '/java/reference_passing'
+                                    },
+                                    {
+                                        text: '对象比较',
+                                        link: '/java/object_compare'
+                                    },
+                                    {
+                                        text: 'static 关键字',
+                                        link: '/java/static'
+                                    },
+                                    {
+                                        text: '代码块',
+                                        link: '/java/block'
+                                    },
+                                    {
+                                        text: '内部类',
+                                        link: '/java/inner'
+                                    },
+                                    {
+                                        text: '链表',
+                                        link: '/java/link'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '面向对象高级知识',
+                                items: [
+                                    {
+                                        text: '继承性',
+                                        link: '/java/extends'
+                                    },
+                                    {
+                                        text: '覆写',
+                                        link: '/java/override'
+                                    },
+                                    {
+                                        text: 'final 关键字',
+                                        link: '/java/final'
+                                    },
+                                    {
+                                        text: '多态性',
+                                        link: 'java/polymorphism'
+                                    },
+                                    {
+                                        text: '抽象类',
+                                        link: '/java/abstract'
+                                    },
+                                    {
+                                        text: '接口',
+                                        link: '/java/interface'
+                                    },
+                                    {
+                                        text: 'Object 类',
+                                        link: '/java/object'
+                                    },
+                                    {
+                                        text: '匿名内部类',
+                                        link: '/java/anonymous_classes'
+                                    },
+                                    {
+                                        text: '基本数据类型的包装类',
+                                        link: '/java/packaging_category'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '包及访问控制权限',
+                                items: [
+                                    {
+                                        text: '包的定义',
+                                        link: '/java/package'
+                                    },
+                                    {
+                                        text: '包的导入',
+                                        link: '/java/package_import'
+                                    },
+                                    {
+                                        text: '系统常见包',
+                                        link: '/java/system_package'
+                                    },
+                                    {
+                                        text: 'jar 命令',
+                                        link: '/java/jar'
+                                    },
+                                    {
+                                        text: '访问控制权限',
+                                        link: '/java/access_permissions'
+                                    },
+                                    {
+                                        text: '命名规范',
+                                        link: '/java/naming_convention'
+                                    },
+                                    {
+                                        text: '单例设计模式',
+                                        link: '/java/singleton'
+                                    },
+                                    {
+                                        text: '多例设计模式',
+                                        link: '/java/multition'
+                                    }
+                                ]
+                            },
+                            {
+                                text: '异常的捕获及处理',
+                                items: [
+                                    {
+                                        text: '认识异常',
+                                        link: '/java/exception_overview'
+                                    },
+                                    {
+                                        text: '处理异常',
+                                        link: '/java/exception_handling'
+                                    },
+                                    {
+                                        text: '异常的处理流程',
+                                        link: '/java/exception_handling_process'
+                                    },
+                                    {
+                                        text: 'throws 关键字',
+                                        link: '/java/throws'
+                                    },
+                                    {
+                                        text: 'throw 关键字',
+                                        link: '/java/throw'
+                                    },
+                                    {
+                                        text: '异常处理的标准格式',
+                                        link: '/java/exception_handling_format'
+                                    },
+                                    {
+                                        text: 'RuntimeException 类',
+                                        link: '/java/runtime_exception'
+                                    },
+                                    {
+                                        text: 'assert 关键字',
+                                        link: '/java/assert'
+                                    },
+                                    {
+                                        text: '自定义异常',
+                                        link: '/java/custom_exception'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Java 新特性',
+                                items: [
+                                    {
+                                        text: '可变参数',
+                                        link: '/java/variable_parameters'
+                                    },
+                                    {
+                                        text: 'foreach 循环',
+                                        link: '/java/foreach'
+                                    },
+                                    {
+                                        text: '静态导入',
+                                        link: '/java/import_static'
+                                    },
+                                    {
+                                        text: '泛型',
+                                        link: '/java/genericity'
+                                    },
+                                    {
+                                        text: '枚举',
+                                        link: '/java/enum'
+                                    },
+                                    {
+                                        text: '注解',
+                                        link: '/java/annotation'
+                                    },
+                                    {
+                                        text: '接口定义加强',
+                                        link: '/java/interface_enhance'
+                                    },
+                                    {
+                                        text: 'Lambda 表达式',
+                                        link: '/java/lambda'
+                                    },
+                                    {
+                                        text: '方法引用',
+                                        link: '/java/method_reference'
+                                    },
+                                    {
+                                        text: '内建函数式接口',
+                                        link: '/java/built_in_functional_interfaces'
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        text: 'Java 高级编程',
+                        items: [
+                            {
+                                text: '多线程',
+                                items: [
+                                    {
+                                        text: '线程与进程',
+                                        link: '/java/thread_process'
+                                    },
+                                    {
+                                        text: '多线程实现',
+                                        link: '/java/multi_thread'
+                                    },
+                                    {
+                                        text: '多线程常用操作方法',
+                                        link: '/java/thread_method'
+                                    },
+                                    {
+                                        text: '线程的同步与死锁',
+                                        link: '/java/synchronization_deadlock'
+                                    },
+                                    {
+                                        text: '生产者与消费者案例',
+                                        link: '/java/producer_consumer'
+                                    },
+                                    {
+                                        text: '线程的生命周期',
+                                        link: '/java/thread_life'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Java 常用类库',
+                                items: [
+                                    {
+                                        text: 'StringBuffer 类',
+                                        link: '/java/string_buffer'
+                                    },
+                                    {
+                                        text: 'Runtime 类',
+                                        link: '/java/runtime'
+                                    },
+                                    {
+                                        text: 'System 类',
+                                        link: '/java/system'
+                                    },
+                                    {
+                                        text: '对象克隆',
+                                        link: '/java/object_clone'
+                                    },
+                                    {
+                                        text: '数字操作类',
+                                        link: '/java/number_operate'
+                                    },
+                                    {
+                                        text: '日期处理类',
+                                        link: '/java/date'
+                                    },
+                                    {
+                                        text: '比较器',
+                                        link: '/java/comparator'
+                                    },
+                                    {
+                                        text: '正则表达式',
+                                        link: '/java/regex'
+                                    },
+                                    {
+                                        text: '反射机制',
+                                        link: '/java/reflex'
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
