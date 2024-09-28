@@ -851,6 +851,10 @@ export default {
                     {
                         text: '日期处理类',
                         link: '/java/date'
+                    },
+                    {
+                        text: '比较器',
+                        link: '/java/comparator'
                     }
                 ]
             },
