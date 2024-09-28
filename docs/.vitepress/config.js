@@ -815,6 +815,14 @@ export default {
                     {
                         text: '多线程常用操作方法',
                         link: '/java/thread_method'
+                    },
+                    {
+                        text: '线程的同步与死锁',
+                        link: '/java/synchronization_deadlock'
+                    },
+                    {
+                        text: '生产者与消费者案例',
+                        link: '/java/producer_consumer'
                     }
                 ]
             },
