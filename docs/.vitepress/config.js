@@ -952,6 +952,10 @@ export default {
                                     {
                                         text: '字符编码',
                                         link: '/java/coding'
+                                    },
+                                    {
+                                        text: '内存流',
+                                        link: '/java/memory_stream'
                                     }
                                 ]
                             }
