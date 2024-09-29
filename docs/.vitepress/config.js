@@ -927,6 +927,10 @@ export default {
                                     {
                                         text: '反射机制',
                                         link: '/java/reflex'
+                                    },
+                                    {
+                                        text: '国际化',
+                                        link: '/java/international'
                                     }
                                 ]
                             }
