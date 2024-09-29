@@ -25,7 +25,7 @@ features:
       src: /icon/icon_java.svg
     title: Java
     details: Java是世界上最好的语言.c
-    link: /guide
+    link: /java/start
     linkText: 开始阅读
   - icon:
       src: /icon/icon_spring.svg
