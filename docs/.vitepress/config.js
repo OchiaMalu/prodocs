@@ -948,6 +948,10 @@ export default {
                                     {
                                         text: '转换流',
                                         link: '/java/conversion_flow'
+                                    },
+                                    {
+                                        text: '字符编码',
+                                        link: '/java/coding'
                                     }
                                 ]
                             }
