@@ -944,6 +944,10 @@ export default {
                                     {
                                         text: '字节流与字符流',
                                         link: '/java/byte_character_stream'
+                                    },
+                                    {
+                                        text: '转换流',
+                                        link: '/java/conversion_flow'
                                     }
                                 ]
                             }
