@@ -933,6 +933,19 @@ export default {
                                         link: '/java/international'
                                     }
                                 ]
+                            },
+                            {
+                                text: 'Java IO 编程',
+                                items: [
+                                    {
+                                        text: '文件操作类: File',
+                                        link: '/java/file'
+                                    },
+                                    {
+                                        text: '字节流与字符流',
+                                        link: '/java/byte_character_stream'
+                                    }
+                                ]
                             }
                         ]
                     }
