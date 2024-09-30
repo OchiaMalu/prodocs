@@ -956,6 +956,10 @@ export default {
                                     {
                                         text: '内存流',
                                         link: '/java/memory_stream'
+                                    },
+                                    {
+                                        text: '打印流',
+                                        link: '/java/print_stream'
                                     }
                                 ]
                             }
