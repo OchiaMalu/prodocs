@@ -964,6 +964,10 @@ export default {
                                     {
                                         text: 'System 类对 IO 的支持',
                                         link: '/java/system_io'
+                                    },
+                                    {
+                                        text: '字符缓冲流',
+                                        link: '/java/buffered_reader'
                                     }
                                 ]
                             }
