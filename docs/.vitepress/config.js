@@ -960,6 +960,10 @@ export default {
                                     {
                                         text: '打印流',
                                         link: '/java/print_stream'
+                                    },
+                                    {
+                                        text: 'System 类对 IO 的支持',
+                                        link: '/java/system_io'
                                     }
                                 ]
                             }
