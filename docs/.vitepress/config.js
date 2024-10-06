@@ -972,6 +972,10 @@ export default {
                                     {
                                         text: '字符缓冲流',
                                         link: '/java/buffered_reader'
+                                    },
+                                    {
+                                        text: '扫描流:Scanner',
+                                        link: '/java/scanner'
                                     }
                                 ]
                             }
