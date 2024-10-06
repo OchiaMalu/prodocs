@@ -976,6 +976,10 @@ export default {
                                     {
                                         text: '扫描流:Scanner',
                                         link: '/java/scanner'
+                                    },
+                                    {
+                                        text: '对象序列化',
+                                        link: '/java/serializable'
                                     }
                                 ]
                             }
