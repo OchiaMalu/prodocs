@@ -3,7 +3,7 @@
 从 JDK1.5 开始增加了一个 `java.util.Scanner` 的程序类，利用这个类可以方便地实现数据的输入操作。`Scanner`
 类并没有定义在`java.io` 包中，而是定义在了 `java.util` 包中，所以此类是一个工具类，此类的继承结构如图所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240928000907308.png" alt="image-20240928000907308" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240928000907308.png" alt="image-20240928000907308" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于 Scanner 产生的背景
 
@@ -28,7 +28,7 @@
 通过 `Scanner` 类的继承关系可以发现，`Scanner` 实现了 `Iterator` (迭代)接口与 `Closeable` 接口。而 `Scanner`
 类的构造方法还可以接收 `InputStream` 或 `File` 等类型以实现输入流操作。`Scanner` 类中定义的常用方法如表所示。
 
-<img src="C:\Users\OchiaMalu\AppData\Roaming\Typora\typora-user-images\image-20240928001151835.png" alt="image-20240928001151835" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.top/image-20240928001151835.png" alt="image-20240928001151835" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
