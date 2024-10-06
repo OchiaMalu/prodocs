@@ -332,6 +332,10 @@ export default {
                                 link: 'https://ant-design.antgroup.com/index-cn'
                             },
                             {
+                                text: 'Ant Design Mobile',
+                                link: 'https://ant-design-mobile.antgroup.com/zh'
+                            },
+                            {
                                 text: 'Vant4',
                                 link: 'https://vant-ui.github.io/vant/#/zh-CN'
                             }
