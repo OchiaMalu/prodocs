@@ -1005,6 +1005,10 @@ export default {
                                     {
                                         text: '集合输出',
                                         link: '/java/collection_output'
+                                    },
+                                    {
+                                        text: '偶对象保存:Map接口',
+                                        link: '/java/map'
                                     }
                                 ]
                             }
