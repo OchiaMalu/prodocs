@@ -1009,6 +1009,10 @@ export default {
                                     {
                                         text: '偶对象保存:Map接口',
                                         link: '/java/map'
+                                    },
+                                    {
+                                        text: 'Stack 子类',
+                                        link: '/java/stack'
                                     }
                                 ]
                             }
