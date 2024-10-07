@@ -993,6 +993,10 @@ export default {
                                     {
                                         text: '单对象保存父接口',
                                         link: '/java/collection'
+                                    },
+                                    {
+                                        text: 'List 子接口',
+                                        link: '/java/list'
                                     }
                                 ]
                             }
