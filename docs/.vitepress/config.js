@@ -1017,6 +1017,10 @@ export default {
                                     {
                                         text: 'Stack 子类',
                                         link: '/java/stack'
+                                    },
+                                    {
+                                        text: 'Properties 子类',
+                                        link: '/java/properties'
                                     }
                                 ]
                             }
