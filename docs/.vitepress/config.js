@@ -1021,6 +1021,10 @@ export default {
                                     {
                                         text: 'Properties 子类',
                                         link: '/java/properties'
+                                    },
+                                    {
+                                        text: 'Collections 工具类',
+                                        link: '/java/collections'
                                     }
                                 ]
                             }
