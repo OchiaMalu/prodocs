@@ -324,6 +324,10 @@ export default {
                                 link: 'https://vitepress.dev/'
                             },
                             {
+                                text: 'zustand',
+                                link: 'https://zustand-demo.pmnd.rs/'
+                            },
+                            {
                                 text: 'Element',
                                 link: 'https://element.eleme.cn/#/zh-CN'
                             },
@@ -980,6 +984,15 @@ export default {
                                     {
                                         text: '对象序列化',
                                         link: '/java/serializable'
+                                    }
+                                ]
+                            },
+                            {
+                                text: 'Java 类集框架',
+                                items: [
+                                    {
+                                        text: '单对象保存父接口',
+                                        link: '/java/collection'
                                     }
                                 ]
                             }
