@@ -1025,6 +1025,10 @@ export default {
                                     {
                                         text: 'Collections 工具类',
                                         link: '/java/collections'
+                                    },
+                                    {
+                                        text: '数据流',
+                                        link: '/java/data_stream'
                                     }
                                 ]
                             }
