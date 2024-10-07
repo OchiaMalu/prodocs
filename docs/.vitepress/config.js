@@ -678,6 +678,10 @@ export default {
                                         link: '/java/reference_passing'
                                     },
                                     {
+                                        text: '数据表与简单Java类映射',
+                                        link: '/java/table_mapping'
+                                    },
+                                    {
                                         text: '对象比较',
                                         link: '/java/object_compare'
                                     },
