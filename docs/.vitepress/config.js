@@ -997,6 +997,14 @@ export default {
                                     {
                                         text: 'List 子接口',
                                         link: '/java/list'
+                                    },
+                                    {
+                                        text: 'Set 子接口',
+                                        link: '/java/set'
+                                    },
+                                    {
+                                        text: '集合输出',
+                                        link: '/java/collection_output'
                                     }
                                 ]
                             }
