@@ -135,6 +135,10 @@ export default {
                 text: '🧱开发必备',
                 items: [
                     {
+                        text: '进制转换',
+                        link: 'https://tool.oschina.net/hexconvert'
+                    },
+                    {
                         text: '在线ASCII码表',
                         link: 'https://www.fly63.com/tool/ascii/'
                     },
@@ -185,10 +189,6 @@ export default {
                     {
                         text: '字符串编码解码',
                         link: 'https://www.zxgj.cn/g/enstring'
-                    },
-                    {
-                        text: '进制转换',
-                        link: 'https://www.zxgj.cn/g/jinzhi'
                     },
                     {
                         text: 'Unix时间戳转换',
@@ -316,12 +316,20 @@ export default {
                                 link: 'https://cn.vuejs.org/'
                             },
                             {
+                                text: 'React',
+                                link: 'https://react.dev/'
+                            },
+                            {
                                 text: 'Vite3',
                                 link: 'https://cn.vitejs.dev/'
                             },
                             {
                                 text: 'VitePress',
                                 link: 'https://vitepress.dev/'
+                            },
+                            {
+                                text: 'VuePress',
+                                link: 'https://vuepress.vuejs.org/zh/'
                             },
                             {
                                 text: 'zustand',
@@ -332,6 +340,10 @@ export default {
                                 link: 'https://element.eleme.cn/#/zh-CN'
                             },
                             {
+                                text: 'Element Plus',
+                                link: 'https://element-plus.org/zh-CN/#/zh-CN'
+                            },
+                            {
                                 text: 'Ant Design',
                                 link: 'https://ant-design.antgroup.com/index-cn'
                             },
@@ -340,8 +352,16 @@ export default {
                                 link: 'https://ant-design-mobile.antgroup.com/zh'
                             },
                             {
+                                text: 'Ant Design Pro',
+                                link: 'https://pro.ant.design/zh-CN/'
+                            },
+                            {
                                 text: 'Vant4',
                                 link: 'https://vant-ui.github.io/vant/#/zh-CN'
+                            },
+                            {
+                                text: 'ECharts',
+                                link: 'https://echarts.apache.org/zh/index.html'
                             }
                         ]
                     },
@@ -353,13 +373,29 @@ export default {
                                 link: 'https://mvnrepository.com/'
                             },
                             {
+                                text: 'Spring',
+                                link: 'https://spring.io/projects'
+                            },
+                            {
+                                text: 'SpringBoot阿里云',
+                                link: 'https://start.aliyun.com/'
+                            },
+                            {
                                 text: 'Mybatis',
                                 link: 'https://mybatis.net.cn/index.html'
                             },
                             {
+                                text: 'Mybatis Plus',
+                                link: 'https://baomidou.com/'
+                            },
+                            {
+                                text: 'RocketMQ',
+                                link: 'https://rocketmq.apache.org/'
+                            },
+                            {
                                 text: 'Knife4j',
                                 link: 'https://doc.xiaominfo.com/'
-                            }
+                            },
                         ]
                     }
                 ]
