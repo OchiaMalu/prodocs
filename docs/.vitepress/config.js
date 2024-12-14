@@ -363,8 +363,16 @@ export default {
                                 link: 'https://vant-ui.github.io/vant/#/zh-CN'
                             },
                             {
+                                text: 'Shadcn/ui',
+                                link: 'https://www.shadcn.com.cn/'
+                            },
+                            {
                                 text: 'ECharts',
                                 link: 'https://echarts.apache.org/zh/index.html'
+                            },
+                            {
+                                text: 'CSS Grid Generator',
+                                link: 'https://cssgrid-generator.netlify.app/'
                             }
                         ]
                     },
