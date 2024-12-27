@@ -118,14 +118,14 @@ export default {
     ],
     themeConfig: {
         search: {
-            provider: 'algolia',
-            options: {
-                "appId": "HE9KWBZ9N0",
-                "apiKey": "79f516eaefb0a0550789b6dc0d4c01ce", // 需要替换
-                "indexName": "pro",
-                "placeholder": "请输入关键词",
-                "buttonText": "搜索"
-            }
+            provider: 'local',
+            // options: {
+            //     "appId": "HE9KWBZ9N0",
+            //     "apiKey": "79f516eaefb0a0550789b6dc0d4c01ce", // 需要替换
+            //     "indexName": "pro",
+            //     "placeholder": "请输入关键词",
+            //     "buttonText": "搜索"
+            // }
         },
         logo: {light: '/favicon.ico', dark: '/favicon_dark.ico'},
         outline: 'deep',
