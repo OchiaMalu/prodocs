@@ -120,8 +120,8 @@ export default {
         search: {
             provider: 'algolia',
             options: {
-                "appId": "OTYX2F0T7M",
-                "apiKey": "ff5ce4ae1288f2701b75c8ef53a27a0d", // 需要替换
+                "appId": "HE9KWBZ9N0",
+                "apiKey": "79f516eaefb0a0550789b6dc0d4c01ce", // 需要替换
                 "indexName": "pro",
                 "placeholder": "请输入关键词",
                 "buttonText": "搜索"
