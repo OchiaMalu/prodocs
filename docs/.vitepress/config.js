@@ -118,14 +118,14 @@ export default {
     ],
     themeConfig: {
         search: {
-            provider: 'local',
-            // options: {
-            //     "appId": "HE9KWBZ9N0",
-            //     "apiKey": "79f516eaefb0a0550789b6dc0d4c01ce", // 需要替换
-            //     "indexName": "pro",
-            //     "placeholder": "请输入关键词",
-            //     "buttonText": "搜索"
-            // }
+            provider: 'algolia',
+            options: {
+                "appId": "HE9KWBZ9N0",
+                "apiKey": "5010b3f6a6175150f45108875d232114", // 需要替换
+                "indexName": "pro",
+                "placeholder": "请输入关键词",
+                "buttonText": "搜索"
+            }
         },
         logo: {light: '/favicon.ico', dark: '/favicon_dark.ico'},
         outline: 'deep',
@@ -1078,6 +1078,160 @@ export default {
                                         link: '/java/data_stream'
                                     }
                                 ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                text: "设计模式",
+                collapsed: true,
+                items: [
+                    {
+                        text: "概述",
+                        link: '/design_pattern/overview'
+                    },
+                    {
+                        text: "UML",
+                        link: '/design_pattern/uml'
+                    },
+                    {
+                        text: "软件设计原则",
+                        link: '/design_pattern/software_design_principles',
+                    },
+                    {
+                        text: "创建者模式",
+                        items: [
+                            {
+                                text: "概述",
+                                link: '/design_pattern/builder_pattern/overview'
+                            },
+                            {
+                                text: "单例模式",
+                                link: '/design_pattern/builder_pattern/singleton'
+                            },
+                            {
+                                text: "工厂模式",
+                                link: '/design_pattern/builder_pattern/factory'
+                            },
+                            {
+                                text: "原型模式",
+                                link: '/design_pattern/builder_pattern/prototype'
+                            },
+                            {
+                                text: "创建者模式",
+                                link: '/design_pattern/builder_pattern/builder'
+                            },
+                            {
+                                text: "创建者模式对比",
+                                link: '/design_pattern/builder_pattern/differance'
+                            }
+                        ]
+                    },
+                    {
+                        text: "结构型模式",
+                        items: [
+                            {
+                                text: "概述",
+                                link: '/design_pattern/structural_pattern/overview'
+                            },
+                            {
+                                text: "代理模式",
+                                link: '/design_pattern/structural_pattern/proxy'
+                            },
+                            {
+                                text: "适配器模式",
+                                link: '/design_pattern/structural_pattern/adapter'
+                            },
+                            {
+                                text: "装饰模式",
+                                link: '/design_pattern/structural_pattern/decorator'
+                            },
+                            {
+                                text: "桥接模式",
+                                link: '/design_pattern/structural_pattern/bridge'
+                            },
+                            {
+                                text: "外观模式",
+                                link: '/design_pattern/structural_pattern/facade'
+                            },
+                            {
+                                text: "组合模式",
+                                link: '/design_pattern/structural_pattern/composite'
+                            },
+                            {
+                                text: "享元模式",
+                                link: '/design_pattern/structural_pattern/flyweight'
+                            }
+                        ]
+                    },
+                    {
+                        text: "行为型模式",
+                        items: [
+                            {
+                                text: "概述",
+                                link: '/design_pattern/behavioral_pattern/overview'
+                            },
+                            {
+                                text: "模板方法模式",
+                                link: '/design_pattern/behavioral_pattern/template'
+                            },
+                            {
+                                text: "策略模式",
+                                link: '/design_pattern/behavioral_pattern/strategy'
+                            },
+                            {
+                                text: "命令模式",
+                                link: '/design_pattern/behavioral_pattern/command'
+                            },
+                            {
+                                text: "职责链模式",
+                                link: '/design_pattern/behavioral_pattern/chain_of_responsibility'
+                            },
+                            {
+                                text: "状态模式",
+                                link: '/design_pattern/behavioral_pattern/status'
+                            },
+                            {
+                                text: "中介者模式",
+                                link: '/design_pattern/behavioral_pattern/mediator'
+                            },
+                            {
+                                text: "访问者模式",
+                                link: '/design_pattern/behavioral_pattern/visitor'
+                            },
+                            {
+                                text: "迭代器模式",
+                                link: '/design_pattern/behavioral_pattern/iterator'
+                            },
+                            {
+                                text: "备忘录模式",
+                                link: '/design_pattern/behavioral_pattern/memento'
+                            },
+                            {
+                                text: "解释器模式",
+                                link: '/design_pattern/behavioral_pattern/interpreter'
+                            }
+                        ]
+                    },
+                    {
+                        text: "自定义Spring框架",
+                        items: [
+                            {
+                                text: "Spring使用回顾",
+                                link: '/design_pattern/spring/review'
+                            },
+                            {
+                                text: "Spring核心功能结构",
+                                link: '/design_pattern/spring/core'
+                            },
+                            {
+                                text: "Spring IOC相关接口分析",
+                                link: '/design_pattern/spring/ioc'
+                            },
+                            {
+                                text: "自定义SpringIOC",
+                                link: '/design_pattern/spring/custom_ioc'
                             }
                         ]
                     }
