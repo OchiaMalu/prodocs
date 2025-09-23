@@ -8,7 +8,7 @@
 
 之前说过，前 4 位是操作码，简称 **OPCODE** ，对于我们假设的 CPU ，0010 代表 LOAD_A 指令——把值从内存复制到寄存器 A。
 
-<img src="http://niu.ochiamalu.top/image-20231006193959598.png" alt="image-20231006193959598" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231006193959598.png" alt="image-20231006193959598" style="zoom:80%;margin:0 auto" />
 
 可以想成是英语和摩尔斯码的区别，`hello` 和  `.... . .-.. .-.. ---` 是一个意思，只是编码方式不同。
 
@@ -28,7 +28,7 @@
 
 在纸上写好后，用 **操作码表** 把伪代码转成二进制机器码，翻译完成后，程序可以放入计算机并运行。
 
-<img src="http://niu.ochiamalu.top/image-20231010231105868.png" alt="image-20231010231105868" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231010231105868.png" alt="image-20231010231105868" style="zoom: 67%;margin:0 auto" />
 
 ## 助记符
 
@@ -50,7 +50,7 @@
 
 所以汇编器不用固定跳转地址，而是让你插入可跳转的标签，当程序被传入汇编器，汇编器会自己搞定跳转地址，程序员可以专心编程，不用管底层细节，隐藏不必要细节来做更复杂的工作。
 
-<img src="http://niu.ochiamalu.top/image-20231010231633797.png" alt="image-20231010231633797" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231010231633797.png" alt="image-20231010231633797" style="zoom: 80%;margin:0 auto" />
 
 然而，即使汇编器有这些厉害功能，比如自动跳转，汇编只是修饰了一下机器码，一般来说，一条汇编指令对应一条机器指令，所以汇编码和底层硬件的连接很紧密。
 
@@ -81,7 +81,7 @@ Version 0），简称 `A-0` 。
 
 记住，如果用汇编代码，我们得从内存取值，和寄存器打交道，以及其他底层细节。
 
-<img src="http://niu.ochiamalu.top/image-20231010232240104.png" alt="image-20231010232240104" style="zoom: 150%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231010232240104.png" alt="image-20231010232240104" style="zoom: 150%;margin:0 auto" />
 
 但同样的程序可以用 Python 这样写：
 

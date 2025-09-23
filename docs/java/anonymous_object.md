@@ -3,7 +3,7 @@
 按照之前的内存关系来讲，对象的名字可以解释为在 `栈内存` 中保存，而对象的具体内容（属性）在 `堆内存`
 中保存，这样一来，没有栈内存指向堆内存空间，就是一个 `匿名对象` ，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922204745487.png" alt="image-20240922204745487" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922204745487.png" alt="image-20240922204745487" style="zoom:80%;margin:0 auto" />
 
 ```java
 class Book { 									// 定义一个新的类

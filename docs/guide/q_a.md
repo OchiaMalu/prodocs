@@ -2,7 +2,7 @@
 
 在这里你可以找到一系列计算机经典问题的问答。
 
-<img src="http://niu.ochiamalu.top/image-20230930170603886.png" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20230930170603886.png" style="zoom:80%;margin:0 auto" />
 
 <br/>
 

@@ -2,7 +2,7 @@
 
 Java 本身提供了大量的程序开发包（除了 Java 自己提供的，还有许多第三方提供的开发包)。在 Java 开发里面有许多的常见系统包，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928130334980.png" alt="image-20240928130334980" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928130334980.png" alt="image-20240928130334980" style="zoom:80%;margin:0 auto" />
 
 :::tip `Applet` 技术较为古老，已经不再使用了
 

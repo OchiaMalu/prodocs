@@ -8,13 +8,13 @@
 
 它们是同事，帮我们把困难的工作，做得更快更好。
 
-<img src="http://niu.ochiamalu.top/image-20231105160638744.png" alt="image-20231105160638744" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105160638744.png" alt="image-20231105160638744" style="zoom:80%;margin:0 auto" />
 
 机器人的定义有很多种，但总的来说，机器人由计算机控制，可以 **自动** 执行一系列动作的机器。
 
 外观并不重要，可以是给汽车喷漆的机械臂，无人机，或辅助外科医生的蛇状机器人，以及人形机器人。
 
-<img src="http://niu.ochiamalu.top/image-20231105160709953.png" alt="image-20231105160709953" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105160709953.png" alt="image-20231105160709953" style="zoom:80%;margin:0 auto" />
 
 ## 机器人
 
@@ -28,14 +28,14 @@
 戏剧没讲太多技术细节，但即使一个世纪后，这种描述依然很普遍： <u>
 机器人都是大规模生产，高效不知疲倦，看起来像人的东西，但毫无情感，不会保护自己，没有创造力</u> 。
 
-<img src="http://niu.ochiamalu.top/image-20231105160807554.png" alt="image-20231105160807554" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105160807554.png" alt="image-20231105160807554" style="zoom:80%;margin:0 auto" />
 
 ## 自动机
 
 更广义的自动运行机器，早在 1920 年代前就有了，很多古代发明家，发明了能自动运行的机械装置，比如计时和定时敲钟，有很多装置有动物和人类的形象，能跳舞，唱歌，打鼓等，这些不用电，而且肯定
 **没有电子部件** 的机器，叫 `自动机` （automatons）。
 
-<img src="http://niu.ochiamalu.top/image-20231105160838781.png" alt="image-20231105160838781" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105160838781.png" alt="image-20231105160838781" style="zoom:80%;margin:0 auto" />
 
 举个例子，1739 年法国人 **Jacques de Vaucans** 做了个自动机，法语叫 `Canard Digerateur` ，翻译过来是 `吃饭鸭`
 ，一个像鸭子的机器，能吃东西然后排便。
@@ -45,7 +45,7 @@
 一个名声很臭的例子是 `土耳其行棋傀儡` ，一个能下国际象棋的人形机器人，在 1770
 年建造完成后，就在欧洲各地展览，好棋艺惊叹观众，像某种机械人工智能，不幸的是，这是个骗局，机器里有人控制。
 
-<img src="http://niu.ochiamalu.top/image-20231105160942315.png" alt="image-20231105160942315" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105160942315.png" alt="image-20231105160942315" style="zoom:80%;margin:0 auto" />
 
 ## CNC 机器
 
@@ -53,13 +53,13 @@
 程序指定的操作，精细的控制让我们能生产之前很难做的物品，比如从一整块铝加工出复杂的螺旋桨，这用普通机械工具很难做到，并且误差容忍度很小，无法手工加工，CNC
 机器大大推进了制造业，不仅提高了制造能力和精确度还降低了生产成本。
 
-<img src="http://niu.ochiamalu.top/image-20231105161113854.png" alt="image-20231105161113854" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161113854.png" alt="image-20231105161113854" style="zoom:80%;margin:0 auto" />
 
 ## Unimate
 
 第一个商业贩卖的 **可编程** 工业机器人叫 `Unimate` ，于 1960 年卖给通用汽车公司，它可以把压铸机做出来的热金属成品提起来，然后堆起来，机器人行业由此开始。
 
-<img src="http://niu.ochiamalu.top/image-20231105161155094.png" alt="image-20231105161155094" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161155094.png" alt="image-20231105161155094" style="zoom:80%;margin:0 auto" />
 
 很快，机器人开始堆叠货盘，焊接，给汽车喷漆等等，对于简单运动，比如机器爪子在轨道上来回移动，可以指示它移动到特定位置，它会一直朝那个方向移动，直到到达，然后停下来，这种行为可以用简单控制回路做。
 
@@ -69,7 +69,7 @@
 
 我们到了吗？是的！现在可以停下来了。
 
-<img src="http://niu.ochiamalu.top/image-20231105161219927.png" alt="image-20231105161219927" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161219927.png" alt="image-20231105161219927" style="zoom:80%;margin:0 auto" />
 
 因为我们在不断缩小当前位置和目标位置的距离，这个控制回路更准确的叫"负反馈回路"。
 
@@ -77,7 +77,7 @@
 ，可以测量现实中的东西，比如水压，马达位置，气温，或任何你想控制的东西，根据传感器，计算和目标值相差多大，得到一个 "错误"
 ，然后 `控制器` 会处理这个"错误"，决定怎么减小错误，然后用泵，电机，加热元件，或其他物理组件来做出动作。
 
-<img src="http://niu.ochiamalu.top/image-20231105161249919.png" alt="image-20231105161249919" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161249919.png" alt="image-20231105161249919" style="zoom:80%;margin:0 auto" />
 
 在严格控制的环境中，这种简单控制回路也够用了，但在很多现实应用中，情况复杂得多，假设爪子很重，哪怕控制回路叫停了， **惯性**
 让爪子超过了预期位置，然后控制回路又开始运行，叫爪子移动回去，一个糟糕的控制回路可能会让爪子不断来回移动，甚至永远循环。
@@ -102,19 +102,19 @@ controller），这个有点绕口，所以一般简称 **PID控制器** 。
 
 `实际值` 和 `理想值` 的差距越大，就越用力，换句话说，它是 **比例控制** 的。
 
-<img src="http://niu.ochiamalu.top/image-20231105161343766.png" alt="image-20231105161343766" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161343766.png" alt="image-20231105161343766" style="zoom:80%;margin:0 auto" />
 
 接下来，算 `积分值` ，就是一段时间内误差的总和，比如最近几秒，帮助弥补误差，比如上坡时可能就会产生误差，如果这个值很大，说明比例控制不够，要继续用力前进。
 
-<img src="http://niu.ochiamalu.top/image-20231105161400392.png" alt="image-20231105161400392" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161400392.png" alt="image-20231105161400392" style="zoom:80%;margin:0 auto" />
 
 最后有 `导数值` ，是期望值与实际值之间的变化率，有助于解决未来可能出现的错误，有时也叫 **预期控制** ，比如前进的太快，要稍微放松一点，避免冲过头。
 
-<img src="http://niu.ochiamalu.top/image-20231105161420283.png" alt="image-20231105161420283" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161420283.png" alt="image-20231105161420283" style="zoom:80%;margin:0 auto" />
 
 这三个值会一起使用，它们有不同权重，然后用来控制系统。
 
-<img src="http://niu.ochiamalu.top/image-20231105161433612.png" alt="image-20231105161433612" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161433612.png" alt="image-20231105161433612" style="zoom:80%;margin:0 auto" />
 
 `PID 控制器` 到处都是，比如汽车里的巡航控制，无人机调整螺旋桨速度，以保持水平，以及一些更奇怪的机器人，比如这个用球来平衡和移动的机器人。
 
@@ -134,7 +134,7 @@ controller），这个有点绕口，所以一般简称 **PID控制器** 。
 
 例如，谷歌在进行一项实验，让一堆机器人手臂把各种东西，从一个盒子拿到另一个盒子，不断试错学习，经过数千小时的练习，机器人把错误率降低了一半。
 
-<img src="http://niu.ochiamalu.top/image-20231105161457633.png" alt="image-20231105161457633" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161457633.png" alt="image-20231105161457633" style="zoom:80%;margin:0 auto" />
 
 不像人类，机器人可以 24 小时全天运行，而且多个手臂同时练习，所以机器人擅长抓东西只是时间问题，但现在，小婴儿都比机器人更会抓东西。
 
@@ -144,7 +144,7 @@ controller），这个有点绕口，所以一般简称 **PID控制器** 。
 
 车上布满了 **传感器** ，无人驾驶汽车非常依赖 **计算机视觉算法** 。
 
-<img src="http://niu.ochiamalu.top/image-20231105161521661.png" alt="image-20231105161521661" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231105161521661.png" alt="image-20231105161521661" style="zoom:80%;margin:0 auto" />
 
 现在也开始出现类人机器人，外貌和行为像人类的机器人，不过现在两个目标都没接近（外貌和行为），因为看起来一般怪怪的，行为也怪怪的。
 

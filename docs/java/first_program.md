@@ -30,7 +30,7 @@ public class Hello { //定义一个类
 
 也可以在集成开发环境中直接点击绿色箭头运行。
 
-<img src="http://niu.ochiamalu.top/image-20240917155049868.png" alt="image-20240917155049868" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917155049868.png" alt="image-20240917155049868" style="zoom:80%;margin:0 auto" />
 
 ### 类的定义
 

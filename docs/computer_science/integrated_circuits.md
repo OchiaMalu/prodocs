@@ -13,11 +13,11 @@
 ENIAC 有 1 万 7 千多个真空管, 7 万个电阻， 1 万个电容器, 7 千个二极管, 5
 百万个手工焊点，如果想提升性能，就要加更多部件这导致更多电线，更复杂，这个问题叫 `数字暴政` （Tyranny of Numbers）。
 
-<img src="http://niu.ochiamalu.top/image-20231019163719228.png" alt="image-20231019163719228" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019163719228.png" alt="image-20231019163719228" style="zoom:80%;margin:0 auto" />
 
 1950 年代中期，晶体管开始商业化（市场上买得到）开始用在计算机里，晶体管比电子管 更小更快更可靠，但晶体管依然是分立元件。
 
-<img src="http://niu.ochiamalu.top/image-20231019164141405.png" alt="image-20231019164141405" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019164141405.png" alt="image-20231019164141405" style="zoom:80%;margin:0 auto" />
 
 1959年，IBM 把 709 计算机从原本的电子管全部换成晶体管，诞生的新机器 IBM 7090 速度快 6 倍，价格只有一半，晶体管标志着 **计算
 2.0 时代** 的到来，虽然更快更小但晶体管的出现 还是没有解决 **数字暴政** 的问题，有几十万个独立元件的计算机不但难设计
@@ -25,7 +25,7 @@ ENIAC 有 1 万 7 千多个真空管, 7 万个电阻， 1 万个电容器, 7 千
 
 1960 年代，这个问题的严重性达到顶点， 电脑内部常常一大堆电线缠绕在一起，看看这个 1965 年 PDP-8 计算机的内部。
 
-<img src="http://niu.ochiamalu.top/image-20231019164202109.png" alt="image-20231019164202109" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019164202109.png" alt="image-20231019164202109" style="zoom:80%;margin:0 auto" />
 
 ## 集成电路
 
@@ -41,7 +41,7 @@ ENIAC 有 1 万 7 千多个真空管, 7 万个电阻， 1 万个电容器, 7 千
 
 起初，一个 IC 只有几个晶体管例如这块早期样品，由西屋公司制造，即使只有几个晶体管也可以把简单电路，能封装成单独组件。
 
-<img src="http://niu.ochiamalu.top/image-20231019164736713.png" alt="image-20231019164736713" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019164736713.png" alt="image-20231019164736713" style="zoom:80%;margin:0 auto" />
 
 ## PCB
 
@@ -49,19 +49,19 @@ IC 就像电脑工程师的乐高积木可以组合出无数种设计，但最�
 
 所以工程师们再度创新： **印刷电路板** ，简称 `PCB` 。
 
-<img src="http://niu.ochiamalu.top/image-20231019164758540.png" alt="image-20231019164758540" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019164758540.png" alt="image-20231019164758540" style="zoom:80%;margin:0 auto" />
 
 PCB 可以大规模生产，无需焊接或用一大堆线，它通过蚀刻金属线的方式，把零件连接到一起。
 
 把 PCB 和 IC 结合使用可以大幅减少独立组件和电线，但做到相同的功能，而且 **更小，更便宜，更可靠** ！
 
-<img src="http://niu.ochiamalu.top/image-20231019164828188.png" alt="image-20231019164828188" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019164828188.png" alt="image-20231019164828188" style="zoom:80%;margin:0 auto" />
 
 ## 光刻
 
 许多早期 IC 都是把很小的分立元件封装成一个独立单元，例如这块 1964 年的 IBM 样品。
 
-<img src="http://niu.ochiamalu.top/image-20231019165001687.png" alt="image-20231019165001687" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019165001687.png" alt="image-20231019165001687" style="zoom:80%;margin:0 auto" />
 
 不过，即使组件很小塞5个以上的晶体管还是很困难，为了实现更复杂的设计，需要全新的制作工艺  `光刻` （Photolithography）登场！
 
@@ -71,90 +71,90 @@ PCB 可以大规模生产，无需焊接或用一大堆线，它通过蚀刻金�
 
 我们可以用晶圆做基础把 **复杂金属电路** 放上面，集成所有东西，非常适合做 **集成电路** 。
 
-<img src="http://niu.ochiamalu.top/image-20231019165522508.png" alt="image-20231019165522508" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019165522508.png" alt="image-20231019165522508" style="zoom: 50%;margin:0 auto" />
 
 下一步是在硅片顶部加一层薄薄的 **氧化层** ，作为保护层。
 
-<img src="http://niu.ochiamalu.top/image-20231019165704437.png" alt="image-20231019165704437" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019165704437.png" alt="image-20231019165704437" style="zoom:80%;margin:0 auto" />
 
 然后加一层特殊化学品, 叫 `光刻胶` ，光刻胶被光照射后，会变得可溶，可以用一种特殊化学药剂洗掉。
 
-<img src="http://niu.ochiamalu.top/image-20231019165745434.png" alt="image-20231019165745434" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019165745434.png" alt="image-20231019165745434" style="zoom:80%;margin:0 auto" />
 
 单单光刻胶本身，并不是很有用但和 `光掩膜` 配合使用会很强大，把光掩膜盖到晶圆上，用强光照射 **挡住** 光的地方，光刻胶不会变化。
 
-<img src="http://niu.ochiamalu.top/image-20231019165841458.png" alt="image-20231019165841458" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019165841458.png" alt="image-20231019165841458" style="zoom:80%;margin:0 auto" />
 
 光照到的地方，光刻胶会发生化学变化洗掉它之后，暴露出 **氧化层** 。
 
 用另一种化学物质 - 通常是一种酸可以洗掉 **氧化层** 露出的部分, 蚀刻到 **硅** （晶圆）层。
 
-<img src="http://niu.ochiamalu.top/image-20231019170037060.png" alt="image-20231019170037060" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170037060.png" alt="image-20231019170037060" style="zoom:80%;margin:0 auto" />
 
 注意，氧化层被光刻胶保护住了，为了清理光刻胶，我们用另一种化学药品洗掉它。
 
 是的，光刻法用很多化学品，每种都有特定用途。
 
-<img src="http://niu.ochiamalu.top/image-20231019170155018.png" alt="image-20231019170155018" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170155018.png" alt="image-20231019170155018" style="zoom:80%;margin:0 auto" />
 
 现在硅又露出来了，我们想修改硅露出来的区域，让它导电性更好，所以用一种化学过程来改变它，叫 `掺杂` 。
 
 `掺杂` 通常用高温气体来做，比如 **磷** 渗透进暴露出的硅，改变电学性质。
 
-<img src="http://niu.ochiamalu.top/image-20231019170346241.png" alt="image-20231019170346241" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170346241.png" alt="image-20231019170346241" style="zoom:80%;margin:0 auto" />
 
 我们还需要几轮光刻法来做晶体管，过程基本一样，先盖 **氧化层** ，再盖 **光刻胶** 。
 
-<img src="http://niu.ochiamalu.top/image-20231019170454282.png" alt="image-20231019170454282" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170454282.png" alt="image-20231019170454282" style="zoom:80%;margin:0 auto" />
 
 然后用新的光掩膜，这次 **图案不同** 在掺杂区域上方开一个缺口。
 
-<img src="http://niu.ochiamalu.top/image-20231019170528122.png" alt="image-20231019170528122" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170528122.png" alt="image-20231019170528122" style="zoom:80%;margin:0 auto" />
 
 洗掉光刻胶，然后用 **另一种气体** 掺杂 ，把一部分硅转成另一种形式。
 
 为了控制深度，时机很重要我们不想超过之前的区域。
 
-<img src="http://niu.ochiamalu.top/image-20231019170553557.png" alt="image-20231019170553557" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170553557.png" alt="image-20231019170553557" style="zoom:80%;margin:0 auto" />
 
 再次用 **光刻胶** 和 **光掩膜** 蚀刻出小通道，在氧化层上做通道，可以用 **细小金属导线** ，连接不同晶体管。
 
-<img src="http://niu.ochiamalu.top/image-20231019170753514.png" alt="image-20231019170753514" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170753514.png" alt="image-20231019170753514" style="zoom:80%;margin:0 auto" />
 
 现在用新的处理方法 叫 `金属化`  放一层薄薄的 **金属** ，比如铝或铜。
 
-<img src="http://niu.ochiamalu.top/image-20231019170928910.png" alt="image-20231019170928910" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019170928910.png" alt="image-20231019170928910" style="zoom:80%;margin:0 auto" />
 
 但我们不想用金属盖住所有东西，我们想蚀刻出 **具体** 的电路。
 
 所以又是类似的步骤，用光刻胶+光掩膜，然后溶掉暴露的光刻胶，暴露的金属。
 
-<img src="http://niu.ochiamalu.top/image-20231019171032090.png" alt="image-20231019171032090" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019171032090.png" alt="image-20231019171032090" style="zoom:80%;margin:0 auto" />
 
 晶体管终于做好了！它有 **三根线** ，连接着硅的三个不同区域，每个区域的掺杂方式不同，这叫 `双极型晶体管`（bipolar junction
 transistor） 。
 
-<img src="http://niu.ochiamalu.top/image-20231019171134372.png" alt="image-20231019171134372" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019171134372.png" alt="image-20231019171134372" style="zoom:80%;margin:0 auto" />
 
 这个 1962 年的真实专利，永远改变了世界，用类似步骤，光刻可以制作其他电子元件比如电阻和电容，都在一片硅上，而且互相连接的电路也做好了。
 
-<img src="http://niu.ochiamalu.top/image-20231019171328809.png" alt="image-20231019171328809" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019171328809.png" alt="image-20231019171328809" style="zoom:80%;margin:0 auto" />
 
 之前的例子 只做了一个晶体管，但现实中光刻法一次会做上百万个细节，芯片放大是这样的，导线上下交错，连接各个元件。
 
-<img src="http://niu.ochiamalu.top/image-20231019171422259.png" alt="image-20231019171422259" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019171422259.png" alt="image-20231019171422259" style="zoom:80%;margin:0 auto" />
 
 尽管可以把光掩膜投影到一整片晶圆上但光可以投射成 **任意大小** ，就像投影仪可以投满荧幕一样。
 
 我们可以把 **光掩膜** 聚焦到极小的区域，制作出非常精细的细节。
 
-<img src="http://niu.ochiamalu.top/image-20231019171610799.png" alt="image-20231019171610799" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019171610799.png" alt="image-20231019171610799" style="zoom: 67%;margin:0 auto" />
 
 一片晶圆可以做很多 IC ，整块都做完后，可以 **切割** 然后包进微型芯片。
 
 微型芯片就是在电子设备中那些小长方体，记住，芯片的核心都是一小片 IC 。
 
-<img src="http://niu.ochiamalu.top/image-20231019171724722.png" alt="image-20231019171724722" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019171724722.png" alt="image-20231019171724722" style="zoom:80%;margin:0 auto" />
 
 ## 摩尔定律
 
@@ -176,7 +176,7 @@ transistor） 。
 Intel 4004 CPU 是个重要里程碑，发布于 1971 年是第一个用 IC 做的处理器，也叫微型处理器，它有 2300 个晶体管，人们惊叹于它的整合水平整个
 CPU 在一个芯片里，而仅仅 20 年前，用分立元件会占满整个屋子。
 
-<img src="http://niu.ochiamalu.top/image-20231007152452845.png" alt="image-20231007152452845" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231007152452845.png" alt="image-20231007152452845" style="zoom:80%;margin:0 auto" />
 
 计算机正式进入 **集成电路时代** 。
 
@@ -206,7 +206,7 @@ CPU 在一个芯片里，而仅仅 20 年前，用分立元件会占满整个屋
 EDA 是电子设计自动化（Electronic Design
 Automation）的缩写，在20世纪90年代初从计算机辅助设计（CAD）、计算机辅助制造（CAM）、计算机辅助测试（CAT）和计算机辅助工程（CAE）的概念发展而来的。
 
-<img src="http://niu.ochiamalu.top/image-20231019173748015.png" alt="image-20231019173748015" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231019173748015.png" alt="image-20231019173748015" style="zoom:50%;margin:0 auto" />
 
 EDA 技术就是以计算机为工具，设计者在 EDA 软件平台上，用硬件描述语言 HDL 完成设计文件，然后由计算机 **自动**
 地完成逻辑编译、化简、分割、综合、优化、布局、布线和仿真，直至对于特定目标芯片的适配编译、逻辑映射和编程下载等工作。

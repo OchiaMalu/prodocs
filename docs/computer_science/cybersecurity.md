@@ -8,7 +8,7 @@
 
 就像 `原力` 一样，计算机可以被拉到 `光明面` 或 `黑暗面` ，网络安全就像 **绝地武士团** ，给网络世界带来和平与正义。
 
-<img src="http://niu.ochiamalu.top/image-20231101192621680.png" alt="image-20231101192621680" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101192621680.png" alt="image-20231101192621680" style="zoom: 67%;margin:0 auto" />
 
 > 出自《星球大战》。
 
@@ -68,12 +68,12 @@ model），模型会对攻击者有个大致描述：<u>能力如何？目标可
 这个策略普遍而且合理，对于一般的攻击者确实很难，但假设黑客控制了 **数以万计** 的计算机，形成一个 `僵尸网络` ，用这么多计算机尝试密码
 2580 ，同时尝试很多银行账户，即使每个账户只试一次，也很可能碰到某个账户刚好用这个 PIN 。
 
-<img src="http://niu.ochiamalu.top/image-20231101192809395.png" alt="image-20231101192809395" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101192809395.png" alt="image-20231101192809395" style="zoom:80%;margin:0 auto" />
 
 增加密码长度有帮助，但即使 8 位数字的 PIN 码也很容易破解，这就是为什么现在很多网站要求 `大写 + 小写字母` ，还有 `特殊符号`
 等，大大增加可能的密码。
 
-<img src="http://niu.ochiamalu.top/image-20231101192827052.png" alt="image-20231101192827052" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101192827052.png" alt="image-20231101192827052" style="zoom:80%;margin:0 auto" />
 
 8 位数字的 PIN 只有一亿种组合，对计算机轻而易举，但包含各种字符的 8 位长度密码，有超过 600 万亿种组合。
 
@@ -94,7 +94,7 @@ model），模型会对攻击者有个大致描述：<u>能力如何？目标可
 最后， `你是什么` 这种验证，是基于你把 **特征** 展示给计算机进行验证，生物识别验证器，比如 **指纹识别器** 和 **虹膜扫描仪**
 就是典型例子。
 
-<img src="http://niu.ochiamalu.top/image-20231101192857322.png" alt="image-20231101192857322" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101192857322.png" alt="image-20231101192857322" style="zoom:80%;margin:0 auto" />
 
 这些非常安全，但最好的识别技术仍然很贵，而且，来自传感器的数据每次会不同。
 
@@ -103,7 +103,7 @@ model），模型会对攻击者有个大致描述：<u>能力如何？目标可
 如果你知道密码，或有钥匙，那么 100％ 能获得访问权限，如果没有，就绝对进不去，但 `生物识别`
 是概率性的，系统有可能认不出你，可能你戴了帽子，或者光线不好，更糟的是，系统可能把别人错认成你，比如你的邪恶双胞胎。
 
-<img src="http://niu.ochiamalu.top/image-20231101192941954.png" alt="image-20231101192941954" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101192941954.png" alt="image-20231101192941954" style="zoom:80%;margin:0 auto" />
 
 当然，在现实世界中几率很低，但不是零，生物认证的另一个问题是 **无法重设** ，你只有这么多手指，如果攻击者拿到你的指纹数据怎么办？你一辈子都麻烦了。
 
@@ -138,7 +138,7 @@ model），模型会对攻击者有个大致描述：<u>能力如何？目标可
 这个 **不能向上读，不能向下写** 的方法，叫 `Bell-LaPadula 模型` ，它是为美国国防部 "多层安全政策"
 制定的，还有许多其他的访问控制模型比如 `中国墙模型` 和  `比伯模型` ，哪个模型最好，取决于具体情况。
 
-<img src="http://niu.ochiamalu.top/image-20231101193025106.png" alt="image-20231101193025106" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101193025106.png" alt="image-20231101193025106" style="zoom:80%;margin:0 auto" />
 
 `身份验证` 和 `访问控制` 帮助计算机知道 **你是谁** ，以及 **你可以访问什么** ，但做这些事情的软硬件必须是可信的。
 
@@ -158,13 +158,13 @@ kernel），或 `可信计算基础` （trusted computing base），一组尽可
 正式验证代码的安全性是一个活跃的研究领域，我们现在最好的手段，叫 `独立安全检查和质量验证` （Independent Verification and
 Validation），让一群安全行业内的软件开发者来审计代码，这就是为什么安全型代码几乎都是 **开源** 的。
 
-<img src="http://niu.ochiamalu.top/image-20231101193109818.png" alt="image-20231101193109818" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101193109818.png" alt="image-20231101193109818" style="zoom:80%;margin:0 auto" />
 
 写原始代码的人通常很难找到错误，但外部开发人员有新鲜的眼光，和不同领域的专业知识，可以发现问题，另外还有一些安全大会，安全专家可以相互认识，分享想法。
 
 一年一次在拉斯维加斯举办的 `DEFCON` ，是全球最大的安全大会。
 
-<img src="http://niu.ochiamalu.top/image-20231101193143769.png" alt="image-20231101193143769" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231101193143769.png" alt="image-20231101193143769" style="zoom:80%;margin:0 auto" />
 
 ## 隔离
 

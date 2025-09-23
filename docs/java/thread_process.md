@@ -16,7 +16,7 @@ CPU 具备分时机制，所以每个进程都能循环获得自己的 CPU 时�
 
 ::::
 
-<img src="http://niu.ochiamalu.top/image-20240926102107177.png" alt="image-20240926102107177" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926102107177.png" alt="image-20240926102107177" style="zoom:80%;margin:0 auto" />
 
 :::tip 通过 Word 的使用了解进程与线程的区别
 

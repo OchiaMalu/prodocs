@@ -7,14 +7,14 @@ WIFI 路由器连着的所有设备，组成了局域网。
 
 局域网再连到 `广域网` （Wide Area Network），广域网也叫 **WAN** 。
 
-<img src="http://niu.ochiamalu.top/image-20231031163549501.png" alt="image-20231031163549501" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031163549501.png" alt="image-20231031163549501" style="zoom:80%;margin:0 auto" />
 
 ## ISP
 
 WAN 的路由器一般属于你的 `互联网服务提供商` （Internet Service Provider），简称 **ISP** ，比如 `中国电信` ， `中国移动`
 和 `中国联通` 这样的公司。
 
-<img src="http://niu.ochiamalu.top/image-20231031163655601.png" alt="image-20231031163655601" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031163655601.png" alt="image-20231031163655601" style="zoom:80%;margin:0 auto" />
 
 广域网里，先连到一个区域性路由器，这路由器可能覆盖一个街区，然后连到一个更大的 WAN ，可能覆盖整个城市。
 
@@ -31,11 +31,11 @@ Youtube 服务器。
 
 从 `192.168.0.1` 出发，这是我的电脑在局域网（LAN）里的 IP 地址，然后到工作室的 WIFI 路由器，然后穿过一个个地区路由器，到达主干。
 
-<img src="http://niu.ochiamalu.top/image-20231031164353682.png" alt="image-20231031164353682" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164353682.png" alt="image-20231031164353682" style="zoom:80%;margin:0 auto" />
 
 然后从主干出来，又跳了几次，到达 `DFTBA.com` 的服务器，IP地址是 `104.24.109.186` 。
 
-<img src="http://niu.ochiamalu.top/image-20231031164414020.png" alt="image-20231031164414020" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164414020.png" alt="image-20231031164414020" style="zoom:80%;margin:0 auto" />
 
 但数据包到底是怎么过去的？如果传输时数据包被弄丢了，会发生什么？
 
@@ -43,7 +43,7 @@ Youtube 服务器。
 
 上次说过，互联网是一个巨型分布式网络，会把数据拆成一个个数据包来传输。
 
-<img src="http://niu.ochiamalu.top/image-20231031164452047.png" alt="image-20231031164452047" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164452047.png" alt="image-20231031164452047" style="zoom:80%;margin:0 auto" />
 
 如果要发的数据很大，比如邮件附件，数据会被拆成多个小数据包。
 
@@ -58,15 +58,15 @@ Youtube 服务器。
 因为 IP 是一个非常底层的协议，数据包的头部（或者说前面）只有目标地址，头部存 **关于数据的数据** ，也叫 `元数据` (metadata)
 ，这意味着当数据包到达对方电脑，对方不知道把包交给哪个程序，是交给 Skype 还是使命召唤？
 
-<img src="http://niu.ochiamalu.top/image-20231031164524197.png" alt="image-20231031164524197" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164524197.png" alt="image-20231031164524197" style="zoom:80%;margin:0 auto" />
 
 因此需要在IP之上，开发更高级的协议，这些协议里，最简单最常见的叫 `用户数据报协议` （User Datagram Protocol），简称 **UDP** 。
 
-<img src="http://niu.ochiamalu.top/image-20231031164548925.png" alt="image-20231031164548925" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164548925.png" alt="image-20231031164548925" style="zoom:80%;margin:0 auto" />
 
 UDP 也有头部，这个头部位于数据前面，头部里包含有用的信息，信息之一是 **端口号** 。
 
-<img src="http://niu.ochiamalu.top/image-20231031164605464.png" alt="image-20231031164605464" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164605464.png" alt="image-20231031164605464" style="zoom:80%;margin:0 auto" />
 
 每个想访问网络的程序，都要向操作系统申请一个端口号，比如 Skype 会申请端口3478，当一个数据包到达时，接收方的操作系统会读 UDP
 头部，读里面的端口号，如果看到端口号是 3478 ，就把数据包交给 Skype 。
@@ -77,27 +77,27 @@ UDP 也有头部，这个头部位于数据前面，头部里包含有用的信�
 
 UDP头部里还有 `校验和` （checksum），用于检查数据是否正确。
 
-<img src="http://niu.ochiamalu.top/image-20231031164638332.png" alt="image-20231031164638332" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164638332.png" alt="image-20231031164638332" style="zoom:80%;margin:0 auto" />
 
 正如"校验和"这个名字所暗示的，检查方式是把数据求和来对比，以下是个简单例子。
 
 假设 UDP 数据包里，原始数据是 8911133325841 。
 
-<img src="http://niu.ochiamalu.top/image-20231031164655027.png" alt="image-20231031164655027" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164655027.png" alt="image-20231031164655027" style="zoom:80%;margin:0 auto" />
 
 在发送数据包前，电脑会把所有数据加在一起，算出 `校验和` ，89+111+33+... 以此类推，得到 364 ，这就是 `校验和` 。
 
-<img src="http://niu.ochiamalu.top/image-20231031164717256.png" alt="image-20231031164717256" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164717256.png" alt="image-20231031164717256" style="zoom:80%;margin:0 auto" />
 
 UDP中， `校验和` 以 16 位形式存储(就是16个0或1)，如果算出来的和，超过了16位能表示的最大值，高位数会被 **扔掉** ，保留低位。
 
 当接收方电脑收到这个数据包，它会重复这个步骤，把所有数据加在一起，89+111+33... 以此类推，如果结果和头部中的校验和一致，代表一切正常。
 
-<img src="http://niu.ochiamalu.top/image-20231031164740609.png" alt="image-20231031164740609" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164740609.png" alt="image-20231031164740609" style="zoom:80%;margin:0 auto" />
 
 如果不一致，数据肯定坏掉了，也许传输时碰到了功率波动，或电缆出故障了。
 
-<img src="http://niu.ochiamalu.top/image-20231031164756339.png" alt="image-20231031164756339" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164756339.png" alt="image-20231031164756339" style="zoom:80%;margin:0 auto" />
 
 不幸的是，UDP **不提供** 数据修复或数据重发的机制，接收方知道数据损坏后，一般只是扔掉，而且，UDP无法得知数据包是否到达，发送方发了之后，无法知道数据包是否到达目的地。
 
@@ -113,7 +113,7 @@ UDP中， `校验和` 以 16 位形式存储(就是16个0或1)，如果算出来
 
 TCP 和 UDP 一样，头部也在存数据前面，因此，人们叫这个组合 **TCP/IP** 。
 
-<img src="http://niu.ochiamalu.top/image-20231031164819945.png" alt="image-20231031164819945" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164819945.png" alt="image-20231031164819945" style="zoom:80%;margin:0 auto" />
 
 就像UDP，TCP头部也有 `端口号` 和 `校验和` ，但TCP有更高级的功能，我们这里只介绍重要的几个。
 
@@ -121,13 +121,13 @@ TCP 和 UDP 一样，头部也在存数据前面，因此，人们叫这个组�
 2. TCP要求接收方的电脑收到数据包，并且 `校验和` 检查无误后（数据没有损坏），给发送方发一个确认码，代表收到了， `确认码`
    （acknowledgement）简称ACK，得知上一个数据包成功抵达后，发送方会发下一个数据包，假设这次发出去之后，没收到确认码，那么肯定哪里错了，如果过了一定时间还没收到确认码，发送方会再发一次。
 
-<img src="http://niu.ochiamalu.top/image-20231031164908099.png" alt="image-20231031164908099" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164908099.png" alt="image-20231031164908099" style="zoom:80%;margin:0 auto" />
 
 注意数据包可能的确到了，只是确认码延误了很久，或传输中丢失了，但这不碍事，因为收件方有序列号，如果收到重复的数据包就删掉。
 
 还有，TCP 不是只能一个包一个包发，可以同时发 **多个** 数据包，收多个确认码，这大大增加了效率，不用浪费时间等确认码。
 
-<img src="http://niu.ochiamalu.top/image-20231031164935444.png" alt="image-20231031164935444" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031164935444.png" alt="image-20231031164935444" style="zoom:80%;margin:0 auto" />
 
 有趣的是，确认码的成功率和来回时间，可以推测网络的拥堵程度，TCP 用这个信息，调整同时发包数量，解决拥堵问题。
 
@@ -153,7 +153,7 @@ TCP最大的缺点是，那些 `确认码` 数据包把数量翻了一倍，但�
 就像专为互联网的电话簿，它叫 `域名系统` （Domain Name System），简称 **DNS**
 ，它的运作原理你可能猜到了，在浏览器里输 `youtube.com` ，浏览器会去问 DNS 服务器，它的 IP 地址是多少。
 
-<img src="http://niu.ochiamalu.top/image-20231031165014454.png" alt="image-20231031165014454" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031165014454.png" alt="image-20231031165014454" style="zoom:80%;margin:0 auto" />
 
 一般DNS服务器，是互联网供应商提供的，DNS 会查表，如果域名存在，就返回对应 IP 地址。
 
@@ -173,7 +173,7 @@ TCP最大的缺点是，那些 `确认码` 数据包把数量翻了一倍，但�
 
 因此，这些数据散布在很多 DNS 服务器上，不同服务器负责树的不同部分。
 
-<img src="http://niu.ochiamalu.top/image-20231031165035303.png" alt="image-20231031165035303" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031165035303.png" alt="image-20231031165035303" style="zoom:80%;margin:0 auto" />
 
 ## OSI
 
@@ -197,4 +197,4 @@ TCP最大的缺点是，那些 `确认码` 数据包把数量翻了一倍，但�
 
 OSI模型还有两层，`表示层` （Presentation Layer）和 `应用程序层` （Application Layer），其中有浏览器，Skype，HTML解码，在线看电影等。
 
-<img src="http://niu.ochiamalu.top/image-20231031165103503.png" alt="image-20231031165103503" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231031165103503.png" alt="image-20231031165103503" style="zoom:80%;margin:0 auto" />

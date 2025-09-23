@@ -23,19 +23,19 @@
 
 他有 **无限长** 的纸带，可以储存符号。
 
-<img src="http://niu.ochiamalu.top/image-20231012150855625.png" alt="image-20231012150855625" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012150855625.png" alt="image-20231012150855625" style="zoom:80%;margin:0 auto" />
 
 还有一个读写头，可以 **读取** 和 **写入** 纸带上的符号。
 
-<img src="http://niu.ochiamalu.top/image-20231012151021178.png" alt="image-20231012151021178" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012151021178.png" alt="image-20231012151021178" style="zoom:80%;margin:0 auto" />
 
 还有一个状态变量，保存当前的状态。
 
-<img src="http://niu.ochiamalu.top/image-20231012151120006.png" alt="image-20231012151120006" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012151120006.png" alt="image-20231012151120006" style="zoom:80%;margin:0 auto" />
 
 还有一个规则，根据 `当前状态+读写头读取的符号` ，决定机器做什么。可能是在纸带写入一个符号，或改变状态，或把读写头移动一格。
 
-<img src="http://niu.ochiamalu.top/image-20231012151209947.png" alt="image-20231012151209947" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012151209947.png" alt="image-20231012151209947" style="zoom:80%;margin:0 auto" />
 
 现在我们让图灵机读一个以零结尾的字符串，并计算 1 的出现次数 是不是偶数。
 
@@ -51,21 +51,21 @@
 - 读写头读取的符号分为 `1` 和 `0` ，如果读到 `1` 则需要改变当前状态，因为奇数和偶数是 **交替**
   出现的，并将读写头右移，读取下一个字符；读到 `0` 则停止，并写下答案。
 
-<img src="http://niu.ochiamalu.top/image-20231012152026032.png" alt="image-20231012152026032" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012152026032.png" alt="image-20231012152026032" style="zoom:80%;margin:0 auto" />
 
 让我们来试一下，在纸带上写下一个字符串，并将当前状态设为 **偶数** （虽然 0 非奇非偶，但是 1 是奇数，每一次读取都会改变状态，因此需要让它符合）。
 
 第一个读到的字符是 1 ，因此切换状态为奇数，并移动到下一格。
 
-<img src="http://niu.ochiamalu.top/image-20231012152446047.png" alt="image-20231012152446047" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012152446047.png" alt="image-20231012152446047" style="zoom:80%;margin:0 auto" />
 
 第二个读到的字符是 1 ，因此切换状态为偶数，并移动到下一格。
 
-<img src="http://niu.ochiamalu.top/image-20231012152611658.png" alt="image-20231012152611658" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012152611658.png" alt="image-20231012152611658" style="zoom:80%;margin:0 auto" />
 
 第三个读到的字符是 0 ，因此不再移动，当前状态为偶数，因此写下 1 。
 
-<img src="http://niu.ochiamalu.top/image-20231012152726309.png" alt="image-20231012152726309" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012152726309.png" alt="image-20231012152726309" style="zoom:80%;margin:0 auto" />
 
 图灵证明了这个简单假想机器，如果有足够时间和内存，可以执行任何计算，它是一台 **通用** 计算机。
 
@@ -98,7 +98,7 @@
 
 这实质上是一台和 H 输出相反的机器：如果程序不停机，就停机；如果程序停机，就永远运行下去。
 
-<img src="http://niu.ochiamalu.top/image-20231012155118718.png" alt="image-20231012155118718" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012155118718.png" alt="image-20231012155118718" style="zoom: 50%;margin:0 auto" />
 
 现在我们将这个机器看作一个 **整体** 。
 
@@ -118,7 +118,7 @@
 
 从1936年到1938年在丘奇指导下，他在普林斯顿拿到博士学位，毕业后回到剑桥。
 
-<img src="http://niu.ochiamalu.top/image-20231012160616233.png" alt="image-20231012160616233" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012160616233.png" alt="image-20231012160616233" style="zoom:80%;margin:0 auto" />
 
 1939年后不久，英国卷入第二次世界大战，图灵的才能很快被投入战争。
 
@@ -126,17 +126,17 @@
 
 他的工作内容之一是破解德国的通信加密，特别是 **英格玛机** 加密的信息。
 
-<img src="http://niu.ochiamalu.top/image-20231012160923299.png" alt="image-20231012160923299" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012160923299.png" alt="image-20231012160923299" style="zoom:80%;margin:0 auto" />
 
 简单说，英格玛机会加密明文，如果输入字母 `H-E-L-L-O` ，机器输出 `X-W-D-B-J` ，这个过程叫 **加密** 。
 
 文字不是随便打乱的，加密由 "英格玛机" 顶部的齿轮组合决定，每个齿轮有26个可能位置。
 
-<img src="http://niu.ochiamalu.top/image-20231012161501218.png" alt="image-20231012161501218" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012161501218.png" alt="image-20231012161501218" style="zoom:80%;margin:0 auto" />
 
 机器前面还有插板，可以将两个字母互换，总共有上十亿种可能，根本没法手工尝试所有组合。
 
-<img src="http://niu.ochiamalu.top/image-20231012161431993.png" alt="image-20231012161431993" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012161431993.png" alt="image-20231012161431993" style="zoom:80%;margin:0 auto" />
 
 如果你有"英格玛机"，并且知道正确的齿轮和插头设置，输入`X-W-D-B-J` ，机器会输出 `hello` 。
 
@@ -144,7 +144,7 @@
 
 图灵接着之前波兰破译专家的成果继续工作，设计了一个机电计算机，叫 **Bombe** 。
 
-<img src="http://niu.ochiamalu.top/image-20231012161529737.png" alt="image-20231012161529737" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012161529737.png" alt="image-20231012161529737" style="zoom:80%;margin:0 auto" />
 
 利用了这个缺陷，它对加密消息尝试多种组合，如果发现字母解密后和原先一样，我们知道英格玛机决不会这么做，这个组合会被跳过，接着试另一个组合。
 
@@ -158,7 +158,7 @@ Bombe 大幅减少了搜索量，让破译人员把精力花在更有可能的�
 
 战后，图灵回到学术界为许多早期计算机工作做出贡献，比如 **曼彻斯特 1 号** ，一个早期有影响力的存储程序计算机（在内存里储存程序的计算机）。
 
-<img src="http://niu.ochiamalu.top/image-20231012161913517.png" alt="image-20231012161913517" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012161913517.png" alt="image-20231012161913517" style="zoom:67%;margin:0 auto" />
 
 但他最有名的战后贡献是 `人工智能`（Artificial Intelligence） ，这个领域很新，直到1956年才有名字。
 
@@ -171,7 +171,7 @@ Bombe 大幅减少了搜索量，让破译人员把精力花在更有可能的�
 想像你在和两个人沟通不用嘴或面对面，而是来回发消息，可以问任何问题，然后会收到回答，但其中一个是计算机，如果你分不出哪个是人类，哪个是计算机，那么计算机就
 **通过** 了图灵测试。
 
-<img src="http://niu.ochiamalu.top/image-20231012162345070.png" alt="image-20231012162345070" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012162345070.png" alt="image-20231012162345070" style="zoom:80%;margin:0 auto" />
 
 这个测试的现代版叫 "公开全自动图灵测试，用于区分计算机和人类"（a completely automated public turing test to tell computers
 and humans apart） ，简称 `验证码`（Captcha），防止机器人发垃圾信息等。
@@ -194,4 +194,4 @@ and humans apart） ，简称 `验证码`（Captcha），防止机器人发垃�
 M. Turing），旨在奖励对计算机事业作出重要贡献的个人 。图灵奖对获奖条件要求极高，评奖程序极严，一般每年仅授予一名计算机科学家。图灵奖是计算机领域的国际最高奖项，被誉为
 **计算机界的诺贝尔奖** 。
 
-<img src="http://niu.ochiamalu.top/image-20231012163102284.png" alt="image-20231012163102284" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231012163102284.png" alt="image-20231012163102284" style="zoom:80%;margin:0 auto" />

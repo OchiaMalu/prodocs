@@ -21,9 +21,9 @@
 
 在 `Collection` 接口里面定义了 9 个常用操作方法，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928094955987.png" alt="image-20240928094955987" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928094955987.png" alt="image-20240928094955987" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240928095009580.png" alt="image-20240928095009580" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928095009580.png" alt="image-20240928095009580" style="zoom:80%;margin:0 auto" />
 
 对于表所列出的方法，读者一定要记住 `add()` 与 `iterator()`
 两个方法，因为这两个方法几乎所有的项目都会使用到，同时在进行`contains()` 与 `remove()`
@@ -33,4 +33,4 @@
 接口本身却存在一个问题：无法区分保存的数据是否重复。所以在实际的开发中，往往会使用 `Collection` 的两个子接口：<u>
 List子接口（数据允许重复）、Set子接口（数据不允许重复）</u>，继承关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928095139577.png" alt="image-20240928095139577" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928095139577.png" alt="image-20240928095139577" style="zoom:80%;margin:0 auto" />

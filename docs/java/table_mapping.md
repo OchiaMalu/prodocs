@@ -7,7 +7,7 @@
 - 一个部门有多个雇员；
 - 一个雇员有一个或零个领导。
 
-<img src="http://niu.ochiamalu.top/image-20240924143330773.png" alt="image-20240924143330773" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.fun/image-20240924143330773.png" alt="image-20240924143330773" style="zoom:80%;" />
 
 给出的数据表中字段的名称及意义如下。
 

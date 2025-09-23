@@ -59,13 +59,13 @@ if 语句就像岔路口，走哪条路 取决于 `表达式` 的真假，因此
 
 大多数编程语言中，if 语句长这样：
 
-<img src="http://niu.ochiamalu.top/image-20231011140139099.png" alt="image-20231011140139099" style="zoom:80%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011140139099.png" alt="image-20231011140139099" style="zoom:80%;margin: 0 auto" />
 
 当然各个语言都是大同小异，有些有圆括号，有些有花括号，但基本都是 `if + 表达式 + 要做的事` 。
 
 除了 if 还有 else，如果当 表达式 为 False，那么就会执行 else 中的语句。
 
-<img src="http://niu.ochiamalu.top/image-20231011140413665.png" alt="image-20231011140413665" style="zoom:80%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011140413665.png" alt="image-20231011140413665" style="zoom:80%;margin: 0 auto" />
 
 这里列了一些热门编程语言 if-then-else 的具体语法，具体语法略有不同，但主体结构一样。
 
@@ -118,7 +118,7 @@ else:
 if 语句 根据条件执行 **一次** ，如果希望根据条件执行 **多次** ，需要 **条件循环** ，比如 while 语句，也叫 `while 循环` 。当
 while 条件为真，代码会重复执行。
 
-<img src="http://niu.ochiamalu.top/image-20231011141337880.png" alt="image-20231011141337880" style="zoom:80%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011141337880.png" alt="image-20231011141337880" style="zoom:80%;margin: 0 auto" />
 
 ::: tip
 
@@ -139,7 +139,7 @@ for 循环本质还是判断表达式是否为真，没有规定必须使用 **�
 
 
 
-<img src="http://niu.ochiamalu.top/image-20231011141441431.png" alt="image-20231011141441431" style="zoom:80%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011141441431.png" alt="image-20231011141441431" style="zoom:80%;margin: 0 auto" />
 
 ## 函数
 

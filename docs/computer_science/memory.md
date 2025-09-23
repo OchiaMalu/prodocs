@@ -14,12 +14,12 @@ U 盘，能低成本+可靠+长时间 存储上 GB 的数据。
 最早的存储介质是 **打孔纸卡** 以及纸卡的亲戚 **打孔纸带** ，到1940年代，纸卡标准是 80列x12行，一张卡能存 960 位数据 (
 80x12=960)。
 
-<img src="http://niu.ochiamalu.top/image-20231020213923297.png" alt="image-20231020213923297" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020213923297.png" alt="image-20231020213923297" style="zoom:67%;margin:0 auto" />
 
 最大纸卡程序是美国军方的 `半自动地面防空系统` 简称 SAGE，一个在 1958 年投入使用的防空系统，主程序存储在 62,500 个纸卡上，大小
 5MB 左右，相当如今手机拍张照。
 
-<img src="http://niu.ochiamalu.top/image-20231020214020325.png" alt="image-20231020214020325" style="zoom:33%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214020325.png" alt="image-20231020214020325" style="zoom:33%;margin:0 auto" />
 
 纸卡用了十几年，因为不用电而且便宜耐用，然而坏处是 **读取慢** ，只能写入 **一次** ，打的孔无法轻易补上，对于存临时值，纸卡不好用，我们需要更快更大更灵活的存储方式。
 
@@ -30,31 +30,31 @@ J. Presper Eckert 在 1944 年建造 **ENIAC** 时发明了一种方法，叫 `�
 拿一个管子装满液体，如水银，管子一端放 `扬声器` （speaker），另一端放 `麦克风`（microphone） ，扬声器发出脉冲时会产生 **压力波
 ** 。
 
-<img src="http://niu.ochiamalu.top/image-20231020214135772.png" alt="image-20231020214135772" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214135772.png" alt="image-20231020214135772" style="zoom:80%;margin:0 auto" />
 
 压力波需要时间，传播到另一端的麦克风，麦克风将压力波 **转换** 回电信号，我们可以用压力波的传播延迟来存储数据！
 
 假设有压力波代表 1，没有代表 0 ，扬声器可以输出 1010 0111 。压力波沿管子传播，过了一会儿，撞上麦克风，将信号转换回 1 和 0 。
 
-<img src="http://niu.ochiamalu.top/image-20231020214232118.png" alt="image-20231020214232118" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214232118.png" alt="image-20231020214232118" style="zoom: 67%;margin:0 auto" />
 
 如果加一个电路，连接麦克风和扬声器，再加一个 `放大器`（Amplifier）来弥补 **信号衰弱** ，就能做一个存储数据的循环。信号沿电线传播几乎是瞬时的，所以任何时间点只显示
 1 bit 数据，但管子中可以存储多个位(bit)。
 
-<img src="http://niu.ochiamalu.top/image-20231020214300535.png" alt="image-20231020214300535" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214300535.png" alt="image-20231020214300535" style="zoom:67%;margin:0 auto" />
 
 ### EDVAC
 
 忙完 ENIAC 后，Eckert 和同事 John Mauchly，着手做一个更大更好的计算机叫 `EDVAC` ，使用了延迟线存储器，总共有 128 条延迟线，每条能存
 352 位（bits），总共能存 45,000 位(bit)。
 
-<img src="http://niu.ochiamalu.top/image-20231020214350965.png" alt="image-20231020214350965" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214350965.png" alt="image-20231020214350965" style="zoom:80%;margin:0 auto" />
 
 这使得 EDVAC 成为最早的 `存储程序计算机` 之一，但 `延迟线存储器` 的一大缺点是 <u>每一个时刻只能读一位 (bit) 数据</u> 。
 
 如果想访问一个特定的 bit，比如第 112 位(bit) 你得等待它从 **循环** 中出现，所以又叫 `顺序存储器` 或 `循环存储器` 。
 
-<img src="http://niu.ochiamalu.top/image-20231020214423516.png" alt="image-20231020214423516" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214423516.png" alt="image-20231020214423516" style="zoom:80%;margin:0 auto" />
 
 ## 磁芯存储器
 
@@ -65,7 +65,7 @@ delay lines）。
 
 用金属线的振动来代表数据，通过把线卷成 **线圈** ，1英尺×1英尺的面积能存储大概 1000位(bit)。
 
-<img src="http://niu.ochiamalu.top/image-20231020214456476.png" alt="image-20231020214456476" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214456476.png" alt="image-20231020214456476" style="zoom:80%;margin:0 auto" />
 
 然而，延迟线存储器在 1950 年代中期就基本过时了，因为出现了新技术，性能、可靠性和成本都更好。
 
@@ -73,33 +73,33 @@ delay lines）。
 
 如果给磁芯绕上电线，并施加电流，可以将磁化在一个方向。
 
-<img src="http://niu.ochiamalu.top/image-20231020214532086.png" alt="image-20231020214532086" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214532086.png" alt="image-20231020214532086" style="zoom:80%;margin:0 auto" />
 
 如果关掉电流，磁芯保持 **磁化** 。
 
-<img src="http://niu.ochiamalu.top/image-20231020214702934.png" alt="image-20231020214702934" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214702934.png" alt="image-20231020214702934" style="zoom:80%;margin:0 auto" />
 
 如果沿相反方向施加电流，磁化的方向（极性）会翻转，这样就可以存 1 和 0 ！
 
-<img src="http://niu.ochiamalu.top/image-20231020214733609.png" alt="image-20231020214733609" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214733609.png" alt="image-20231020214733609" style="zoom:80%;margin:0 auto" />
 
 如果只存 1 位不够有用，所以把小甜甜圈排列成网格，有 `电线` 负责选 **行和列** ，也有 `电线` 贯穿每个磁芯, 用于 **读写**
 一位(bit)。
 
-<img src="http://niu.ochiamalu.top/image-20231020214830237.png" alt="image-20231020214830237" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214830237.png" alt="image-20231020214830237" style="zoom:80%;margin:0 auto" />
 
 ### Whirlwind 1 计算机
 
 磁芯内存的第一次大规模运用是 1953 年麻省理工学院的 `Whirlwind 1 计算机` ，磁芯排列是 32×32 ，用了 16 块板子，能存储大约
 16000 位(bit)。
 
-<img src="http://niu.ochiamalu.top/image-20231020214954079.png" alt="image-20231020214954079" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020214954079.png" alt="image-20231020214954079" style="zoom:80%;margin:0 auto" />
 
 更重要的是，不像 `延迟线存储器`  磁芯存储器能随时访问 **任何** 一位(bit)。
 
 `磁芯存储器` 从 1950 年代中期开始成为主流，流行了 20 多年，而且一般还是 **手工编织** 的！
 
-<img src="http://niu.ochiamalu.top/image-20231020215049030.png" alt="image-20231020215049030" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215049030.png" alt="image-20231020215049030" style="zoom:80%;margin:0 auto" />
 
 刚开始时 存储成本大约 1 美元 1 位(bit) ，到1970年代，下降到 1 美分左右，不幸的是，即使每位 1 美分也不够便宜。
 
@@ -110,7 +110,7 @@ delay lines）。
 当时对存储技术进行了大量的研究，到 1951 年，Eckert 和 Mauchly 创立了自己的公司，设计了一台叫 `UNIVAC`
 的新电脑，最早进行商业销售的电脑之一，它推出了一种新存储：**磁带** （magnetic tape）。
 
-<img src="http://niu.ochiamalu.top/image-20231020215148812.png" alt="image-20231020215148812" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215148812.png" alt="image-20231020215148812" style="zoom:80%;margin:0 auto" />
 
 磁带是纤薄柔软的一长条磁性带子卷在轴上，磁带可以在 `磁带驱动器` 内前后移动。
 
@@ -118,25 +118,25 @@ delay lines）。
 
 还有一个 `读头` ，可以 **非破坏性** 地检测极性。
 
-<img src="http://niu.ochiamalu.top/image-20231020215243252.png" alt="image-20231020215243252" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215243252.png" alt="image-20231020215243252" style="zoom:80%;margin:0 auto" />
 
 UNIVAC 用了半英寸宽，8 条并行的磁带，磁带每英寸可存 128 位数据，每卷有 1200 英尺长，意味着一共可以存 1500 万位左右，接近2兆字节！（2
 MB）。
 
-<img src="http://niu.ochiamalu.top/image-20231020215319525.png" alt="image-20231020215319525" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215319525.png" alt="image-20231020215319525" style="zoom:80%;margin:0 auto" />
 
 虽然磁带驱动器很贵，但磁带又便宜又小，因此磁带 <u>至今仍用于存档</u> 。
 
 磁带的主要缺点是 **访问速度** ，磁带是连续的，必须倒带或快进到达特定位置，可能要几百英尺才能得到某个字节(byte)，这很慢。
 
-<img src="http://niu.ochiamalu.top/image-20231020215347109.png" alt="image-20231020215347109" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215347109.png" alt="image-20231020215347109" style="zoom:80%;margin:0 auto" />
 
 ## 磁鼓存储器
 
 1950、60年代，有个类似技术是 `磁鼓存储器` ，有金属圆筒，盖满了磁性材料以记录数据，滚筒会持续旋转，周围有数十个读写头，等滚筒转到正确的位置读写头会读或写
 1 位(bit) 数据，为了尽可能缩短延迟, 鼓轮每分钟上千转！
 
-<img src="http://niu.ochiamalu.top/image-20231020215409131.png" alt="image-20231020215409131" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215409131.png" alt="image-20231020215409131" style="zoom:80%;margin:0 auto" />
 
 到 1953 年，磁鼓技术飞速发展，可以买到存 80,000 位的 `磁鼓存储器` ，也就是 10 KB，但到 1970 年代 `磁鼓存储器` 不再生产。
 
@@ -146,7 +146,7 @@ MB）。
 
 原理是一样的，磁盘表面有 **磁性** ，写入头和读取头 可以处理上面的 1 和 0，硬盘的好处是薄，可以 **叠在一起** ，提供更多表面积来存数据。
 
-<img src="http://niu.ochiamalu.top/image-20231020215923691.png" alt="image-20231020215923691" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215923691.png" alt="image-20231020215923691" style="zoom:67%;margin:0 auto" />
 
 :::danger
 
@@ -161,7 +161,7 @@ IBM 对世上第一台磁盘计算机 `RAMAC 305` 就是这样做的。
 要访问某个特定 bit，一个读/写磁头会向上或向下移动，找到正确的磁盘，然后磁头会滑进去，就像磁鼓存储器一样，磁盘也会 **高速旋转
 ** ，所以读写头要等到正确的部分转过来，`RAMAC 305` 访问任意数据，平均只要六分之一秒左右，也叫 `寻道时间` （seek time）。
 
-<img src="http://niu.ochiamalu.top/image-20231020215523755.png" alt="image-20231020215523755" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215523755.png" alt="image-20231020215523755" style="zoom:80%;margin:0 auto" />
 
 虽然六分之一秒对存储器来说算不错，但对内存来说还不够快，所以 `RAMAC 305` 还有 `磁鼓存储器` 和 `磁芯存储器` 。
 
@@ -170,7 +170,7 @@ IBM 对世上第一台磁盘计算机 `RAMAC 305` 就是这样做的。
 这是 `内存层次结构` 的一个例子：一小部分高速 + 昂贵的内存，一部分稍慢 + 相对便宜些的内存，还有更慢 +
 更便宜的内存，这种混合在成本和速度间取得平衡。
 
-<img src="http://niu.ochiamalu.top/image-20231020215642741.png" alt="image-20231020215642741" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215642741.png" alt="image-20231020215642741" style="zoom:80%;margin:0 auto" />
 
 1970 年代，硬盘大幅度改进并变得普遍，如今的硬盘可以轻易容纳 1TB 的数据，每 bit 成本 0.0000000005 美分，比磁芯内存 1 美分 1
 bit 好多了，另外，现代硬盘的平均寻道时间低于 1/100 秒。
@@ -179,18 +179,18 @@ bit 好多了，另外，现代硬盘的平均寻道时间低于 1/100 秒。
 
 简单地提一下硬盘的亲戚，`软盘` （floppy disk），除了磁盘是软的，其他基本一样，你可能见过某些程序的保存图标是一个软盘，软盘曾经是真实存在的东西！
 
-<img src="http://niu.ochiamalu.top/image-20231020215959570.png" alt="image-20231020215959570" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215959570.png" alt="image-20231020215959570" style="zoom:80%;margin:0 auto" />
 
 软盘是为了便携，在 1970~1990 非常流行，密度更高的软盘，如 `Zip Disks` ，在90年代中期流行起来，但十年内就消失了。
 
-<img src="http://niu.ochiamalu.top/image-20231020215728714.png" alt="image-20231020215728714" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215728714.png" alt="image-20231020215728714" style="zoom:80%;margin:0 auto" />
 
 ## CD 和 DVD
 
 光学存储器于 1972 年出现，12 英寸的 `激光盘` （laser disc），你可能对后来的产品更熟：`光盘` （Compact Disk），简称 **CD** ，以及
 90 年代流行的 DVD 。
 
-<img src="http://niu.ochiamalu.top/image-20231020220023895.png" alt="image-20231020220023895" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020220023895.png" alt="image-20231020220023895" style="zoom:50%;margin:0 auto" />
 
 :::tip CD 和 DVD 的区别
 
@@ -211,13 +211,13 @@ bit 好多了，另外，现代硬盘的平均寻道时间低于 1/100 秒。
 功能和硬盘软盘一样，都是存数据，但用的不是磁性，光盘表面有很多小坑，造成光的 **不同反射** ，光学传感器会捕获到，并解码为 1 和
 0 。
 
-<img src="http://niu.ochiamalu.top/image-20231020215754797.png" alt="image-20231020215754797" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020215754797.png" alt="image-20231020215754797" style="zoom:80%;margin:0 auto" />
 
 ## 固态硬盘
 
 如今，存储技术在朝 **固态** 前进，没有机械活动部件，比如这个硬盘，以及 U 盘，里面是 **集成电路** 。
 
-<img src="http://niu.ochiamalu.top/image-20231020220156917.png" alt="image-20231020220156917" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020220156917.png" alt="image-20231020220156917" style="zoom: 50%;margin:0 auto" />
 
 第一个 RAM 集成电路出现于 1972 年成本每比特 1 美分，使 `磁芯存储器` 迅速过时，如今成本下降了更多机械硬盘 被 `固态硬盘`
 （Solid State Drives） 逐渐替代，简称 **SSD** 。

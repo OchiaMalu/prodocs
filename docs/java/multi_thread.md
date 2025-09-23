@@ -210,7 +210,7 @@ public class TestDemo {
 ，但是它并不是严格意义上的代理设计模式，因为严格来讲代理设计模式中，代理主题能够使用的方法依然是接口中定义的 `run()`
 方法，而此处代理主题调用的是 `start()` 方法，所以只能说形式上 **类似** 于代理设计模式，但本质上还是有差别的。
 
-<img src="http://niu.ochiamalu.top/image-20240926104435828.png" alt="image-20240926104435828" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926104435828.png" alt="image-20240926104435828" style="zoom:80%;margin:0 auto" />
 
 除了以上联系外，对于 `Runnable` 接口和 `Thread` 类还有一个不太好区分的特点：使用 `Runnable`
 接口可以更加方便地表示出数据共享的概念（但不是说 `Thread` 类不能实现数据共享）。
@@ -243,7 +243,7 @@ public class TestDemo {
 本程序定义了 3 个线程对象，希望 3 个线程对象同时卖 5 张车票，而最终的结果是一共买出了 15 张票，等于每一个线程对象各自卖各自的
 5 张票，这时的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926104544071.png" alt="image-20240926104544071" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926104544071.png" alt="image-20240926104544071" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -271,7 +271,7 @@ public class TestDemo {
 本程序使用 `Runnable` 实现了多线程，同时启动了 3 个线程对象，但是与使用 `Thread` 操作的卖票范例不同的是，这 3
 个线程对象都占着同一个 `Runnable` 接口对象的引用，所以实现了数据共享的操作。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926104631009.png" alt="image-20240926104631009" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926104631009.png" alt="image-20240926104631009" style="zoom:80%;margin:0 auto" />
 
 :::tip 使用 `Thread` 类同样可以实现此功能
 
@@ -315,7 +315,7 @@ A 对 B 说，把你的水给我喝，我的不喝了，明显是不合适的。
 
 程序实现结构如下。
 
-<img src="http://niu.ochiamalu.top/image-20240926104959361.png" alt="image-20240926104959361" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926104959361.png" alt="image-20240926104959361" style="zoom:80%;margin:0 auto" />
 
 :::
 
@@ -367,11 +367,11 @@ class MyThread implements Callable<String> { 		// 多线程主体类
 通过定义可以发现此类实现了 `RunnableFuture` 接口，而 `RunnableFuture` 接口又同时实现了 `Future` 与 `Runnable`
 接口。`FutureTask` 类继承结构如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926105454388.png" alt="image-20240926105454388" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926105454388.png" alt="image-20240926105454388" style="zoom:80%;margin:0 auto" />
 
 清楚了 `FutureTask` 类的继承结构之后，下面再来研究 `FutureTask` 类的常用方法，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928120046157.png" alt="image-20240928120046157" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928120046157.png" alt="image-20240928120046157" style="zoom:80%;margin:0 auto" />
 
 通过 `FutureTask` 类继承结构可以发现它是 `Runnable` 接口的子类，并且 `FutureTask` 类可以接收 `Callable`
 接口实例，这样依然可以利用 `Thread` 类来实现多线程的启动，而如果要想接收返回结果，利用 `Future` 接口中的 `get()` 方法即可。
@@ -413,7 +413,7 @@ Java 最早提供的，也是使用最广泛的接口，所以在进行多线程
 在程序中用构造方法创建一个线程对象后，新的线程对象便处于新建状态，此时，它已经有相应的内存空间和其他资源，但还处于不可运行状态。新建一个线程对象可采用 `Thread`
 类的构造方法来实现，例如：`Thread thread = new Thread()` 。
 
-<img src="http://niu.ochiamalu.top/image-20240926105923788.png" alt="image-20240926105923788" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926105923788.png" alt="image-20240926105923788" style="zoom:80%;margin:0 auto" />
 
 ### 就绪状态
 

@@ -8,11 +8,11 @@
 
 <u>基本数据类型不牵扯内存分配问题，而引用数据类型需要由开发者为其分配空间，而后进行关系的匹配。</u>
 
-<img src="http://niu.ochiamalu.top/image-20240917162155156.png" alt="image-20240917162155156" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917162155156.png" alt="image-20240917162155156" style="zoom:80%;margin:0 auto" />
 
 Java 的基本数据类型主要以数值的方式进行定义，这些基本数据类型的保存数据范围与默认值如表
 
-<img src="http://niu.ochiamalu.top/image-20240917162249520.png" alt="image-20240917162249520" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917162249520.png" alt="image-20240917162249520" style="zoom:80%;margin:0 auto" />
 
 :::tip 记下各个基本数据类型
 
@@ -84,7 +84,7 @@ public class Main{
 以上程序实际上是一个相对比较容易理解的代码，但是在实际的开发中，除了保证代码的正确性外，良好的编程习惯也同样重要。细心的读者可以发现在编写代码 `int num=10;`
 时，每一个操作中都加上一个“ ”（空格)，如图所示，这样做的目的是避免由于编译器 bug 所造成的非正常性语法的编译错误。
 
-<img src="http://niu.ochiamalu.top/image-20240918165937060.png" alt="image-20240918165937060" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240918165937060.png" alt="image-20240918165937060" style="zoom:80%;margin:0 auto" />
 
 :::
 
@@ -120,7 +120,7 @@ public class Main {
 int 型。但是此时由于计算<u>超过了其保存的范围</u>，就会出现一个循环的操作，最大值如果继续增加就变为最小值，随后一直向其次的最小值进行循环，反之最小值减
 1 就变为最大值，此种现象称为数据的溢出。
 
-<img src="http://niu.ochiamalu.top/image-20240918170556400.png" alt="image-20240918170556400" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240918170556400.png" alt="image-20240918170556400" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于数据溢出问题的解释
 

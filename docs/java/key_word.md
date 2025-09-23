@@ -19,7 +19,7 @@ Java 中每一个标识符都有自己的严格定义要求。** 标识符的定
 对于初学者来讲，关键字是一个比较麻烦的问题，所谓的关键字就是指具备有特殊含义的单词，例如：<u>public、class、static</u>
 ，这些都属于关键字，关键字全部用小写字母的形式表示，在 Java 中可以使用的关键字如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240917161636967.png" alt="image-20240917161636967" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917161636967.png" alt="image-20240917161636967" style="zoom:67%;margin:0 auto" />
 
 :::tip 不需要去强记 Java 中的关键字
 

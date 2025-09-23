@@ -88,7 +88,7 @@ Java 开发中，有许多不习惯使用枚举的开发者，也不会去选择
 
 从定义中可以发现，`Enum` 类本身是一个抽象类，而抽象类在使用时必须被子类继承，同时在这个抽象类里面提供了表所示的方法。
 
-<img src="http://niu.ochiamalu.top/image-20240928130619901.png" alt="image-20240928130619901" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928130619901.png" alt="image-20240928130619901" style="zoom:80%;margin:0 auto" />
 
 在任何枚举类中都可以使用表所示的操作方法，并且每个枚举类中的对象在定义时都会按照其定义的顺序自动分配一个序号。
 

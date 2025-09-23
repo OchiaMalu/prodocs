@@ -13,7 +13,7 @@ Java 除了支持多线程的定义外，也提供了许多多线程操作方法
 由于线程的状态不确定，所以每次可以操作的都是正在执行 `run()`
 方法的线程，那么取得当前线程对象的方法为：`public static Thread currentThread()` 。
 
-<img src="http://niu.ochiamalu.top/image-20240928120124257.png" alt="image-20240928120124257" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928120124257.png" alt="image-20240928120124257" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -109,11 +109,11 @@ public class TestDemo {
 
 如果要想进行线程优先级的设置，在 `Thread` 类中提供了支持的方法及常量，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926111322738.png" alt="image-20240926111322738" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926111322738.png" alt="image-20240926111322738" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240928120153502.png" alt="image-20240928120153502" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928120153502.png" alt="image-20240928120153502" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240928120200971.png" alt="image-20240928120200971" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928120200971.png" alt="image-20240928120200971" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

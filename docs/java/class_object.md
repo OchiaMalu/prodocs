@@ -8,13 +8,13 @@
 
 例如，在现实生活中，人就可以表示为一个类，因为人本身属于一种广义的概念，并不是一个具体个体描述。而某一个具体的人，如张三同学，就可以称为对象，可以通过各种信息完整地描述这个具体的人，如这个人的姓名、年龄、性别等信息，这些信息在面向对象的概念中就称为属性，当然人是可以吃饭、睡觉的，那么这些人的行为在类中就称为方法。也就是说如果要使用一个类，就一定会产生对象，每个对象之间是靠各个属性的不同来进行区分的，而每个对象所具备的操作就是类中规定好的方法，类与对象的关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921232738746.png" alt="image-20240921232738746" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921232738746.png" alt="image-20240921232738746" style="zoom:80%;margin: auto" />
 
 :::tip 类与对象的另一种解释
 
 关于类与对象，初学者在理解上存在一定难度，在此处笔者再为各位读者做一个简单的比喻。读者应该都很清楚，如果要想生产出汽车，则首先一定要设计出一个汽车的设计图纸，然后按照此图纸规定的结构生产汽车。这样生产出的汽车结构和功能都是一样的，但是每辆车的具体内容，如各个汽车的颜色、是否有天窗等都会存在一些差异。
 
-<img src="http://niu.ochiamalu.top/image-20240921232815911.png" alt="image-20240921232815911" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921232815911.png" alt="image-20240921232815911" style="zoom:80%;margin: auto" />
 
 在这个实例中，汽车设计图纸实际上就规定了汽车应该有的基本组成：外型、内部结构、发动机等信息的定义，这个图纸就可以称为一个类。显然只有图纸是无法使用的，而通过这个模型产生出的一辆辆具体的汽车是可以被用户使用的，所以就可以称其为对象。
 
@@ -27,7 +27,7 @@
 从之前的概念中可以了解到，类是由属性和方法组成的。属性中定义类一个个具体信息，实际上一个属性就是一个变量，而方法是一些操作的行为，但是在程序设计中，定义类也要按照具体的语法要求完成，如果要定义类则需要使用 `class`
 关键字定义，类的定义语法如下。
 
-<img src="http://niu.ochiamalu.top/image-20240921232910979.png" alt="image-20240921232910979" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921232910979.png" alt="image-20240921232910979" style="zoom:80%;margin: auto" />
 
 :::tip 一些名词的使用
 
@@ -111,7 +111,7 @@ public class TestDemo {
 
 按照这种方式理解，可以得出图所示的内存关系。
 
-<img src="http://niu.ochiamalu.top/image-20240921234156879.png" alt="image-20240921234156879" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921234156879.png" alt="image-20240921234156879" style="zoom:80%;margin: auto" />
 
 如果要想开辟堆内存空间，只能依靠关键字 `new` 来进行开辟。即：**只要看见了关键字new不管何种情况下，都表示要开辟新的堆内存空间
 **。
@@ -123,7 +123,7 @@ public class TestDemo {
 - 设置title属性内容： `bk.title="Java开发"；` ，如图 b 所示；
 - 设置price属性内容：`bk.price=89.9;` ，如图 c 所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921234358028.png" alt="image-20240921234358028" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921234358028.png" alt="image-20240921234358028" style="zoom:80%;margin: auto" />
 
 ::: warning 必须掌握上图所示的分析方法
 
@@ -152,7 +152,7 @@ public class TestDemo {
 本程序首先声明了一个 `Book` 类的对象 `bk` ，但是这个时候由于没有为其开辟堆内存空间，所以 `bk`
 对象还无法使用，然后使用关键字`new` 实例化 `bk` 对象，最后利用对象为属性赋值已经调用相应的 `getInfo()` 方法。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921234713675.png" alt="image-20240921234713675" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921234713675.png" alt="image-20240921234713675" style="zoom:80%;margin: auto" />
 
 :::tip 如果使用了没有实例化的对象会如何？
 
@@ -227,7 +227,7 @@ public class TestDemo {
 }
 ```
 
-<img src="http://niu.ochiamalu.top/image-20240921235115081.png" alt="image-20240921235115081" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921235115081.png" alt="image-20240921235115081" style="zoom:80%;margin: auto" />
 
 本程序首先实例化了一个 `bookA` 对象，接着又声明了一个 `bookB` 对象（此时并没有使用关键字 new 实例化)，然后使用 `bookA`
 对象分别设置了 `title` 与 `price` 两个属性的内容，最后执行了本程序之中最为关键的一行语句 `bookB=bookA`
@@ -254,7 +254,7 @@ public class TestDemo {
 }
 ```
 
-<img src="http://niu.ochiamalu.top/image-20240921235426880.png" alt="image-20240921235426880" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921235426880.png" alt="image-20240921235426880" style="zoom:80%;margin: auto" />
 
 本程序首先分别实例化了 `bookA` 与 `bookB`
 两个不同的对象，由于其保存在不同的内存空间，所以设置属性时不会互相影响。然后发生了引用传递 `bookB=bookA` ，由于 `bookB`
@@ -265,7 +265,7 @@ public class TestDemo {
 通过内存分析可以发现，在引用数据类型关系时，一块没有任何栈内存指向的堆内存空间将成为垃圾，所有的垃圾会不定期地被 **垃圾收集器
 ** (Garbage Collector) 回收，回收后会被释放掉其所占用的空间。虽然 Java 支持自动的垃圾收集处理，但是在代码的开发过程中应该尽量减少垃圾空间的产生。
 
-<img src="http://niu.ochiamalu.top/image-20240921235541909.png" alt="image-20240921235541909" style="zoom:80%;margin: auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921235541909.png" alt="image-20240921235541909" style="zoom:80%;margin: auto" />
 
 :::tip 关于 GC 处理的深入分析
 

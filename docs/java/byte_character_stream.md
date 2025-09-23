@@ -4,7 +4,7 @@
 **输入流** 与 **输出流**
 两种。输入流与输出流是一种相对的概念，关键是要看参考点，以图所示为例：水库的水源流向房屋，如果以房屋为参考点，那么这就属于输入流；如果以水库为参考点，这就属于输出流；同样以下雨向水库输水源一样，对水库而言就属于输入流。
 
-<img src="http://niu.ochiamalu.top/image-20240927141821821.png" alt="image-20240927141821821" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927141821821.png" alt="image-20240927141821821" style="zoom:80%;margin:0 auto" />
 
 在 Java 中针对数据流的操作也分为输入与输出两种方式，而且针对此操作提供了以下两类支持。
 
@@ -33,7 +33,7 @@ IO 流的操作中最麻烦的并不是这四个基础的父类，而是一系�
 字节流是在实际开发中使用较多的一种流操作，而 `java.io.OutputStream` 是一个专门实现字节输出流的操作类。`OutputStream`
 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927142107833.png" alt="image-20240927142107833" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927142107833.png" alt="image-20240927142107833" style="zoom:80%;margin:0 auto" />
 
 通过表可以发现，在 `OutputStream` 类中提供了 3 个输出（write()）方法，这 3 个 `write()` 方法分别可以输出单个字节（使用 `int`
 接收）、全部字节数组和部分字节数组。
@@ -132,12 +132,12 @@ public class TestDemo {
 `OutputStream` 本身是一个 **抽象类** ，这样就需要一个子类。如果要进行文件操作，则可以使用 `FileOutputStream`
 子类完成操作，此类定义的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927142829028.png" alt="image-20240927142829028" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927142829028.png" alt="image-20240927142829028" style="zoom:80%;margin:0 auto" />
 
 由于输出操作主要以 `OutputStream` 类为主，所以对于 `FileOutputStream`
 只需要关注其常用的两个构造方法即可。读者可以通过图理解 `FileOutputStream` 类的继承结构。
 
-<img src="http://niu.ochiamalu.top/image-20240927142853526.png" alt="image-20240927142853526" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927142853526.png" alt="image-20240927142853526" style="zoom:80%;margin:0 auto" />
 
 :::tip 异常问题
 
@@ -218,9 +218,9 @@ public class TestDemo {
 在程序中如果要进行文件数据的读取操作，可以使用 `java.io.InputStream` 类完成，此类可以完成字节数据的读取操作。`InputStream`
 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927143342956.png" alt="image-20240927143342956" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927143342956.png" alt="image-20240927143342956" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240927143354782.png" alt="image-20240927143354782" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927143354782.png" alt="image-20240927143354782" style="zoom:80%;margin:0 auto" />
 
 通过 `InputStream` 类提供的 3 个 `read()` 方法可以发现，其操作的数据类型与 `OutputStream` 类中的 3 个 `write()`
 方法对应。但是`OutputStream` 类中的 `write()` 中的参数包含的是要输出的数据，而 `InputStream` 类中的 `read()`
@@ -252,11 +252,11 @@ public class TestDemo {
 
 **|—返回值：**读取的部分数据的长度，如果已经读取到结尾，则读取后返回 `-1` ，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927143750599.png" alt="image-20240927143750599" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927143750599.png" alt="image-20240927143750599" style="zoom:80%;margin:0 auto" />
 
 `java.io.InputStream` 是一个抽象类，所以如果要想进行文件读取，需要使用 `FilelnputStream` 子类，而这个子类的构造方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927220433770.png" alt="image-20240927220433770" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927220433770.png" alt="image-20240927220433770" style="zoom:80%;margin:0 auto" />
 
 与 `OutputStream` 的使用规则相同，所有的子类要向父类对象转型，所以 `FilelnputStream`
 类中只需要关注构造方法即可，而`FilelnputStream` 类的继承结构如图所示。
@@ -283,7 +283,7 @@ public class TestDemo {
 }
 ```
 
-<img src="http://niu.ochiamalu.top/image-20240927220529689.png" alt="image-20240927220529689" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927220529689.png" alt="image-20240927220529689" style="zoom:80%;margin:0 auto" />
 
 本程序利用 `InputStream`
 实现了文件的读取操作，为了确保可以正确读取，首先要对文件是否存在进行判断。在进行数据读取时，首先要开辟一个字节数组空间以保存读取的数据，但是考虑到要读取的数据量有可能小于数组大小，所以在将字节数组转换为字符串时设置了数组可用数据的长度（该长度为 `input.read(data)`
@@ -322,7 +322,7 @@ public class TestDemo {
 本程序采用了循环的方式进行数据读取操作，每次循环时都会将读取出来的字节数据保存给 `temp` 变量，如果读取出来的数据不是 `-1`
 就表示还有数据需要继续进行读取。循环读取字节数据的执行流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927222054805.png" alt="image-20240927222054805" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927222054805.png" alt="image-20240927222054805" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于 `while(temp=input..read()l=-1)` 语句的解释
 
@@ -357,7 +357,7 @@ public class TestDemo {
 `java.io.Writer` 类是从 JDK1.1 版本之后增加的，利用 `Writer` 类可以直接实现字符数组（包含了字符串）的输出。`Writer`
 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927222625166.png" alt="image-20240927222625166" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927222625166.png" alt="image-20240927222625166" style="zoom:80%;margin:0 auto" />
 
 通过 `Writer` 类定义的方法可以发现，`Writer` 类中直接提供了输出字符串数据的方法，这样就没有必要将字符串转成字节数组后再输出了。
 
@@ -383,14 +383,14 @@ public class TestDemo {
 在 `Appendable` 接口中定义了一系列数据追加操作，而追加的类型可以是 `CharSequence`
 （可以保存String、StringBuffer、StringBuilder类对象）。`Writer` 类的继承结构如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927222914825.png" alt="image-20240927222914825" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927222914825.png" alt="image-20240927222914825" style="zoom:80%;margin:0 auto" />
 
 :::
 
 `Writer` 是一个抽象类，要针对文件内容进行输出，可以使用 `java.io.FileWriter` 类实现 `Writer`
 类对象的实例化操作。`FileWriter` 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927222945082.png" alt="image-20240927222945082" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927222945082.png" alt="image-20240927222945082" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -421,7 +421,7 @@ public class TestDemo {
 类是实现字符数据输入的操作类，在进行数据读取时可以不使用字节数据，而直接依靠字符数据（方便处理中文）进行操作。`Reader`
 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927223054694.png" alt="image-20240927223054694" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927223054694.png" alt="image-20240927223054694" style="zoom:80%;margin:0 auto" />
 
 通过表可以发现，在 `Reader` 类中也定义有 `read()` 方法，但是与 `InputStream` 最大的不同在于此处返回的数据是字符数据。
 
@@ -442,7 +442,7 @@ public class TestDemo {
 在 `Readable` 接口中定义的 `read()` 方法可以将数据保存在 `CharBuffer` （字符缓冲，类似于 `StringBuffer`
 ）对象中，也就是说利用此类就可以替代字符数组的操作。`Reader` 类的继承结构如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927223340548.png" alt="image-20240927223340548" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927223340548.png" alt="image-20240927223340548" style="zoom:80%;margin:0 auto" />
 
 另外读者可以发现，在 `Writer` 类中存在直接输出字符串的操作，而 `Reader`
 类中并没有直接返回字符串的操作，这是因为输出数据时可以采用追加的模式，所以随着时间的推移，文件有可能变得非常庞大（假设现在已经达到了
@@ -453,7 +453,7 @@ public class TestDemo {
 `Reader` 类是一个抽象类，要实现文件数据的字符流读取，可以利用 `FileReader` 子类为 `Reader` 类对象实例化。`FileReader`
 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927223525773.png" alt="image-20240927223525773" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927223525773.png" alt="image-20240927223525773" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

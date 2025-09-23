@@ -3,13 +3,13 @@
 国际化程序指的是同一套程序代码可以在不同的国家使用，那么在假设项目功能不变的情况下，文字就成为这一操作中最为重要的处理环节。所谓的国际化程序实际上指的就是同一套程序，可以根据其应用的国家自动在项目中显示出本国的相应文字信息，如图所示。而在本操作中需要两个关键的技术实现点：
 **如何确定当前的软件项目运行的语言环境** ；要想实现多语言切换，必须针对每一个语言提供一个资源文件，并且可以根据语言环境选择不同的资源文件进行信息的读取。
 
-<img src="http://niu.ochiamalu.top/image-20240927125204195.png" alt="image-20240927125204195" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927125204195.png" alt="image-20240927125204195" style="zoom:80%;margin:0 auto" />
 
 ## 使用 Locale 类定义语言环境
 
 如果要对用户使用的语言环境进行定义，则可以使用 `java.util.Locale` 类完成，此类定义的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927125240098.png" alt="image-20240927125240098" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927125240098.png" alt="image-20240927125240098" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -51,7 +51,7 @@ public class TestDemo {
 数据，但是资源文件的文件名称是有要求的，必须以`*.properties`
 作为文件后缀。如果要在程序中读取资源文件，则可以利用`java.util.ResourceBundle` 类完成，此类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927125553035.png" alt="image-20240927125553035" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927125553035.png" alt="image-20240927125553035" style="zoom:80%;margin:0 auto" />
 
 下面通过具体的程序操作来为读者演示资源文件的读取操作。
 
@@ -95,7 +95,7 @@ public class TestDemo {
 
 文本数据的格式化使用 `MessageFormat` 类，在对于日期时间的格式化使用的是 `SimpleDateFormat` 类，而这两个类的关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927125932389.png" alt="image-20240927125932389" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927125932389.png" alt="image-20240927125932389" style="zoom:80%;margin:0 auto" />
 
 所有的格式化操作类都保存在 `java.text` 包中，也就是说这个包中定义的类都是与国际化操作有关的程序类。
 

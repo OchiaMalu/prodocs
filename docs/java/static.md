@@ -39,7 +39,7 @@ public class TestDemo {
 属性，而这个属性将成为公共属性，也就是说有任何一个对象修改了此属性的内容都将影响其他对象。本程序在主方法中利用 `ba`
 对象修改了 `pub` 属性，所以其他两个对象的 `pub` 内容都发生了改变。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924152612804.png" alt="image-20240924152612804" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924152612804.png" alt="image-20240924152612804" style="zoom:80%;margin:0 auto" />
 
 :::tip 常用内存区域
 

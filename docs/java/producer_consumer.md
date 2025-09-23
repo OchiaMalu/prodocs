@@ -6,7 +6,7 @@
 
 在生产者和消费者模型中，生产者不断生产，消费者不断取走生产者生产的产品，如图所示
 
-<img src="http://niu.ochiamalu.top/image-20240926113559638.png" alt="image-20240926113559638" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926113559638.png" alt="image-20240926113559638" style="zoom:80%;margin:0 auto" />
 
 在图中非常清楚地表示出，生产者生产出信息后将其放到一个区域中，然后消费者从此区域里取出数据，但是在本程序中因为牵涉线程运行的不确定性，所以会存在以下两点问题。
 
@@ -160,13 +160,13 @@ public class TestDemo {
 要想解决数据重复的问题，需要 **等待及唤醒机制** ，而这一机制的实现只能依靠 `Object` 类完成，在 `Object` 类中定义了 3
 个方法完成线程的操作，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928120432922.png" alt="image-20240928120432922" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928120432922.png" alt="image-20240928120432922" style="zoom:80%;margin:0 auto" />
 
 从表中可以发现，一个线程可以为其设置等待状态，但是对于唤醒的操作却有两个：`notify()` 、 `notifyAll()`
 。一般来说，所有等待的线程会按照顺序进行排列。如果使用了 `notify()`
 方法，则会唤醒第一个等待的线程执行；如果使用了 `notifyAll()` 方法，则会唤醒所有的等待线程。哪个线程的优先级高，哪个线程就有可能先执行，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926113946337.png" alt="image-20240926113946337" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926113946337.png" alt="image-20240926113946337" style="zoom:80%;margin:0 auto" />
 
 清楚了 `Object` 类中的 3
 个方法作用后，下面就可以利用这些方法来解决程序中的问题。如果想让生产者不重复生产，消费者不重复取走，则可以增加一个标志位，假设标志位为 `boolean`
@@ -176,7 +176,7 @@ public class TestDemo {
 
 要想完成解决数据重复的功能，直接修改 `Message` 类即可。在 `Message` 类中加入标志位，并通过判断标志位完成等待与唤醒的操作。
 
-<img src="http://niu.ochiamalu.top/image-20240926114058797.png" alt="image-20240926114058797" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926114058797.png" alt="image-20240926114058797" style="zoom:80%;margin:0 auto" />
 
 ```java
 class Message {

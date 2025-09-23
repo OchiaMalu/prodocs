@@ -54,7 +54,7 @@ public class ArrayDemo {
 数组最基础的操作就是声明，而后根据索引进行访问。其最麻烦的问题在于，数组本身也属于引用数据类型，所以上述代码依然需要牵扯到 *
 *内存分配** ，与对象保存唯一的区别在于：<u>对象中的堆内存保存的是属性，而数组中的堆内存保存的是一组信息</u>。本程序的内存划分如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922220736388.png" alt="image-20240922220736388" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922220736388.png" alt="image-20240922220736388" style="zoom:80%;margin:0 auto" />
 
 :::warning 小心数组越界
 
@@ -82,7 +82,7 @@ public class ArrayDemo {
 
 本程序首先声明了一个数组变量 `data` ，然后使用关键字 `new` 为数组开辟空间，最后为了通过索引为数组里的元素设置相应的内容。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922221017824.png" alt="image-20240922221017824" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922221017824.png" alt="image-20240922221017824" style="zoom:80%;margin:0 auto" />
 
 :::warning 不能直接使用未开辟空间的数组
 
@@ -109,7 +109,7 @@ public class ArrayDemo {
 本程序首先定义了一个 `int` 型数组，然后为其元素赋值，接着又定义了一个 `temp` 数组，并且此数组将直接指向 `data`
 数组的引用 `int temp[] = data` ，最后利用 `temp` 变量修改了数组中的数据。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922221209957.png" alt="image-20240922221209957" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922221209957.png" alt="image-20240922221209957" style="zoom:80%;margin:0 auto" />
 
 通过以上操作读者可以发现，在数组的使用过程中首先是开辟新的数组，然后为数组中的每一个元素进行赋值，这种形式的操作属于数组 *
 *动态初始化** ，它的操作特点是：<u>先开辟数组空间，再为数组中的内容赋值</u>。而在数组定义中还提供了静态初始化的操作，即数组定义的同时就设置好了相应的数据内容，其格式如下。
@@ -140,14 +140,14 @@ public class ArrayDemo {
 在之前的数组操作中读者可以发现，数组所保存的数据实际上就像单行多列的结构那样，只需要通过一个索引就可以进行数据的访问，这样的数组可以将其称为
 **一维数组** ，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922221502862.png" alt="image-20240922221502862" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922221502862.png" alt="image-20240922221502862" style="zoom:80%;margin:0 auto" />
 
 很多时候用户可能需要保存 **多行多列** 的数据，则可以使用 **二维数组**
 来进行描述，而二维数组与一维数组最大的区别是在于，一维数组声明时只会有一个 `[]` ，二维数组会有两个 `[]` （即 `[][]`）。
 
 二维数组就是一张数据表（多行多列），其基本结构如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922221605669.png" alt="image-20240922221605669" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922221605669.png" alt="image-20240922221605669" style="zoom:80%;margin:0 auto" />
 
 如果要在二维数组里面确定一个数据，需要行和列一起定位，例如：数字 77 的索引位置：行 1 列 3 （ `[1][3]` ）。而对于二维数组的定义语法有如下两类：
 
@@ -209,7 +209,7 @@ public class ArrayDemo {
 ，相当于方法中定义的 `temp` 参数( `int` 数组类型)与主方法中的数组 `data` 指向了同一块内存空间，最后在 `changet()`
 方法中修改了数组的内容（将数组保存的每一个内容乘以 2 后重新保存)。本程序的具体内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922222143246.png" alt="image-20240922222143246" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922222143246.png" alt="image-20240922222143246" style="zoom:80%;margin:0 auto" />
 
 :::tip 上述程序的简单理解
 
@@ -371,7 +371,7 @@ public class ArrayDemo {
 
 |-原始数组：1、2、3、4、5、6、7 -> 转换次数为：7÷2=3 （`int` 型数据除法不保留小数）
 
-<img src="http://niu.ochiamalu.top/image-20240922225825947.png" alt="image-20240922225825947" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922225825947.png" alt="image-20240922225825947" style="zoom:80%;margin:0 auto" />
 
 |- 第一次转置：7、2、3、4、5、6、1；
 
@@ -382,7 +382,7 @@ public class ArrayDemo {
 通过分析可以发现，不管数组的长度是奇数的个数还是偶数的个数，转置的次数的计算方式是完全一样的，但是此时还需要有两个索引标记：
 **头部索引标记** (head)、 **尾部索引标记** (tail)，共同作用才可以实现数据的交换，操作形式如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922230951084.png" alt="image-20240922230951084" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922230951084.png" alt="image-20240922230951084" style="zoom:80%;margin:0 auto" />
 
 按照此思路编写一个专门用于转置的方法，代码实现如下。
 
@@ -423,7 +423,7 @@ public class ArrayDemo {
 本程序为了实现转置，专门定义了一个 `reverse()` 方法，在本方法中首先计算要进行转置的次数，然后利用循环实现数据的交换，这样就可以实现在一个数组上的数据转置，也不会有垃圾空间产生。
 以上实现的是一个一维数组的转置，但既然是数组的转置，也就有可能包含二维数组的转置操作，而二维数组的转置操作就需要进行行列数据的交换，具体分析如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240922230902876.png" alt="image-20240922230902876" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922230902876.png" alt="image-20240922230902876" style="zoom:80%;margin:0 auto" />
 
 :::tip 本思路只适合行数与列数相同时使用
 
@@ -638,4 +638,4 @@ public class ArrayDemo {
 对象数组的最大好处是将多个对象统一进行管理，并且除了数据类型改变外，和之前的数组没有任何区别，而且数组本身就属于引用数据类型，因此对象数组就是在一个引用数据类型中
 **嵌入** 其他引用数据类型。如果非要用内存图表示的话，可以简单地理解为图所示的结构。
 
-<img src="http://niu.ochiamalu.top/image-20240922233644507.png" alt="image-20240922233644507" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240922233644507.png" alt="image-20240922233644507" style="zoom:80%;margin:0 auto" />

@@ -6,13 +6,13 @@
 
 虽然从定义来说它们也算语言，但词汇量一般很少，而且非常 **结构化** ，代码只能在拼写和语法完全正确时，编译和运行。
 
-<img src="http://niu.ochiamalu.top/image-20231103200923158.png" alt="image-20231103200923158" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103200923158.png" alt="image-20231103200923158" style="zoom:80%;margin:0 auto" />
 
 ## 自然语言处理
 
 当然，这和人类语言完全不同，人类语言叫 `自然语言` （natural language），自然语言有大量词汇，有些词有多种含义，不同口音，以及各种有趣的文字游戏。
 
-<img src="http://niu.ochiamalu.top/image-20231103201001698.png" alt="image-20231103201001698" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201001698.png" alt="image-20231103201001698" style="zoom:67%;margin:0 auto" />
 
 人们在写作和说话时也会犯错，比如单词拼在一起发音，关键细节没说导致意思模糊两可，以及发错音。
 
@@ -40,11 +40,11 @@ speech）。
 例如，英语中有一条规则，句子可以由 **一个名词短语** 和 **一个动词短语** 组成，名词短语可以是冠词，如 `the`
 ，然后一个名词，或一个形容词后面跟一个名词，你可以给一门语言制定出一堆规则。
 
-<img src="http://niu.ochiamalu.top/image-20231103201058086.png" alt="image-20231103201058086" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201058086.png" alt="image-20231103201058086" style="zoom:80%;margin:0 auto" />
 
 用这些规则，可以做出 `分析树` （parse tree），它给每个单词标了可能是什么词性，也标明了句子的结构，数据块 **更小** 更容易处理。
 
-<img src="http://niu.ochiamalu.top/image-20231103201141480.png" alt="image-20231103201141480" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201141480.png" alt="image-20231103201141480" style="zoom:80%;margin:0 auto" />
 
 每次语音搜索，都有这样的流程，比如 `最近的披萨在哪里` ，计算机能明白这是 `哪里`（where）的问题，知道你想要名词 `披萨`
 （pizza），而且你关心的维度是 `最近的` （nearest）。
@@ -64,7 +64,7 @@ speech）。
 Google版的叫 `知识图谱` （Knowledge Graph），在 2016
 年底包含大概七百亿个事实，以及不同实体间的关系，处理，分析，生成文字，是 `聊天机器人` 的最基本部件。
 
-<img src="http://niu.ochiamalu.top/image-20231103201306202.png" alt="image-20231103201306202" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201306202.png" alt="image-20231103201306202" style="zoom:80%;margin:0 auto" />
 
 ## 聊天机器人
 
@@ -90,7 +90,7 @@ Google版的叫 `知识图谱` （Knowledge Graph），在 2016
 
 十年后，1962 年的世界博览会上，IBM 展示了一个鞋盒大小的机器，能识别 16 个单词。
 
-<img src="http://niu.ochiamalu.top/image-20231103201535839.png" alt="image-20231103201535839" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201535839.png" alt="image-20231103201535839" style="zoom:80%;margin:0 auto" />
 
 为了推进 `语音识别` 领域的研究，DARPA 在 1971 年启动了一项雄心勃勃的五年筹资计划，之后诞生了 **卡内基梅隆大学** 的 `Harpy`
 ，Harpy是第一个可以识别 1000 个单词以上的系统。
@@ -104,7 +104,7 @@ Google版的叫 `知识图谱` （Knowledge Graph），在 2016
 
 在这个视图中，横轴是时间，竖轴是隔膜移动的幅度，或者说振幅。
 
-<img src="http://niu.ochiamalu.top/image-20231103201611917.png" alt="image-20231103201611917" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201611917.png" alt="image-20231103201611917" style="zoom:80%;margin:0 auto" />
 
 ### 谱图
 
@@ -115,31 +115,31 @@ Google版的叫 `知识图谱` （Knowledge Graph），在 2016
 这里横轴还是时间，但竖轴不是振幅，而是不同频率的振幅，颜色越亮，那个频率的声音越大，这种波形到频率的转换是用一种很酷的算法做的， `快速傅立叶变换`
 （Fast Fourier Transform），简称 **FFT** 。
 
-<img src="http://niu.ochiamalu.top/image-20231103201641399.png" alt="image-20231103201641399" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201641399.png" alt="image-20231103201641399" style="zoom:80%;margin:0 auto" />
 
 如果你盯过立体声系统的 EQ 可视化器，它们差不多是一回事。
 
-<img src="http://niu.ochiamalu.top/image-20231103201704436.png" alt="image-20231103201704436" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201704436.png" alt="image-20231103201704436" style="zoom:80%;margin:0 auto" />
 
 谱图是随着时间变化的，你可能注意到，信号有种螺纹图案，那是我声道的 **回声** 。
 
 为了发出不同声音，我要把声带，嘴巴和舌头变成不同形状，放大或减少不同的共振，可以看到有些区域更亮，有些更暗。
 
-<img src="http://niu.ochiamalu.top/image-20231103201758264.png" alt="image-20231103201758264" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201758264.png" alt="image-20231103201758264" style="zoom:80%;margin:0 auto" />
 
 如果从底向上看，标出高峰，叫 `共振峰` （formants），可以看到有很大不同，所有元音都是如此。
 
-<img src="http://niu.ochiamalu.top/image-20231103201817030.png" alt="image-20231103201817030" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201817030.png" alt="image-20231103201817030" style="zoom:80%;margin:0 auto" />
 
 这让计算机可以识别元音，然后识别出整个词。
 
-<img src="http://niu.ochiamalu.top/image-20231103201837095.png" alt="image-20231103201837095" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201837095.png" alt="image-20231103201837095" style="zoom:80%;margin:0 auto" />
 
 让我们看一个更复杂的例子，当我说 `她..很开心` 的时候，可以看到 `e` 声，和 `a` 声，以及其它不同声音。
 
 比如 `she` 中的 `shh` 声， `was` 中的 `wah` 和 `sss` ，等等。
 
-<img src="http://niu.ochiamalu.top/image-20231103201935078.png" alt="image-20231103201935078" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231103201935078.png" alt="image-20231103201935078" style="zoom:80%;margin:0 auto" />
 
 这些构成单词的声音片段叫 `音素` （phonemes），语音识别软件知道这些音素，英语有大概 44 种音素，所以本质上变成了音素识别。
 

@@ -3,9 +3,9 @@
 Java 提供类库时考虑到用户的使用方便性，专门提供了一个集合的工具类 `Collections` ，这个工具类可以实现<u>List、Set、Map</u>
 集合的操作。`Collections` 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928105819356.png" alt="image-20240928105819356" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928105819356.png" alt="image-20240928105819356" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240928105828242.png" alt="image-20240928105828242" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928105828242.png" alt="image-20240928105828242" style="zoom:80%;margin:0 auto" />
 
 通过表列出的方法可以发现，`Collections` 提供了一些更为方便的辅助功能操作。下面通过一个简单的范例来进行 `Collections`
 工具类的使用验证。

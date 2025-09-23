@@ -2,11 +2,11 @@
 
 > Written by OchiaMalu.
 
-<img src="http://niu.ochiamalu.top/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20153612.jpg" alt="屏幕截图 2023-09-30 153612" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20153612.jpg" alt="屏幕截图 2023-09-30 153612" style="zoom:50%;margin:0 auto" />
 
 这份指南以我自身的编程学习经验为基础，且参考互联网中很多人的经验，构建了相对完整的学习体系，且没有过多的废话，相信可以给从0学习编程的小伙伴提供帮助，让更多人的编程之路不再迷茫，找到更好的工作，更快地适应工作。
 
-<img src="http://niu.ochiamalu.top/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%BC%96%E7%A8%8B.png" alt="从零开始编程" style="zoom: 80%;" />
+<img src="http://niu.ochiamalu.fun/%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%BC%96%E7%A8%8B.png" alt="从零开始编程" style="zoom: 80%;" />
 
 ## 分析起点
 
@@ -18,11 +18,11 @@
 那么到底学历到什么程度才算够用呢？答案是至少二本，如果你的学历是三本及以下，提升学历才是你的**第一要务**
 ，以下是来自重庆某三本和广东某三本学生的**真实**对话：
 
-<img src="http://niu.ochiamalu.top/64a357b58d54cd0e0b3c7abb099a3d8.jpg" alt="64a357b58d54cd0e0b3c7abb099a3d8" style="zoom: 25%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/64a357b58d54cd0e0b3c7abb099a3d8.jpg" alt="64a357b58d54cd0e0b3c7abb099a3d8" style="zoom: 25%;margin: 0 auto" />
 
 <br/>
 
-<img src="http://niu.ochiamalu.top/d592f4553523ffb73824cfe0adbde80.jpg" alt="d592f4553523ffb73824cfe0adbde80" style="zoom: 33%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/d592f4553523ffb73824cfe0adbde80.jpg" alt="d592f4553523ffb73824cfe0adbde80" style="zoom: 33%;margin: 0 auto" />
 
 
 
@@ -41,14 +41,14 @@ Wedo，这个阶段就是培养兴趣，搭建+简单编程，看看孩子有没
 。但说句实话，所谓少儿编程还是和真实的编程相差甚远，~~机构的老师也不一定是计算机专业~~
 ，如果真的想让孩子走编程这条路还是不要拔苗助长，等几年让孩子的大脑发育一下再做打算。
 
-<img src="http://niu.ochiamalu.top/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20155442.jpg" alt="屏幕截图 2023-09-30 155442" style="zoom:67%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20155442.jpg" alt="屏幕截图 2023-09-30 155442" style="zoom:67%;margin: 0 auto" />
 
 #### 学习编程的最早时间
 
 想当年我读小学的时候是三年级才有信息技术，那时候进机房还要穿鞋套，不知道现在还是不是这样，我记得清楚的课程有金山打字王、修图（有一个很炫的软件忘记叫什么了），还有就是
 **Scratch**，相信很多人都玩过或者见过这只狐狸。
 
-<img src="http://niu.ochiamalu.top/image-20230930155908018.png" alt="image-20230930155908018" style="zoom:80%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20230930155908018.png" alt="image-20230930155908018" style="zoom:80%;margin: 0 auto" />
 
 他虽然是图形化界面，但作为检验孩子有没有编程的天分还是非常有用的，如果连图形化的界面都没有兴趣那真的别强求了。
 
@@ -57,7 +57,7 @@ Wedo，这个阶段就是培养兴趣，搭建+简单编程，看看孩子有没
 
 <u>这部分内容有机会的话我也会免费为大家公开资源，让孩子在家里就可以学，不要在外面找机构花冤枉钱！</u>
 
-![屏幕截图 2023-09-30 160659](http://niu.ochiamalu.top/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20160659.jpg)
+![屏幕截图 2023-09-30 160659](http://niu.ochiamalu.fun/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20160659.jpg)
 
 <br/>
 
@@ -65,7 +65,7 @@ Wedo，这个阶段就是培养兴趣，搭建+简单编程，看看孩子有没
 
 高中阶段如果还是**零基础**的话，一定不要碰，一定不要碰，一定不要碰，高中阶段除了选考技术的，学习考试的内容，在这之外的所有东西，全都不要碰，全都不要碰，全都不要碰！好好学文化课，985的毕业证书一定是最有用的东西！
 
-![屏幕截图 2023-09-30 161157](http://niu.ochiamalu.top/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20161157.jpg)
+![屏幕截图 2023-09-30 161157](http://niu.ochiamalu.fun/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-09-30%20161157.jpg)
 
 ### 大学时期
 
@@ -87,7 +87,7 @@ Wedo，这个阶段就是培养兴趣，搭建+简单编程，看看孩子有没
 如果你特别特别优秀，不仅在大厂实习转正成功，还被学校保研，这个时候个人建议留在大厂，因为升学的最终目标就是就业，既然拿到了梦寐以求的
 offer 为什么还要拒绝，而且大厂的经历不比研究生学历差。
 
-<img src="http://niu.ochiamalu.top/image-20231002143513139.png" alt="image-20231002143513139" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231002143513139.png" alt="image-20231002143513139" style="zoom:80%;margin:0 auto" />
 
 ## 明确目标
 
@@ -114,7 +114,7 @@ offer 为什么还要拒绝，而且大厂的经历不比研究生学历差。
 
 ### 编程语言选择
 
-<img src="http://niu.ochiamalu.top/image-20230930162909572.png" alt="image-20230930162909572" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.fun/image-20230930162909572.png" alt="image-20230930162909572" style="zoom:80%;" />
 
 ### Python
 
@@ -137,13 +137,13 @@ Python现在还是浙江高考信息技术的语言（以前是VB），这些都
 如果你不着急找工作，且想要在计算机领域达到一定的高度，那么**一定要将C语言作为第一门语言**
 ！因为它足够底层，底层到所有的操作系统都是用它实现的。在学习的过程中也能接触到更多的概念，日后学习其他语言一定有很大的帮助。
 
-<img src="http://niu.ochiamalu.top/image-20230930164200322.png" alt="image-20230930164200322" style="zoom:80%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20230930164200322.png" alt="image-20230930164200322" style="zoom:80%;margin: 0 auto" />
 
 ### C++
 
 如果没有C语言，那么C++就是神中神，它是C语言的超集，也就是说用C语言的语法执行C++是可以的，但是C++比C多了一些东西，最明显的就是C++是面向对象的编程语言（C语言虽然是面向过程，但是也可以实现面向对象），常用于后台开发、桌面程序、框架开发等。
 
-<img src="http://niu.ochiamalu.top/image-20230930164653439.png" alt="image-20230930164653439" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20230930164653439.png" alt="image-20230930164653439" style="zoom:80%;margin:0 auto" />
 
 ### Java
 
@@ -152,7 +152,7 @@ Java可以说是岗位最多的语言，也是求职第一个考虑的语言，�
 丰富的应用场景和生态，后端、桌面程序、安卓 APP都可以用它开发，数不胜数的框架可以让我们更快速的完成开发，也是**培训机构最喜欢
 **的语言。说他不好吧，那岗位是真的多，说他好吧，说实话现在入场Java汤喝不喝得到还真说不准。
 
-![image-20230930165155733](http://niu.ochiamalu.top/image-20230930165155733.png)
+![image-20230930165155733](http://niu.ochiamalu.fun/image-20230930165155733.png)
 
 ### C#
 
@@ -166,7 +166,7 @@ Java可以说是岗位最多的语言，也是求职第一个考虑的语言，�
 
 语法简单，且天然支持高并发，但目前只有大厂在用，**没有太多的岗位**，不建议作为第一语言。
 
-<img src="http://niu.ochiamalu.top/image-20230930165712640.png" alt="image-20230930165712640" style="zoom:150%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20230930165712640.png" alt="image-20230930165712640" style="zoom:150%;margin:0 auto" />
 
 ### JavaScript
 

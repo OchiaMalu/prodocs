@@ -320,7 +320,7 @@ abstract class Action {					// 定义一个抽象的行为类，行为不是具�
 }
 ```
 
-<img src="http://niu.ochiamalu.top/image-20240925103207761.png" alt="image-20240925103207761" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925103207761.png" alt="image-20240925103207761" style="zoom:80%;margin:0 auto" />
 
 在本程序的定义中，将具体的接收指令定义为 `command()` 方法，并且 `command()` 方法只接收固定的几个操作值（由具体的常量提供)
 ，同时该方法也支持操作的组合传递，而具体的操作行为不应该由行为这个类负责，而应由不同的子类覆写。

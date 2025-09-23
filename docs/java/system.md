@@ -2,7 +2,7 @@
 
 `System` 类是本书一直使用的一个操作类，这个操作类提供一些系统的支持操作，常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928115344396.png" alt="image-20240928115344396" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928115344396.png" alt="image-20240928115344396" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于数组复制
 

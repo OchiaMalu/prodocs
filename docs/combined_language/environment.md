@@ -10,7 +10,7 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 安装完成后我们需要配置 `环境变量` 来让系统知道新增了一些命令，如果没有配置或者输入了错误的命令，就会出现这样的提示。
 
-<img src="http://niu.ochiamalu.top/image-20231111150806203.png" alt="image-20231111150806203" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111150806203.png" alt="image-20231111150806203" style="zoom:80%;margin:0 auto" />
 
 ## 编辑器和集成开发环境
 
@@ -59,39 +59,39 @@ MinGW 的全称是：**Minimalist GNU on Windows**  ，是 C 语言编译器 GCC
 
 解压后其中有很多的文件夹，我们只需要复制其中 `bin` 文件的路径。
 
-<img src="http://niu.ochiamalu.top/image-20231111152102526.png" alt="image-20231111152102526" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152102526.png" alt="image-20231111152102526" style="zoom:80%;margin:0 auto" />
 
 在 `此电脑` 上右键，并找到 `属性` 。
 
-<img src="http://niu.ochiamalu.top/image-20231111152227182.png" alt="image-20231111152227182" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152227182.png" alt="image-20231111152227182" style="zoom:80%;margin:0 auto" />
 
 在右侧找到 `高级系统设置` 。
 
-<img src="http://niu.ochiamalu.top/image-20231111152302162.png" alt="image-20231111152302162" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152302162.png" alt="image-20231111152302162" style="zoom:80%;margin:0 auto" />
 
 在打开的页面中找到 `环境变量` 。
 
-<img src="http://niu.ochiamalu.top/image-20231111152348653.png" alt="image-20231111152348653" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152348653.png" alt="image-20231111152348653" style="zoom:80%;margin:0 auto" />
 
 在 `系统变量` 中找到 `Path` 并双击。
 
-<img src="http://niu.ochiamalu.top/image-20231111152517626.png" alt="image-20231111152517626" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152517626.png" alt="image-20231111152517626" style="zoom:80%;margin:0 auto" />
 
 点击 `新建` 并粘贴之前复制的 `bin` 文件夹路径。
 
-<img src="http://niu.ochiamalu.top/image-20231111152556560.png" alt="image-20231111152556560" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152556560.png" alt="image-20231111152556560" style="zoom:80%;margin:0 auto" />
 
 点击所有的 `确定` 保存。
 
 使用 `Win + R` 输入 `cmd` 或搜索 `命令提示符` 打开 Windows 终端。
 
-<img src="http://niu.ochiamalu.top/image-20231111152747201.png" alt="image-20231111152747201" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152747201.png" alt="image-20231111152747201" style="zoom:80%;margin:0 auto" />
 
 输入 `gcc -v -E -x c++ -` 。
 
 只要出现东西就说明配置正确。
 
-<img src="http://niu.ochiamalu.top/image-20231111152915879.png" alt="image-20231111152915879" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152915879.png" alt="image-20231111152915879" style="zoom: 50%;margin:0 auto" />
 
 否则将提示 `xxx不是内部命令或外部命令,也不是可运行程序` 。
 
@@ -103,7 +103,7 @@ MinGW 的全称是：**Minimalist GNU on Windows**  ，是 C 语言编译器 GCC
 
 安装过程非常简单，只需要一直点击下一步即可。
 
-<img src="http://niu.ochiamalu.top/image-20231111154133284.png" alt="image-20231111154133284" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111154133284.png" alt="image-20231111154133284" style="zoom:50%;margin:0 auto" />
 
 :::danger
 
@@ -113,23 +113,23 @@ MinGW 的全称是：**Minimalist GNU on Windows**  ，是 C 语言编译器 GCC
 
 可以试用 30 天，如果是高校学生可以在官网申请免费使用，破解版请自行搜索。
 
-<img src="http://niu.ochiamalu.top/image-20231111154355872.png" alt="image-20231111154355872" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111154355872.png" alt="image-20231111154355872" style="zoom:67%;margin:0 auto" />
 
 打开 CLion 后选择 `New Project` 。
 
-<img src="http://niu.ochiamalu.top/image-20231111154534430.png" alt="image-20231111154534430" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111154534430.png" alt="image-20231111154534430" style="zoom:67%;margin:0 auto" />
 
 在右侧选择 `C Executable` ，并选择 C 标准为 C11 ，新建文件路径自行选择。
 
-<img src="http://niu.ochiamalu.top/image-20231111154708453.png" alt="image-20231111154708453" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111154708453.png" alt="image-20231111154708453" style="zoom: 67%;margin:0 auto" />
 
 接着会弹出一个窗口让你设置环境，我们可以发现存在 `Bundled MinGW` ，这是 CLion 自带的 C 编译器，也可以选择自己下载的 MinGW。
 
-<img src="http://niu.ochiamalu.top/image-20231111154959135.png" alt="image-20231111154959135" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111154959135.png" alt="image-20231111154959135" style="zoom:67%;margin:0 auto" />
 
 我们需要等待下方 IDE 处理完后才能看见运行程序的标志。
 
-<img src="http://niu.ochiamalu.top/image-20231111155155256.png" alt="image-20231111155155256" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111155155256.png" alt="image-20231111155155256" style="zoom: 50%;margin:0 auto" />
 
 ### hello world
 
@@ -142,12 +142,12 @@ MinGW 的全称是：**Minimalist GNU on Windows**  ，是 C 语言编译器 GCC
 
 在下方的进度条跑完后我们可以看见一个 **绿色的箭头** ，这就是运行程序的按钮。
 
-<img src="http://niu.ochiamalu.top/image-20231111155633899.png" alt="image-20231111155633899" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111155633899.png" alt="image-20231111155633899" style="zoom:80%;margin:0 auto" />
 
 我们可以选择 `Run`  ，点击之后 IDE 会使用之前选择的 MinGW 进行编译、链接，并将程序运行的结果输出。
 
-<img src="http://niu.ochiamalu.top/image-20231111155811079.png" alt="image-20231111155811079" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111155811079.png" alt="image-20231111155811079" style="zoom:80%;margin:0 auto" />
 
 如果一切顺利，IDE 将输出程序运行的结果。
 
-<img src="http://niu.ochiamalu.top/image-20231111155912499.png" alt="image-20231111155912499" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111155912499.png" alt="image-20231111155912499" style="zoom: 50%;margin:0 auto" />

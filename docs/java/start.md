@@ -4,7 +4,7 @@
 Java 作为应用层封装的标准，通过 Java 来调用一些底层的操作。例如，现在最为流行的 **Android** 开发，就是利用 Java
 调用Linux内核操作形成的。
 
-<img src="http://niu.ochiamalu.top/image-20240917141939448.png" alt="image-20240917141939448" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917141939448.png" alt="image-20240917141939448" style="zoom:80%;margin:0 auto" />
 
 ## 从零开始
 

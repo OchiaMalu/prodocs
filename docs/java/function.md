@@ -178,7 +178,7 @@ public class TestDemo {
 本程序在主类中一共定义了 3 个 `add()` 方法，但是这 3 个 `add()` 方法的参数个数以及数量完全不同，所以就证明此时 `add()`
 方法已经被 **重载** 了。而在调用方法时，虽然方法的调用名称相同，但是会根据其声明的参数个数或类型执行不同的方法体，调用过程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921230722106.png" alt="image-20240921230722106" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921230722106.png" alt="image-20240921230722106" style="zoom:80%;margin:0 auto" />
 
 :::tip `System.out.println()` 、`System.out.print()` 也属于方法的重载
 
@@ -213,7 +213,7 @@ public class TestDemo {
 - 必须有结束条件；
 - 每次调用时都需要改变传递的参数。
 
-<img src="http://niu.ochiamalu.top/image-20240921230957483.png" alt="image-20240921230957483" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921230957483.png" alt="image-20240921230957483" style="zoom:80%;margin:0 auto" />
 
 ::: 关于递归的学习
 

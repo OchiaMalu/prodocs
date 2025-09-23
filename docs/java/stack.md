@@ -9,7 +9,7 @@
 
 :::
 
-<img src="http://niu.ochiamalu.top/image-20240928104252255.png" alt="image-20240928104252255" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928104252255.png" alt="image-20240928104252255" style="zoom:80%;margin:0 auto" />
 
 在 `java.util` 包中可以利用 `Stack` 类实现栈的功能，此类定义如下。
 
@@ -18,7 +18,7 @@
 通过定义可以发现，`Stack` 类属于 `Vector` 子类，但是需要注意的是，在进行 `Stack` 类操作时不会使用 `Vector`
 类定义的方法，主要使用 `Stack` 自己定义的方法。`Stack` 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928104347662.png" alt="image-20240928104347662" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928104347662.png" alt="image-20240928104347662" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

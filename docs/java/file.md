@@ -2,9 +2,9 @@
 
 在 `java.io` 包中，如果要进行文件自身的操作（例如：创建、删除等），只能依靠 `java.io.File` 类完成。`File` 类常用操作方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927133339343.png" alt="image-20240927133339343" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927133339343.png" alt="image-20240927133339343" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240927133353429.png" alt="image-20240927133353429" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927133353429.png" alt="image-20240927133353429" style="zoom:80%;margin:0 auto" />
 
 通过表可以发现 `File` 类中提供的方法并 **不涉及文件的具体内容** ，只是针对文件本身的操作。
 
@@ -17,7 +17,7 @@
 
 **范例：** 文件基本操作。任意给定一个文件路径，如果文件不存在则创建一个新的文件，如果文件存在则将文件删除。文件操作流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927133524852.png" alt="image-20240927133524852" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927133524852.png" alt="image-20240927133524852" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -60,7 +60,7 @@ public class TestDemo {
 方法进行创建；如果要创建的文件存在目录，那么将无法进行创建。所以合理的做法应该是在创建文件前判断父路径（ `getParent()`
 取得父路径）是否存在，如果不存在则应该先创建目录（ `mkdirs()` 创建多级目录），再创建文件。包含路径的文件创建如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927134059887.png" alt="image-20240927134059887" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927134059887.png" alt="image-20240927134059887" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -170,6 +170,6 @@ public class TestDemo {
 }
 ```
 
-<img src="http://niu.ochiamalu.top/image-20240927134742249.png" alt="image-20240927134742249" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927134742249.png" alt="image-20240927134742249" style="zoom:80%;margin:0 auto" />
 
 本程序会列出指定目录中的全部内容（包括子目录中的内容）。由于不确定要操作的目录层级数，所以使用递归的方式，将列出的每一个路径继续判断；如果是目录则继续列出。

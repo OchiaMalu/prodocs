@@ -38,9 +38,9 @@ class Book implements Serializable { 			// 此类对象可以被序列化
 
 `ObjectOutputStream` 类的常用方法如表所示，`ObjectInputStream` 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928001953267.png" alt="image-20240928001953267" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928001953267.png" alt="image-20240928001953267" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240928002007635.png" alt="image-20240928002007635" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928002007635.png" alt="image-20240928002007635" style="zoom:80%;margin:0 auto" />
 
 通过 `ObjectOutputStream` 与 `ObjectInputStream` 类的方法定义可以发现，序列化对象时(writeObject())
 接收的参数统一为 `Object` ，而反序列化对象时(readObject())返回的类型也为 `Object` ，所以这两个类可以序列化或反序列化 Java
@@ -67,7 +67,7 @@ public class TestDemo {
 本程序实现了 `Book` 类对象序列化的操作，在实例化 `ObjectOutputStream` 类对象时需要设置一个 `OutputStream`
 类对象，此时设置的为 `FileOutputStream` 子类，表示对象将被序列化到文件中。 `book.ser` 文件保存内容如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928002143292.png" alt="image-20240928002143292" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928002143292.png" alt="image-20240928002143292" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

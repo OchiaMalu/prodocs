@@ -164,7 +164,7 @@ public class TestDemo {
 类操作正则，大部分情况下都会考虑使用 `java.lang.String` 类中提供的方法来直接简化正则的操作。下表定义了 `String` 类与正则有关的
 5 个操作方法。
 
-<img src="http://niu.ochiamalu.top/image-20240928114450482.png" alt="image-20240928114450482" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928114450482.png" alt="image-20240928114450482" style="zoom:80%;margin:0 auto" />
 
 以上列出的 5 个方法包含字符串替换、拆分、验证操作，其中验证操作较为复杂，也是读者需要重点掌握的部分。
 
@@ -202,7 +202,7 @@ public class TestDemo {
 
 提示：要转换的数字可能是整数(10)也可能是小数(10.2)，但是绝对不允许出现非数字，并且小数点出现时应该有对应的小数位，正则规则分析如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926165858748.png" alt="image-20240926165858748" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926165858748.png" alt="image-20240926165858748" style="zoom:80%;margin:0 auto" />
 
 :::tip 为什么使用 `“\\d”` ?
 
@@ -291,7 +291,7 @@ public class TestDemo {
 
 `java.util.regex.Pattern` 类的主要功能是进行数据的拆分以及为 `Matcher` 类对象实例化，该类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928114527170.png" alt="image-20240928114527170" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928114527170.png" alt="image-20240928114527170" style="zoom:80%;margin:0 auto" />
 
 在 `Pattern` 类中没有定义构造方法，所以如果要想取得 `Pattern` 类对象，必须利用 `compile()`
 方法进行指定正则表达式的编译操作。同时在 `Pattern` 类中定义的方法，在进行参数接收时接收的都是 `CharSequence`
@@ -317,7 +317,7 @@ public class TestDemo {
 
 如果要想实现数据的验证与替换操作，就需要通过 `Matcher` 类实现操作，此类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928114557105.png" alt="image-20240928114557105" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928114557105.png" alt="image-20240928114557105" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

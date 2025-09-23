@@ -76,7 +76,7 @@ public class StringDemo {
 的引用地址赋给 `strc` （此时 `strb` 与 `strc` 指向 **同一内存** 空间)。虽然 3 个 `String`
 类对象的内容是完全一样的，但最后的结果却出现 `false` ，所以 `==` 并不能够实现准确的字符串比较，分析过程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923164314380.png" alt="image-20240923164314380" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923164314380.png" alt="image-20240923164314380" style="zoom:80%;margin:0 auto" />
 
 通过图可以发现， `stra` 与 `strb` 虽然包含的内容是一样的，但是其所在的内存地址空间不同（因为 `strb` 使用关键字 `new`
 开辟了新的堆内存空间），而在使用 `==` 比较时，比较的只是数值，所以只要地址数值不相同的 `String` 类对象在使用 `==`
@@ -199,7 +199,7 @@ Java 类的源代码来观察，或者通过后续内容来学习。
 ，而除了这一特点外，利用直接赋值还可以实现堆内存空间的重用，即采用直接赋值的方式，<u>
 在相同内容的情况下不会开辟新的堆内存空间，而会直接指向已有的堆内存空间</u>。
 
-<img src="http://niu.ochiamalu.top/image-20240923180735960.png" alt="image-20240923180735960" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923180735960.png" alt="image-20240923180735960" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -221,7 +221,7 @@ public class StringDemo {
 也都自动指向了同一块堆内存空间，但是如果在直接赋值时内容与之前不一样，则会自动开辟新的堆内存空间 `String strd="yootk";`
 。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923180824345.png" alt="image-20240923180824345" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923180824345.png" alt="image-20240923180824345" style="zoom:80%;margin:0 auto" />
 
 :::tip String 类采用的设计模式为 **共享设计模式**
 
@@ -244,7 +244,7 @@ public class StringDemo {
 通过之前的学习读者已经清楚，每一个字符串常量都是 `String` 类的匿名对象，所以本代码的含义是，根据 `hello`
 这个匿名对象的内容创建一个新的 `String` 类对象，所以此时的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923181049405.png" alt="image-20240923181049405" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923181049405.png" alt="image-20240923181049405" style="zoom:80%;margin:0 auto" />
 
 因为每一个字符串都是一个 `String` 类的匿名对象，所以会首先在堆内存中开辟一块空间保存字符串 `hello` ，然后使用关键字 `new`
 ，开辟另一块堆内存空间。因此真正使用的是用关键字 `new` 开辟的堆内存，而之前定义的字符串常量的堆内存空间将不会有任何的栈内存指向，将成为垃圾，等待被
@@ -312,7 +312,7 @@ public class StringDemo {
 ，所以最终`String` 类对象的内容就是 `Hello World!` 。但是在整个操作过程中，只是 `String`
 类的对象引用发生了改变，而字符串的内容并没有发生改变。下面通过图进行说明。
 
-<img src="http://niu.ochiamalu.top/image-20240923181632942.png" alt="image-20240923181632942" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923181632942.png" alt="image-20240923181632942" style="zoom:80%;margin:0 auto" />
 
 通过上图可以发现，在进行 `String`
 类对象内容修改时，实际上原始的字符串都没有发生变化（最终没有引用的堆内存空间将成为垃圾空间)，而改变的只是 `String`

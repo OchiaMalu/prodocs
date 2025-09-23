@@ -12,7 +12,7 @@
 
 选择（分支）结构是根据条件的成立与否，再决定要执行哪些语句的一种结构。
 
-<img src="http://niu.ochiamalu.top/image-20240921163957845.png" alt="image-20240921163957845" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921163957845.png" alt="image-20240921163957845" style="zoom:80%;margin:0 auto" />
 
 这种结构可以依据判断条件的结构，来决定要执行的语句。当判断条件的值为真时，就运行 `语句1`
 ；当判断条件的值为假时，则执行 `语句2` 。不论执行哪一个语句，最后都会回到 `语句3` 继续执行。
@@ -21,7 +21,7 @@
 
 循环结构是根据判断条件的成立与否，决定程序段落的执行次数，而这个程序段落就称为循环主体。循环结构的流程图如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921164126787.png" alt="image-20240921164126787" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921164126787.png" alt="image-20240921164126787" style="zoom:80%;margin:0 auto" />
 
 ## 分支结构
 
@@ -30,13 +30,13 @@ if、switch</u>。
 
 ### if-else
 
-<img src="http://niu.ochiamalu.top/image-20240921164249338.png" alt="image-20240921164249338" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921164249338.png" alt="image-20240921164249338" style="zoom:80%;margin:0 auto" />
 
 这 3 种语句的执行流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921164338141.png" alt="image-20240921164338141" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921164338141.png" alt="image-20240921164338141" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240921164348486.png" alt="image-20240921164348486" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921164348486.png" alt="image-20240921164348486" style="zoom:80%;margin:0 auto" />
 
 下面分别针对以上 3 种选择结构进行代码的验证。
 
@@ -111,9 +111,9 @@ public class TestDemo {
 
 对于多条件判断使用 `if..else if...else` 是可以判断 **布尔条件** 的。如果是多数值判断，可以通过 `switch` 完成，其语法如下，流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921164833540.png" alt="image-20240921164833540" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921164833540.png" alt="image-20240921164833540" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240921165430549.png" alt="image-20240921165430549" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921165430549.png" alt="image-20240921165430549" style="zoom:80%;margin:0 auto" />
 
 :::warning `if` 可以判断布尔表达式，而 `switch` 只能够判断内容
 
@@ -226,12 +226,12 @@ public class TestDemo {
 
 `while` 循环分为 `while` 循环和 `do...while` 循环两种语法形式，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921165717386.png" alt="image-20240921165717386" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921165717386.png" alt="image-20240921165717386" style="zoom:80%;margin:0 auto" />
 
 通过 `while` 循环语法可以发现，实际上 `do...while` 表示先执行后判断，而 `while`
 循环表示先判断后执行。如果循环条件都不满足的情况下， `do...while` 至少执行一次，而 `while` 一次都不会执行，这两种操作语法的流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921165803928.png" alt="image-20240921165803928" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921165803928.png" alt="image-20240921165803928" style="zoom:80%;margin:0 auto" />
 
 :::tip 循环的基本特点
 
@@ -270,7 +270,7 @@ public class TestDemo {
 100，则表示判断通过，执行循环体，在循环体中会进行累加的计算 `sum+=current` ，同时也会修改当前的操作数值 `current++`
 。本程序的执行流程图如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921170047893.png" alt="image-20240921170047893" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921170047893.png" alt="image-20240921170047893" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class TestDemo {
@@ -289,7 +289,7 @@ public class TestDemo {
 本程序同样实现了累加操作，而与上述程序最大的不同在于，在第一次执行循环体时并不会进行循环条件的判断 `while(current<=1OO`)
 ,而执行完一次循环体之后才会进行循环条件的判断，以判断是否还要继续执行该循环。本程序的执行流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921170153697.png" alt="image-20240921170153697" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921170153697.png" alt="image-20240921170153697" style="zoom:80%;margin:0 auto" />
 
 :::tip 循环的选择
 
@@ -314,7 +314,7 @@ for 循环的最大特点是已经明确地知道 **循环次数** ，for 循环
 通过给定的格式可以发现，for 循环在定义时，将循环初始化条件、循环判断、循环条件变更操作都放在一行语句中，而在执行的时候循环初始化条件
 **只会执行一次** ，而后循环判断在每次执行循环体前都会判断，并且每当循环体执行完毕后都会自动执行循环条件变更。for循环结构图如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921170444913.png" alt="image-20240921170444913" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921170444913.png" alt="image-20240921170444913" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class TestDemo {
@@ -374,7 +374,7 @@ public class TestDemo {
 3=21,x控制的是这个数字7，而y控制的是数字3) ；而另外一层循环是控制输出的列，并且为了防止不出现重复数据（例如：“1\*2” 和 “2*
 1”计算结果重复），让 y 每次的循环次数受到 x 的限制，每次里面的循环执行完毕后就输出一个换行。本程序执行流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921170901495.png" alt="image-20240921170901495" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921170901495.png" alt="image-20240921170901495" style="zoom:80%;margin:0 auto" />
 
 ## 循环控制
 
@@ -397,7 +397,7 @@ public class TestDemo {
 本程序使用了 `continue` 语句，而结果中可以发现缺少了 `x=3` 的内容打印，这是因为使用 `continue`
 表示当前一次循环结束执行，而直接进行下一次循环的操作，本操作的流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921171026622.png" alt="image-20240921171026622" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921171026622.png" alt="image-20240921171026622" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class TestDemo {
@@ -415,4 +415,4 @@ public class TestDemo {
 本程序在 `for` 循环中使用了一个分支语句 `x==3` 判断是否需要结束循环，而通过运行结果可以发现，当 x 的内容为 2
 后，循环不再执行，本操作的流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921171114604.png" alt="image-20240921171114604" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921171114604.png" alt="image-20240921171114604" style="zoom:80%;margin:0 auto" />

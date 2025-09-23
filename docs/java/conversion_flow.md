@@ -3,7 +3,7 @@
 虽然字节流与字符流表示两种不同的数据流操作，但是这两种流彼此间是可以实现互相转换的，而要实现这样的转换可以通过`InputStreamReader` 、`Output Stream Writer`
 两个类。首先介绍这两个类的继承结构以及构造方法。
 
-<img src="http://niu.ochiamalu.top/image-20240927231516254.png" alt="image-20240927231516254" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927231516254.png" alt="image-20240927231516254" style="zoom:80%;margin:0 auto" />
 
 从以上给出的关系可以发现：
 
@@ -46,7 +46,7 @@ public class TestDemo {
 通过之前的讲解可以发现，四个流的操作类如果要操作文件都要求分别使用不同的子类（FileXxx）。下面分别介绍 `FileOutputStream` 、`FilelnputStream` 、`FileWriter` 、 `FileReader`
 四个类的继承结构，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927231903674.png" alt="image-20240927231903674" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927231903674.png" alt="image-20240927231903674" style="zoom:80%;margin:0 auto" />
 
 通过继承结构可以发现，`FileWriter` 与 `FileReader` 都是转换流的子类，也就证明所有要读取的文件数据都是字节数据，所有的字符都是在内存中处理后形成的。
 

@@ -36,7 +36,7 @@ try...finally
 
 :::
 
-<img src="http://niu.ochiamalu.top/image-20240925163533307.png" alt="image-20240925163533307" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925163533307.png" alt="image-20240925163533307" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

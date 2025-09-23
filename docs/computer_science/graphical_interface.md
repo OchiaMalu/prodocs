@@ -2,11 +2,11 @@
 
 苹果在1984年发布的 Macintosh，是普通人可以买到的 ， 第一台带 **图形用户界面** 的计算机，还带一个鼠标。
 
-<img src="http://niu.ochiamalu.top/image-20231027152556021.png" alt="image-20231027152556021" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152556021.png" alt="image-20231027152556021" style="zoom:80%;margin:0 auto" />
 
 那时的计算机全是 **命令行** ，图形界面是个革命性进展，不必记住或猜正确的命令，图形界面直接显示了，你可以做什么，只要在屏幕上找选项就行了。
 
-<img src="http://niu.ochiamalu.top/image-20231027152614656.png" alt="image-20231027152614656" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152614656.png" alt="image-20231027152614656" style="zoom: 67%;margin:0 auto" />
 
 这是一个 `选择并点击` 的界面，突然间计算机更 **直观** 了。
 
@@ -17,7 +17,7 @@
 但实际上图形界面是数十年研究的成果，我们之前讨论了早期的交互式图形程序，比如 `Sketchpad` 和 `太空战争`  ， 都是 1962
 年制作的，但都是一次性项目，不是整合良好的体验。
 
-<img src="http://niu.ochiamalu.top/image-20231027152647816.png" alt="image-20231027152647816" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152647816.png" alt="image-20231027152647816" style="zoom:80%;margin:0 auto" />
 
 现代图形界面的先驱 ， 可以说是 **道格拉斯·恩格尔巴特** （Douglas Engelbart），
 
@@ -26,7 +26,7 @@
 当他海军服役结束时，他回到学校，1955年在 UCB 取得博士学位，他沉溺于新兴的计算机领域，他在1962年一份开创性报告中 ，
 汇集了各种想法，报告名为： `增强人类智力` 。
 
-<img src="http://niu.ochiamalu.top/image-20231027152724934.png" alt="image-20231027152724934" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152724934.png" alt="image-20231027152724934" style="zoom: 80%;margin:0 auto" />
 
 恩格尔巴特认为，人类面临的问题 ， 比解决问题的能力增长得更快，因此，找到增强智力的方法 ， 似乎是必要且值得一做的目标。
 
@@ -41,18 +41,18 @@
 1964 年，和同事 **比尔·英格利希** 的共同努力下，他创造了第一个 **计算机鼠标** ，尾部有一根线，看起来很像老鼠 ， 因此 `鼠标`
 这个名字沿用了下来。
 
-<img src="http://niu.ochiamalu.top/image-20231027152751789.png" alt="image-20231027152751789" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152751789.png" alt="image-20231027152751789" style="zoom:80%;margin:0 auto" />
 
 1968年 恩格尔巴特，在 `秋季计算机联合会议` 展示了他的系统，这次演示被视为如今 **所有** 演示的祖先。
 
-<img src="http://niu.ochiamalu.top/image-20231027152825972.png" alt="image-20231027152825972" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152825972.png" alt="image-20231027152825972" style="zoom:80%;margin:0 auto" />
 
 演示有 90 分钟 ， 展现了现代计算机的许多功能，包括 `位图图像` ，`视频会议` ，`文字处理` 和 `实时协作编辑文件` 。
 
 还有现代图形界面的原型比如 `鼠标` 和 `多窗口` ，不过窗口不能重叠，远远先于那个时代，就像其它 **跨时代**
 的产品一样，它最终失败了，至少商业上是这样。
 
-<img src="http://niu.ochiamalu.top/image-20231027152905063.png" alt="image-20231027152905063" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152905063.png" alt="image-20231027152905063" style="zoom:80%;margin:0 auto" />
 
 但它对当时的计算机研究者影响巨大，恩格尔巴特因此获得 1997 年 **图灵奖** 。
 
@@ -62,7 +62,7 @@
 ，去了施乐公司新成立的 `帕洛阿尔托研究中心` ，更为人熟知的名字是 `Xerox PARC` ，他们在这里开发了第一台带真正 GUI
 的计算机： `施乐奥托` （Xerox Alto） ，于 1973 年完成。
 
-<img src="http://niu.ochiamalu.top/image-20231027152923135.png" alt="image-20231027152923135" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152923135.png" alt="image-20231027152923135" style="zoom: 67%;margin:0 auto" />
 
 为了让计算机易于使用，需要的不只是花哨的图形，还要借助一些人们已经熟悉的概念，让人们不用培训 就能很快明白如何使用。
 
@@ -71,11 +71,11 @@
 施乐的答案是将2D屏幕当作 `桌面` （desktop），就像桌面上放很多文件一样，用户可以打开多个程序 ， 每个程序都在一个框里，叫 `窗口`
 （window）。
 
-<img src="http://niu.ochiamalu.top/image-20231027152951537.png" alt="image-20231027152951537" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027152951537.png" alt="image-20231027152951537" style="zoom:80%;margin:0 auto" />
 
 就像桌上的文件一样，窗口可以重叠，挡住后面的东西，还有桌面配件，比如计算器和时钟，用户可以把配件在屏幕上四处移动。
 
-<img src="http://niu.ochiamalu.top/image-20231027153015865.png" alt="image-20231027153015865" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153015865.png" alt="image-20231027153015865" style="zoom:80%;margin:0 auto" />
 
 它不是现实桌面的完美复制，而是用桌面这种隐喻，因此叫 `桌面隐喻` （Desktop Metaphor）。
 
@@ -85,20 +85,20 @@
 
 它还提供了一套基本部件，可复用的基本元素 ， 比如 <u>按钮，打勾框，滑动条和标签页</u> ，这些也来自现实世界，让人们有熟悉感。
 
-<img src="http://niu.ochiamalu.top/image-20231027153052799.png" alt="image-20231027153052799" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153052799.png" alt="image-20231027153052799" style="zoom:80%;margin:0 auto" />
 
 GUI 程序就是这些小组件组成的，让我们试着写一个简单例子。
 
 首先，我们必须告诉操作系统 ， 为程序创建一个窗口，我们通过 `GUI API` 实现 ， 需要指定窗口的 **名字** 和 **大小** ，假设是
 500×500 像素。
 
-<img src="http://niu.ochiamalu.top/image-20231027153115531.png" alt="image-20231027153115531" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153115531.png" alt="image-20231027153115531" style="zoom:80%;margin:0 auto" />
 
 现在再加一些小组件，一个文本框和一个按钮，创建它们需要一些参数，首先要指定出现在 **哪个窗口**  ， 因为程序可以有多个窗口。
 
 还要指定默认 **文字** ， 窗口中的 **X,Y 位置** 以及 **宽度** 和 **高度** 。
 
-<img src="http://niu.ochiamalu.top/image-20231027153140402.png" alt="image-20231027153140402" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153140402.png" alt="image-20231027153140402" style="zoom:80%;margin:0 auto" />
 
 但它还没有功能，如果点 Roll 按钮，什么也不会发生。
 
@@ -111,19 +111,19 @@ GUI 程序就是这些小组件组成的，让我们试着写一个简单例子�
 
 我们还可以让它变有趣些，假设随机数是 20 ， 就把背景颜色变成血红色！
 
-<img src="http://niu.ochiamalu.top/image-20231027153207512.png" alt="image-20231027153207512" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153207512.png" alt="image-20231027153207512" style="zoom:80%;margin:0 auto" />
 
 最后，把代码与 **事件** 相连 ， 每次点按钮时都触发代码。
 
 那么，要设置事件触发时，由哪个函数来处理，我们可以在初始化函数中，加一行代码来实现。
 
-<img src="http://niu.ochiamalu.top/image-20231027153227221.png" alt="image-20231027153227221" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153227221.png" alt="image-20231027153227221" style="zoom:80%;margin:0 auto" />
 
 我们要处理的，是 `点击` 事件 ， 然后函数会处理这个事件。V
 
 这就是程序背后的原理，在编辑器里点 **按钮** 或菜单里选 **关机** ，一个处理该事件的 **函数** 会触发。
 
-<img src="http://niu.ochiamalu.top/image-20231027153306307.png" alt="image-20231027153306307" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153306307.png" alt="image-20231027153306307" style="zoom:80%;margin:0 auto" />
 
 ## 施乐之星系统
 
@@ -133,7 +133,7 @@ GUI 程序就是这些小组件组成的，让我们试着写一个简单例子�
 
 现在文件看起来就像一张纸 ， 还可以存在文件夹里，这些都可以放桌面上，或数字文件柜里，这样来隐喻底层的文件系统。
 
-<img src="http://niu.ochiamalu.top/image-20231027153355993.png" alt="image-20231027153355993" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153355993.png" alt="image-20231027153355993" style="zoom:80%;margin:0 auto" />
 
 施乐卖的是印刷机 ， 但在文本和图形制作工具领域也有领先，例如，他们首先使用了，  `剪切` ， `复制` ， `粘贴`
 这样的术语，这个比喻来自编辑打字机文件，真的是剪刀 "剪切" ， 然后胶水 "粘贴" 到另一个文件，然后再复印一次，新文件就是一层了，看不出编辑的痕迹。
@@ -141,17 +141,17 @@ GUI 程序就是这些小组件组成的，让我们试着写一个简单例子�
 文字处理软件出现后 ， 这种手工做法就消失了，`Apple II` 和 `Commodore PET`
 上有文字处理软件，但施乐在这点上走的更远，无论你在计算机上做什么，文件打印出来应该长得一样，他们叫这个 `所见即所得` 。
 
-<img src="http://niu.ochiamalu.top/image-20231027153512908.png" alt="image-20231027153512908" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153512908.png" alt="image-20231027153512908" style="zoom:80%;margin:0 auto" />
 
 不幸的是，就像恩格尔巴特的 `oN-Line System` ，施乐之星也领先于那个时代，销售量不高，因为在办公室里配一个，相当如今20万美元。
 
-<img src="http://niu.ochiamalu.top/image-20231027153529858.png" alt="image-20231027153529858" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153529858.png" alt="image-20231027153529858" style="zoom:80%;margin:0 auto" />
 
 ## 苹果
 
 IBM 同年推出了 `IBM PC` ，之后便宜的 **IBM兼容** 计算机席卷市场，但 PARC 研究人员花了十几年做的这些 ， 没有被浪费。
 
-<img src="http://niu.ochiamalu.top/image-20231027153556024.png" alt="image-20231027153556024" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153556024.png" alt="image-20231027153556024" style="zoom:80%;margin:0 auto" />
 
 1979 年 12 月，施乐之星出货前一年半，有个人去施乐公司参观 ， 你可能听说过这个人：**史蒂夫·乔布斯** 。
 
@@ -181,7 +181,7 @@ IBM 同年推出了 `IBM PC` ，之后便宜的 **IBM兼容** 计算机席卷市
 之后情况变得更糟，竞争对手赶上来了，不久，其它价格只有 Mac 几分之一的个人计算机 ， 有了原始但可用的图形界面，消费者认可它们，
 PC 软件开发者也认可。
 
-<img src="http://niu.ochiamalu.top/image-20231027153705708.png" alt="image-20231027153705708" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153705708.png" alt="image-20231027153705708" style="zoom:80%;margin:0 auto" />
 
 随着苹果的财务状况日益严峻 ， 以及和苹果新 CEO **约翰·斯卡利** 的关系日益紧张，史蒂夫乔布斯被赶出了苹果公司。
 
@@ -191,35 +191,35 @@ PC 软件开发者也认可。
 
 几个月后，微软发布了 `Windows 1.0` ，它也许不如 `Mac OS` 漂亮，但让微软在市场中站稳脚跟 ， 奠定了统治地位。
 
-<img src="http://niu.ochiamalu.top/image-20231027153734546.png" alt="image-20231027153734546" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153734546.png" alt="image-20231027153734546" style="zoom:80%;margin:0 auto" />
 
 十年内，95％的个人计算机上都有微软的 Windows ，最初，Mac OS 的爱好者还可以说， Mac 有卓越的图形界面和易用性。
 
-<img src="http://niu.ochiamalu.top/image-20231027153748721.png" alt="image-20231027153748721" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153748721.png" alt="image-20231027153748721" style="zoom:80%;margin:0 auto" />
 
 ### Windows 95
 
 Windows 早期版本都是基于 `DOS` ， 而 DOS 设计时没想过运行图形界面，但 `Windows 3.1` 之后，微软开始开发新的，面向消费者的 GUI
 操作系统，叫 `Windows 95` 。
 
-<img src="http://niu.ochiamalu.top/image-20231027153825615.png" alt="image-20231027153825615" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153825615.png" alt="image-20231027153825615" style="zoom:80%;margin:0 auto" />
 
 这是一个意义非凡的版本 ， 不仅提供精美的界面，还有 Mac OS 没有的高级功能，比如 `多任务` 和 `受保护内存` 。
 
 Windows 95 引入了许多 ， 如今依然见得到的 GUI 元素，比如 **开始菜单** ， **任务栏** 和 **Windows 文件管理器** 。
 
-<img src="http://niu.ochiamalu.top/image-20231027153856104.png" alt="image-20231027153856104" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153856104.png" alt="image-20231027153856104" style="zoom:80%;margin:0 auto" />
 
 ### Microsoft Bob
 
 不过微软也失败过，为了让桌面更简单友好 ， 微软开发了一个产品叫 `Microsoft Bob` ，将比喻用到极致。
 
-<img src="http://niu.ochiamalu.top/image-20231027153915186.png" alt="image-20231027153915186" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153915186.png" alt="image-20231027153915186" style="zoom:80%;margin:0 auto" />
 
 现在屏幕上有了一个虚拟房间，程序是物品，可以放在桌子和书架上，甚至还有噼啪作响的壁炉 ，
 和提供帮助的虚拟狗狗，你看到那边的门没？是的，那些门通往不同房间 ， 房间里有不同程序。
 
-<img src="http://niu.ochiamalu.top/image-20231027153927142.png" alt="image-20231027153927142" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231027153927142.png" alt="image-20231027153927142" style="zoom:80%;margin:0 auto" />
 
 你可能猜到了，它没有获得成功。
 

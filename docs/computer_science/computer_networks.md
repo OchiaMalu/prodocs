@@ -19,7 +19,7 @@
 
 第二个好处是能 **共享** 物理资源，举个例子，与其每台电脑配一台打印机，大家可以共享一台联网的打印机。
 
-<img src="http://niu.ochiamalu.top/image-20231029172435865.png" alt="image-20231029172435865" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029172435865.png" alt="image-20231029172435865" style="zoom:80%;margin:0 auto" />
 
 ## 局域网
 
@@ -31,11 +31,11 @@
 局域网能小到是同一个房间里的两台机器，或大到校园里的上千台机器，尽管开发和部署了很多不同 LAN
 技术，其中最著名和成功的是 `以太网` （Ethernet），开发于 1970 年代，在施乐的 **帕洛阿尔托研究中心** 诞生，今日仍被广泛使用。
 
-<img src="http://niu.ochiamalu.top/image-20231029172500379.png" alt="image-20231029172500379" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029172500379.png" alt="image-20231029172500379" style="zoom:80%;margin:0 auto" />
 
 以太网的最简单形式是： <u>一条以太网电线连接数台计算机</u> 。
 
-<img src="http://niu.ochiamalu.top/image-20231029172557133.png" alt="image-20231029172557133" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029172557133.png" alt="image-20231029172557133" style="zoom:80%;margin:0 auto" />
 
 当一台计算机要传数据给另一台计算机时，它以电信号形式，将数据传入电缆，当然因为电缆是共享的，连在同一个网络里的其他计算机也看得到数据，但不知道数据是给它们的，还是给其他计算机的。
 
@@ -44,11 +44,11 @@
 为了解决这个问题以太网需要每台计算机有唯一的，媒体访问 `控制地址` （Media Access Control address），简称 **MAC 地址** ，这个
 **唯一** 的地址放在头部，作为数据的前缀发送到网络中。
 
-<img src="http://niu.ochiamalu.top/image-20231029172631518.png" alt="image-20231029172631518" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029172631518.png" alt="image-20231029172631518" style="zoom:80%;margin:0 auto" />
 
 所以，计算机只需要监听以太网电缆，只有看到自己的 MAC 地址，才处理数据，这运作得很好。
 
-<img src="http://niu.ochiamalu.top/image-20231029172644436.png" alt="image-20231029172644436" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029172644436.png" alt="image-20231029172644436" style="zoom:80%;margin:0 auto" />
 
 现在制造的每台计算机都自带唯一的 MAC 地址，用于以太网和无线网络。
 
@@ -63,11 +63,11 @@
 
 不幸的是使用共享载体有个很大的弊端，当网络流量较小时计算机可以等待载体清空，然后传送数据，但随着网络流量上升两台计算机想同时写入数据的概率也会上升，这叫 `冲突数据` 。
 
-<img src="http://niu.ochiamalu.top/image-20231029172838368.png" alt="image-20231029172838368" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029172838368.png" alt="image-20231029172838368" style="zoom: 67%;margin:0 auto" />
 
 全都乱套了，就像两个人同时在电话里讲话。
 
-<img src="http://niu.ochiamalu.top/image-20231029172914064.png" alt="image-20231029172914064" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029172914064.png" alt="image-20231029172914064" style="zoom:80%;margin:0 auto" />
 
 幸运的是计算机能够通过监听电线中的信号 **检测** 这些冲突，最明显的解决办法是 **停止传输** ，等待网络空闲，然后再试一遍。
 
@@ -99,21 +99,21 @@ Backoff）。
 
 为了减少冲突我们可以用 `交换机` （Network Switch）把它拆成两个冲突域，交换机位于两个更小的网络之间，必要时才在两个网络间传数据。
 
-<img src="http://niu.ochiamalu.top/image-20231029173000902.png" alt="image-20231029173000902" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173000902.png" alt="image-20231029173000902" style="zoom:80%;margin:0 auto" />
 
 交换机会记录一个列表，写着哪个 MAC 地址在哪边网络。
 
 如果 A 想传数据给 C ，交换机不会把数据转发给另一边的网络。
 
-<img src="http://niu.ochiamalu.top/image-20231029173018055.png" alt="image-20231029173018055" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173018055.png" alt="image-20231029173018055" style="zoom:80%;margin:0 auto" />
 
 如果 E 想同一时间传数据给 F ，网络仍然是空的，两个传输可以同时发生。
 
-<img src="http://niu.ochiamalu.top/image-20231029173028907.png" alt="image-20231029173028907" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173028907.png" alt="image-20231029173028907" style="zoom:80%;margin:0 auto" />
 
 但如果 F 想发数据给 A 数据会通过交换机，两个网络都会被短暂占用。
 
-<img src="http://niu.ochiamalu.top/image-20231029173047018.png" alt="image-20231029173047018" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173047018.png" alt="image-20231029173047018" style="zoom:80%;margin:0 auto" />
 
 大的计算机网络也是这样构建的，包括最大的网络 `互联网` 也是多个连在一起的稍小一点网络，使不同网络间可以传递信息。
 
@@ -121,18 +121,18 @@ Backoff）。
 
 这些大型网络有趣之处是，从一个地点到另一个地点通常有多条路线，这就带出了另一个话题： `路由` （routing）。
 
-<img src="http://niu.ochiamalu.top/image-20231029173108842.png" alt="image-20231029173108842" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173108842.png" alt="image-20231029173108842" style="zoom: 67%;margin:0 auto" />
 
 连接两台相隔遥远的计算机或网路，最简单的办法，是分配一条 **专用** 的通信线路，早期电话系统就是这样运作的。
 
 假设 `印第安纳波利斯` 和 `米苏拉` 之间，有五条电话线，如果在 1910 年代，John 想打电话给 Hank ，John 要告诉 **操作员**
 他想打到什么地方，然后工作人员 **手动** 将 John 的电话连到，通往米苏拉的未使用线路。
 
-<img src="http://niu.ochiamalu.top/image-20231029173208850.png" alt="image-20231029173208850" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173208850.png" alt="image-20231029173208850" style="zoom: 67%;margin:0 auto" />
 
 通话期间这条线就被占用了如果五条线都被占用了，John 要等待某条线空出来。
 
-<img src="http://niu.ochiamalu.top/image-20231029173220472.png" alt="image-20231029173220472" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173220472.png" alt="image-20231029173220472" style="zoom:67%;margin:0 auto" />
 
 ### 电路交换
 
@@ -142,7 +142,7 @@ Backoff）。
 
 因此军队，银行和其他一些机构依然会购买专用线路来连接数据中心。
 
-<img src="http://niu.ochiamalu.top/image-20231029173246703.png" alt="image-20231029173246703" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173246703.png" alt="image-20231029173246703" style="zoom:67%;margin:0 auto" />
 
 ### 报文交换
 
@@ -150,13 +150,13 @@ Backoff）。
 
 如果 John 写一封信给 Hank ，信件可能从 `印第安纳波利斯` 到 `芝加哥` ，然后 `明尼阿波利斯` 然后 `比林斯` 最后到 `米苏拉` 。
 
-<img src="http://niu.ochiamalu.top/image-20231029173308734.png" alt="image-20231029173308734" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173308734.png" alt="image-20231029173308734" style="zoom: 80%;margin:0 auto" />
 
 每个站点都知道下一站发哪里，因为站点有表格，记录到各个目的地，信件该怎么传，报文交换的好处是可以用不同路由，使通信更可靠更能容错。
 
 回到邮件的例子，如果 `明尼阿波利斯` 有暴风雪中断了通信，`芝加哥` 可以传给 `奥马哈` 。
 
-<img src="http://niu.ochiamalu.top/image-20231029173332822.png" alt="image-20231029173332822" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173332822.png" alt="image-20231029173332822" style="zoom:80%;margin:0 auto" />
 
 ### 跳数
 
@@ -188,7 +188,7 @@ Backoff）。
 
 有时，同一个报文的多个数据包，会经过不同线路，到达顺序可能会不一样，这对一些软件是个问题。
 
-<img src="http://niu.ochiamalu.top/image-20231029173425248.png" alt="image-20231029173425248" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173425248.png" alt="image-20231029173425248" style="zoom:80%;margin:0 auto" />
 
 幸运的是，在 IP 之上还有其他协议，比如 `TCP/IP` ，可以解决乱序问题。
 
@@ -206,11 +206,11 @@ BGP)。
 
 这是1974年整个 `ARPANET` 的样子，每个小圆表示一个地点，比如大学或实验室，那里运行着一个路由器，并且有一台或多台计算机。
 
-<img src="http://niu.ochiamalu.top/image-20231029173449848.png" alt="image-20231029173449848" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173449848.png" alt="image-20231029173449848" style="zoom:80%;margin:0 auto" />
 
 能看到 `PDP-1` 和 `IBM360系统` ，甚至还有一个伦敦的 `ATLAS` ，是通过 **卫星** 连到网络里的。
 
 显然互联网在这几十年间发展迅速，如今不再只有几十台计算机联网，据估计有接近 100
 亿台联网设备，而且互联网会继续快速发展，特别是如今各种智能设备层出不穷，比如联网冰箱，恒温器，以及其他智能家电，它们组成了 `物联网` 。
 
-<img src="http://niu.ochiamalu.top/image-20231029173530184.png" alt="image-20231029173530184" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231029173530184.png" alt="image-20231029173530184" style="zoom:80%;margin:0 auto" />

@@ -3,7 +3,7 @@
 在流的操作中除了进行文件的输入与输出操作之外，还可以针对内存进行同样的操作。假设某一种应用需要进行 IO
 操作，但是又不希望在磁盘上产生一些文件时，就可以将内存当作一个临时文件进行操作。在 Java 中，针对内存操作提供了以下两组类（关系如图所示）。
 
-<img src="http://niu.ochiamalu.top/image-20240927233304172.png" alt="image-20240927233304172" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927233304172.png" alt="image-20240927233304172" style="zoom:80%;margin:0 auto" />
 
 - 字节内存流：`ByteArrayInputStream` （内存字节输入流）、`ByteArrayOutputStream` （内存字节输出流）；
 - 字符内存流：`CharArrayReader` （内存字符输入流）、`CharArrayWriter` （内存字符输出流）。
@@ -69,7 +69,7 @@ public class TestDemo {
 通过内存进行读取。读取数据时采用循环的方式，并且为了防止将非字母进行转换的操作，使用了 `Character.toUpperCase()`
 方法操作。本程序的执行流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927233745705.png" alt="image-20240927233745705" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927233745705.png" alt="image-20240927233745705" style="zoom:80%;margin:0 auto" />
 
 :::tip 关于输入流数据的读取
 

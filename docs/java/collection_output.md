@@ -18,12 +18,12 @@
 
 在 `Iterator` 接口中一共定义了两个抽象方法，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928101259153.png" alt="image-20240928101259153" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928101259153.png" alt="image-20240928101259153" style="zoom:80%;margin:0 auto" />
 
 当使用 `Iterator` 接口输出时，往往都先利用 `hasNext()`
 改变指针位置，同时判断是否有数据，如果当前指针所在位置存在数据，则利用 `next()` 取出数据，这两个方法的作用如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928101326631.png" alt="image-20240928101326631" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928101326631.png" alt="image-20240928101326631" style="zoom:80%;margin:0 auto" />
 
 :::tip `Scanner` 类与 `Iterator` 接口
 
@@ -103,7 +103,7 @@ public class TestDemo {
 。所以为了让输出变得更加灵活，在类集框架中就提供了一个 `ListIterator` 接口，利用此接口可以实现双向迭代。`Listlterator`
 属于 `Iterator` 的子接口，此接口常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928101758450.png" alt="image-20240928101758450" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928101758450.png" alt="image-20240928101758450" style="zoom:80%;margin:0 auto" />
 
 在 `Listlterator` 接口中除了可以继续使用 `Iterator` 接口的 `hasNext` 与 `next()`
 方法，也具备了向前迭代的操作( `hasPrevious()` 、`previous()` ），同时还提供了向集合追加数据和修改数据的支持。

@@ -3,7 +3,7 @@
 `System` 类是现在为止使用最多的一个类，所有的信息输出都会使用到 `System.out.println()` 或 `System.out.print()`
 两个方法完成。实际上 `System` 类中也专门提供了与 IO 有关的 3 个对象常量，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927235120373.png" alt="image-20240927235120373" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927235120373.png" alt="image-20240927235120373" style="zoom:80%;margin:0 auto" />
 
 通过表可以发现，`err` 与 `out` 两个对象的类型都属于 `PrintStream` 类型，`in` 对象类型属于 `InputStream`
 ，而最早使用的 `System.out.println()` 代码从本质上来讲就是调用了 `System` 类中的 `out`
@@ -101,7 +101,7 @@ public class TestDemo {
 所示）。通过键盘读取时，由于内容还未输入，所以会出现一个等待用户输入的操作界面，用户输入完成按回车后才会开始读取数据（如图(b)
 所示)。
 
-<img src="http://niu.ochiamalu.top/image-20240927235814802.png" alt="image-20240927235814802" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927235814802.png" alt="image-20240927235814802" style="zoom:80%;margin:0 auto" />
 
 虽然范例的代码实现了键盘输入的操作功能，但是此时就会出现一个问题：本处读取的数据为 1024 个字节，如果读取的内容超过了 1024
 个字节，就会出现漏读的问题（超过数组长度的部分不会被接收）。
@@ -139,4 +139,4 @@ public class TestDemo {
 本程序由于使用了 `StringBuffer`
 类对象保存数据，所以没有数据长度的限制，但是此时的代码在输入英文数据时没有任何问题，而输入中文数据时却会出现乱码。造成乱码的原因也很简单，这是一个中文的编码拆分成了两半（每次读取一个字节）而造成的编码出错，如图所示。要想解决此类问题，就可以利用字符缓冲输入流完成。
 
-<img src="http://niu.ochiamalu.top/image-20240928000013848.png" alt="image-20240928000013848" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928000013848.png" alt="image-20240928000013848" style="zoom:80%;margin:0 auto" />

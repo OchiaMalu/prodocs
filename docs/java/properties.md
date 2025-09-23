@@ -7,7 +7,7 @@
 `Properties` 类本身属于 `Hashtable` 的子类，但是由于 `Properties` 类都使用 `String`
 数据类型进行操作，所以在使用 `Properties` 类时主要使用本类所定义的方法。`Properties` 类常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928104547074.png" alt="image-20240928104547074" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928104547074.png" alt="image-20240928104547074" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;

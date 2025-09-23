@@ -43,7 +43,7 @@ public class TestDemo {
 属性的内容。而当 `fun()` 方法执行完毕后 `temp` 断开与堆内存的引用，但是对于堆内存的修改却保存了下来，所以最终的结果是
 100。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924135941368.png" alt="image-20240924135941368" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924135941368.png" alt="image-20240924135941368" style="zoom:80%;margin:0 auto" />
 
 第一道引用范例是一个标准的引用传递操作，即不同的栈内存指向了 **同一块**
 堆内存空间，但是在进行引用分析中不得不去考虑一种特殊的类一 `String` 类。
@@ -65,7 +65,7 @@ public class TestDemo {
 类对象都指向着同一个堆内存空间，但是由于 `String` 对象内容的变化是通过引用的改变实现的，所以在 `fun()`
 方法中所做的任何修改都不会影响到原本的 `msg` 对象内容，最终的结果依然是 `Hello` 。本程序的内存分析如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924140850678.png" alt="image-20240924140850678" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924140850678.png" alt="image-20240924140850678" style="zoom:80%;margin:0 auto" />
 
 在本程序中主要的解决方案就是：字符串内容不可改变，`String`
 类对象内容的改变是通过引用的变更实现的，但是所有的变更都是在`fun()` 方法中完成的，一旦 `fun()` 方法执行完毕 `temp`
@@ -127,18 +127,18 @@ public class TestDemo {
 ，最后将此对象传递到 `fun()` 方法中。此时 `temp` 与 `msg` 将具备同一块堆内存空间的引用，而在 `fun()`
 方法中修改了指定空间的 `info` 属性内容，所以最终的 `info` 的结果为 `World` 。本程序的内存关系如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924141425687.png" alt="image-20240924141425687" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924141425687.png" alt="image-20240924141425687" style="zoom:80%;margin:0 auto" />
 
 实际所示的内存分析模式与第一道范例区别不大，唯一的区别是将 `int` 数据类型替换为 `String` 数据类型，由于此时 `info`
 属性是定义在 `Message` 类中的，所以在 `fun()` 方法中对 `info` 的修改可以被保存下来。严格地讲，上述程序应该用下图所示的内存关系图来描述。
 
-<img src="http://niu.ochiamalu.top/image-20240924141611705.png" alt="image-20240924141611705" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924141611705.png" alt="image-20240924141611705" style="zoom: 80%;margin:0 auto" />
 
 ## 引用传递的实际应用
 
 面向对象是一种可以抽象化描述现实社会事物的编程思想，理论上现实生活中的一切都可以进行合理的抽象。下面实现这样一种类的设计：假如每一个人都有一辆汽车或都没有汽车。很明显，人应该是一个类，而车也应该是一个类，人应该包含一个车的属性，而反过来车也应该包含一个人的属性，面对这样的关系就可以采用图所示的引用方式来完成。
 
-<img src="http://niu.ochiamalu.top/image-20240924142254637.png" alt="image-20240924142254637" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924142254637.png" alt="image-20240924142254637" style="zoom:80%;margin:0 auto" />
 
 ```java
 class Member {

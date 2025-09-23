@@ -64,4 +64,4 @@ public class Message {
 类对象调用方法。在以后的开发中需要大量使用第三方的 `jar` 文件，那么所有的 `jar` 文件必须配置 `CLASSPATH`
 ，否则就不能使用。但是如果每次都在命令行中配置会比较麻烦，所以最简单的配置方式就是直接在环境属性中完成，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240925130707162.png" alt="image-20240925130707162" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925130707162.png" alt="image-20240925130707162" style="zoom:80%;margin:0 auto" />

@@ -240,7 +240,7 @@ public class TestDemo {
 ，而关键的问题就出现在关键字 `new` 上。因为一个接口不可能只有一个子类，所以对于 `Fruit`
 也有可能产生多个子类对象，而一旦要扩充子类，客户端中的使用也就有可能还会与新的子类有关系。下面通过程序建立一个 `Orange` 子类。
 
-<img src="http://niu.ochiamalu.top/image-20240925105434748.png" alt="image-20240925105434748" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925105434748.png" alt="image-20240925105434748" style="zoom:80%;margin:0 auto" />
 
 ```java
 class Orange implements Fruit {		// 定义接口子类
@@ -271,9 +271,9 @@ public class TestDemo {
 的核心支持不变，程序就可以在任意的操作系统间进行移植。所以解决办法就产生了，即想办法让客户端只看见接口而不让其看见子类，但是需要一个中间的工具类来取得接口对象，如图所示。这样客户端就不再需要关心接口子类，只要通过 `Factory`
 （工厂类)程序类就可以取得接口对象。
 
-<img src="http://niu.ochiamalu.top/image-20240925105803930.png" alt="image-20240925105803930" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925105803930.png" alt="image-20240925105803930" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240925105748488.png" alt="image-20240925105748488" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925105748488.png" alt="image-20240925105748488" style="zoom:80%;margin:0 auto" />
 
 ```java
 class Factory {									// 定义工厂类，此类不提供属性
@@ -309,11 +309,11 @@ public class TestDemo {
 代理设计也是在 Java
 开发中使用较多的一种设计模式，所谓代理设计就是指一个代理主题来操作真实主题，真实主题执行具体的业务操作，而代理主题负责其他相关业务的处理。就好比在生活中经常使用到的代理上网，客户通过网络代理连接网络，由代理服务器完成用户权限、访问限制等与上网操作相关的操作，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240925105944712.png" alt="image-20240925105944712" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925105944712.png" alt="image-20240925105944712" style="zoom:80%;margin:0 auto" />
 
 不管是代理操作也好，真实的操作也好，其共同的目的就是上网，所以用户关心的只是如何上网至于里面是如何操作的用户并不关心，因此可以得出图所示的分析结果。
 
-<img src="http://niu.ochiamalu.top/image-20240925110007174.png" alt="image-20240925110007174" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925110007174.png" alt="image-20240925110007174" style="zoom:80%;margin:0 auto" />
 
 ```java
 interface Network{							// 定义Network接口
@@ -352,7 +352,7 @@ public class TestDemo {
 
 抽象类和接口都会强制性地规定子类必须要覆写的方法，这样在使用形式上是很相似的，那么在实际开发中是使用抽象类还是使用接口呢？为了让读者更加清楚两个概念的对比，下面给出表所示的抽象类与接口的比较。
 
-<img src="http://niu.ochiamalu.top/image-20240928130053873.png" alt="image-20240928130053873" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928130053873.png" alt="image-20240928130053873" style="zoom:80%;margin:0 auto" />
 
 经过比较可以发现，抽象类中支持的功能绝对要比接口多，但是其有一点不好，那就是 **单继承局限**
 ，所以这重要的一点就掩盖了所有抽象类的优点，即当抽象类和接口都可以使用时，优先考虑接口。
@@ -385,7 +385,7 @@ public class TestDemo {
 
 由于每一个学生或每一个工人都是具体的，因此就通过对象来表示。所以以上几种关系可以通过图来表示。
 
-<img src="http://niu.ochiamalu.top/image-20240925110520838.png" alt="image-20240925110520838" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925110520838.png" alt="image-20240925110520838" style="zoom:80%;margin:0 auto" />
 
 通过图可以发现，在所有设计中，接口应该是最先被设计出来的，所以在项目开发中，接口设计最重要。
 

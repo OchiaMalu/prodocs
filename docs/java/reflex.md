@@ -93,9 +93,9 @@ public class TestDemo {
 掌握了 `Class` 类对象实例化的三种操作形式，就可以利用 `Class` 类来进行类的反射控制了。在 `Class` 类中提供有如下 10
 个常用方法，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111317752.png" alt="image-20240927111317752" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111317752.png" alt="image-20240927111317752" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240927111336733.png" alt="image-20240927111336733" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111336733.png" alt="image-20240927111336733" style="zoom:80%;margin:0 auto" />
 
 通过 `Class` 类的常用方法可以发现，在反射操作中类或接口都是利用 `Class` 来进行包装的，同时利用 `Class`
 类可以表示任意类、枚举、接口、数组等引用类型的操作。
@@ -238,13 +238,13 @@ Java 类的开发原则类似。
 
 类的反射操作都是通过 `java.lang.Class` 类展开的，所以在 `Class` 类中定义了取得类中的构造方法的操作，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111401594.png" alt="image-20240927111401594" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111401594.png" alt="image-20240927111401594" style="zoom:80%;margin:0 auto" />
 
 利用表所示的两个方法可以取得 `java.lang.reflect.Constructor` ，而 `Constructor` 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111416431.png" alt="image-20240927111416431" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111416431.png" alt="image-20240927111416431" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240927111428005.png" alt="image-20240927111428005" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111428005.png" alt="image-20240927111428005" style="zoom:80%;margin:0 auto" />
 
 通过表可以发现，在 `Constructor` 类中也存在 `newInstance()` 方法，并且此方法定义时使用了可变参数的形式，这样先通过 `Class`
 类找到指定参数类型的构造方法，再利用 `Constructor` 类的 `newlnstance()` 方法传入实例化对象所需要的参数就可以实现指定参数的构造方法调用。
@@ -296,11 +296,11 @@ public class TestDemo {
 在类的组成中，方法是类的主要操作手段，以往的做法都是利用 `对象.方法()`
 的形式进行方法调用，而现在也可以利用反射机制实现类方法的操作。如果要取得操作类的方法对象，可以利用 `Class` 类完成，常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111447296.png" alt="image-20240927111447296" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111447296.png" alt="image-20240927111447296" style="zoom:80%;margin:0 auto" />
 
 在反射操作中，每一个方法都通过 `java.lang.reflect.Method` 类表示，`Method` 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111500889.png" alt="image-20240927111500889" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111500889.png" alt="image-20240927111500889" style="zoom:80%;margin:0 auto" />
 
 通过表可以发现，在 `Method` 类中定义的方法与方法的基本格式是完全匹配的，例如：返回值(getReturnType())、参数(
 getParameterTypes())、抛出异常(getExceptionTypes())。其中最为重要的方法就是 `invoke()` ，此方法是实现方法反射调用的核心操作。
@@ -370,11 +370,11 @@ Java 类的联系是非常紧密的。
 除了构造方法、普通方法外，类中最为重要的组成就是成员（变量、常量的总称）。反射也可以进行成员的操作，而成员的取得依然需要通过 `Class`
 类方法，相关方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111525600.png" alt="image-20240927111525600" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111525600.png" alt="image-20240927111525600" style="zoom:80%;margin:0 auto" />
 
 表中的方法返回的类型都是 `java.lang.reflect.Field` ，此类可以描述类中的成员信息。在 `Field` 类中也定义了一些常用方法，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111617967.png" alt="image-20240927111617967" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111617967.png" alt="image-20240927111617967" style="zoom:80%;margin:0 auto" />
 
 实际上在 `java.lang.reflect.Field` 类中还定义了许多 `setXxx()` 、`getXxx()`
 方法，例如：`setInt()` 、 `setDouble()` 、`getInt()` 、`getDouble()` 等，可以直接设置这些方法或方法具体的类型。
@@ -419,7 +419,7 @@ public class TestDemo {
 方法，如果设置为 `true` 表示此内容可以被直接操作。但是最为重要的是这个方法并不是 `Field` 类定义的，而是在 `Field`
 的父类 `AccessibleObject` 类中定义的。`AccessibleObject` 类的继承结构关系，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927111939738.png" alt="image-20240927111939738" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927111939738.png" alt="image-20240927111939738" style="zoom:80%;margin:0 auto" />
 
 通过上图可以发现，Field、Constructor、Method 三个类都是 `AccessibleObject`
 类的子类，所以这三个类都可以使用 `setAccessible()` 方法取消封装。

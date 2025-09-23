@@ -10,7 +10,7 @@
 
 在数字数据存储器、存储、处理和通信中， 0 和 1 值有时分别称为“**低**”和“**高**”。
 
-<img src="http://niu.ochiamalu.top/image-20231005132713934.png" alt="image-20231005132713934" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005132713934.png" alt="image-20231005132713934" style="zoom:80%;margin:0 auto" />
 
 ## 为什么使用二进制
 
@@ -164,7 +164,7 @@ K、M、G、T、P这类前缀的命名有一套规则，叫做 **《国际单位
 你或许看到过图片分为 8 位， 16 位， 32 位。这代表了图片最大支持的颜色数量， 8 位含有 256 种颜色 16 位包含65000种颜色 32 位包含
 4294967296 种颜色。
 
-<img src="http://niu.ochiamalu.top/image-20231005143349327.png" alt="image-20231005143349327" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005143349327.png" alt="image-20231005143349327" style="zoom:80%;margin:0 auto" />
 
 ### 正数和负数
 
@@ -186,7 +186,7 @@ K、M、G、T、P这类前缀的命名有一套规则，叫做 **《国际单位
 $$
 Value = sign \times exponent \times mantissa
 $$
-<img src="http://niu.ochiamalu.top/image-20231005144759315.png" alt="image-20231005144759315" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005144759315.png" alt="image-20231005144759315" style="zoom:50%;margin:0 auto" />
 
 ### ASCII
 
@@ -385,7 +385,7 @@ US-ASCIl字符只需1字节。
 
 ##### 示例
 
-<img src="http://niu.ochiamalu.top/image-20231005154824477.png" alt="image-20231005154824477" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005154824477.png" alt="image-20231005154824477" style="zoom: 80%;margin:0 auto" />
 
 1. 中文均使用 3 字节，因此使用 1110 开头。
 2. 使用三字节则分成三份。

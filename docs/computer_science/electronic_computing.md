@@ -6,13 +6,13 @@
 
 最大的机电计算机之一是**马克一号**，IBM 在 1944 完成建造，采用全继电器，长51英尺、高8英尺，看上去像一节列车，有750000个零部件，里面的各种导线加起来总长500英里。
 
-<img src="http://niu.ochiamalu.top/image-20231003213639421.png" alt="image-20231003213639421" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003213639421.png" alt="image-20231003213639421" style="zoom:80%;margin:0 auto" />
 
 <u>什么是继电器？</u>
 
 继电器是：用电控制的机械开关，继电器里，有根"控制线路"，控制电路是开还是关，"控制线路" 连着一个线圈，当电流流过线圈，线圈产生电磁场，吸引金属臂，从而闭合电路。
 
-<img src="http://niu.ochiamalu.top/image-20231003213800704.png" alt="image-20231003213800704" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003213800704.png" alt="image-20231003213800704" style="zoom:80%;margin:0 auto" />
 
 相信大家在初中都做过这个题目，这就是电磁继电器。
 
@@ -40,7 +40,7 @@
 的电流，但只有带正电才行，如果带负电荷或中性电荷，电子就没办法被吸引，越过真空区域，因此没有电流。<u>
 电流只能单向流动的电子部件叫 "**二极管**"</u>。
 
-<img src="http://niu.ochiamalu.top/image-20231003223144834.png" alt="image-20231003223144834" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003223144834.png" alt="image-20231003223144834" style="zoom:50%;margin:0 auto" />
 
 ### 真空三极管
 
@@ -56,7 +56,7 @@
 
 计算机进入**电子管计算机时代**。
 
-<img src="http://niu.ochiamalu.top/image-20231003223209769.png" alt="image-20231003223209769" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003223209769.png" alt="image-20231003223209769" style="zoom:50%;margin:0 auto" />
 
 ## 第一台通用计算机
 
@@ -65,12 +65,12 @@
 
 1973年，美国联邦地方法院判决撤销了ENIAC的专利，并得出结论：ENIAC的发明者是从阿塔纳索夫那里继承了电子数字计算机的主要设计构想。因此，ABC被认定为世界上第一台计算机。
 
-<img src="http://niu.ochiamalu.top/image-20231003221505092.png" alt="image-20231003221505092" style="zoom:50%;" />
+<img src="http://niu.ochiamalu.fun/image-20231003221505092.png" alt="image-20231003221505092" style="zoom:50%;" />
 
 Electronic Numerical Integrator and Calculator简称ENIAC， 1946 年，在"宾夕法尼亚大学"完成建造。ENIAC 每秒可执行 5000
 次十位数加减法，因为真空管很多，所以故障很常见。
 
-<img src="http://niu.ochiamalu.top/image-20231003221708478.png" alt="image-20231003221708478" style="zoom:50%;" />
+<img src="http://niu.ochiamalu.fun/image-20231003221708478.png" alt="image-20231003221708478" style="zoom:50%;" />
 
 ## 晶体管
 

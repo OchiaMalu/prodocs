@@ -50,7 +50,7 @@ public class TestDemo {
 
 `java.util.Random` 是一个专门负责产生 **随机数** 的操作类，此类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928115447582.png" alt="image-20240928115447582" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928115447582.png" alt="image-20240928115447582" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -143,7 +143,7 @@ public class TestDemo {
 
 大整数可以操作无限大的整型数据，其基本操作方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928115527083.png" alt="image-20240928115527083" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928115527083.png" alt="image-20240928115527083" style="zoom:80%;margin:0 auto" />
 
 通过上表可以发现，在实例化 `BigInteger` 类对象时接收的数据类型为 `String` 型。下面来观察如何使用 `BigInteger` 完成基本的四则运算。
 
@@ -173,7 +173,7 @@ public class TestDemo {
 同样的基本计算方式。而在实际的工作中，使用 `BigDecimal`
 类最方便的操作就是进行准确位数的四舍五入计算，如果要完成这一操作需要了解 `BigDecimal` 类中的定义，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928115552804.png" alt="image-20240928115552804" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928115552804.png" alt="image-20240928115552804" style="zoom:80%;margin:0 auto" />
 
 ```java
 package cn.mldn.demo;

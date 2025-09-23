@@ -35,9 +35,9 @@ public class TestDemo {
 
 当取得`Stream` 接口对象后，就可以使用此接口中的方法进行数据的操作 `Stream` 接口的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928110704234.png" alt="image-20240928110704234" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928110704234.png" alt="image-20240928110704234" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240928110715467.png" alt="image-20240928110715467" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928110715467.png" alt="image-20240928110715467" style="zoom:80%;margin:0 auto" />
 
 在表列出的方法中，`collect()` 方法主要是进行数据的收集操作，同时收集完成的数据可以通过 `Collectors`
 类中的方法设置返回的集合类型，例如，使用 `toList()` 方法返回List集合，使用 `toSet()` 方法可以返回 `Set` 集合。
@@ -119,7 +119,7 @@ public class TestDemo {
 方法需要传递断言型的函数式接口，所以本次传递的是 `containst()` 方法，如果集合中包含字母 `t`
 （小写字母判断）则表示满足过滤，可以保存数据到新集合中。程序的操作分析如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928111325819.png" alt="image-20240928111325819" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928111325819.png" alt="image-20240928111325819" style="zoom:80%;margin:0 auto" />
 
 通过本程序查询结果可以发现一个问题：所有使用 `filter()`
 方法过滤的数据只能针对数据流中已有的原始数据进行判断，也就是说此时并不能在过滤执行前对数据进行先期的处理，为了解决这个问题，可以在调用 `filter()`
@@ -153,7 +153,7 @@ public class TestDemo {
 本程序在执行 `filter()` 方法前首先调用了 `map()` 方法，利用 `map()`
 方法自动将集合中的每一条数据进行转小写的处理，这样通过`filter()` 方法过滤后的数据内容都会以小写字母的形式出现。数据流处理如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928111455255.png" alt="image-20240928111455255" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928111455255.png" alt="image-20240928111455255" style="zoom:80%;margin:0 auto" />
 
 在数据流的操作中也可以轻松地实现数据的分页操作，此时只需要使用 `skip()` 与 `limit()` 两个方法控制即可。
 
@@ -328,7 +328,7 @@ public class TestDemo {
 以上列出的 3 种数据类型的处理方法中分别返回了 `DoubleStream` 、`IntStream` 、`LongStream`
 接口实例，实际上这些接口与 `Stream` 接口都属于 `BaseStrem` 的子接口。数据流继承结构如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928112842572.png" alt="image-20240928112842572" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928112842572.png" alt="image-20240928112842572" style="zoom:80%;margin:0 auto" />
 
 在给出的 `DoubleStream` 、`IntStream` 、`LongStream` 接口中分别提供了以下数据统计的操作方法。
 
@@ -338,7 +338,7 @@ public class TestDemo {
 
 以 `DoubleStream` 接口中返回的 `DoubleSummaryStatistics` 类为例，在此类中提供了表所示的操作方法来实现数据的统计操作。
 
-<img src="http://niu.ochiamalu.top/image-20240928113005572.png" alt="image-20240928113005572" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928113005572.png" alt="image-20240928113005572" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class TestDemo {

@@ -23,7 +23,7 @@
 可以发现，所有要保存的数据都会被包装到一个节点对象中，之所以会引用一个节类，是因为只依靠保存的数据无法区分出先后顺序，而引入了 `Node`
 类可以包装数据并指向下一个节点，所以在 `Node` 类的设计中主要保存两个属性：**数据**（data)与**下一个节点引用** （next）。
 
-<img src="http://niu.ochiamalu.top/image-20240924195338021.png" alt="image-20240924195338021" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924195338021.png" alt="image-20240924195338021" style="zoom:80%;margin:0 auto" />
 
 ```java
 class Node { 							// 每一个链表实际上就是由多个节点组成的
@@ -73,7 +73,7 @@ class Node { 							// 每一个链表实际上就是由多个节点组成的
 在进行链表操作的时候，首先需要的是一个 **根节点** （第一个节点即为根节点），然后每一个节点的引用都保存在上一节点的 `next`
 属性中。而在进行输出的时候也应该按照节点的先后顺序，一个一个取得每一个节点所包装的数据，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924195517081.png" alt="image-20240924195517081" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924195517081.png" alt="image-20240924195517081" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class LinkDemo {
@@ -140,7 +140,7 @@ public class LinkDemo {
 为了帮助读者更好的理解 `Node` 类和 `Link` 类之间的联系，下面首先为读者做一个简单的代码模型，本代码的功能是通过 `Link`
 类保存多个数据，然后由 `Link` 类自己去配置节点操作关系，最后将全部数据进行输出。本程序的操作流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924195859946.png" alt="image-20240924195859946" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924195859946.png" alt="image-20240924195859946" style="zoom:80%;margin:0 auto" />
 
 通过上图所示的操作图可以发现，如果要实现一个链表的操作，必须有一个 **根节点** ，所有的节点都应该在根节点下依次保存。下面通过具体的代码实现此链表操作。
 
@@ -416,7 +416,7 @@ public class LinkDemo {
 方法判断），在判断一个字符串是否存在时，需要循环链表中的全部内容，并且与要查询的数据进行匹配，如果查找到了则返回 `true`
 ，否则返回 `false` 。其实现原理如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924203308122.png" alt="image-20240924203308122" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924203308122.png" alt="image-20240924203308122" style="zoom:80%;margin:0 auto" />
 
 ```java
         /**
@@ -483,7 +483,7 @@ String 型数据，所以在 `Node` 类中判断数据是否存在时使用的�
 链表本身就属于一种 **动态的对象数组** ，与普通的对象数组相比，链表最大的优势就在于 **没有长度限制**
 。那么既然链表属于动态对象数组，也就应该具备像数组那样可以根据索引取得元素的功能，自然也就能根据指定索引取得指定节点数据的操作。索引查询的操作原理如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924203718987.png" alt="image-20240924203718987" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924203718987.png" alt="image-20240924203718987" style="zoom:80%;margin:0 auto" />
 
 从图中可以发现，如果要想成功地为每一个保存的元素设置索引编号，一定需要一个变量（假设为foot）动态生成索引，考虑到所有的节点都被 `Link`
 类所管理，所以可以在 `Link` 类中定义一个 `foot` 属性（内部类可以方便地访问外部类私有属性），这样只需要采用递归的方式依次生成索引，就可以取出指定索引的数据。
@@ -580,7 +580,7 @@ private int foot = 0 ;				// 节点索引
 - 情况一：要删除的数据是根节点，则 `root` 应该变为 `根节点.next` （根节点的下一个节点为新的根节点)
   ，并且由于根节点需要被`Link` 类所指，所以此种情况要在 `Link` 类中进行处理，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924204232648.png" alt="image-20240924204232648" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924204232648.png" alt="image-20240924204232648" style="zoom:80%;margin:0 auto" />
 
 - 情况二：要删除的不是根节点，而是其他普通节点。这时删除节点的操作应该放在 `Node` 类里处理，并且由于 `Link`
   类已经判断过根节点，所以此处应该从第二个节点开始判断的，如图所示。
@@ -633,7 +633,7 @@ private int foot = 0 ;				// 节点索引
 
 对于链表的这种数据结构，在实际的开发中，最为关键的两个操作是：增加数据和取得全部数据。而链表本身属于一种动态的对象数组，所以在链表输出时，最好的做法是将链表中所保存的数据以对象数组的方式返回，而返回对象的数组长度也应该是根据保存数据的个数决定的。其操作原理如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240924204510131.png" alt="image-20240924204510131" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240924204510131.png" alt="image-20240924204510131" style="zoom:80%;margin:0 auto" />
 
 通过以上分析发现，最终 `Link` 类的 `toArray()` 方法一定要返回一个对象数组，数组的长度由 `Link` 类中的 `count`
 属性决定，并且这个对象数组的内容需要由 `Node` 类负责填充，所以这个对象数组最好定义在 `Link` 类的属性里面。

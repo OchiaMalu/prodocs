@@ -137,7 +137,7 @@ public class TestDemo {
 在本程序代码中，子类对父类的功能进行了扩充（扩充了一个属性和两个方法，如图所示）。子类从外表上看是扩充了父类的功能，但是对于本程序的代码，子类还有一个特点，即
 **子类实际上是将父类定义得更加具体化的一种手段** 。父类表示的范围大，而子类表示的范围小。
 
-<img src="http://niu.ochiamalu.top/image-20240925082220880.png" alt="image-20240925082220880" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925082220880.png" alt="image-20240925082220880" style="zoom:80%;margin:0 auto" />
 
 ## 继承的限制
 

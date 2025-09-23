@@ -2,7 +2,7 @@
 
 为了可以进行完整数据的输入操作，最好的做法是采用缓冲区的方式对输入的数据进行暂存，而后程序可以利用输入流一次性读取内容，如图所示，这样就可以避免输入中文时的读取错乱问题。
 
-<img src="http://niu.ochiamalu.top/image-20240928000208951.png" alt="image-20240928000208951" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928000208951.png" alt="image-20240928000208951" style="zoom:80%;margin:0 auto" />
 
 如果要使用缓冲区进行数据操作，`java.io` 包提供了以下两种操作流。
 
@@ -12,13 +12,13 @@
 以上给出的 4 个操作类中，最为重要的就是 `BufferedReader` 类，此类是 `Reader`
 的子类，属于字符缓冲输入流，而如果要处理中文数据，字符流是最方便的。`BufferedReader` 类的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928000329436.png" alt="image-20240928000329436" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928000329436.png" alt="image-20240928000329436" style="zoom:80%;margin:0 auto" />
 
 如果要使用 `BufferedReader` 类来处理 `System.in` 的操作就会出现一个问题，`BufferedReader` 是 `Reader`
 的子类，并且构造方法中也要接收 `Reader` 类型，而 `System.in` 是 `InputStream` 类型，所以此处必须将 `InputStream`
 类型转换为 `Reader` 类型，那么就可以利用 `InputStreamReader` 类来实现这一转换操作。字节输入流转字符缓冲输入流结构如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928000412264.png" alt="image-20240928000412264" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928000412264.png" alt="image-20240928000412264" style="zoom:80%;margin:0 auto" />
 
 ```java
 package com.yootk.demo;
@@ -76,7 +76,7 @@ public class TestDemo {
 方法返回的是 `String` 类型，所以可以利用正则进行判断。当判断通过时会利用包装类将字符串转换为 `int`
 型数据，同时会退出 `while` 循环；当判断失败时会提示用户错误信息，并且等待用户重新输入。本程序流程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928000649748.png" alt="image-20240928000649748" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928000649748.png" alt="image-20240928000649748" style="zoom:80%;margin:0 auto" />
 
 字符缓冲流除了可以接收输入信息外，也可以利用缓冲区进行文件的读取，此时只需要在实例化 `BufferedReader`
 类对象时传递`FileReader` 类（实际上也可以使用 `FilelnputStream` ，但是依然需要 `InputStreamReader` 转换）。

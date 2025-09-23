@@ -11,7 +11,7 @@
 当时人们在泥板上挖出几条沟，沟和沟之间放上石头，不同沟里的石头代表不同的数量级，比如第一行的石头
 一就是是一，二就是二，第二行的石头一个代表十，第三行的石头一个代表一百……
 
-<img src="http://niu.ochiamalu.top/image-20231003174013717.png" alt="image-20231003174013717" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003174013717.png" alt="image-20231003174013717" style="zoom:80%;margin:0 auto" />
 
 但是有人认为这种 “算盘” **只能记不能算**，不能算是 “算盘” 。而中国算盘有 “**珠算口诀**” ，所以中国算盘才算是第一个算盘。
 
@@ -37,7 +37,7 @@
 
 在接下来的4000年，人类发明了各种各样的计算设备，如：<u>星盘、计算尺、时钟</u>。
 
-<img src="http://niu.ochiamalu.top/image-20231003175405450.png" alt="image-20231003175405450" style="zoom:50%;float:left" /><img src="http://niu.ochiamalu.top/image-20231003175431557.png" alt="image-20231003175431557" style="zoom: 67%;" />、
+<img src="http://niu.ochiamalu.fun/image-20231003175405450.png" alt="image-20231003175405450" style="zoom:50%;float:left" /><img src="http://niu.ochiamalu.fun/image-20231003175431557.png" alt="image-20231003175431557" style="zoom: 67%;" />、
 
 这些设备让原先很费力的事变得更快、更简单、更精确，降低了门槛，加强了我们的能力。
 
@@ -65,7 +65,7 @@ $$
 
 于是他设计出了这个东西：
 
-<img src="http://niu.ochiamalu.top/image-20231003181708870.png" alt="image-20231003181708870" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003181708870.png" alt="image-20231003181708870" style="zoom:80%;margin:0 auto" />
 
 有了“阶梯滚轮”的加持， 可以实现加法运算的不断叠加， 从而实现乘法运算；
 
@@ -85,7 +85,7 @@ $$
 
 你可以直接查出你想要的答案。
 
-<img src="http://niu.ochiamalu.top/image-20231003182520783.png" alt="image-20231003182520783" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003182520783.png" alt="image-20231003182520783" style="zoom:80%;margin:0 auto" />
 
 这种方法就相当于我们计算机中不变的真理：<u>空间换时间，时间换空间</u>。
 
@@ -96,7 +96,7 @@ $$
 
 1991年，为纪念巴贝奇诞辰200周年，伦敦科学博物馆制作了完整差分机，它包含4000多个零件，重2.5吨。
 
-<img src="http://niu.ochiamalu.top/image-20231003183037218.png" alt="image-20231003183037218" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003183037218.png" alt="image-20231003183037218" style="zoom:80%;margin:0 auto" />
 
 ### 分析机
 
@@ -110,5 +110,5 @@ Charles Babbage 在设计差分机时发现差分机不好用，于是便开始�
 的需要所发明的电动制表机（Electric Tabulating Machine），在这之后他创立了制表机器公司，这家公司后来在1924年与其他机械制造商合并，成为了人称
 **蓝色巨人**的传奇公司，也就是国际商业机器公司或万国商业机器公司，简称**IBM**。
 
-<img src="http://niu.ochiamalu.top/image-20231003184432034.png" alt="image-20231003184432034" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231003184432034.png" alt="image-20231003184432034" style="zoom:80%;margin:0 auto" />
 

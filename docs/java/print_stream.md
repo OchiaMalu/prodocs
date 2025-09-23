@@ -11,7 +11,7 @@ Double)、`java.util.Date` 等常用类型都需要将其转换为字节后才�
 输出数据类型有限（只有 `byte` 类型）的问题。这时可以采用一种包装设计的模式，即将 `OutputStream`
 类利用其他类进行包装，并且在这个类中提供了各种常见数据类型的输出操作，这样用户在进行输出操作时就可以回避字节数据的操作。打印流实现思想如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240927234337057.png" alt="image-20240927234337057" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927234337057.png" alt="image-20240927234337057" style="zoom:80%;margin:0 auto" />
 
 在图中可以发现，打印流的核心思想就是首先包装一个 `OutputStream`
 类的实例化对象，然后在打印流的内部自动帮助用户处理好各种数据类型与字节数组的转换操作。也就是说 `OutputStream`
@@ -95,11 +95,11 @@ public class TestDemo {
 
 
 
-<img src="http://niu.ochiamalu.top/image-20240927234349611.png" alt="image-20240927234349611" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927234349611.png" alt="image-20240927234349611" style="zoom:80%;margin:0 auto" />
 
 下表列出了 `PrintStream` 类的常用操作方法。
 
-<img src="http://niu.ochiamalu.top/image-20240927234447402.png" alt="image-20240927234447402" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240927234447402.png" alt="image-20240927234447402" style="zoom:80%;margin:0 auto" />
 
 通过表可以发现，`PrintStream` (或 `PrintWriter` )类中提供了一系列 `print()` 与 `println()`
 方法，并且这些方法适合各种常见数据类型的输出（例如：int、double、long、Object等）。而这些方法就相当于为用户隐藏了 `OutputStream`

@@ -4,9 +4,9 @@
 结合可以保存一对关联数据（按照 `key=value` 的形式），如图所示，这样就可以实现根据 `key` 取得 `value` 的操作。在 `Map`
 接口中的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928102728907.png" alt="image-20240928102728907" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928102728907.png" alt="image-20240928102728907" style="zoom: 80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240928102742094.png" alt="image-20240928102742094" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928102742094.png" alt="image-20240928102742094" style="zoom:80%;margin:0 auto" />
 
 在 `Map` 接口中存在两个常用的子类：`HashMap` 、`Hashtable` ，下面分别介绍这两个子类的使用。
 
@@ -111,7 +111,7 @@ public class TestDemo {
 
 `HashMap` 与 `Hashtable` 的区别如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928103347285.png" alt="image-20240928103347285" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928103347285.png" alt="image-20240928103347285" style="zoom:80%;margin:0 auto" />
 
 在实际开发中，由于 `HashMap` 保存数据不受 `null` 的限制，所以建议读者优先考虑使用 `HashMap` 子类。
 
@@ -123,7 +123,7 @@ public class TestDemo {
 接口在定义上有所不同，`Map` 接口并没有提供直接取得 `Iterator` 接口对象的方法。所以如果要使用 `Iterator` 输出 `Map`
 接口数据，就必须要清楚 `Collection` 接口与 `Map` 接口在数据保存形式上的区别，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928103503116.png" alt="image-20240928103503116" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928103503116.png" alt="image-20240928103503116" style="zoom:80%;margin:0 auto" />
 
 通过图的分析可以发现，当用 `Collection` 集合保存数据时所有的对象都是直接保存的。而用 `Map` 集合保存数据时，所保存的 `key`
 与`value` 会自动包装为 `Map.Entry` 接口对象，也就是说如果利用 `Iterator` 进行迭代，那么每当使用 `next()`
@@ -134,7 +134,7 @@ public class TestDemo {
 通过定义可以发现，`Map.Entry` 接口属于 `Map` 接口中定义的一个 `static` 内部接口（相当于外部接口)。`Map.Entry`
 接口定义的常用方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928103611747.png" alt="image-20240928103611747" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928103611747.png" alt="image-20240928103611747" style="zoom:80%;margin:0 auto" />
 
 清楚了 `Map.Entry` 接口作用后就可以来研究如何利用 `Iteartor` 接口输出 `Map` 集合了，在 `Map`
 接口中定义了一个 `entrySet()` 方法( `public Set<Map.Entry<K,V>>entrySet()` ），而实现 `Map` 接口输出的关键就在于此方法的使用上。

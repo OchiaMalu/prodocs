@@ -10,7 +10,7 @@ String 类在所有的项目开发里面都一定会使用到，因此 String
 
 在很多语言中都强调 **字符串由字符数组** 组成，这一概念在 Java 的 String 类也有体现，其对应的操作方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923183456662.png" alt="image-20240923183456662" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923183456662.png" alt="image-20240923183456662" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -107,7 +107,7 @@ public class StringDemo {
 字节使用 `byte` 描述，字节一般主要用于数据的传输或编码的转换，而在 `String`
 类里面提供了将字符串变为字节数组的操作，就是为了传输以及编码转换。字符串与字节转换方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923184252779.png" alt="image-20240923184252779" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923184252779.png" alt="image-20240923184252779" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -130,7 +130,7 @@ public class StringDemo {
 
 如果要进行字符串内容相等的判断需要使用 `equals()` 方法，而在 `String` 类中针对字符串内容的比较方法也提了多种，这些方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923184404833.png" alt="image-20240923184404833" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923184404833.png" alt="image-20240923184404833" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -170,7 +170,7 @@ public class StringDemo {
 
 一个字符串往往有许多字符组成，而如果要从一个完整的字符串中判断某一个子字符串是否存在，可以使用表所示的方法。
 
-<img src="http://niu.ochiamalu.top/image-20240923184648639.png" alt="image-20240923184648639" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923184648639.png" alt="image-20240923184648639" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -235,7 +235,7 @@ public class StringDemo {
 
 在 `String` 类中提供了字符串的替换操作，即可以将指定的字符串内容进行整体替换。字符串替换的方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923185302468.png" alt="image-20240923185302468" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923185302468.png" alt="image-20240923185302468" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -255,7 +255,7 @@ public class StringDemo {
 
 从一个字符串中，可以取出指定的子字符串，称为字符串的截取操作。字符串截取操作的方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923185751265.png" alt="image-20240923185751265" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923185751265.png" alt="image-20240923185751265" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -284,7 +284,7 @@ public class StringDemo {
 
 所谓的拆分操作指的就是按照一个指定的字符串标记，将一个完整的字符串分割为字符串数组。如果要完成拆分操作，可以使用表所示的方法。
 
-<img src="http://niu.ochiamalu.top/image-20240923190036823.png" alt="image-20240923190036823" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923190036823.png" alt="image-20240923190036823" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {
@@ -392,7 +392,7 @@ public class StringDemo {
 
 除了以上给出的多组字符串操作方法，在 String 类中也提供了一些其他辅助操作方法，这些方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240923190620330.png" alt="image-20240923190620330" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240923190620330.png" alt="image-20240923190620330" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class StringDemo {

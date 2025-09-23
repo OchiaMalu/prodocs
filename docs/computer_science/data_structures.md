@@ -14,7 +14,7 @@
 
 数组的值一个个 **连续** 存在内存里，就像这样。
 
-<img src="http://niu.ochiamalu.top/image-20231011185436427.png" alt="image-20231011185436427" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011185436427.png" alt="image-20231011185436427" style="zoom:80%;margin:0 auto" />
 
 为了拿出数组中某个值，我们要指定一个下标（index），大多数编程语言里，数组下标都从 **0** 开始，用方括号 [ ] 代表访问数组。
 
@@ -39,7 +39,7 @@ a = j[0] + j[2]
 
 在用字符数组表示字符串时，计算机需要知道在哪停下，因此需要一个标志，在大多数编程语言中为 `\0` 。
 
-<img src="http://niu.ochiamalu.top/image-20231011190434029.png" alt="image-20231011190434029" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011190434029.png" alt="image-20231011190434029" style="zoom:80%;margin:0 auto" />
 
 使用字符数组表示字符串的时候非常麻烦，而且计算机经常处理字符串，所以有很多函数专门处理字符串，在大多数编程语言中，String
 也是基本数据类型之一，其底层正是字符数组。
@@ -56,15 +56,15 @@ a = j[0] + j[2]
 
 可以将一维数组看成数轴，只需要一个数字就可以表示。
 
-<img src="http://niu.ochiamalu.top/image-20231011190959278.png" alt="image-20231011190959278" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011190959278.png" alt="image-20231011190959278" style="zoom:80%;margin:0 auto" />
 
 而二维数组就是坐标系了，需要两个数字表示，需要给出 x 和 y 才能找到那个点，在二维数组中需要两个中括号。
 
-<img src="http://niu.ochiamalu.top/image-20231011191109419.png" alt="image-20231011191109419" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011191109419.png" alt="image-20231011191109419" style="zoom:80%;margin:0 auto" />
 
 二维数组在内存中是这样的。
 
-<img src="http://niu.ochiamalu.top/image-20231011191215407.png" alt="image-20231011191215407" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011191215407.png" alt="image-20231011191215407" style="zoom:80%;margin:0 auto" />
 
 假如这个数组叫做 j ，我们在第一个中括号 [ ] 中输入要访问的 SUB-ARRAY ，在第二个中括号 [ ] 中输入 SUB-ARRAY 中的几号元素。
 
@@ -80,7 +80,7 @@ a = j[0] + j[2]
 
 一维数组可以看成是数轴，二维数组可以看成是坐标轴，以此类推，三维数组可以看成是 **空间坐标系** 。
 
-<img src="http://niu.ochiamalu.top/image-20231011191730697.png" alt="image-20231011191730697" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011191730697.png" alt="image-20231011191730697" style="zoom: 50%;margin:0 auto" />
 
 同理，需要有三个值 x 、 y 、z 在可以在空间坐标系中找到那个点，在三位数组中也需要 **三个中括号** ，比如 j\[1]\[0][2] 。
 
@@ -96,11 +96,11 @@ a = j[0] + j[2]
 我们可以将不同数据类型的数据放在一起，比如银行账户名是你的名字，是 **字符串** （String），余额是 **浮点数**
 （float），我们可以将这些数据放在一起。
 
-<img src="http://niu.ochiamalu.top/image-20231011192720168.png" alt="image-20231011192720168" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011192720168.png" alt="image-20231011192720168" style="zoom: 67%;margin:0 auto" />
 
 当然了，结构体也可以作为 **数组** 。
 
-<img src="http://niu.ochiamalu.top/image-20231011192609033.png" alt="image-20231011192609033" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011192609033.png" alt="image-20231011192609033" style="zoom:80%;margin:0 auto" />
 
 存结构体的数组，和其它数组一样，创建时就有 **固定大小** ，不能动态增加大小，还有，数组在内存中按 **顺序存储** ，在中间插入一个值很困难。
 
@@ -110,25 +110,25 @@ a = j[0] + j[2]
 
 我们来看一个结构体，叫 节点(node)，它存一个变量一个指针（pointer）"指针" 是一种特殊变量，指向一个内存地址，因此得名。
 
-<img src="http://niu.ochiamalu.top/image-20231011192951931.png" alt="image-20231011192951931" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011192951931.png" alt="image-20231011192951931" style="zoom:80%;margin:0 auto" />
 
 ### 循环链表
 
 我们可以将节点连在一起，做成一个 **链表** ，在这里，每一个节点的指针指向下一个节点的地址。
 
-<img src="http://niu.ochiamalu.top/image-20231011193102341.png" alt="image-20231011193102341" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011193102341.png" alt="image-20231011193102341" style="zoom:80%;margin:0 auto" />
 
 它在内存中是这样的，链表不同于数组，它在内存中的地址不一定是连续的。
 
-<img src="http://niu.ochiamalu.top/image-20231011193253295.png" alt="image-20231011193253295" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011193253295.png" alt="image-20231011193253295" style="zoom:80%;margin:0 auto" />
 
 在每一个节点中，不仅有数据，还有下一个节点的地址。
 
-<img src="http://niu.ochiamalu.top/image-20231011193424553.png" alt="image-20231011193424553" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011193424553.png" alt="image-20231011193424553" style="zoom:80%;margin:0 auto" />
 
 在这个链表中，最后一个节点中指针指向的又是第一个节点，因此所有节点连起来是一个 **循环** ，又叫 `循环链表` （circular）。
 
-<img src="http://niu.ochiamalu.top/image-20231011193552293.png" alt="image-20231011193552293" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011193552293.png" alt="image-20231011193552293" style="zoom:80%;margin:0 auto" />
 
 #### 链表尽头
 
@@ -140,7 +140,7 @@ a = j[0] + j[2]
 
 比如新增数据，我们只需要将上一个节点的指针指向新插入的数据，将新插入数据的指针指向原来链表的下一个地址就可以了。
 
-<img src="http://niu.ochiamalu.top/image-20231011194018941.png" alt="image-20231011194018941" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011194018941.png" alt="image-20231011194018941" style="zoom:80%;margin:0 auto" />
 
 ## 队列
 
@@ -148,7 +148,7 @@ a = j[0] + j[2]
 
 在队列里的数据就像是过隧道的车，先进隧道的车会先从隧道里出来（速度相同的时候）。
 
-<img src="http://niu.ochiamalu.top/image-20231011194505514.png" alt="image-20231011194505514" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011194505514.png" alt="image-20231011194505514" style="zoom:80%;margin:0 auto" />
 
 数据进入队列叫做 `入队` （enqueue），数据从队列中出去叫做 `出队` （dequeue）。
 
@@ -164,7 +164,7 @@ a = j[0] + j[2]
 
 在栈中的数据就像是在羽毛球桶里的羽毛球，第一个扔进去的球在最下面，当我们拿球的时候，第一个拿到的球是最后一个投进去的。
 
-<img src="http://niu.ochiamalu.top/image-20231011194252390.png" alt="image-20231011194252390" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011194252390.png" alt="image-20231011194252390" style="zoom:50%;margin:0 auto" />
 
 数据进入栈叫做 `入栈` （push），数据从栈中出去叫做 `出栈`（pop）。
 
@@ -178,19 +178,19 @@ a = j[0] + j[2]
 
 将节点像这样连接的数据结构叫做 **树** ，其中最上面的节点叫做 `根节点` （root）。
 
-<img src="http://niu.ochiamalu.top/image-20231011195146330.png" alt="image-20231011195146330" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011195146330.png" alt="image-20231011195146330" style="zoom:67%;margin:0 auto" />
 
 在它之下的这些节点叫做 `子节点` （children）。
 
-<img src="http://niu.ochiamalu.top/image-20231011195325497.png" alt="image-20231011195325497" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011195325497.png" alt="image-20231011195325497" style="zoom: 67%;margin:0 auto" />
 
 任何子节点的直属上层节点，叫 `父节点`（parent node），比如 `SENATE` 和 `HOUSE` 的父节点是 `LEGISLATIVE` 。
 
-<img src="http://niu.ochiamalu.top/image-20231011195609843.png" alt="image-20231011195609843" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011195609843.png" alt="image-20231011195609843" style="zoom: 67%;margin:0 auto" />
 
 没有任何 `子节点` 的节点叫做 `叶节点` （Leaf Nodes）。
 
-<img src="http://niu.ochiamalu.top/image-20231011195850566.png" alt="image-20231011195850566" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011195850566.png" alt="image-20231011195850566" style="zoom: 67%;margin:0 auto" />
 
 > 结点的度：一个结点含有子树的个数称为该结点的度。
 >
@@ -212,7 +212,7 @@ a = j[0] + j[2]
 
 像这样拥有最多 **2** 个子节点的树叫做 **二叉树** ，当然也有四叉树、五叉树等等。
 
-<img src="http://niu.ochiamalu.top/image-20231011200150399.png" alt="image-20231011200150399" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011200150399.png" alt="image-20231011200150399" style="zoom:67%;margin:0 auto" />
 
 ::: tip
 
@@ -224,7 +224,7 @@ a = j[0] + j[2]
 
 树的子树一旦相交，则叫做 **图** （graph ）。
 
-<img src="http://niu.ochiamalu.top/image-20231011200756016.png" alt="image-20231011200756016" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231011200756016.png" alt="image-20231011200756016" style="zoom:80%;margin:0 auto" />
 
 ::: tip
 

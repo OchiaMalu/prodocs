@@ -10,14 +10,14 @@ Mark Andreesen)开发的 `Mosaic` (马赛克)和 `Netscape`（网景) 启发了 
 编写了 `HotJava 浏览器` ，得到了 Sun 公司首席执行官 `史考特·麦克里尼` (Scott McNealy)的支持，触发了 Java 进军因特网 (
 Internet)。
 
-<img src="http://niu.ochiamalu.top/image-20240917142539099.png" alt="image-20240917142539099" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917142539099.png" alt="image-20240917142539099" style="zoom:80%;margin:0 auto" />
 
 > **SUN 公司**
 >
 > 斯坦福大学校园网 (Stanford University Network,SUN),于 1982 年成立，是一家主要从事硬件生产的公司，SUN公司在 2000
 > 年的世界互联网低潮之后一直处于亏损状态，于是在 2009 年被 Oracle (甲骨文公司) 以每股9.5美元，总计74亿美元收购。
 >
-> ![image-20240917142822547](http://niu.ochiamalu.top/image-20240917142822547.png)
+> ![image-20240917142822547](http://niu.ochiamalu.fun/image-20240917142822547.png)
 
 ​ 1995年SUN公司为了推广Java编程语言，正式将OAK更名为Java(咖啡)，并且随着网络的发展，Java也开始更多地出现在互联网的项目开发中。java的发展历史可以归纳为如下3个阶段。
 
@@ -123,7 +123,7 @@ UCSD Pascal 之前也有这种方式的先例，在尼克劳斯·沃斯 （Nikla
 &emsp;&emsp;清楚了以上Java语言的主要特点后，下面再来看一下Java语言的运行机制。首先计算机高级语言类型主要有 `编译型`
 和 `解释型` 两种，Java是两种类型的集合，Java中处理代码的过程如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240917144319471.png" alt="image-20240917144319471" style="zoom:80%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917144319471.png" alt="image-20240917144319471" style="zoom:80%;margin: 0 auto" />
 
 ::: tip 关于编译型和解释型语言
 如果从编程语言的角度而言，分为两种类型编程语言。
@@ -141,7 +141,7 @@ UCSD Pascal 之前也有这种方式的先例，在尼克劳斯·沃斯 （Nikla
 &emsp;&emsp;在 Java 中所有的程序都是在 JVM 上运行的。Java 虚拟机(JVM)读取并处理经过编译的与平台无关的字节码 `*.class`
 文件。Java 解释器负责将 Java 虚拟机的代码在特定的平台上运行。JVM基本原理如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240917144611610.png" alt="image-20240917144611610" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917144611610.png" alt="image-20240917144611610" style="zoom:80%;margin:0 auto" />
 
 &emsp;&emsp;Java 虚拟机的最大作用体现在平台的支持上，可以发现，所有要解释的程序都要在 JVM 上执行，并且由不同版本的 JVM
 匹配不同的操作系统，这样只要 JVM 的支持不变，程序就可以任意地在不同的操作系统上运行。但是这种运行方式很明显没有直接运行在操作系统上性能高，不过随着硬件技术的发展，这些问题几乎可以忽略。

@@ -3,7 +3,7 @@
 `List` 子接口最大的功能是里面所保存的数据可以存在重复内容，并且在 `Collection` 子接口中 `List`
 子接口是最为常用的一个子接口，在 `List` 接口中对 `Collection` 接口的功能进行了扩充。`List` 子接口扩充的方法如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928095323281.png" alt="image-20240928095323281" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928095323281.png" alt="image-20240928095323281" style="zoom:80%;margin:0 auto" />
 
 在使用 `List` 接口时可以利用 `ArrayList` 或 `Vector` 两个子接口来进行接口对象的实例化操作。
 
@@ -184,7 +184,7 @@ public class TestDemo {
 
 `ArrayList` 与 `Vector` 子类的区别如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928100319588.png" alt="image-20240928100319588" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928100319588.png" alt="image-20240928100319588" style="zoom:80%;margin:0 auto" />
 
 在实际的使用中，往往会优先考虑 `ArrayList` 子类。`Vector` 中支持的输出操作在随后的部分会为读者讲解。
 

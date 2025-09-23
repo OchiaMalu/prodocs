@@ -4,23 +4,23 @@ Java 中的语句有很多种形式，表达式就是其中一种形式。表达
 组成，操作数可以是常量，变量可以是方法，而运算符就是数学中的运算符号，如 `+` 、 `-` 、 `*` 、 `/` 等。以下面的表达式 `z+100`
 为例， `z` 与 `100` 都是操作数，而 `+` 就是运算符。
 
-<img src="http://niu.ochiamalu.top/image-20240921133348087.png" alt="image-20240921133348087" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921133348087.png" alt="image-20240921133348087" style="zoom:80%;margin:0 auto" />
 
 Java
 提供了许多运算符，这些运算符除了可以处理一般的数学运算外，还可以做逻辑运算、地址运算等。根据其使用的类不同，运算符可分为<u>
 赋值运算符、算术运算符、关系运算符、逻辑运算符、条件运算符、括号运算符</u>等，这些常见的运算符及其基本的操作范例如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921134130513.png" alt="image-20240921134130513" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921134130513.png" alt="image-20240921134130513" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240921134147188.png" alt="image-20240921134147188" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921134147188.png" alt="image-20240921134147188" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240921134201748.png" alt="image-20240921134201748" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921134201748.png" alt="image-20240921134201748" style="zoom:80%;margin:0 auto" />
 
 除了表给出的运算符之外，各个运算符之间也存在着 **不同的运算优先级** ，这些优先级如下表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921134346686.png" alt="image-20240921134346686" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921134346686.png" alt="image-20240921134346686" style="zoom:80%;margin:0 auto" />
 
-<img src="http://niu.ochiamalu.top/image-20240921134356666.png" alt="image-20240921134356666" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921134356666.png" alt="image-20240921134356666" style="zoom:80%;margin:0 auto" />
 
 :::tip 没有必要去记住这些优先级
 
@@ -260,7 +260,7 @@ public class TestDemo {
 逻辑运算一共包含 3 种：与（多个条件一起满足)、或（多个条件有一个满足）、非（使用 `!` 操作，可以实现 true 变 false 以及 false 变
 true 的结果转换），而与和或操作的真值表，如下表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921150936133.png" alt="image-20240921150936133" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921150936133.png" alt="image-20240921150936133" style="zoom:80%;margin:0 auto" />
 
 读者可以发现，在定义逻辑运算时 `与` 和 `或` 操作分别定义了两种不同的符号，而这两种不同的操作解释如下。
 
@@ -292,7 +292,7 @@ public class TestDemo {
 
 此程序出现了错误，而这个错误是由 `10/0==0` 造成的，即：第一个条件（1=2）不满足之后又继续判断第二个条件，所以可以证明所有的条件都进行了验证，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921151305166.png" alt="image-20240921151305166" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921151305166.png" alt="image-20240921151305166" style="zoom:80%;margin:0 auto" />
 
 :::tip `ArithmeticException` 需要异常处理
 
@@ -316,7 +316,7 @@ public class TestDemo {
 此程序没有出错，因为前面的条件返回了 false（ `1==2` 的结果为 false )，所以后面的所有判断都没有继续执行的意义，因为最终的结果只会是
 false ，这一操作如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921152005678.png" alt="image-20240921152005678" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921152005678.png" alt="image-20240921152005678" style="zoom:80%;margin:0 auto" />
 
 ### 或操作
 
@@ -335,7 +335,7 @@ public class TestDemo {
 
 在本程序中使用普通 `|` 完成了操作，但是在程序运行的时候依然出现了异常，即程序中给出的两个判断条件都执行了，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921152222926.png" alt="image-20240921152222926" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921152222926.png" alt="image-20240921152222926" style="zoom:80%;margin:0 auto" />
 
 通过程序发现，使用普通或操作的过程之中，发现即使前面的条件满足了，后面的也会进行正常的判断，而或运算中，只要有一个为 true
 ，那么最终的结果就一定是 true ，所以对于后面的判断似乎没有任何意义，因为不管返回是何种结果都不会影响最终的结果—— true
@@ -354,7 +354,7 @@ public class TestDemo {
 通过上述代码可以发现，前面的条件 `1==1` 满足了就会返回 true ，不管后面是何条件最终的结果都是 true
 ，所以后面的表达式不再执行，如图所示，程序也没有任何异常产生。
 
-<img src="http://niu.ochiamalu.top/image-20240921152459450.png" alt="image-20240921152459450" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921152459450.png" alt="image-20240921152459450" style="zoom:80%;margin:0 auto" />
 
 在以后编写代码的过程中考虑到性能问题，请优先考虑 **短路与和短路或** 操作。
 
@@ -367,11 +367,11 @@ public class TestDemo {
 十进制数据变为二进制数据的原则为：数据除 2 取余，随后倒着排列。例如：25 的二进值为 11001 ，但是由于 Java 的 `int` 型数据为 32
 位，所以实际上最终的数据为：`0000000000000000000000000011001` ，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240921152759130.png" alt="image-20240921152759130" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.fun/image-20240921152759130.png" alt="image-20240921152759130" style="zoom:80%;" />
 
 :::
 
-<img src="http://niu.ochiamalu.top/image-20240921152845192.png" alt="image-20240921152845192" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240921152845192.png" alt="image-20240921152845192" style="zoom:80%;margin:0 auto" />
 
 ```java
 public class TestDemo {

@@ -10,29 +10,29 @@
 
 界面对用户体验非常重要，早期机械计算设备用 `齿轮` ， `旋钮` 和 `开关` 等 **机械结构** 来输入输出，这些就是交互界面。
 
-<img src="http://niu.ochiamalu.top/image-20231022192334366.png" alt="image-20231022192334366" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022192334366.png" alt="image-20231022192334366" style="zoom:80%;margin:0 auto" />
 
 甚至早期电子计算机 比如 `Colossus` 和 `ENIAC` 也是用一大堆 **机械面板** 和 **线** 来操作。
 
 输入一个程序可能要 **几星期** ，还没提运行时间，运行完毕后想拿出数据，一般是打印到纸上。
 
-<img src="http://niu.ochiamalu.top/image-20231022192405227.png" alt="image-20231022192405227" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022192405227.png" alt="image-20231022192405227" style="zoom:80%;margin:0 auto" />
 
 打印机超有用，甚至 **查尔斯·巴贝奇** 都给 `差分机` 专门设计了一个，那可是 1820 年代！
 
 然而，到 1950 年代，机械输入完全消失，因为出现了 `打孔纸卡` 和 `磁带` ，但输出仍然是打印到纸上，还有大量指示灯，在运行中提供 *
 *实时反馈** 。
 
-<img src="http://niu.ochiamalu.top/image-20231022192525742.png" alt="image-20231022192525742" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022192525742.png" alt="image-20231022192525742" style="zoom:80%;margin:0 auto" />
 
 <br/>
 
-<img src="http://niu.ochiamalu.top/image-20231022192611929.png" alt="image-20231022192611929" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022192611929.png" alt="image-20231022192611929" style="zoom:80%;margin:0 auto" />
 
 那个时代的特点是 **尽可能迁就机器** ，对人类好不好用是其次，打孔纸带就是个好例子，就是为了方便计算机读取，纸带是 **连续**
 的，方便机器处理；纸孔可以方便地，用机械或光学手段识别；纸孔可以编码程序和数据。
 
-<img src="http://niu.ochiamalu.top/image-20231022192640935.png" alt="image-20231022192640935" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022192640935.png" alt="image-20231022192640935" style="zoom:80%;margin:0 auto" />
 
 当然，人类不是以纸孔方式思考的，所以负担放到了程序员身上，他们要花额外时间和精力转成计算机能理解的格式，一般需要额外人员和设备帮忙。
 
@@ -53,7 +53,7 @@
 
 肖尔斯的打字机用了 **不寻常** 的布局，<u>QWERTY</u> 。名字来自键盘左上角按键。
 
-<img src="http://niu.ochiamalu.top/image-20231022192829834.png" alt="image-20231022192829834" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022192829834.png" alt="image-20231022192829834" style="zoom:80%;margin:0 auto" />
 
 为什么这么设计有很多猜测，最流行的理论是这样设计是为了把常见字母放得远一些，避免按键卡住。
 
@@ -61,7 +61,7 @@
 
 事实上，QWERTY 把很多 **常见** 字母放在了一起，比如 TH 和 ER 。
 
-<img src="http://niu.ochiamalu.top/image-20231022193014348.png" alt="image-20231022193014348" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193014348.png" alt="image-20231022193014348" style="zoom:80%;margin:0 auto" />
 
 我们知道，肖尔斯和他的团队设计了很多版才进化到这个布局，总之，肖尔斯 的打字机取得了成功，所以其它公司很快开始抄他的设计。
 
@@ -72,11 +72,11 @@
 
 QWERTY **不是通用的** ，有很多变体，比如法国 AZERTY 布局，以及中欧常见的 QWERTZ 布局。
 
-<img src="http://niu.ochiamalu.top/image-20231022193049118.png" alt="image-20231022193049118" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193049118.png" alt="image-20231022193049118" style="zoom:80%;margin:0 auto" />
 
 <br/>
 
-<img src="http://niu.ochiamalu.top/image-20231022193104479.png" alt="image-20231022193104479" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193104479.png" alt="image-20231022193104479" style="zoom:80%;margin:0 auto" />
 
 有趣的是，肖尔斯根本没想到打字会比手写快，手写速度大约是每分钟 20 个，打字机主要为了 **易读性** 和 **标准化** ，而不是速度。
 
@@ -100,7 +100,7 @@ QWERTY **不是通用的** ，有很多变体，比如法国 AZERTY 布局，以
 
 这些打字机是强化过的，可以用电报线发送和接收文本，按一个字母，信号会通过电报线，发到另一端，另一端的电传打字机会打出来，使得两人可以长距离沟通，基本是个蒸汽朋克版聊天室。
 
-<img src="http://niu.ochiamalu.top/image-20231022193256745.png" alt="image-20231022193256745" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193256745.png" alt="image-20231022193256745" style="zoom:80%;margin:0 auto" />
 
 ### 命令行界面
 
@@ -113,18 +113,18 @@ interfaces）。
 我们来看几个命令，先看当前目录有什么文件，输入命令 `ls` ，名字来自 **list** 的缩写。然后计算机会列出当前目录里的 **所有**
 文件。
 
-<img src="http://niu.ochiamalu.top/image-20231022193433405.png" alt="image-20231022193433405" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193433405.png" alt="image-20231022193433405" style="zoom:80%;margin:0 auto" />
 
 如果想看 secretStarTrekDiscoveryCast.txt 有什么，要用另一个命令显示文件内容。
 
 Unix 用 `cat` 命令显示文件内容， cat 是 **连接** (concatenate)的缩写，然后指定文件名，指定的方法是写在 cat
 命令后面，传给命令的值叫 `参数` （argument）。
 
-<img src="http://niu.ochiamalu.top/image-20231022193504591.png" alt="image-20231022193504591" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193504591.png" alt="image-20231022193504591" style="zoom:80%;margin:0 auto" />
 
 如果同一个网络里有其他人，你可以用 `finger` 命令找朋友，就像是个很原始的 "找朋友" App。
 
-<img src="http://niu.ochiamalu.top/image-20231022193522285.png" alt="image-20231022193522285" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193522285.png" alt="image-20231022193522285" style="zoom:80%;margin:0 auto" />
 
 ## 屏幕
 
@@ -139,7 +139,7 @@ Unix 用 `cat` 命令显示文件内容， cat 是 **连接** (concatenate)的�
 屏幕就像无限长度的纸，除了输入和输出字，没有其它东西，协议是一样的，所以计算机分不出是纸还是屏幕，这些 "虚拟电传打字机" 或 "
 玻璃电传打字机" 叫 `终端` （terminals）。
 
-<img src="http://niu.ochiamalu.top/image-20231022193639609.png" alt="image-20231022193639609" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193639609.png" alt="image-20231022193639609" style="zoom:80%;margin:0 auto" />
 
 到 1971 年，美国大约有 7 万台电传打字机，以及 7 万个终端，屏幕又好又快又灵活，如果删一个错别字会立刻消失，所以到 1970
 年代末，屏幕成了标配。
@@ -154,25 +154,25 @@ Unix 用 `cat` 命令显示文件内容， cat 是 **连接** (concatenate)的�
 
 就像之前，我们可以用 `ls` 命令，看当前目录有什么，然后用 `cd` 命令，进入游戏文件夹， cd 的意思是 **改变当前文件夹** 。
 
-<img src="http://niu.ochiamalu.top/image-20231022193729052.png" alt="image-20231022193729052" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193729052.png" alt="image-20231022193729052" style="zoom:80%;margin:0 auto" />
 
 再用 `ls` 看有哪些游戏，超棒！我们有 `冒险旅程` ！(adventure) 。
 
-<img src="http://niu.ochiamalu.top/image-20231022193741244.png" alt="image-20231022193741244" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193741244.png" alt="image-20231022193741244" style="zoom:80%;margin:0 auto" />
 
 想运行这个程序，只需要输入它的名字，在程序自行停止或我们主动退出前它会接管命令行。
 
 你现在看到的，是 `巨大洞穴冒险` （Colossal Cave Adventure） 这款游戏的真实输出，由 Will Crowther 在 1976 年开发。
 
-<img src="http://niu.ochiamalu.top/image-20231022193800135.png" alt="image-20231022193800135" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193800135.png" alt="image-20231022193800135" style="zoom:80%;margin:0 auto" />
 
 游戏中，玩家可以输入 1 个词或 2 个词的命令，来 **移动人物** ，和其他东西 **交互** ，捡物品等。
 
-<img src="http://niu.ochiamalu.top/image-20231022193829670.png" alt="image-20231022193829670" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193829670.png" alt="image-20231022193829670" style="zoom:80%;margin:0 auto" />
 
 然后游戏会像旁白一样，输出你的当前位置， 告诉你能做什么动作，以及你的动作造成的结果，有些动作会导致死亡！
 
-<img src="http://niu.ochiamalu.top/image-20231022193840317.png" alt="image-20231022193840317" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231022193840317.png" alt="image-20231022193840317" style="zoom:80%;margin:0 auto" />
 
 原始版本只有 66 个地方可供探索，但它被广泛认为是最早的 **互动式小说** 。
 

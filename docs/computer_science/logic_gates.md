@@ -5,7 +5,7 @@
 布尔代数名字来源于乔治·布尔，19世纪最重要的数学家之一，出版了《逻辑的数学分析》
 ，这是他对符号逻辑的第一次贡献。1854年，他出版了《思维规律的研究》，这是他最著名的著作。在这本书中布尔介绍了现在以他的名字命名的布尔代数。
 
-<img src="http://niu.ochiamalu.top/image-20231005165749668.png" alt="image-20231005165749668" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005165749668.png" alt="image-20231005165749668" style="zoom:80%;margin:0 auto" />
 
 在高中数学的第一节课我们就学习了布尔代数中的集合运算： <u>交集、并集、补集</u> 。
 
@@ -64,7 +64,7 @@
 
 我们先来看一道 **初中** 电路基础题。
 
-<img src="http://niu.ochiamalu.top/image-20231005172715401.png" alt="image-20231005172715401" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005172715401.png" alt="image-20231005172715401" style="zoom: 80%;margin:0 auto" />
 
 很容易看出这道题选 A ，因为电流从正极流出之后会选择电阻为零的那一条路， L2 被短路了。
 
@@ -74,19 +74,19 @@
 
 当输入为真时，电流将不会流过 OUTPUT ，因此 OUTPUT 为假。
 
-<img src="http://niu.ochiamalu.top/image-20231005173707163.png" alt="image-20231005173707163" style="zoom: 50%; margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005173707163.png" alt="image-20231005173707163" style="zoom: 50%; margin:0 auto" />
 
 当输入为假时，电流无法流过，因此 OUTPUT 为真。
 
-<img src="http://niu.ochiamalu.top/image-20231005173620505.png" alt="image-20231005173620505" style="zoom: 50%;margin: 0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005173620505.png" alt="image-20231005173620505" style="zoom: 50%;margin: 0 auto" />
 
 CMOS 电路：
 
-<img src="http://niu.ochiamalu.top/image-20231005175632367.png" alt="image-20231005175632367" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005175632367.png" alt="image-20231005175632367" style="zoom:80%;margin:0 auto" />
 
 太复杂了，它可以这样表示：
 
-<img src="http://niu.ochiamalu.top/image-20231005175300663.png" alt="image-20231005175300663" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005175300663.png" alt="image-20231005175300663" style="zoom:80%;margin:0 auto" />
 
 #### 真值表
 
@@ -99,23 +99,23 @@ CMOS 电路：
 
 仅打开 A ，电流无法流过。
 
-<img src="http://niu.ochiamalu.top/image-20231005174308943.png" alt="image-20231005174308943" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005174308943.png" alt="image-20231005174308943" style="zoom:50%;margin:0 auto" />
 
 仅打开 B 也是同理。
 
-<img src="http://niu.ochiamalu.top/image-20231005174414283.png" alt="image-20231005174414283" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005174414283.png" alt="image-20231005174414283" style="zoom:50%;margin:0 auto" />
 
 只有 **同时** 打开 A 和 B ，电流才能通过。
 
-<img src="http://niu.ochiamalu.top/image-20231005174514503.png" alt="image-20231005174514503" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005174514503.png" alt="image-20231005174514503" style="zoom:50%;margin:0 auto" />
 
 CMOS 电路：
 
-<img src="http://niu.ochiamalu.top/image-20231005175537188.png" alt="image-20231005175537188" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005175537188.png" alt="image-20231005175537188" style="zoom:80%;margin:0 auto" />
 
 太复杂了，它可以这样表示：
 
-<img src="http://niu.ochiamalu.top/image-20231005175336897.png" alt="image-20231005175336897" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005175336897.png" alt="image-20231005175336897" style="zoom:80%;margin:0 auto" />
 
 #### 真值表
 
@@ -130,23 +130,23 @@ CMOS 电路：
 
 可以把它看成是 `非门` 和 `与门` 的并联。
 
-<img src="http://niu.ochiamalu.top/image-20231005174755835.png" alt="image-20231005174755835" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005174755835.png" alt="image-20231005174755835" style="zoom:50%;margin:0 auto" />
 
 如果仅打开 A ，电流可以通过。
 
-<img src="http://niu.ochiamalu.top/image-20231005174838075.png" alt="image-20231005174838075" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005174838075.png" alt="image-20231005174838075" style="zoom:50%;margin:0 auto" />
 
 如果仅打开 B ，电流也可以通过。
 
-<img src="http://niu.ochiamalu.top/image-20231005174915707.png" alt="image-20231005174915707" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005174915707.png" alt="image-20231005174915707" style="zoom:50%;margin:0 auto" />
 
 CMOS 电路：
 
-<img src="http://niu.ochiamalu.top/image-20231005175610291.png" alt="image-20231005175610291" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005175610291.png" alt="image-20231005175610291" style="zoom:80%;margin:0 auto" />
 
 太复杂了，它可以这样表示：
 
-<img src="http://niu.ochiamalu.top/image-20231005175406811.png" alt="image-20231005175406811" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005175406811.png" alt="image-20231005175406811" style="zoom:80%;margin:0 auto" />
 
 #### 真值表
 
@@ -172,31 +172,31 @@ CMOS 电路：
 
 想要实现这种效果我们可以从 `或门` 开始：
 
-<img src="http://niu.ochiamalu.top/image-20231005180203811.png" alt="image-20231005180203811" style="zoom: 50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005180203811.png" alt="image-20231005180203811" style="zoom: 50%;margin:0 auto" />
 
 我们可以加一个 `与门` ，但是这样依然是 True ：
 
-<img src="http://niu.ochiamalu.top/image-20231005180245515.png" alt="image-20231005180245515" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005180245515.png" alt="image-20231005180245515" style="zoom:50%;margin:0 auto" />
 
 在与门后面加一个 `非门` ，这样就有 False 了：
 
-<img src="http://niu.ochiamalu.top/image-20231005180406964.png" alt="image-20231005180406964" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005180406964.png" alt="image-20231005180406964" style="zoom:50%;margin:0 auto" />
 
 我们需要的是 False ，所以需要结合一个 `与门` ：
 
-<img src="http://niu.ochiamalu.top/image-20231005180455480.png" alt="image-20231005180455480" style="zoom:50%;" />
+<img src="http://niu.ochiamalu.fun/image-20231005180455480.png" alt="image-20231005180455480" style="zoom:50%;" />
 
 验证真值表中的其他几行，也一样符合。
 
 它可以这样表示：
 
-<img src="http://niu.ochiamalu.top/image-20231005180746567.png" alt="image-20231005180746567" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005180746567.png" alt="image-20231005180746567" style="zoom:80%;margin:0 auto" />
 
 ### XNOR 同或门
 
 在 `异或门` 后面再加一个 `非门` 就成了 `同或门` 。
 
-<img src="http://niu.ochiamalu.top/image-20231005180940703.png" alt="image-20231005180940703" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005180940703.png" alt="image-20231005180940703" style="zoom:50%;margin:0 auto" />
 
 #### 真值表
 
@@ -211,7 +211,7 @@ CMOS 电路：
 
 在 `或门` 后面再加一个 `非门` 就成了 `或非门` 。
 
-<img src="http://niu.ochiamalu.top/image-20231005181132210.png" alt="image-20231005181132210" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005181132210.png" alt="image-20231005181132210" style="zoom:50%;margin:0 auto" />
 
 #### 真值表
 
@@ -226,7 +226,7 @@ CMOS 电路：
 
 在 `与门` 后面再加一个 `非门` 就成了 `与非门` 。
 
-<img src="http://niu.ochiamalu.top/image-20231005181223830.png" alt="image-20231005181223830" style="zoom:50%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231005181223830.png" alt="image-20231005181223830" style="zoom:50%;margin:0 auto" />
 
 #### 真值表
 

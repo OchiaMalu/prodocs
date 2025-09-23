@@ -37,7 +37,7 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 :::
 
-<img src="http://niu.ochiamalu.top/image-20240917151208010.png" alt="image-20240917151208010" style="zoom: 67%; margin: 0px auto;" />
+<img src="http://niu.ochiamalu.fun/image-20240917151208010.png" alt="image-20240917151208010" style="zoom: 67%; margin: 0px auto;" />
 
 ## 下载 JDK
 
@@ -47,55 +47,55 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 
 进入官网后往下翻，找到 JAVA8 ，然后点击 Windows
 
-<img src="http://niu.ochiamalu.top/image-20240917151454385.png" alt="image-20240917151454385" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917151454385.png" alt="image-20240917151454385" style="zoom:67%;margin:0 auto" />
 
 然后选择对应的版本（X64代表32位系统的，X86代表64位系统）
 
-<img src="http://niu.ochiamalu.top/image-20240917151550195.png" alt="image-20240917151550195" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917151550195.png" alt="image-20240917151550195" style="zoom:67%;margin:0 auto" />
 
 ## 安装 JDK
 
 点击下载下来的安装包进行安装，可更改安装目录。
 
-<img src="http://niu.ochiamalu.top/image-20240917151716469.png" alt="image-20240917151716469" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917151716469.png" alt="image-20240917151716469" style="zoom: 67%;margin:0 auto" />
 
 等待进度完成，然后出现关于 JRE 的安装。
 
-<img src="http://niu.ochiamalu.top/image-20240917151817301.png" alt="image-20240917151817301" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917151817301.png" alt="image-20240917151817301" style="zoom:67%;margin:0 auto" />
 
 ## 配置 JDK
 
 在 `此电脑` 上右键，并找到 `属性` 。
 
-<img src="http://niu.ochiamalu.top/image-20231111152227182.png" alt="image-20231111152227182" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152227182.png" alt="image-20231111152227182" style="zoom:80%;margin:0 auto" />
 
 在右侧找到 `高级系统设置` 。
 
-<img src="http://niu.ochiamalu.top/image-20231111152302162.png" alt="image-20231111152302162" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152302162.png" alt="image-20231111152302162" style="zoom:80%;margin:0 auto" />
 
 在打开的页面中找到 `环境变量` 。
 
-<img src="http://niu.ochiamalu.top/image-20231111152348653.png" alt="image-20231111152348653" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152348653.png" alt="image-20231111152348653" style="zoom:80%;margin:0 auto" />
 
 接着在系统变量这选择 `新建` 。
 
-<img src="http://niu.ochiamalu.top/image-20240917152349680.png" alt="image-20240917152349680" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917152349680.png" alt="image-20240917152349680" style="zoom:67%;margin:0 auto" />
 
 新增 `JAVA_HOME` ，变量值为刚刚安装的 JDK 目录路径。
 
-<img src="http://niu.ochiamalu.top/image-20240917152550817.png" alt="image-20240917152550817" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917152550817.png" alt="image-20240917152550817" style="zoom:80%;margin:0 auto" />
 
 再次新增系统变量，变量名为 `classpath` ，变量值为 `.;%JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar ` 。
 
-<img src="http://niu.ochiamalu.top/image-20240917152711159.png" alt="image-20240917152711159" style="zoom:67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917152711159.png" alt="image-20240917152711159" style="zoom:67%;margin:0 auto" />
 
 在 `系统变量` 中找到 `Path` 并双击。
 
-<img src="http://niu.ochiamalu.top/image-20231111152517626.png" alt="image-20231111152517626" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231111152517626.png" alt="image-20231111152517626" style="zoom:80%;margin:0 auto" />
 
 依次新增 `%JAVA_HOME%\bin` 和 `%JAVA_HOME%\jre\bin` 。
 
-<img src="http://niu.ochiamalu.top/image-20240917152837042.png" alt="image-20240917152837042" style="zoom: 80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917152837042.png" alt="image-20240917152837042" style="zoom: 80%;margin:0 auto" />
 
 最后按住键盘 `win+r` 输入 `cmd` ，然后输入
 
@@ -103,7 +103,7 @@ import CustomLink from '../.vitepress/components/CustomLink.vue'
 java -version
 ```
 
-<img src="http://niu.ochiamalu.top/image-20240917152925143.png" alt="image-20240917152925143" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917152925143.png" alt="image-20240917152925143" style="zoom:80%;margin:0 auto" />
 
 只要出现内容则配置成功。
 
@@ -115,6 +115,6 @@ java -version
 
 安装过程非常简单，只需要一直点击下一步即可。
 
-<img src="http://niu.ochiamalu.top/image-20240917153938484.png" alt="image-20240917153938484" style="zoom: 67%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240917153938484.png" alt="image-20240917153938484" style="zoom: 67%;margin:0 auto" />
 
 可以试用 30 天，如果是高校学生可以在官网申请免费使用，破解版请自行搜索。

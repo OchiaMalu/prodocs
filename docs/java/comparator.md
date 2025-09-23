@@ -7,11 +7,11 @@
 本书讲解数组时为读者讲解过一个数组排序的操作：`java.util.Arrays.sort(数组名称)` ，而在 Java 中，Arrays
 是一个定义在 `java.util` 包中专门进行数组的操作类，在这个类中定义了所有与数组有关的基本操作：二分查找、相等判断、数组填充等，如表所示。
 
-<img src="http://niu.ochiamalu.top/image-20240928114747646.png" alt="image-20240928114747646" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240928114747646.png" alt="image-20240928114747646" style="zoom:80%;margin:0 auto" />
 
 二分查找又被称为折半查找法，在进行数据查找时速度较快，而要使用二分查找法，则要求数组中的数据必须为有序的。二分查找法的基本原理如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926161642764.png" alt="image-20240926161642764" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240926161642764.png" alt="image-20240926161642764" style="zoom:80%;margin:0 auto" />
 
 二分查找的基本思想是将 n 个元素的数组分成大致相等的两部分。假设要查找的数据内容为 x ，则取 `数组长度/2` 与 X
 进行比较，如果 `x=数组[长度/2]` ，则表示存在 x ，算法中止；如果 `x<数组[长度/2]` ，则只要在数组的左半部分继续搜索 x
@@ -136,7 +136,7 @@ public class TestDemo {
 树是一种比链表更为复杂的概念应用，其本质也属于动态对象数组，但是与链表不同的是，树的最大特征是可以针对数据进行排序。树的操作原理：选择第一个数据作为根节点，而后比根节点小的放在根节点的左子树（左节点），比根节点大的数据放在右子树（右节点），取得数据时按照中序遍历的方式取出（左一中一右）。但是如果要想实现这样的排列，则需要有一个数据的包装类 `Node`
 ，而且在此类中除了要保存数据外，还需要保存对应的左子树以及右子树节点对象，如图所示。
 
-<img src="http://niu.ochiamalu.top/image-20240926162348891.png" alt="image-20240926162348891" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.fun/image-20240926162348891.png" alt="image-20240926162348891" style="zoom:80%;" />
 
 :::tip 根据自己的实际情况选择性学习
 

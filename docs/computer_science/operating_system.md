@@ -3,7 +3,7 @@
 1940、1950 年代的电脑，每次只能运行一个程序，程序员在 **打孔纸卡** 上写程序，然后拿到一个计算机房间,
 交给操作员，等计算机空下来了，操作员会把程序放入，然后运行，输出结果，停机。以前计算机慢，这种手动做法可以接受，运行一个程序通常要几小时，几天甚至几周。
 
-<img src="http://niu.ochiamalu.top/image-20231020163132239.png" alt="image-20231020163132239" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163132239.png" alt="image-20231020163132239" style="zoom:80%;margin:0 auto" />
 
 但计算机越来越快，很快，**放程序的时间** ，比程序运行时间还长。我们需要一种方式 让计算机自动运作，于是 `操作系统` 诞生了。
 
@@ -21,7 +21,7 @@
 
 电脑变得更快更便宜，开始在出现在世界各地，特别是大学和政府办公室。
 
-<img src="http://niu.ochiamalu.top/image-20231020163213007.png" alt="image-20231020163213007" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163213007.png" alt="image-20231020163213007" style="zoom:80%;margin:0 auto" />
 
 很快，人们开始分享软件，但有一个问题，在哈佛 1 号和 ENIAC 那个时代，计算都是一次性的。程序员只需要给那 **一台**
 机器写代码，处理器，读卡器，打印机都是已知的。但随着电脑越来越普遍，计算机 <u>配置并不总是相同的</u> ，比如计算机可能有相同
@@ -30,7 +30,7 @@ CPU ，但不同的打印机。
 这对程序员很痛苦，不仅要担心写程序，还要担心程序怎么和不同型号打印机交互，以及计算机连着的其他设备，这些统称 `外部设备`
 （peripherals）。
 
-<img src="http://niu.ochiamalu.top/image-20231020163240185.png" alt="image-20231020163240185" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163240185.png" alt="image-20231020163240185" style="zoom:80%;margin:0 auto" />
 
 和早期的外部设备交互，是非常底层的，程序员要了解设备的硬件细节，加重问题的是，程序员很少能拿到所有型号的设备来测代码，所以一般是
 **阅读手册** 来写代码，祈祷能正常运行。
@@ -68,12 +68,12 @@ Atlas 的工程师做的还要多，配了4台纸带读取器，4台纸带打孔
 举个例子，假设计算机一共有 10000 个内存位置，程序 A 分配到内存地址 0 到 999，而程序 B 分配到内存地址 1000 到
 1999，以此类推，如果一个程序请求更多内存，操作系统会决定是否同意。如果同意，分配哪些内存块。
 
-<img src="http://niu.ochiamalu.top/image-20231020163414748.png" alt="image-20231020163414748" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163414748.png" alt="image-20231020163414748" style="zoom:80%;margin:0 auto" />
 
 这种灵活性很好，但带来一个奇怪的后果：<u>程序 A 可能会分配到 **非连续** 的内存块</u>  ，比如内存地址 0 到 999，以及 2000 到
 2999。
 
-<img src="http://niu.ochiamalu.top/image-20231020163544201.png" alt="image-20231020163544201" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163544201.png" alt="image-20231020163544201" style="zoom:80%;margin:0 auto" />
 
 这只是个简单例子，真正的程序可能会分配到内存中数十个地方，为了隐藏这种复杂性，操作系统会把内存地址进行 `虚拟化` 。
 
@@ -84,14 +84,14 @@ Atlas 的工程师做的还要多，配了4台纸带读取器，4台纸带打孔
 用程序 B 来举例，它被分配了内存地址 1000 到 1999，对程序 B 而言，它看到的地址是 0 到 999 ，操作系统会自动处理虚拟内存和物理内存之间的映射，如果程序
 B 要地址 42，实际上是物理地址 1042。
 
-<img src="http://niu.ochiamalu.top/image-20231020163615628.png" alt="image-20231020163615628" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163615628.png" alt="image-20231020163615628" style="zoom:80%;margin:0 auto" />
 
 这种内存地址的虚拟化 对程序 A 甚至更有用，在例子中，A 被分配了两块隔开的内存，程序 A 不知道这点。
 
 以 A 的视角，它有 2000 个连续地址，当程序 A 读内存地址 999 时会刚好映射到物理内存地址 999，但如果程序 A 读下一个地址
 1000，会映射到物理地址 2000。
 
-<img src="http://niu.ochiamalu.top/image-20231020163701046.png" alt="image-20231020163701046" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163701046.png" alt="image-20231020163701046" style="zoom:80%;margin:0 auto" />
 
 这种机制使程序的内存大小可以灵活增减叫 `动态内存分配` （dynamic memory
 allocation），对程序来说，内存看起来是连续的，它简化了一切，为操作系统同时运行多个程序提供了极大的灵活性。
@@ -108,7 +108,7 @@ Atlas 既有 `虚拟内存` 也有 `内存保护` ，是 **第一台** 支持这
 
 多个用户用 `终端` （terminal）来访问计算机，`终端` 只是 **键盘+屏幕** ，连到主计算机，<u>终端本身没有处理能力</u> 。
 
-<img src="http://niu.ochiamalu.top/image-20231020163752967.png" alt="image-20231020163752967" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163752967.png" alt="image-20231020163752967" style="zoom:80%;margin:0 auto" />
 
 ### 多用户
 
@@ -151,7 +151,7 @@ Unix 迅速成为 1970~80年代最流行的操作系统之一。
 年发布，成为早期家用电脑最受欢迎的操作系统，虽然缺少 `多任务` 和 `保护内存` 这样功能，意味着程序经常使系统崩溃，虽然很讨厌但还可以接受，因为用户可以
 **重启** 。
 
-<img src="http://niu.ochiamalu.top/image-20231020163909119.png" alt="image-20231020163909119" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20231020163909119.png" alt="image-20231020163909119" style="zoom:80%;margin:0 auto" />
 
 哪怕是微软 1985 年发布的早期 Windows 虽然在 90 年代很流行，但却缺乏 `内存保护` ，当程序行为不当时，就会 **蓝屏**
 ，代表程序崩溃的非常严重，把系统也带崩溃了。

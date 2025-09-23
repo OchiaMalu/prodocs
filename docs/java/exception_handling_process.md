@@ -4,7 +4,7 @@
 
 为了解释异常的继承结构，首先来观察以下两个异常类的继承关系。
 
-<img src="http://niu.ochiamalu.top/image-20240925164034257.png" alt="image-20240925164034257" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925164034257.png" alt="image-20240925164034257" style="zoom:80%;margin:0 auto" />
 
 通过这两个异常类可以发现所有的异常类型最高的继承类是 `Throwable` ，并且在 `Throwable` 下有两个子类。
 
@@ -19,7 +19,7 @@
 
 清楚了类的继承关系后，下面了解一下 Java 中异常的处理完整流程（如图所示）。
 
-<img src="http://niu.ochiamalu.top/image-20240925164208262.png" alt="image-20240925164208262" style="zoom:80%;margin:0 auto" />
+<img src="http://niu.ochiamalu.fun/image-20240925164208262.png" alt="image-20240925164208262" style="zoom:80%;margin:0 auto" />
 
 (1)当程序在运行的过程中出现了异常，会由 JVM 自动根据异常的类型实例化一个与之类型匹配的异常类对象（此处用户不用去关心如何实例化对象，由
 JVM 负责处理）。

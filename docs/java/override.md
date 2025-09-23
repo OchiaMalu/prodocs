@@ -258,7 +258,7 @@ public class TestDemo {
 
 在发生重载关系时，返回值可以不同，但是考虑到程序设计的统一性，重载时应尽量保证方法的返回值类型相同。
 
-<img src="http://niu.ochiamalu.top/image-20240928125732976.png" alt="image-20240928125732976" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.fun/image-20240928125732976.png" alt="image-20240928125732976" style="zoom:80%;" />
 
 :::
 
@@ -292,7 +292,7 @@ public class TestDemo {
 
 通过一系列对比可以发现，`this` 与 `super` 在使用形式上很相似，下面通过表来进行两个关键字的操作对比。
 
-<img src="http://niu.ochiamalu.top/image-20240928125643890.png" alt="image-20240928125643890" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.fun/image-20240928125643890.png" alt="image-20240928125643890" style="zoom:80%;" />
 
 在开发中，对于本类或父类中的操作，强烈建议加上 `this.` 或者是 `super.` 的标记，这样便于代码维护
 

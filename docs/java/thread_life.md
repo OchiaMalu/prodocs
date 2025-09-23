@@ -11,7 +11,7 @@
 但是对于线程中 `suspend()` 、`resume()` 、`stop()` 3 个方法并不推荐使用，它们也已经被慢慢废除掉了，主要原因是这 3 个方法在操作时会
 **产生死锁** 的问题。
 
-<img src="http://niu.ochiamalu.top/image-20240926114450716.png" alt="image-20240926114450716" style="zoom:80%;" />
+<img src="http://niu.ochiamalu.fun/image-20240926114450716.png" alt="image-20240926114450716" style="zoom:80%;" />
 
 :::tip suspend()、resume()、stop()方法使用 @Deprecated 声明
 
