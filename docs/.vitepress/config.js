@@ -1084,6 +1084,16 @@ export default {
                 ]
             },
             {
+                text: 'Markdown',
+                collapsed: true,
+                items: [
+                    {
+                        text: "Markdown数学公式",
+                        link: '/markdown/markdown_formula'
+                    }
+                ]
+            },
+            {
                 text: "设计模式",
                 collapsed: true,
                 items: [
@@ -1234,6 +1244,16 @@ export default {
                                 link: '/design_pattern/spring/custom_ioc'
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                text: 'CentOS',
+                collapsed: true,
+                items: [
+                    {
+                        text: 'CentOS 环境安装',
+                        link: '/centos/centos_environment'
                     }
                 ]
             },
