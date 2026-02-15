@@ -1258,6 +1258,16 @@ export default {
                 ]
             },
             {
+                text: '笔记',
+                collapsed: true,
+                items: [
+                    {
+                        text: 'SNI',
+                        link: '/note/server_name_indication'
+                    }
+                ]
+            },
+            {
                 text: '高等数学',
                 collapsed: true,
                 items: [
