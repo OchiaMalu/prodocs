@@ -4,11 +4,11 @@
 
 先看下面的图片，我们去旅游选择出行模式有很多种，可以骑自行车、可以坐汽车、可以坐火车、可以坐飞机。
 
-<img src="https://niu.ochiamalu.fun/image-20200210143039168.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200210143039168.png" style="zoom:80%;margin:0 auto" />
 
 作为一个程序猿，开发需要选择一款开发工具，当然可以进行代码开发的工具有很多，可以选择Idea进行开发，也可以使用eclipse进行开发，也可以使用其他的一些开发工具。
 
-<img src="https://niu.ochiamalu.fun/image-20200210144457478.png" style="zoom:70%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200210144457478.png" style="zoom:70%;margin:0 auto" />
 
 **定义：**
 
@@ -28,7 +28,7 @@
 
 一家百货公司在定年度的促销活动。针对不同的节日（春节、中秋节、圣诞节）推出不同的促销活动，由促销员将促销活动展示给客户。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 

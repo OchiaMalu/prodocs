@@ -4,7 +4,7 @@
 
 如果去欧洲国家去旅游的话，他们的插座如下图最左边，是欧洲标准。而我们使用的插头如下图最右边的。因此我们的笔记本电脑，手机在当地不能直接充电。所以就需要一个插座转换器，转换器第1面插入当地的插座，第2面供我们充电，这样使得我们的插头在当地能使用。生活中这样的例子很多，手机充电器（将220v转换为5v的电压），读卡器等，其实就是使用到了适配器模式。
 
-<img src="https://niu.ochiamalu.fun/%E8%BD%AC%E6%8E%A5%E5%A4%B4.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%BD%AC%E6%8E%A5%E5%A4%B4.png" style="zoom:80%;margin:0 auto" />
 
 **定义：**
 
@@ -30,7 +30,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -126,7 +126,7 @@ public class Client {
 
 我们使用对象适配器模式将读卡器的案例进行改写。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%AF%B9%E8%B1%A1%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%AF%B9%E8%B1%A1%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -195,7 +195,7 @@ public int read(char cbuf[], int offset, int length) throws IOException {
 
 如上代码中的sd（StreamDecoder类对象），在Sun的JDK实现中，实际的方法实现是对sun.nio.cs.StreamDecoder类的同名方法的调用封装。类结构图如下：
 
-<img src="https://niu.ochiamalu.fun/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F-jdk%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F-jdk%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.png" style="zoom:80%;margin:0 auto" />
 
 从上图可以看出：
 

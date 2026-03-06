@@ -350,9 +350,9 @@ $$
 
 ## 希腊字母
 
-<img src="https://niu.ochiamalu.fun/image-20260119123908301.png" alt="image-20260119123908301" style="zoom:80%;" />
+<img src="https://niu.ochiamalu.site/image-20260119123908301.png" alt="image-20260119123908301" style="zoom:80%;" />
 
-![image-20260119123916035](https://niu.ochiamalu.fun/image-20260119123916035.png)
+![image-20260119123916035](https://niu.ochiamalu.site/image-20260119123916035.png)
 
 ## 算术运算符号
 

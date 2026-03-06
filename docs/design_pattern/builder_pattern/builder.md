@@ -4,7 +4,7 @@
 
 将一个复杂对象的构建与表示分离，使得同样的构建过程可以创建不同的表示。
 
-<img src="https://niu.ochiamalu.fun/image-20200413225341516.png" style="zoom:60%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200413225341516.png" style="zoom:60%;margin:0 auto" />
 
 * 分离了部件的构造(由Builder来负责)和装配(由Director负责)。 从而可以构造出复杂的对象。这个模式适用于：某个对象的构建过程复杂的情况。
 * 由于实现了构建和装配的解耦。不同的构建器，相同的装配，也可以做出不同的对象；相同的构建器，不同的装配顺序也可以做出不同的对象。也就是实现了构建算法、装配算法的解耦，实现了更好的复用。
@@ -24,7 +24,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 ### 实例
 
@@ -34,7 +34,7 @@
 
 这里Bike是产品，包含车架，车座等组件；Builder是抽象建造者，MobikeBuilder和OfoBuilder是具体的建造者；Director是指挥者。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F1.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F1.png" style="zoom:80%;margin:0 auto" />
 
 具体的代码如下：
 

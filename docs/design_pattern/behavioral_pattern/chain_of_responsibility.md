@@ -22,7 +22,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%B4%A3%E4%BB%BB%E9%93%BE%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 

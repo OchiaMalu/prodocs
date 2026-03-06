@@ -6,7 +6,7 @@
 
 如果引入中介者模式，那么同事类之间的关系将变为星型结构，从下右图中可以看到，任何一个类的变动，只会影响的类本身，以及中介者，这样就减小了系统的耦合。一个好的设计，必定不会把所有的对象关系处理逻辑封装在本类中，而是使用一个专门的类来管理那些不属于自己的行为。
 
-<img src="https://niu.ochiamalu.fun/image-20200214110924010.png" style="zoom:60%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200214110924010.png" style="zoom:60%;margin:0 auto" />
 
 **定义：**
 
@@ -30,7 +30,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E4%B8%AD%E4%BB%8B%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
 
 代码如下：
 

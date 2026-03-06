@@ -20,7 +20,7 @@
 
 【例】定义一个可以存储学生对象的容器对象，将遍历该容器的功能交由迭代器实现，涉及到的类如下：
 
-<img src="https://niu.ochiamalu.fun/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.png" style="zoom:90%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%BF%AD%E4%BB%A3%E5%99%A8%E6%A8%A1%E5%BC%8F.png" style="zoom:90%;margin:0 auto" />
 
 
 

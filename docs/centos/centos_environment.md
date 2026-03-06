@@ -60,7 +60,7 @@ MySQL安装成功后会有一个临时密码，我们可以使用`grep`命令查
 grep 'temporary password' /var/log/mysqld.log
 ```
 
-![image-20260119121001885](https://niu.ochiamalu.fun/image-20260119121001885.png)
+![image-20260119121001885](https://niu.ochiamalu.site/image-20260119121001885.png)
 
 2. 使用临时密码先登录
 
@@ -172,19 +172,19 @@ ln -s /etc/opt/rh/rh-redis5/ ./redis
 
 > bind 0.0.0.0
 
-<img src="https://niu.ochiamalu.fun/image-20260119121844573.png" alt="image-20260119121844573" style="zoom:80%;" />
+<img src="https://niu.ochiamalu.site/image-20260119121844573.png" alt="image-20260119121844573" style="zoom:80%;" />
 
 2. 关闭保护模式
 
 > protected-mode no
 
-<img src="https://niu.ochiamalu.fun/image-20260119121910325.png" alt="image-20260119121910325" style="zoom:80%;" />
+<img src="https://niu.ochiamalu.site/image-20260119121910325.png" alt="image-20260119121910325" style="zoom:80%;" />
 
 3. 启动守护进程
 
 > daemonize yes
 
-<img src="https://niu.ochiamalu.fun/image-20260119121932995.png" alt="image-20260119121932995" style="zoom:80%;" />
+<img src="https://niu.ochiamalu.site/image-20260119121932995.png" alt="image-20260119121932995" style="zoom:80%;" />
 
 4. 设置工作目录
 
@@ -198,7 +198,7 @@ mkdir -p /var/lib/redis
 
 > dir /var/lib/redis
 
-<img src="https://niu.ochiamalu.fun/image-20260119122051754.png" alt="image-20260119122051754" style="zoom:80%;" />
+<img src="https://niu.ochiamalu.site/image-20260119122051754.png" alt="image-20260119122051754" style="zoom:80%;" />
 
 5. 设置日志目录
 
@@ -212,7 +212,7 @@ mkdir -p /var/log/redis/
 
 > logfile /var/log/redis/redis-server.log
 
-<img src="https://niu.ochiamalu.fun/image-20260119122147441.png" alt="image-20260119122147441" style="zoom:80%;" />
+<img src="https://niu.ochiamalu.site/image-20260119122147441.png" alt="image-20260119122147441" style="zoom:80%;" />
 
 ### 启动 redis
 

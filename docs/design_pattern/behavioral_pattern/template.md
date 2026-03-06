@@ -36,7 +36,7 @@
 
 炒菜的步骤是固定的，分为倒油、热油、倒蔬菜、倒调料品、翻炒等步骤。现通过模板方法模式来用代码模拟。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E6%A8%A1%E6%9D%BF%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 

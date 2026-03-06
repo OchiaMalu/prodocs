@@ -8,7 +8,7 @@
 
 具体类的设计如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%B7%A5%E5%8E%82%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%BC%95%E5%85%A5.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%B7%A5%E5%8E%82%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E5%BC%95%E5%85%A5.png" style="zoom:80%;margin:0 auto" />
 
 在java中，万物皆对象，这些对象都需要创建，如果创建的时候直接new该对象，就会对该对象耦合严重，假如我们要更换对象，所有new对象的地方都需要修改一遍，这显然违背了软件设计的开闭原则。如果我们使用工厂来生产对象，我们就只和工厂打交道就可以了，彻底和对象解耦，如果要更换对象，直接在工厂里更换该对象即可，达到了与对象解耦的目的；所以说，工厂模式最大的优点就是：
 **解耦**。
@@ -35,7 +35,7 @@
 
 现在使用简单工厂对上面案例进行改进，类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
 
 工厂类代码如下：
 
@@ -111,7 +111,7 @@ public class SimpleCoffeeFactory {
 
 使用工厂方法模式对上例进行改进，类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%B7%A5%E5%8E%82%E6%96%B9%E6%B3%95%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
 
 代码如下：
 
@@ -186,9 +186,9 @@ public class CoffeeStore {
 
 本节要介绍的抽象工厂模式将考虑多等级产品的生产，将同一个具体工厂所生产的位于不同等级的一组产品称为一个产品族，下图所示横轴是产品等级，也就是同一类产品；纵轴是产品族，也就是同一品牌的产品，同一品牌的产品产自同一个工厂。
 
-<img src="https://niu.ochiamalu.fun/image-20200401214509176.png" style="zoom:67%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200401214509176.png" style="zoom:67%;margin:0 auto" />
 
-<img src="https://niu.ochiamalu.fun/image-20200401222951963.png" style="zoom:67%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200401222951963.png" style="zoom:67%;margin:0 auto" />
 
 #### 概念
 
@@ -209,7 +209,7 @@ public class CoffeeStore {
 
 现咖啡店业务发生改变，不仅要生产咖啡还要生产甜点，如提拉米苏、抹茶慕斯等，要是按照工厂方法模式，需要定义提拉米苏类、抹茶慕斯类、提拉米苏工厂、抹茶慕斯工厂、甜点工厂类，很容易发生类爆炸情况。其中拿铁咖啡、美式咖啡是一个产品等级，都是咖啡；提拉米苏、抹茶慕斯也是一个产品等级；拿铁咖啡和提拉米苏是同一产品族（也就是都属于意大利风味），美式咖啡和抹茶慕斯是同一产品族（也就是都属于美式风味）。所以这个案例可以使用抽象工厂模式实现。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png" style="zoom:67%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png" style="zoom:67%;margin:0 auto" />
 
 代码如下：
 
@@ -347,7 +347,7 @@ public class Demo {
 
 对上面的代码大家应该很熟，使用迭代器遍历集合，获取集合中的元素。而单列集合获取迭代器的方法就使用到了工厂方法模式。我们看通过类图看看结构：
 
-<img src="https://niu.ochiamalu.fun/JDK%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.png" style="zoom:75%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/JDK%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.png" style="zoom:75%;margin:0 auto" />
 
 Collection接口是抽象工厂类，ArrayList是具体的工厂类；Iterator接口是抽象商品类，ArrayList类中的Iter内部类是具体的商品类。在具体的工厂类中iterator()
 方法创建具体的商品类的对象。

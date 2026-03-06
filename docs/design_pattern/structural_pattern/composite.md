@@ -2,7 +2,7 @@
 
 ### 概述
 
-<img src="https://niu.ochiamalu.fun/image-20200208180417291.png" style="zoom:60%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200208180417291.png" style="zoom:60%;margin:0 auto" />
 
 ​
 对于这个图片肯定会非常熟悉，上图我们可以看做是一个文件系统，对于这样的结构我们称之为树形结构。在树形结构中可以通过调用某个方法来遍历整个树，当我们找到某个叶子节点后，就可以对叶子节点进行相关的操作。可以将这颗树理解成一个大的容器，容器里面包含很多的成员对象，这些成员对象即可是容器对象也可以是叶子对象。但是由于容器对象和叶子对象在功能上面的区别，使得我们在使用的过程中必须要区分容器对象和叶子对象，但是这样就会给客户带来不必要的麻烦，作为客户而已，它始终希望能够一致的对待容器对象和叶子对象。
@@ -25,11 +25,11 @@
 
 如下图，我们在访问别的一些管理系统时，经常可以看到类似的菜单。一个菜单可以包含菜单项（菜单项是指不再包含其他内容的菜单条目），也可以包含带有其他菜单项的菜单，因此使用组合模式描述菜单就很恰当，我们的需求是针对一个菜单，打印出其包含的所有菜单以及菜单项的名称。
 
-<img src="https://niu.ochiamalu.fun/image-20200208182322313.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200208182322313.png" style="zoom:80%;margin:0 auto" />
 
 要实现该案例，我们先画出类图：
 
-<img src="https://niu.ochiamalu.fun/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 **代码实现：**
 
@@ -150,7 +150,7 @@ MenuItem是菜单项，不能再有子菜单，所以添加菜单，移除菜单
   在安全组合模式中，在抽象构件角色中没有声明任何用于管理成员对象的方法，而是在树枝节点 `Menu`
   类中声明并实现这些方法。安全组合模式的缺点是不够透明，因为叶子构件和容器构件具有不同的方法，且容器构件中那些用于管理成员对象的方法没有在抽象构件类中定义，因此客户端不能完全针对抽象编程，必须有区别地对待叶子构件和容器构件。
 
-  <img src="https://niu.ochiamalu.fun/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F-%E5%AE%89%E5%85%A8%E6%80%A7.png" style="zoom:80%;margin:0 auto" />
+  <img src="https://niu.ochiamalu.site/%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F-%E5%AE%89%E5%85%A8%E6%80%A7.png" style="zoom:80%;margin:0 auto" />
 
 ### 优点
 

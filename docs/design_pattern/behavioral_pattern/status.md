@@ -6,7 +6,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E5%89%8D.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F%E5%89%8D.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -157,7 +157,7 @@ public class Client {
 
 对上述电梯的案例使用状态模式进行改进。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E7%8A%B6%E6%80%81%E6%A8%A1%E5%BC%8F.png" style="zoom:70%;margin:0 auto" />
 
 代码如下：
 

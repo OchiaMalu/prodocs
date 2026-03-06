@@ -4,7 +4,7 @@
 
 日常生活中，我们出去吃饭都会遇到下面的场景。
 
-<img src="https://niu.ochiamalu.fun/image-20200211130313251.png" style="zoom:60%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200211130313251.png" style="zoom:60%;margin:0 auto" />
 
 **定义：**
 
@@ -31,7 +31,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.png" style="zoom:75%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%91%BD%E4%BB%A4%E6%A8%A1%E5%BC%8F.png" style="zoom:75%;margin:0 auto" />
 
 代码如下：
 

@@ -77,7 +77,7 @@
 
   代码运行结果如下：
 
-  <img src="https://niu.ochiamalu.fun/image-20200429165544151.png" style="zoom:60%;margin:0 auto" />
+  <img src="https://niu.ochiamalu.site/image-20200429165544151.png" style="zoom:60%;margin:0 auto" />
 
 通过上面代码及结果可以看出：
 

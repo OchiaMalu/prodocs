@@ -6,7 +6,7 @@
 
 快餐店有炒面、炒饭这些快餐，可以额外附加鸡蛋、火腿、培根这些配菜，当然加配菜需要额外加钱，每个配菜的价钱通常不太一样，那么计算总价就会显得比较麻烦。
 
-<img src="https://niu.ochiamalu.fun/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F-%E4%BD%BF%E7%94%A8%E5%89%8D.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F-%E4%BD%BF%E7%94%A8%E5%89%8D.png" style="zoom:80%;margin:0 auto" />
 
 使用继承的方式存在的问题：
 
@@ -35,7 +35,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:75%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:75%;margin:0 auto" />
 
 代码如下：
 
@@ -220,7 +220,7 @@ public class Demo {
 
 使用起来感觉确实像是装饰者模式，接下来看它们的结构：
 
-<img src="https://niu.ochiamalu.fun/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F-jdk%E6%BA%90%E7%A0%81.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F-jdk%E6%BA%90%E7%A0%81.png" style="zoom:80%;margin:0 auto" />
 
 > <font color="red">小结：</font>
 >

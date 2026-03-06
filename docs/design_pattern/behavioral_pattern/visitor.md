@@ -32,7 +32,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%AE%BF%E9%97%AE%E8%80%85%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -273,7 +273,7 @@ public class Client {
 
 运行结果：
 
-<img src="https://niu.ochiamalu.fun/image-20200214215446638.png" style="zoom:70%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200214215446638.png" style="zoom:70%;margin:0 auto" />
 
 这个结果可能出乎一些人的意料了，为什么呢？
 
@@ -337,7 +337,7 @@ public class Client {
 
 运行结果如下：
 
-<img src="https://niu.ochiamalu.fun/image-20200426233931693.png" style="zoom:67%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200426233931693.png" style="zoom:67%;margin:0 auto" />
 
 **双分派实现动态绑定的本质，就是在重载方法委派的前面加上了继承体系中覆盖的环节，由于覆盖是动态的，所以重载就是动态的了。**
 

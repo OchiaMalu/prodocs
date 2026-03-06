@@ -17,7 +17,7 @@
 分析：`搜狗输入法`
 的皮肤是输入法背景图片、窗口颜色和声音等元素的组合。用户可以根据自己的喜爱更换自己的输入法的皮肤，也可以从网上下载新的皮肤。这些皮肤有共同的特点，可以为其定义一个抽象类（AbstractSkin），而每个具体的皮肤（DefaultSpecificSkin和HeimaSpecificSkin）是其子类。用户窗体可以根据需要选择或者增加新的主题，而不需要修改原代码，所以它是满足开闭原则的。
 
-<img src="https://niu.ochiamalu.fun/open-close.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/open-close.png" style="zoom:80%;margin:0 auto" />
 
 ## 里氏代换原则
 
@@ -33,7 +33,7 @@
 
 在数学领域里，正方形毫无疑问是长方形，它是一个长宽相等的长方形。所以，我们开发的一个与几何图形相关的软件系统，就可以顺理成章的让正方形继承自长方形。
 
-<img src="https://niu.ochiamalu.fun/%E6%AD%A3%E6%96%B9%E5%BD%A2%E4%B8%8D%E6%98%AF%E9%95%BF%E6%96%B9%E5%BD%A2.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E6%AD%A3%E6%96%B9%E5%BD%A2%E4%B8%8D%E6%98%AF%E9%95%BF%E6%96%B9%E5%BD%A2.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -120,7 +120,7 @@ public class RectangleDemo {
 
 如何改进呢？此时我们需要重新设计他们之间的关系。抽象出来一个四边形接口(Quadrilateral)，让Rectangle类和Square类实现Quadrilateral接口
 
-<img src="https://niu.ochiamalu.fun/%E6%AD%A3%E6%96%B9%E5%BD%A2%E4%B8%8D%E6%98%AF%E9%95%BF%E6%96%B9%E5%BD%A2%E6%94%B9%E8%BF%9B.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E6%AD%A3%E6%96%B9%E5%BD%A2%E4%B8%8D%E6%98%AF%E9%95%BF%E6%96%B9%E5%BD%A2%E6%94%B9%E8%BF%9B.png" style="zoom:80%;margin:0 auto" />
 
 ## 依赖倒转原则
 
@@ -134,7 +134,7 @@ public class RectangleDemo {
 
 **类图如下：**
 
-<img src="https://niu.ochiamalu.fun/%E4%BE%9D%E8%B5%96%E5%80%92%E8%BD%AC%E5%8E%9F%E5%88%99.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E4%BE%9D%E8%B5%96%E5%80%92%E8%BD%AC%E5%8E%9F%E5%88%99.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -244,7 +244,7 @@ public class TestComputer {
 
 **类图如下：**
 
-<img src="https://niu.ochiamalu.fun/%E4%BE%9D%E8%B5%96%E5%80%92%E8%BD%AC%E5%8E%9F%E5%88%99%E6%94%B9%E8%BF%9B.png" alt="image-20191229173554296" style="zoom: 80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E4%BE%9D%E8%B5%96%E5%80%92%E8%BD%AC%E5%8E%9F%E5%88%99%E6%94%B9%E8%BF%9B.png" alt="image-20191229173554296" style="zoom: 80%;margin:0 auto" />
 
 **电脑（Computer）：**
 
@@ -297,11 +297,11 @@ public class Computer {
 
 我们需要创建一个`黑马`品牌的安全门，该安全门具有防火、防水、防盗的功能。可以将防火，防水，防盗功能提取成一个接口，形成一套规范。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%99.png" style="zoom:80%;margin:0 auto" />
 
 上面的设计我们发现了它存在的问题，黑马品牌的安全门具有防盗，防水，防火的功能。现在如果我们还需要再创建一个传智品牌的安全门，而该安全门只具有防盗、防水功能呢？很显然如果实现SafetyDoor接口就违背了接口隔离原则，那么我们如何进行修改呢？看如下类图：
 
-<img src="https://niu.ochiamalu.fun/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%991.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E6%8E%A5%E5%8F%A3%E9%9A%94%E7%A6%BB%E5%8E%9F%E5%88%991.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -380,7 +380,7 @@ public class ItcastSafetyDoor implements AntiTheft,Fireproof {
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E8%BF%AA%E7%B1%B3%E7%89%B9%E6%B3%95%E5%88%99.png" alt="image-20191229173554296" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E8%BF%AA%E7%B1%B3%E7%89%B9%E6%B3%95%E5%88%99.png" alt="image-20191229173554296" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -486,8 +486,8 @@ public class Agent {
 
 汽车按“动力源”划分可分为汽油汽车、电动汽车等；按“颜色”划分可分为白色汽车、黑色汽车和红色汽车等。如果同时考虑这两种分类，其组合就很多。类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%99.png" alt="image-20191229173554296" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%99.png" alt="image-20191229173554296" style="zoom:80%;margin:0 auto" />
 
 从上面类图我们可以看到使用继承复用产生了很多子类，如果现在又有新的动力源或者新的颜色的话，就需要再定义新的类。我们试着将继承复用改为聚合复用看一下。
 
-<img src="https://niu.ochiamalu.fun/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%991.png" alt="image-20191229173554296" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%90%88%E6%88%90%E5%A4%8D%E7%94%A8%E5%8E%9F%E5%88%991.png" alt="image-20191229173554296" style="zoom:80%;margin:0 auto" />

@@ -14,7 +14,7 @@
 
 接口类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 ### 实现
 
@@ -64,7 +64,7 @@ public class PrototypeTest {
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F1.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F1.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
@@ -195,7 +195,7 @@ public class CitationTest {
 
 运行结果为：
 
-<img src="https://niu.ochiamalu.fun/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F2.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F2.png" style="zoom:80%;margin:0 auto" />
 
 <font color="red">说明：</font>
 
@@ -234,7 +234,7 @@ public class CitationTest1 {
 
 运行结果为：
 
-<img src="https://niu.ochiamalu.fun/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F3.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F3.png" style="zoom:80%;margin:0 auto" />
 
 > 注意：Citation类和Student类必须实现Serializable接口，否则会抛NotSerializableException异常。
 

@@ -4,7 +4,7 @@
 
 现在有一个需求，需要创建不同的图形，并且每个图形都有可能会有不同的颜色。我们可以利用继承的方式来设计类的关系：
 
-<img src="https://niu.ochiamalu.fun/image-20200207194617620.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/image-20200207194617620.png" style="zoom:80%;margin:0 auto" />
 
 我们可以发现有很多的类，假如我们再增加一个形状或再增加一种颜色，就需要创建更多的类。
 
@@ -31,7 +31,7 @@
 
 类图如下：
 
-<img src="https://niu.ochiamalu.fun/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
+<img src="https://niu.ochiamalu.site/%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F.png" style="zoom:80%;margin:0 auto" />
 
 代码如下：
 
